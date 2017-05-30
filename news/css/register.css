@@ -1,0 +1,205 @@
+.publicHeader, .centerHeader {
+    height: 87px;
+    background: url(../img/header_footer_bg.png) repeat-x;
+}
+
+.publicHeader .header, .centerHeader .header {
+    margin: 0 auto;
+    width: 970px;
+    height: 70px;
+    padding-top: 8px;
+    overflow: hidden;
+}
+
+.publicHeader .header a.logo, .centerHeader .header a.logo {
+    float: left;
+    width: 151px;
+    height: 70px;
+    background: url(../img/public_img_png24.png) no-repeat;
+}
+
+.publicHeader .header span.pageTitle, .centerHeader .header span.pageTitle {
+    float: left;
+    height: 30px;
+    line-height: 26px;
+    font-size: 26px;
+    color: #333;
+    padding: 20px 10px;
+}
+
+.publicHeader .header span.pageTitle b, .centerHeader .header span.pageTitle b {
+    font-weight: normal;
+    color:#333333;
+    height: 30px;
+    border-left: solid #dfdfdf 1px;
+    display: block;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.publicHeader .header span.loginBar {
+    float: right;
+    height: 16px;
+    padding: 26px 0;
+    font-size:12px;
+}
+
+.publicHeader .header span.loginBar b {
+    float: left;
+    padding: 0 15px;
+    border-right: solid #dfdfdf 1px;
+    height: 16px;
+    line-height: 16px;
+    font-weight: normal;
+    color: #919191;
+}
+
+.publicHeader .header span.loginBar b a {
+    color: #007ed7;
+}
+
+.publicHeader .header span.loginBar b.gohome {
+    border: none;
+}
+
+.publicWarp1 {
+    background: url(../img/cloud_layer_bg.png) no-repeat center #f7f7f7;
+    overflow: hidden;
+}
+
+.publicBox {
+    margin: 36px auto 62px auto;
+    height: 448px;
+    border: 1px solid #dfdfdf;
+    width: 968px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.register_2_0_box {
+    width: 430px;
+    margin: 0 auto;
+    padding-top: 36px;
+}
+
+.register_2_0_box .tags {
+    display: block;
+    height: 51px;
+    padding-left: 82px;
+    overflow: hidden;
+    margin:0 auto;
+}
+
+.register_2_0_box .tags a {
+    float: left;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    background: #ccc;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register_2_0_box .tags a.current {
+    background: #007cd4;
+    position: relative;
+}
+
+.register_2_0_box .tags a.current:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    margin-left: -5px;
+    width: 10px;
+    height: 5px;
+    display: block;
+    background: url(../img/blue_select_triangle_bg.png) no-repeat;
+}
+
+.register_2_0_box ul li {
+    height: 40px;
+    padding: 25px 0 0;
+    position: relative;
+    text-align:center;
+}
+
+.register_2_0_box ul.emailBox li{
+    padding:25px 0 0;
+}
+
+.register_2_0_box ul li.btn{
+    padding: 25px 70px 0;
+}
+
+.register_2_0_box ul li .title {
+    float: left;
+    width: 99px;
+    font-size: 16px;
+    color: #333;
+}
+
+.register_2_0_box ul li input.i_t, .register_2_0_box ul li input.verify_moblie {
+    float: left;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 242px;
+    outline: none;
+    font-size: 14px;
+}
+
+
+.publicFooter, .centerFooter {
+    height: 98px;
+    background: url(../img/header_footer_bg.png) repeat-x left -147px;
+    padding-top: 18px;
+}
+
+.publicFooter .footer, .publicFooter .copyright, .centerFooter .footer, .centerFooter .copyright {
+    width: 970px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    color: #919191;
+    height: 26px;
+    line-height: 34px;
+    font-size: 12px;
+}
+
+.publicFooter .footer a {
+    color: #919191;
+}
+
+.publicFooter .footer, .publicFooter .copyright, .centerFooter .footer, .centerFooter .copyright {
+    width: 970px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    color: #919191;
+    height: 26px;
+    line-height: 34px;
+    font-size: 12px;
+}
+
+.register_2_0_box ul.buttons li.btn .noSubmitBtn, .register_2_0_box ul.buttons li.btn input {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    background: #007ed7;
+    border: none;
+    color: #fff;
+    width: 280px;
+    outline: none;
+    margin:0 auto;
+}

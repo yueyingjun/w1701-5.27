@@ -1,0 +1,332 @@
+.publicHeader, .centerHeader {
+    height: 87px;
+    background: url(../img/header_footer_bg.png) repeat-x;
+}
+
+.publicHeader .header, .centerHeader .header {
+    margin: 0 auto;
+    width: 970px;
+    height: 70px;
+    padding-top: 8px;
+    overflow: hidden;
+}
+
+.publicHeader .header a.logo, .centerHeader .header a.logo {
+    float: left;
+    width: 151px;
+    height: 70px;
+    background: url(../img/public_img_png24.png) no-repeat;
+}
+
+.publicHeader .header span.pageTitle, .centerHeader .header span.pageTitle {
+    float: left;
+    height: 30px;
+    line-height: 26px;
+    font-size: 26px;
+    color: #333;
+    padding: 20px 10px;
+}
+
+.publicHeader .header span.pageTitle b, .centerHeader .header span.pageTitle b {
+    font-weight: normal;
+    color:#333333;
+    height: 30px;
+    border-left: solid #dfdfdf 1px;
+    display: block;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.publicHeader .header span.loginBar {
+    float: right;
+    height: 16px;
+    padding: 26px 0;
+    font-size:12px;
+}
+
+.publicHeader .header span.loginBar b {
+    float: left;
+    padding: 0 15px;
+    border-right: solid #dfdfdf 1px;
+    height: 16px;
+    line-height: 16px;
+    font-weight: normal;
+    color: #919191;
+}
+
+.publicHeader .header span.loginBar b a {
+    color: #007ed7;
+}
+
+.publicHeader .header span.loginBar b.gohome {
+    border: none;
+}
+
+.loginWarp {
+    background: #f7f7f7;
+}
+
+.loginWarp .loginMain {
+    width: 970px;
+    margin: 0 auto;
+    height: 558px;
+    background: url(../img/loginMain_bg.png) no-repeat left center;
+    position: relative;
+}
+
+.loginWarp .loginMain .login {
+    width: 398px;
+    height: 438px;
+    position: absolute;
+    left: 568px;
+    top: 60px;
+    overflow: hidden;
+}
+
+.loginWarp .loginMain .login span.title {
+    display: block;
+    height: 58px;
+    line-height: 91px;
+    overflow: hidden;
+    text-indent: 38px;
+    font-size: 22px;
+    color: #333;
+}
+
+.loginWarp .loginMain .login em.loginError {
+    display: block;
+    height: 34px;
+    line-height: 30px;
+    text-indent: 38px;
+    color: red;
+    font-style: normal;
+}
+
+.loginWarp .loginMain .login span.userEmail, .loginWarp .loginMain .login span.userPassword {
+    display: block;
+    height: 60px;
+    padding-left: 76px;
+    overflow: hidden;
+}
+
+.loginWarp .loginMain .login span.userEmail input, .loginWarp .loginMain .login span.userPassword input, .loginWarp .loginMain .login span.loginVerify input {
+    display: block;
+    border: none;
+    background: #fff;
+    width: 276px;
+    height: 16px;
+    line-height: 16px;
+    padding: 11px 3px 9px;
+}
+
+.loginWarp .loginMain .login span.userPassword {
+    height: 54px;
+}
+
+.loginWarp .loginMain .login span.userEmail, .loginWarp .loginMain .login span.userPassword {
+    display: block;
+    height: 60px;
+    padding-left: 76px;
+    overflow: hidden;
+}
+
+.loginWarp .loginMain .login span.userPassword input {
+    padding: 12px 3px 8px;
+}
+
+.loginWarp .loginMain .login span.loginVerify {
+    display: block;
+    max-height: 40px;
+    min-height: 10px;
+    margin: 5px 39px 8px 39px;
+    overflow: hidden;
+}
+
+.loginWarp .loginMain .login .remmber {
+    height: 20px;
+    line-height: 20px;
+    padding-left: 36px;
+}
+
+.loginWarp .loginMain .login .remmber label {
+    display: inline-block;
+    width: 169px;
+    color: #5e5e5e;
+}
+
+.loginWarp .loginMain .login .remmber label input {
+    margin-right: 6px;
+    float: left;
+}
+
+.loginWarp .loginMain .login .remmber a.forget {
+    color: #919191;
+}
+
+.loginWarp .loginMain .login .loginBtn {
+    display: block;
+    padding-top: 16px;
+}
+
+.loginWarp .loginMain .login .loginBtn input {
+    display: block;
+    width: 320px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    background: #007ed7;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.loginWarp .loginMain .login .otherLogin span.title {
+    font-size: 14px;
+    color: #5e5e5e;
+    height: 46px;
+    line-height: 68px;
+}
+
+.loginWarp .loginMain .login .otherLogin ul.loginList {
+    height: 42px;
+    overflow: hidden;
+    padding: 10px 0 0 39px;
+}
+
+.loginWarp .loginMain .login .otherLogin ul.loginList li {
+    float: left;
+    width: 52px;
+    height: 32px;
+}
+
+.loginWarp .loginMain .login .otherLogin ul.loginList li a.qq {
+    background-position: left -88px;
+}
+
+.loginWarp .loginMain .login .otherLogin ul.loginList li a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: url(../img/public_img_png24.png) no-repeat;
+}
+
+.loginWarp .loginMain .login .otherLogin ul.loginList li a.weibo {
+    background-position: left -128px;
+}
+
+.loginWarp .loginMain .login .otherLogin ul.loginList li a.baidu {
+    background-position: left -168px;
+}
+
+.loginWarp .loginMain .login .otherLogin ul.loginList li a.renren {
+    background-position: left -208px;
+}
+
+.loginWarp .loginMain .login .otherLogin ul.loginList li a.weixin {
+    background-position: left -248px;
+}
+
+.loginWarp .loginMain .login .otherLogin ul.loginList li a.cmcc {
+    background-position: right -248px;
+}
+
+.loginWarp .loginMain .weixinScanCode {
+    position: absolute;
+    transition: all 300ms ease-in-out;
+    width: 398px;
+    height: 438px;
+    background: #fff;
+    left: 398px;
+    top: 0;
+}
+
+.loginWarp .loginMain .weixinScanCode span.title {
+    display: block;
+    height: 76px;
+    line-height: 91px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+    text-indent: -5px;
+}
+
+.loginWarp .loginMain .weixinScanCode span.QRCode {
+    display: block;
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+}
+
+.loginWarp .loginMain .weixinScanCode span.QRCode .con {
+    margin: 1px 0 0 0;
+    display: block;
+    width: 278px;
+    overflow: hidden;
+    height: 278px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.loginWarp .loginMain .weixinScanCode span.QRCode .con iframe {
+    margin: -57px 0 0 -10px;
+}
+
+.loginWarp .loginMain .weixinScanCode b.hqico {
+    border: 3px solid #fff;
+    border-radius: 3px;
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 174px;
+    top: 188px;
+    display: block;
+    background: url(../img/public_img_png24.png) no-repeat -113px -414px;
+}
+
+.loginWarp .loginMain .weixinScanCode span.goBack {
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    width: 116px;
+    text-align: center;
+    text-indent: 22px;
+    cursor: pointer;
+    color: #5e5e5e;
+    margin: 0 auto;
+    background: url(../img/public_img_png24.png) no-repeat -55px -83px;
+}
+
+.publicFooter, .centerFooter {
+    height: 98px;
+    background: url(../img/header_footer_bg.png) repeat-x left -147px;
+    padding-top: 18px;
+}
+
+.publicFooter .footer, .publicFooter .copyright, .centerFooter .footer, .centerFooter .copyright {
+    width: 970px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    color: #919191;
+    height: 26px;
+    line-height: 34px;
+    font-size: 12px;
+}
+
+.publicFooter .footer a {
+    color: #919191;
+}
+
+.publicFooter .footer, .publicFooter .copyright, .centerFooter .footer, .centerFooter .copyright {
+    width: 970px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    color: #919191;
+    height: 26px;
+    line-height: 34px;
+    font-size: 12px;
+}

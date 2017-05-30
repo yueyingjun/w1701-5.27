@@ -1,0 +1,454 @@
+body{
+    background: #f6f5fa;
+}
+/*头部*/
+@font-face {
+    font-family: 'iconfont';  /* project id 314106 */
+    src: url('//at.alicdn.com/t/font_b0dfd83ftlslwhfr.eot');
+    src: url('//at.alicdn.com/t/font_b0dfd83ftlslwhfr.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_b0dfd83ftlslwhfr.woff') format('woff'),
+    url('//at.alicdn.com/t/font_b0dfd83ftlslwhfr.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_b0dfd83ftlslwhfr.svg#iconfont') format('svg');
+}
+
+.top{
+    width:820px;
+    height:auto;
+    margin:0 auto;
+    margin-top:25px;
+    margin-bottom:5px;
+    overflow:hidden;
+}
+
+ul.top-left{
+    width:480px;
+    float:left;
+    display:flex;
+    justify-content: space-between;
+}
+
+ul.top-left li{
+    float:left;
+    font-size:12px;
+    color:#666666;
+}
+
+.icon{
+    float:left;
+    font-family: 'iconfont';
+    font-size:12px;
+    color:#666;
+    margin-right:6px;
+}
+
+ul.top-left li:nth-child(3){
+    color:#CFCFD8;
+}
+
+.top-right{
+    width:105px;height:30px;
+    float:right;
+}
+
+.regist{
+    font-size:14px;
+    color:#666;
+    line-height:30px;
+    float:left;
+}
+
+.login{
+    width:64px;height:30px;
+    background:#0F92D6;
+    font-size:14px;
+    color:#fff;
+    text-align:center;
+    line-height:30px;
+    float:right;
+}
+
+    /*内容部分*/
+    main{
+        width: 960px;
+        margin: 20px auto 0;
+        height: 440px;
+    }
+    .content{
+        float: left;
+        width: 703px;
+        min-height: 434px;
+        _height: 434px;
+        border: 1px solid #e5e5e5;
+        margin-top: 5px;
+        background: #fff;
+    }
+    .title{
+        height: 37px;
+        background: #f9f9f9;
+        font-size: 14px;
+        color: #333;
+        font-weight: 700;
+        line-height: 37px;
+        text-indent: 10px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .content-box{
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+    div{
+        font-size: 14px;
+    }
+    .wel{
+        margin-bottom: 5px;
+    }
+    #con{
+        width: 580px;
+        height: 164px;
+        resize: none;
+        margin-top: 15px;
+        overflow: hidden;
+        border: 1px solid #999;
+        padding: 4px;
+    }
+    .addfile{
+        margin-top: 5px;
+    }
+    .addfile span{
+        width: 100px;
+    }
+    .addfile span.zhaopian{
+        line-height: 29px;
+        margin-left: 5px;
+        color: #999;
+        font-size: 12px;
+    }
+    .contact{
+        margin-top: 15px;
+    }
+    .contip{
+        font-size: 14px;
+    }
+    .contact-email{
+        width: 218px;
+        height: 39px;
+        color: rgb(153, 153, 153);
+        padding-left: 6px;
+    }
+    .sub{
+        width: 120px;
+        height: 36px;
+        background: #0aa770;
+        color: #ffffff;
+        text-align: center;
+        line-height: 36px;
+    }
+
+
+
+    .quecontent{
+        width: 246px;
+        height: 435px;
+        float: left;
+        margin-top: 5px;
+        margin-left: 9px;
+    }
+    .quelisst{
+        border: 1px solid #e5e5e5;
+        height: 334px;
+        margin-top: 7px;
+        background: #fff;
+    }
+    .commonque{
+        height: 33px;
+        width: 239px;
+        background: #f2f2f2;
+        margin: 2px;
+        font-size: 14px;
+        color: #2f8025;
+        font-weight: 700;
+        line-height: 33px;
+        position: relative;
+    }
+    .commonque i{
+        position: absolute;
+        width: 3px;
+        height: 14px;
+        background: #2f8025;
+        left: 7px;
+        top: 10px;
+    }
+    .commonque span{
+        position: absolute;
+        left: 15px;
+        top: 1px;
+    }
+    .commonque a{
+        position: absolute;
+        right: 8px;
+        top: 1px;
+        font-weight: 400;
+        color: #666;
+        text-decoration: none;
+    }
+    .quetop10{
+        border-top: 1px solid #e5e5e5;
+    }
+    .item{
+        border-bottom: 1px #e5e5e5 dotted;
+        width: 225px;
+        margin: 0 auto;
+        padding-top: 11px;
+    }
+    .item i{
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        background: url("../img/feedbackb.png") no-repeat;
+        vertical-align: top;
+        margin-top: 2px;
+    }
+    .item i.num1{
+        background-position: -126px 0;
+    }
+    .item i.num2{
+        background-position: -126px -14px;
+    }
+    .item i.num3{
+        background-position: -126px -28px;
+    }
+    .item i.num4{
+         background-position: -126px -42px;
+     }
+    .item i.num5{
+        background-position: -126px -56px;
+    }
+
+    .itemcon{
+        display: inline-block;
+        width: 179px;
+        margin-left: 6px;
+        margin-bottom: 13px;
+        font-size: 12px;
+    }
+    .itemcon a{
+        color: #666666;
+    }
+    .quetop10 a:hover{
+        color: red;
+    }
+
+/*底部*/
+.footNew {
+    display: block;
+    width: 100%;
+    min-width: 1000px;
+    margin: 40px auto 0;
+}
+
+.footOutNew {
+    display: block;
+    background: #0a70b1;
+    width: 100%;
+    height: 93px;
+    border-bottom: #d0cfd0 3px solid;
+    padding: 11px 0 0;
+}
+
+.fotherNew {
+    background: #0a70b1;
+    display: block;
+    width: 1000px;
+    height: 70px;
+    line-height: 22px;
+    overflow: hidden;
+    text-align: left;
+    margin: 0 auto;
+    border-right: #3288bf 1px solid;
+    position: relative;
+    list-style: inherit;
+}
+
+.fotherNew li {
+    padding: 0 29px;
+    float: left;
+    border-left: #3288bf 1px solid;
+    overflow: hidden;
+
+}
+
+.fotherNew li.fir {
+    width: 179px;
+}
+
+.fotherNew h3 {
+    display: block;
+    height: 20px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 14px;
+    color: #ceebff;
+    font-weight: bold;
+    border: none;
+    padding: 0;
+    margin: 0 0 3px;
+    text-indent: 12px;
+    overflow: hidden;
+}
+
+.fotherNew li.fir a {
+    display: block;
+
+
+}
+
+.fotherNew .iconList a {
+    display: inline-block;
+    background-position: 0 -163px;
+    padding-left: 12px;
+    font-size:12px;
+    color:#89C3EB;
+}
+
+.fotherNew li.sec {
+    width: 269px;
+}
+
+.fotherNew li.last {
+    width: 511px;
+    margin: 0;
+    padding-right: 0;
+}
+
+.fLink {
+    height: 40px;
+    text-align: center;
+    color: #f0f0f0;
+    font-size: 12px;
+}
+
+.flinkMain {
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+.fLink .marWid a, .fLink .marWidMain a {
+    margin: 0 15px;
+    text-indent: 0;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    color: #5e5e5e;
+    padding: 0;
+}
+
+.copyMain {
+    display: block;
+    width: 1000px;
+    background: #f2f2f2;
+    margin: 0 auto;
+    font-size:12px;
+    text-align: center;
+    color: #5e5e5e;
+    height: 30px;
+    line-height: 30px;
+}
+
+.copyMain em {
+    display: inline-block;
+    margin: 0 15px;
+    color: #d9d9d9;
+    font-size: 12px;
+}
+
+.copyLink {
+    width: 1000px;
+    margin: 0 auto;
+    color: #365071;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.copyLink li {
+    padding: 22px 0;
+    width: 1050px;
+    clear: both;
+    text-align: center;
+}
+
+.copyLogo a {
+    margin: 0 20px 0 0;
+}
+
+.copyLink dt {
+    float: left;
+    text-align: left;
+    color: #365071;
+    width: 390px;
+    display: inline;
+}
+
+.copyLink a {
+    font-size:12px;
+    color: #666;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.copyLink dd {
+    width: 415px;
+    text-align: left;
+    float: left;
+    margin: 0;
+}
+
+.copyLink .las {
+    width: 195px;
+    margin: 0;
+}
+
+.copyLogo a {
+    margin: 0 20px 0 0;
+}
+
+.copyLink a {
+    color: #666;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.logoCa, .logoCb, .logoCc, .logoCd, .logoCe, .logoCX, .logoKx {
+    width: 122px;
+    height: 52px;
+}
+
+.logoCa, .logoCb, .logoCc, .logoCd, .logoCe, .logoCX, .logoKx {
+    background: url(../img/linkLogo.png) no-repeat;
+}
+
+.logoCb {
+    background: url(../img/hlwjb.png) no-repeat;
+    width: 130px;
+}
+
+.logoCc {
+    background-position: -268px 0;
+}
+
+.logoCd {
+    background-position: -401px 0;
+    width: 117px;
+}
+
+.logoCe {
+    background-position: -522px 0;
+    width: 117px;
+}
+
+.logoCX {
+    background-position: -644px 0;
+    width: 117px;
+}
