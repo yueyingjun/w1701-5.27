@@ -1,0 +1,230 @@
+
+body {
+    background-attachment: fixed;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #333;
+}
+html, body, .bodyBg, .bodyBg img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 780px;
+    _height: 780px;
+}
+html, body, .bodyBg, .bodyBg img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 780px;
+    _height: 780px;
+}
+.bodyBg {
+    position: fixed;
+    z-index: -100;
+    top: 0;
+    left: 0;
+}
+.regBody {
+    margin: 0 auto;
+    width: 840px;
+    height: 100%;
+}
+.msgBox {
+    float: right;
+    position: relative;
+    z-index: 10;
+    top: 5%;
+    width: 240px;
+    min-height: 210px;
+    _height: 210px;
+}
+.msgBox .head {
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    height: 43px;
+    line-height: 41px;
+    -moz-box-shadow: 0px 2px 2px #666;
+    -webkit-box-shadow: 0px 2px 2px #666;
+    -ms-box-shadow: 0px 2px 2px #666;
+    box-shadow: 0px 2px 2px #666;
+}
+.msgBox .head .content {
+    padding-left: 40px;
+    height: 100%;
+    font-size: 16px;
+    color: #fff;
+    background: url(../images/images.png) no-repeat -160px -91px;
+    /*_background: url(../images/images.gif) no-repeat -160px -91px;*/
+}
+.msgBox ul li {
+    float: left;
+    /* cursor: pointer; */
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+.regBox {
+    position: relative;
+    z-index: 10;
+    top: 5%;
+    margin: 0 auto;
+    width: 539px;
+    min-height: 120px;
+    _height: 120px;
+}
+.regBody .regBox {
+    margin: 0;
+}
+.regBox .head {
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    height: 55px;
+    -moz-box-shadow: 0px 2px 2px #666;
+    -webkit-box-shadow: 0px 2px 2px #666;
+    -ms-box-shadow: 0px 2px 2px #666;
+    box-shadow: 0px 2px 2px #666;
+}
+.regBox .head .content {
+    height: 100%;
+    text-indent: -9999px;
+    background: url(../images/images.png) no-repeat 20px 10px;
+    /*_background: url(../images/imag) no-repeat 20px 10px;*/
+}
+.regBox .head .content .loginLink {
+    float: right;
+    padding: 20px 30px 0 0;
+    text-indent: 0;
+    font-size: 12px;
+    color: #DAE6F1;
+}
+.regBox .head .content .loginLink a {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #fff;
+}
+.bg {
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    filter: alpha(opacity = 70);
+    opacity: 0.7;
+}
+.regBox .head .bg {
+    background: #3f90c8;
+    filter: alpha(opacity = 100);
+    opacity: 1;
+}
+.regBox .tab {
+    position: relative;
+    border-bottom: 1px solid #1e98fe;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+}
+.regBox .tabBox {
+    padding: 20px;
+}
+input {
+    outline: none;
+    font-family: "微软雅黑";
+}
+.regBox .tabBox .tabBlock .text {
+    padding: 0 0 15px 20px;
+    color: #7d764f;
+}
+.regBox .tabBox .tabBlock .item {
+    display: block;
+    margin-top: 10px;
+    height: 50px;
+    line-height: 28px;
+}
+.regBox .tabBox .tabBlock .item .name {
+    display: inline-block;
+    margin-right: 20px;
+    width: 80px;
+    text-align: right;
+    vertical-align: top;
+}
+.regBox .tabBox .tabBlock .item .input {
+    display: inline-block;
+    vertical-align: top;
+}
+.textBox {
+    margin: 0 10px 5px 0;
+    padding: 3px 5px;
+    border: none;
+    width: 170px;
+    height: 22px;
+    line-height: 22px;
+    color: #fff;
+    background: #9ec0e0;
+    vertical-align: middle;
+}
+.regBox .tabBox .tabBlock .item .input .long {
+    width: 290px;
+}
+.regBox .tabBox .tabBlock .recommendList {
+    padding-left: 100px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #1d75b2;
+}
+.regBox .tabBox .tabBlock .item {
+    display: block;
+    margin-top: 10px;
+    height: 50px;
+    line-height: 28px;
+}
+.regBox .tabBox .tabBlock .other {
+    margin-top: 0;
+    padding-left: 100px;
+    color: #6c766d;
+}
+.buttonBox {
+    margin-right: 40px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    background: #6cafe2;
+    vertical-align: middle;
+    -moz-box-shadow: 0px 1px 2px #999;
+    -webkit-box-shadow: 0px 1px 2px #999;
+    -ms-box-shadow: 0px 1px 2px #999;
+    box-shadow: 0px 1px 2px #999;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    text-align: center;
+    border-radius: 3px;
+}
+.footer {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    bottom: 0;
+    padding: 10px 0;
+    width: 100%;
+    height: 48px;
+    line-height: 24px;
+    text-align: center;
+    color: #848484;
+    background: #343434;
+}
+.footer p{
+    line-height: 24px;
+    text-align: center;
+    color: #848484;
+}

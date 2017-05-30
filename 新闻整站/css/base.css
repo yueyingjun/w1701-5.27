@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	/* 去除a标签的下划线 */
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "宋体", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	text-align: left;
+	color: #676767;
+}
+ a{
+	color: #666;
+	 text-decoration: none;
+}
+ul,li,ol{
+	list-style: none;
+}
+img {
+	vertical-align: middle;
+}
+a:active, a:hover {
+	color: #ff9724!important;
+}
+html, body, div, p, hr, pre, h1, h2, h3, h4, h5, h6, table, tr, td, th, tfoot, tbody, thead, form, input, textarea, label, ul, ol, dl, li, dt, dd, .clearfix:after {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height: 100%;
+}
+body {
+	padding: 0;
+	margin: 0;
+	/* font-family: 'PingFang SC', 'Lantinghei SC', 'Helvetica Neue', 'Helvetica', 'Arial', 'Microsoft YaHei', '微软雅黑', 'STHeitiSC-Light', 'simsun', '宋体', 'WenQuanYi Zen Hei', 'WenQuanYi Micro Hei', 'sans-serif' !important; */
+	font-family: "PingFang SC", "Lantinghei SC", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", "微软雅黑", STHeitiSC-Light, simsun, "宋体", "WenQuanYi Zen Hei", "WenQuanYi Micro Hei", sans-serif;
+}
+body, td, th {
+	font-family: "PingFang SC", "Lantinghei SC", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", "å¾®è½¯é›…é»‘", STHeitiSC-Light, simsun, "å®‹ä½“", "WenQuanYi Zen Hei", "WenQuanYi Micro Hei", sans-serif;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquoteth, td, input {
+	margin: 0;
+	padding: 0;
+}

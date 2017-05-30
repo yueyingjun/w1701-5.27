@@ -1,0 +1,354 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, input {
+    margin: 0;
+    padding: 0;
+}
+
+#bodybg {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    zoom: 1;
+    min-height: 576px;
+}
+
+body, #bodybg {
+    min-height: 500px;
+    font-family: "微软雅黑";
+    color: #eee;
+}
+
+.loginbg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    z-index: -999;
+    display: block;
+}
+
+.xuan-login {
+    position: relative;
+    margin: 0 auto;
+    width: 980px;
+}
+
+.login-l {
+    float: left;
+    width: 326px;
+    height: 240px;
+}
+
+.login-l {
+    padding-top: 50px;
+}
+
+.login-logo {
+    width: 326px;
+    height: 240px;
+    position: relative;
+    background: url(../images/login-logo.png) no-repeat;
+    _background: url(http://login.home.news.cn/global/css/../images/login-logo.gif) no-repeat;
+}
+
+.login-logo {
+    position: relative;
+}
+
+.login-logo {
+    display: block;
+    width: 320px;
+    height: 125px;
+    background: url(../images/news-logo.png) no-repeat;
+    _background: url(../images/news-logo.png) no-repeat;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+a:link, a:visited {
+    color: #eee;
+}
+
+.login-r {
+    float: right;
+    margin-top: 30px;
+    width: 376px;
+    height: 385px;
+    background: url(http://login.home.news.cn/global/css/../images/loginbg9.png);
+}
+
+.login-r {
+    position: relative;
+    margin-top: 30px;
+    width: 382px;
+    height: auto;
+    background: none;
+}
+
+.bg {
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+}
+
+.login-rcon {
+    margin-top: -10px;
+    margin-left: 14px;
+    width: 348px;
+    height: 356px;
+    padding-top: 36px;
+    background: url(http://login.home.news.cn/global/css/../images/loginbg9.png);
+}
+
+.login-rcon {
+    height: 370px;
+}
+
+.login-rcon {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background: none;
+}
+
+.login-head {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    -moz-box-shadow: 0px 3px 6px #333333;
+    -webkit-box-shadow: 0px 3px 6px #333333;
+    -ms-box-shadow: 0px 3px 6px #333333;
+    box-shadow: 0px 3px 6px #333333;
+}
+
+.login-head .content {
+    padding: 12px 0 0 130px;
+    height: 36px;
+    line-height: 36px;
+    color: #c1aea5;
+    font-weight: blod;
+    background: url(../images/image-black.png) no-repeat -200px -130px;
+    _background: url(../images/image-black.gif) no-repeat -200px -130px;
+}
+
+.login-rcon-h {
+    margin: 0 auto 20px;
+    width: 264px;
+    height: 18px;
+    background: url(http://login.home.news.cn/global/css/../images/login-rcon1.png) no-repeat;
+}
+
+.login-rcon-h {
+    margin: 0;
+    width: auto;
+    height: 18px;
+    background: none;
+}
+
+.login-rcon-m {
+    position: relative;
+    margin: 10px 0px;
+    height: 34px;
+    line-height: 34px;
+    clear: both;
+    padding-left: 90px;
+}
+
+.login-rcon-m {
+    padding-left: 20px;
+}
+
+.login-rcon-m .title {
+    display: inline-block;
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+    text-align: right;
+    margin: 0 0 0 -120px;
+    font-size: 14px;
+    float: left;
+}
+
+.login-rcon-m .title {
+    margin-left: 0;
+    width: 40px;
+    text-indent: -99999px;
+    text-align: left;
+    font-size: 16px;
+    background: url(../images/image-black.png) no-repeat 0 -423px;
+    _background: url(../images/image-black.gif) no-repeat 0 -424px;
+}
+
+.login-rcon-m .detail {
+    width: 208px;
+    height: 28px;
+    border: #999 1px solid;
+    line-height: 28px;
+    padding: 0;
+}
+
+.login-rcon-m .account {
+    width: 140px;
+    padding-right: 68px;
+}
+
+.login-rcon-m .detail {
+    border: 1px solid #111;
+    padding: 0 3px;
+    outline: none;
+    width: 280px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    color: #fff;
+    background: #111;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.login-rcon-m .pwd {
+    background-position: 0 -462px;
+}
+
+.login-rcon-m .detail {
+    width: 208px;
+    height: 28px;
+    border: #999 1px solid;
+    line-height: 28px;
+    padding: 0;
+}
+
+.login-rcon-m .detail {
+    border: 1px solid #111;
+    padding: 0 3px;
+    outline: none;
+    width: 280px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    color: #fff;
+    background: #111;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.login-rcon-m .code, .login-rcon-m .none {
+    background: none;
+}
+
+.login-rcon-m .auto-panel {
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    float: left;
+}
+
+.login-rcon-m .auto-input {
+    margin-right: 4px;
+    vertical-align: -2px;
+}
+
+label[for] {
+    cursor: pointer;
+}
+
+.login-rcon-m .auto-panel label {
+    margin-right: 20px;
+}
+
+.login-rcon-m .auto-panel label {
+    margin-right: 20px;
+}
+
+.login-rcon-m .find-password {
+    position: absolute;
+    right: 50px;
+    top: 0;
+}
+
+a:link, a:visited {
+    color: #eee;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+.login-rcon-m .code, .login-rcon-m .none {
+    background: none;
+}
+.btn {
+    padding: 0;
+    border: 0;
+    display: block;
+    float: left;
+    width: 92px;
+    height: 33px;
+    text-indent: -9999em;
+    cursor: pointer;
+}
+.login-rcon-m .login-btn {
+    background: url(http://login.home.news.cn/global/css/../images/login-btn.png) no-repeat;
+}
+.login-rcon-m .login-btn {
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    text-indent: 0;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    background: #5697D9;
+    -moz-box-shadow: 0px 3px 6px #333333;
+    -webkit-box-shadow: 0px 3px 6px #333333;
+    -ms-box-shadow: 0px 3px 6px #333333;
+    box-shadow: 0px 3px 6px #333333;
+}
+.login-rcon-m .passer {
+    float: left;
+    margin-left: 10px;
+    color: #5384b7;
+    font-size: 12px;
+    width: 140px;
+}
+.login-rcon-m .passer {
+    margin-left: 45px;
+    width: auto;
+    color: #adb3b9;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+}
+#footer {
+     display: block;
+     background: #343434;
+     color: #848484;
+     text-align: center;
+     font: normal 12px/24px 'Myriad Pro','Microsoft Yahei';
+     padding: 20px 0;
+     width: 100%;
+     position: absolute;
+     height: 48px;
+ }
+#footer p{
+    color: #848484;
+    text-align: center;
+    font: normal 12px/24px 'Myriad Pro','Microsoft Yahei';
+}

@@ -1,0 +1,530 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+ul,ol,li {
+    list-style: none
+}
+
+img {
+    border: none
+}
+
+input {
+    outline: none;
+    font-family: "微软雅黑"
+}
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+    color: #fff
+}
+
+input:-moz-placeholder,textarea:-moz-placeholder {
+    color: #fff
+}
+
+input::-moz-placeholder,textarea::-moz-placeholder {
+    color: #fff
+}
+
+input:-ms-input-placeholder,textarea:-ms-input-placeholder {
+    color: #fff
+}
+
+a {
+    color: #333;
+    text-decoration: none
+}
+
+body {
+    background-attachment: fixed;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #333
+}
+
+.animate {
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -ms-transition: all .2s ease;
+    transition: all .2s ease
+}
+
+.bg {
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    filter: alpha(opacity = 70);
+    opacity: 0.7
+}
+
+.textBox {
+    margin: 0 10px 5px 0;
+    padding: 3px 5px;
+    border: none;
+    width: 170px;
+    height: 22px;
+    line-height: 22px;
+    color: #fff;
+    background: #9ec0e0;
+    vertical-align: middle
+}
+
+.buttonBox {
+    margin-right: 40px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 16px;
+    background: #6cafe2;
+    vertical-align: middle;
+    -moz-box-shadow: 0px 1px 2px #999;
+    -webkit-box-shadow: 0px 1px 2px #999;
+    -ms-box-shadow: 0px 1px 2px #999;
+    box-shadow: 0px 1px 2px #999;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px
+}
+
+a.buttonBox {
+    display: inline-block
+}
+
+.checkBox,.radioBox {
+    margin: -3px 5px 0 0;
+    vertical-align: middle
+}
+
+.success {
+    display: block;
+    padding-left: 18px;
+    height: 12px;
+    line-height: 12px;
+    color: #73CC1B;
+    font-size: 12px;
+    background: url("../images/images.png") no-repeat -180px -50px;
+    _background: url("../images/images.gif") no-repeat -180px -50px;
+    vertical-align: middle
+}
+
+.error {
+    display: block;
+    padding-left: 15px;
+    height: 12px;
+    line-height: 12px;
+    color: #EA4D16;
+    font-size: 12px;
+    background: url("../images/images.png") no-repeat -180px -80px;
+    _background: url("../images/images.gif") no-repeat -180px -80px;
+    vertical-align: middle
+}
+
+* html .bodyBg /* IE6 头部固定 */ {
+    position: absolute;
+    top: expression(eval(document.documentElement.scrollTop))
+}
+
+.bodyBg {
+    position: fixed;
+    z-index: -100;
+    top: 0;
+    left: 0
+}
+
+html,body,.bodyBg,.bodyBg img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 780px;
+    _height: 780px
+}
+
+* html .footer /* IE6 底部固定 */ {
+    position: absolute;
+    bottom: auto;
+    top: expression(eval(document.documentElement.scrollTop +
+		document.documentElement.clientHeight-this.offsetHeight- ( parseInt(this.currentStyle.marginTop
+		, 10)||0)-(parseInt(this.currentStyle.marginBottom, 10)||0)))
+}
+
+.footer {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    bottom: 0;
+    padding: 10px 0;
+    width: 100%;
+    height: 48px;
+    line-height: 24px;
+    text-align: center;
+    color: #848484;
+    background: #343434
+}
+
+.regBox {
+    position: relative;
+    z-index: 10;
+    top: 5%;
+    margin: 0 auto;
+    width: 539px;
+    min-height: 120px;
+    _height: 120px
+}
+
+.regBox .head {
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    height: 55px;
+    -moz-box-shadow: 0px 2px 2px #666;
+    -webkit-box-shadow: 0px 2px 2px #666;
+    -ms-box-shadow: 0px 2px 2px #666;
+    box-shadow: 0px 2px 2px #666
+}
+
+.regBox .head .content {
+    height: 100%;
+    text-indent: -9999px;
+    background: url("../images/images.png") no-repeat 20px 10px;
+    _background: url("../images/images.gif") no-repeat 20px 10px
+}
+
+.regBox .head .content .loginLink {
+    float: right;
+    padding: 20px 30px 0 0;
+    text-indent: 0;
+    font-size: 12px;
+    color: #DAE6F1
+}
+
+.regBox .head .content .loginLink a {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #fff
+}
+
+.regBox .head .bg {
+    background: #3f90c8;
+    filter: alpha(opacity = 100);
+    opacity: 1
+}
+
+.regBox .tab {
+    position: relative;
+    border-bottom: 1px solid #1e98fe;
+    width: 100%;
+    height: 45px;
+    overflow: hidden
+}
+
+.regBox .tab .bg {
+    filter: alpha(opacity = 25);
+    opacity: 0.25
+}
+
+.regBox .tab ul {
+    width: 110%;
+    height: 100%
+}
+
+.regBox .tab ul li {
+    position: relative;
+    z-index: 10;
+    float: left;
+    border-right: 1px solid #1e98fe;
+    width: 179px;
+    height: 100%
+}
+
+.regBox .tab ul li .bg {
+    display: none
+}
+
+.regBox .tab ul li a {
+    display: block;
+    padding-top: 5px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #1e98fe;
+    overflow: hidden
+}
+
+.regBox .tab ul li.selected .bg {
+    display: block;
+    background: #1e98fe;
+    filter: alpha(opacity = 100);
+    opacity: 1
+}
+
+.regBox .tab ul li.selected a {
+    color: #fff
+}
+
+.regBox .tab ul #oldTab,.regBox .tab ul #newTab {
+    display: none
+}
+
+.regBox .unite {
+
+}
+
+.regBox .unite ul li {
+    width: 269px
+}
+
+.regBox .unite ul #oldTab,.regBox .unite ul #newTab {
+    display: block
+}
+
+.regBox .unite ul #phoneTab,.regBox .unite ul #emailTab,.regBox .unite ul #idTab
+{
+    display: none
+}
+
+.regBox .tabBox {
+    padding: 20px
+}
+
+.regBox .tabBox .tabBlock {
+    display: none
+}
+
+.regBox .tabBox .tabBlock .text {
+    padding: 0 0 15px 20px;
+    color: #7d764f
+}
+
+.regBox .tabBox .tabBlock .item {
+    display: block;
+    margin-top: 10px;
+    height: 50px;
+    line-height: 28px
+}
+
+.regBox .tabBox .tabBlock .item a {
+    color: #219aff
+}
+
+.regBox .tabBox .tabBlock .item .name {
+    display: inline-block;
+    margin-right: 20px;
+    width: 80px;
+    text-align: right;
+    vertical-align: top
+}
+
+.regBox .tabBox .tabBlock .item .input {
+    display: inline-block;
+    vertical-align: top
+}
+
+.regBox .tabBox .tabBlock .item .input .tip {
+    color: #ff6f3d
+}
+
+.regBox .tabBox .tabBlock .item .input .long {
+    width: 290px
+}
+
+.regBox .tabBox .tabBlock .item .input .short {
+    width: 80px
+}
+
+.regBox .tabBox .tabBlock .recommendList {
+    padding-left: 100px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #1d75b2
+}
+
+.regBox .tabBox .tabBlock .other {
+    margin-top: 0;
+    padding-left: 100px;
+    color: #6c766d
+}
+
+.regBox .tabBox .tabBlock .other label {
+    margin-right: 10px
+}
+
+.regBox .tabBox #phoneNick {
+    display: block
+}
+
+.regBox .regMsg {
+    padding: 100px 0;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #5697d9
+}
+
+.regBox .regMsg strong {
+    color: #d16d14
+}
+
+.regBox .regMsg a {
+    color: #9f23b1
+}
+
+.regBox .regMsg .tool {
+    margin-top: 50px;
+    font-size: 16px
+}
+
+.regBox .regMsg .tool a {
+    text-decoration: underline
+}
+
+.regBox .regMsg .tool a.buttonBox {
+    color: #fff;
+    text-decoration: none
+}
+
+.regBody {
+    margin: 0 auto;
+    width: 840px;
+    height: 100%
+}
+
+.regBody .regBox {
+    margin: 0
+}
+
+.msgBox {
+    float: right;
+    position: relative;
+    z-index: 10;
+    top: 5%;
+    width: 240px;
+    min-height: 210px;
+    _height: 210px
+}
+
+.msgBox .head {
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    height: 43px;
+    line-height: 41px;
+    -moz-box-shadow: 0px 2px 2px #666;
+    -webkit-box-shadow: 0px 2px 2px #666;
+    -ms-box-shadow: 0px 2px 2px #666;
+    box-shadow: 0px 2px 2px #666
+}
+
+.msgBox .head .content {
+    padding-left: 40px;
+    height: 100%;
+    font-size: 16px;
+    color: #fff;
+    background: url("../images/images.png") no-repeat -160px -91px;
+    _background: url("../images/images.gif") no-repeat -160px -91px;
+}
+
+.msgBox .head .bg {
+    background: #3f90c8;
+    filter: alpha(opacity = 100);
+    opacity: 1
+}
+
+.msgBox .body {
+    padding: 20px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #757575
+}
+
+.msgBox .body .tip {
+    color: #ff6f3d
+}
+
+.msgBox .body .msg {
+    color: #333
+}
+
+#getPhoneNum,#getBackPhoneNum {
+    display: none
+}
+
+#getPhoneNum.disabled,#getBackPhoneNum.disabled {
+    color: #999
+}
+
+.backBox {
+
+}
+
+.backBox .head .content {
+    background: url("../images/back.png") no-repeat 20px 16px;
+    _background: url("../images/back.gif") no-repeat 20px 16px
+}
+
+.backBox .head .step1 {
+
+}
+
+.backBox .head .step2 {
+    background-position: 20px -34px
+}
+
+.backBox .head .step3 {
+    background-position: 20px -84px
+}
+
+.backBox .body .step {
+    display: none;
+    height: 36px;
+    background: url("../images/back.png") no-repeat 0 -40px;
+    _background: url("../images/back.gif") no-repeat 0 -40px
+}
+
+.backBox .body .step1 {
+
+}
+
+.backBox .body .step2 {
+    background-position: 0 -80px
+}
+
+.backBox .body .step3 {
+    background-position: 0 -120px
+}
+
+.backBox .tab {
+
+}
+
+.backBox .tab ul li {
+    width: 269px
+}
+
+.backBox .tab ul li .bg {
+
+}
+
+#backBlock {
+    display: block
+}
+/*暂时隐藏邮箱相关选项卡*/
+#emailTab, .backBox .tab {display:none;}
+.regBox .tab ul li { width:269px;}
+
