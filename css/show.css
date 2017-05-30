@@ -1,0 +1,26 @@
+.show{
+	width:680px;
+	height:auto;
+}
+.show h1{
+	font-size:30px;
+	margin:20px;
+}
+.show .con{
+	width:680px;
+	height:auto;
+}
+.show .con p{
+	width:680px;
+	height:auto;
+	font-size: 16px;
+	margin:10px;
+}
+.show .con p:first-child{
+	text-align: center;
+}
+textarea{
+	width:680px;
+	height:auto;
+	font-size:16px;
+}
