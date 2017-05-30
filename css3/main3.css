@@ -1,0 +1,118 @@
+.act{
+    border-bottom: 2px solid#fff;
+}
+.con_left, .con_mid_bak, .con_right {
+    float: left;
+    margin-top: 40px;
+}
+.con_left p.title {
+    font-size: 28px;
+    line-height: 36px;
+    color: #18252a;
+    margin-bottom: 25px;
+}
+.con_left p.date {
+    font-size: 12px;
+    color: #3f3f3f;
+    line-height: 12px;
+}
+.con_left p.date span.spdate {
+    color: #aaa;
+}
+.con_left p.date span.spauthor {
+    margin: 0 18px;
+}
+.con_left .text {
+    color: #4c5e66;
+    font-size: 16px;
+    margin-top: 40px;
+    line-height: 30px;
+}
+.con_left .text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.con_left .text span.author {
+    display: inherit;
+    font-size: 14px;
+    text-align: right;
+    margin-top: 30px;
+}
+.con_left ul.share {
+    margin: 35px 0 50px;
+}
+.con_left ul.share li {
+    float: right;
+    margin-left: 12px;
+}
+.con_left .disc {
+    clear: both;
+    text-align: center;
+}
+.con_left .disc p {
+    text-align: left;
+    font-size: 18px;
+    color: #18252a;
+    margin-bottom: 25px;
+}
+.con_left .disc textarea {
+    width: 92%;
+    height: 118px;
+    border: 1px solid #d5dade;
+    padding: 15px;
+}
+.con_left .disc input {
+    cursor: pointer;
+    padding: 4px 36px;
+    background: #fff;
+    border: 1px solid #ff4911;
+    border-radius: 5px;
+    color: #ff4911;
+    margin-top: 45px;
+}
+.con_left .mailbox {
+    font-size: 13px;
+    color: #8c9497;
+    margin-top: 40px;
+}
+.con_left .mailbox a {
+    color: #8c9497;
+}
+.con_right dl.dlright dt {
+    float: left;
+    margin-right: 15px;
+}
+.con_right dl.dlright dd {
+    float: left;
+    padding: 0px 12px 0px;
+    background: none;
+}
+.con_right dl.dlright dd p.firp {
+    font-size: 14px;
+    color: #18252a;
+    margin: 3px 0 6px;
+}
+.con_right dl dd p.secp {
+    color: #575757;
+    margin-bottom: 4px;
+}
+.con_right dl.dlright dd p {
+    font-size: 13px;
+    line-height: 19px;
+    color: #959595;
+}
+.con_right ul li{
+    margin-top: 40px;
+}
+.top {
+    position: fixed;
+    display: none;
+    cursor: pointer;
+    border-radius: 5px;
+    bottom: 250px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    background: url(../img/gotop.png) no-repeat center;
+}

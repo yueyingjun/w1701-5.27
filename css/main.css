@@ -1,0 +1,256 @@
+body{
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    overflow: hidden;
+}
+.marketing{
+    width: 100%;
+    height: 100%;
+}
+.marketing .container {
+    padding-top: 94px;
+    height: 100%;
+}
+img {
+    vertical-align: middle;
+}
+.site-wrapper {
+    text-align: center;
+     margin: 200px auto 30px;
+}
+.img-responsive{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+.site {
+    width: 30%;
+    margin: 0 auto;
+}
+.site .col-lg-3 a {
+    font-size: 18px;
+    line-height: 36px;
+
+}
+.marketing .bg {
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    z-index: -100;
+    top: 0;
+    left: 0;
+}
+.footer {
+    width: 100%;
+    height: 45px;
+    background: #000;
+    text-align: center;
+    line-height: 44px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.footer a {
+    display: inline-block;
+    width: 102px;
+    line-height: 45px;
+    color: #fefefe;
+    font-size: 16px;
+    background: url(../img/icon.jpg) right center no-repeat;
+}
+.footer .banben {
+    text-align: right;
+    margin-top: -45px;
+    font-size: 12px;
+    color: #989898;
+}
+.footer span.icp {
+    margin-right: 15px;
+}
+.dz{
+    padding-left: 280px;
+}
+.dz span{
+    font-size: 18px;
+    float: left;
+    margin: 0  6px;
+}
+.delu,.zhuce{
+    float: left;
+    font-size: 18px;
+}
+
+.markbg{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.markbg1{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.marke{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+    margin: auto;
+    background: #fff;
+    border-radius: 3px;
+    border-top: 2px solid #fa7f40;
+    width: 602px;
+    height: 399px;
+    padding: 35px 116px 29px 116px;
+}
+.closebtn{
+    position: absolute;
+    top:2px;
+    right: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+}
+.closebtn1{
+    position: absolute;
+    top:2px;
+    right: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+}
+.tab_bar{
+    border-bottom: 1px solid #f2f2f2;
+}
+.tab_bar a {
+    font-size: 16px;
+    display: inline-block;
+    padding-bottom: 10px;
+    width: 180px;
+    text-align: center;
+    border-bottom: 3px solid #FFF;
+    color: #333;
+    transition: all .3s linear;
+}
+.tab_bar a.active{
+    border-bottom: 3px solid#fa7f40;
+}
+.login {
+    padding-top: 30px;
+    width: 230px;
+    margin: 0 auto;
+}
+.usename{
+    border: 1px #ccc solid;
+    padding-left: 30px;
+    background: url(../img/icon_input.png) no-repeat;
+}
+.item{
+    margin-bottom: 10px;
+    display: block;
+}
+.W_input{
+    border: none;
+    box-shadow: none;
+    width: 190px;
+    background-color: #fff;
+    height: 28px;
+    line-height: normal;
+    padding: 0 0 0 2px;
+    vertical-align: middle;
+    color: #808080;
+    outline-style: none;
+}
+.password {
+    position: relative;
+    background: url(../img/icon_input.png) no-repeat;
+    background-position: 0 -30px;
+    border: 1px #ccc solid;
+    padding-left: 30px;
+}
+.phone {
+    position: relative;
+    background: url(../img/icon_input.png) no-repeat;
+    background-position: 0 -60px;
+    border: 1px #ccc solid;
+    padding-left: 30px;
+}
+.auto_login{
+    display: inline-block;
+    vertical-align: middle;
+}
+label {
+    margin-left: 3px;
+    color: #808080;
+    font-weight: normal;
+}
+.forget{
+    margin-left: 65px;
+}
+.item_btn {
+    margin: 10px 12px;
+}
+.item_btn a{
+    width: 200px;
+    color: #fff;
+    display: inline-block;
+    height: 34px;
+    line-height: 33px;
+    padding: 0 15px;
+    font-size: 14px;
+    background: #ff8140;
+    border: 1px solid #f77c3d;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.25);
+    border-radius: 2px;
+    min-width: 40px;
+    text-align: center;
+    outline: none;
+}
+.login_qq{
+    display: inline-block;
+    /*vertical-align: middle;*/
+}
+.login_qq a{
+    background: #fff;
+    color: #333;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.1);
+}
+.icon_qq {
+    background: url(../IMG/icon_qq.png);
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    margin-right: 5px;
+}
+.login_qq em{
+    font-style: normal;
+}
+.text_info {
+    margin-top: 5px;
+    text-align: center;
+}
+.text_info a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+

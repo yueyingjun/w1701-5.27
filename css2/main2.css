@@ -1,0 +1,128 @@
+.act{
+    border-bottom: 2px solid#fff;
+}
+.banner {
+    margin: 30px auto 0;
+}
+.flexslider {
+    width: 980px;
+    margin: 35px auto 0;
+    position: relative;
+    zoom: 1;
+}
+.flex-viewport {
+    height: 735px;
+    transition: all 1s ease;
+    margin: 0 auto 30px;
+    border: 1px solid #dbdbdb;
+    overflow: hidden;
+    position: relative;
+}
+.flexslider .slides {
+    width: 980px;
+    position: absolute;
+    left:0;
+    top: 0;
+}
+.clear:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+.flexslider .slides li{
+    width: 980px;
+    /*float: left;*/
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.flexslider .slides .tu{
+    z-index: 1;
+}
+.flexslider .slides img {
+    display: block;
+    width: 100%;
+}
+.flex-control-thumbs {
+    position: static;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.flex-control-nav {
+    width: 100%;
+    /*position: absolute;*/
+    text-align: center;
+}
+.flex-control-thumbs li {
+    width: 11.251627%;
+    /* width: 10.6274%; */
+    float: left;
+    margin: 0 6px;
+    border: 1px solid #dbdbdb;
+}
+.flex-control-nav li {
+    display: inline-block;
+    /*zoom: 1;*/
+}
+.flex-control-thumbs img {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+.next {
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 10;
+    background: url(../img/slider-nav.png) no-repeat;
+    background-position: -70px 0;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    right: -20px;
+}
+.prev{
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 10;
+    background: url(../img/slider-nav.png) no-repeat;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    left:-20px;
+}
+.flexslider:hover .prev{
+    opacity: 1;
+    transform: translateX(20px);
+    transition: all 0.4s;
+}
+.flexslider:hover .next{
+    opacity: 1;
+    transform: translateX(-20px);
+    transition: all 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
