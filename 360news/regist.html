@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/regist.css">
+</head>
+<body>
+<div id="loginModal" class="frame-mod bounce-in" style="display: block; margin-top: -269px; margin-left: -250px;">
+    <div class="fr-wrap">
+        <a target="_self" href="javascript:;" class="btn-close"></a>
+        <h4 class="login-title">
+            <span class="log-btn current">登录
+                <!--<i></i>-->
+            </span>
+            <span class="reg-btn">注册
+                <i></i>
+            </span>
+        </h4>
+        <ul class="BTVlogin-main">
+            <li class="com-con reg-box">
+                <form action="" id="regForm" autocomplete="off">
+                    <div class="reg-form">
+                        <div class="core">
+                            <input type="text" datatype="mobile" name="mobile" class="ipt reg-ipt" id="phone-nb"
+                                   placeholder="手机号" data-vaildmsg="请填写手机号码" datatypestatus="false">
+                        </div>
+                        <div class="core coremin">
+                            <input type="text" datatype="text" class="ipt reg-ipt" name="image_captcha" id="reg-code"
+                                   placeholder="验证码" maxlength="4" data-vaildmsg="请填写验证码" datatypestatus="false">
+                            <span class="yz-img" href="##">
+                                <img src="img/getImageCaptcha.jpg" alt="">
+                            </span>
+                        </div>
+                        <div class="core coremin">
+                            <input type="text" datatype="text" autocomplete="off" class="ipt reg-ipt" name="captcha"
+                                   id="news-code" placeholder="短信验证码" data-vaildmsg="请填写短信验证码" maxlength="6"
+                                   datatypestatus="false">
+                            <span type="button" class="yz-sms disabled" data-phone="#phone-nb" data-freq="60"
+                                  disabled="disabled">获取验证码
+                            </span>
+                        </div>
+                        <div class="core">
+                            <input type="password" class="ipt reg-ipt" id="reg-password" placeholder="密码"
+                                   data-vaildmsg="请填写用户密码" maxlength="20" datatypestatus="false">
+                            <input type="hidden" name="passwd" class="hid_PassWd">
+                        </div>
+                        <div class="core">
+                            <input type="password" class="ipt reg-ipt" id="sure-password" placeholder="确认密码"
+                                   data-vaildmsg="请填写确认密码" maxlength="20" datatypestatus="false">
+                        </div>
+                        <div class="default-li">
+                            <div class="fl">
+                                <input type="checkbox" name="" checked="checked" id="rem-lo" class="rem-lo">
+                                <label for="rem-lo" class="rem-la la-checked">我已阅读并同意
+                                </label>
+                            </div>
+                            <a class="fl for-deal" href="##" target="_blank">注册协议</a></div>
+                        <div>
+                            <input type="hidden" name="purpose" value="register">
+                            <button type="submit" class="login-btn" id="reg-btn">注册
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

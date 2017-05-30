@@ -1,0 +1,879 @@
+/*基础制作页面组件*/
+html, body, div, p, hr, pre, h1, h2, h3, h4, h5, h6, table, tr, td, th, tfoot, tbody, thead, form, fieldset, input, textarea, label, ul, ol, dl, li, dt, dd {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    list-style: none;
+    font-weight: normal;
+}
+
+html {
+    height: 100%;
+}
+
+* html {
+    _background-image: url(about:blank);
+    _background-attachment: fixed;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 0 auto;
+    clear: both;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+.none {
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+* html .clearfix {
+    zoom: 1;
+}
+
+/* IE6 */
+*:first-child + html .clearfix {
+    zoom: 1;
+}
+
+/* IE7 */
+q:before, q:after {
+    content: '';
+}
+
+a img {
+    border: none;
+}
+
+.overhidden {
+    overflow: hidden;
+    _display: inline-block;
+}
+
+.align_c {
+    text-align: center;
+}
+
+.align_l {
+    text-align: left;
+}
+
+.domPC {
+    display: block;
+}
+
+.domMobile {
+    display: none;
+}
+
+/* =body*/
+body {
+    font-family: "宋体";
+    font-size: 12px;
+    background: #f7f7f7;
+    line-height: 24px;
+    color: #393939;
+}
+
+.list {
+    overflow: hidden;
+    _display: inline-block;
+}
+
+.list li {
+    vertical-align: middle;
+    background: url(http://www.xinhuanet.com/static/xilan/xilan_v1/images/common.png) 0 -158px no-repeat;
+    font-size: 14px;
+    padding-left: 15px;
+    line-height: 24px;
+    overflow: hidden;
+    height: 24px;
+}
+
+.top {
+    height: 33px;
+    line-height: 33px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: url(http://www.xinhuanet.com/static/xilan/tuji/bg1.gif) 0 0 repeat-x;
+    _position: absolute;
+    _top: expression(documentElement.scrollTop + 0);
+    z-index: 999;
+}
+
+.pagewidth {
+    width: 790px;
+    margin: 0 auto;
+}
+
+.main {
+    background: #fff;
+}
+
+.top .menu {
+    color: #dbeefd;
+    float: left;
+}
+
+.top .menu a {
+    color: #dbeefd;
+    margin: 0 3px;
+}
+
+.top .search {
+    float: right;
+    padding-top: 6px;
+    position: relative;
+}
+
+.top .search .ss {
+    width: 205px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #ddd;
+    padding: 0 30px 0 5px;
+    background: #fff url(http://www.xinhuanet.com/static/xilan/xilan_v1/images/common.png) 215px -67px no-repeat;
+}
+
+.top .search .ss_submit {
+    background: url(http://www.xinhuanet.com/images/syicon/space.gif);
+    border: none;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 6px;
+    top: 7px;
+    cursor: pointer;
+    z-index: 99;
+    width: 20px;
+    height: 20px;
+}
+
+.bread {
+    height: 45px;
+    padding-top: 45px;
+}
+
+.bread .left {
+    line-height: 45px;
+    float: left;
+    width: 300px;
+}
+
+.bread .index {
+    float: left;
+    margin: 6px 10px 0 10px;
+    display: inline;
+    width: 90px;
+    height: 30px;
+    background: url('../img/common.png') -314px -100px no-repeat;
+}
+
+.bread .pd {
+    float: left;
+    margin: 8px 10px 0 0;
+    display: inline;
+    height: 24px;
+    background: #379be9;
+    padding: 0 5px;
+    color: #fff;
+    font: bold 20px/24px "微软雅黑";
+}
+
+.bread .zxbb {
+    line-height: 45px;
+    color: #dddddd;
+    height: 45px;
+    overflow: hidden;
+    float: right;
+    width: 430px;
+}
+
+.bread .zxbb .tit {
+    color: #035cca;
+    float: left;
+    padding-left: 8px;
+}
+
+.bread .zxbb a {
+    color: #666;
+}
+
+.main {
+    -moz-box-shadow: 0 0 5px #ccc inset;
+    -webkit-box-shadow: 0 0 5px #ccc inset;
+    box-shadow: 0 0 5px #ccc inset;
+    border: 1px solid #ccc \9;
+}
+
+.main_tit {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.main_tit h1 {
+    font: bold 22px/35px "宋体";
+    color: #333;
+}
+
+.main_tit .info {
+    border-bottom: 1px solid #ccc;
+    line-height: 35px;
+    height: 35px;
+    padding-left: 80px;
+}
+
+.set_font {
+    float: right;
+    margin-right: 20px;
+    display: inline;
+}
+
+.set_font a {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+    display: inline;
+    background: url('../img/common.png') 0 -383px no-repeat;
+}
+
+.set_font .font_small:hover {
+    background-position: 0 -356px;
+}
+
+.set_font .font_small_dis {
+    background-position: -26px -383px;
+    cursor: default;
+}
+
+.set_font .font_small_dis:hover {
+    background-position: -26px -383px;
+    cursor: default;
+}
+
+.set_font .font_add {
+    background-position: 0 -329px;
+}
+
+.set_font .font_add:hover {
+    background-position: -26px -356px;
+}
+
+.set_font .font_add_dis {
+    background-position: -26px -329px;
+}
+
+.set_font .font_add_dis:hover {
+    background-position: -26px -329px;
+}
+
+#content {
+    width: 710px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 2em;
+    font-family: "微软雅黑";
+}
+
+#content p {
+    margin-bottom: 15px;
+}
+
+.com_box {
+    border: 1px solid #CECECE;
+    padding: 8px;
+}
+
+.title10 {
+    height: 27px;
+    border-bottom: 1px solid #709fbd;
+}
+
+.title10 h2 {
+    float: left;
+    width: 140px;
+    text-indent: 10px;
+    height: 25px;
+    border-bottom: 3px solid #709fbd;
+    color: #ae0202;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.title10 span {
+    color: #666;
+    padding-left: 20px;
+    line-height: 26px;
+}
+
+.list_pic3 {
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+.list_pic3 li {
+    float: left;
+    width: 85px;
+    margin: 10px 6px;
+}
+
+.list_pic3 img {
+    margin-bottom: 3px;
+    width: 85px;
+    height: 105px;
+}
+
+.list_pic3 ul {
+    overflow: hidden;
+    _display: inline-block;
+}
+
+.list_pic3 .name {
+    font-size: 12px;
+    color: #004276;
+    line-height: 18px;
+    text-align: center;
+}
+
+.list_pic3 .name a {
+    color: #004276;
+}
+
+.title16 {
+    height: 27px;
+    border-bottom: 1px solid #709fbd;
+    border-top: 1px solid #DCDCDC;
+    padding-top: 12px;
+}
+
+.title16 h2 {
+    float: left;
+    width: 260px;
+    text-indent: 10px;
+    height: 25px;
+    border-bottom: 3px solid #709fbd;
+    color: #ae0202;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.title16 span {
+    color: #666;
+    padding-left: 20px;
+    line-height: 26px;
+}
+
+.tlfont {
+    padding: 12px 0 6px;
+}
+
+.webpage_content {
+    width: 710px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.share {
+    line-height: 40px;
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 15px;
+    margin: 0 auto 30px auto;
+    width: 710px;
+    text-align: right;
+    padding-top: 20px;
+}
+
+.jgt {
+    border-top: 1px solid #379be9;
+    width: 650px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    height: 60px;
+}
+
+.jgt .fl {
+    float: left;
+    width: 315px;
+    border-right: 1px dashed #ccc;
+}
+
+.jgt .fr {
+    float: right;
+    width: 315px;
+}
+
+#gd_area {
+    width: 350px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+
+#gd_area .wrap {
+    float: left;
+}
+
+#gd_content, #gd_scroll {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1000000px;
+}
+
+#gd_content li, #gd_scroll li {
+    height: 30px;
+    color: #333;
+    padding: 0;
+    float: left;
+    line-height: 45px;
+    width: 350px;
+}
+
+#gd_content li a, #gd_scroll li a {
+    font-size: 12px;
+}
+
+.foot {
+    text-align: center;
+    padding: 20px 0;
+    color: #333;
+}
+
+#datu {
+    width: 690px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+#slider-bg {
+    height: 504px;
+    width: 600px;
+    margin-left: 45px;
+}
+
+#slider-photos {
+    height: 400px;
+    position: absolute;
+    width: 600px;
+}
+
+#slides {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+
+.slides_container {
+    display: none;
+    overflow: hidden;
+    position: relative;
+    width: 600px;
+}
+
+.entry .slides_container {
+    width: 600px;
+}
+
+.slides_container div.slide {
+    display: block;
+    height: 512px;
+    width: 600px;
+    text-align: center;
+}
+
+.slides_container div.slide img {
+    height: 400px;
+}
+
+#slides .next, #slides .prev {
+    display: block;
+    height: 70px;
+    left: -78px;
+    position: absolute;
+    top: 180px;
+    width: 30px;
+    z-index: 101;
+}
+
+#slides .next {
+    left: 597px;
+}
+
+a.portfolio-slide-prev, a.portfolio-slide-next {
+}
+
+.pagination {
+    margin: 0 auto;
+    height: 34px;
+    position: absolute;
+    left: 40%;
+    bottom: 0px;
+}
+
+.pagination li {
+    float: left;
+    list-style: none outside none;
+    margin: 0 3px;
+    padding: 0;
+    height: 14px;
+    padding-top: 10px;
+}
+
+.pagination li a {
+    background: url("") repeat scroll 0 -14px transparent;
+    display: block;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 14px;
+    width: 14px;
+}
+
+.pagination li.current a {
+    background: url("") repeat scroll 0 0 transparent;
+}
+
+.caption {
+    position: absolute;
+    left: 10px;
+    top: 410px;
+    z-index: 500;
+    text-align: left;
+    text-indent: 2em;
+    height: 72px;
+    overflow: hidden;
+}
+
+.caption h1 {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.caption p {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    width: 300px;
+}
+
+.caption p a {
+    -moz-transition: all 0.2s ease-in 0s;
+    border-bottom: 1px solid transparent;
+    color: #DDDDDD;
+    font-size: 12px;
+}
+
+.caption p a:hover {
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.slideIcon {
+    width: 174px;
+    position: fixed;
+    left: 50%;
+    margin-left: 400px;
+    top: 90px;
+}
+
+.silideA {
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 82px;
+}
+
+.silideA img {
+    width: 82px;
+}
+
+#gwdShare_win_2 {
+    width: 132px !important;
+    height: 53px !important;
+    background: url('') no-repeat !important;
+}
+
+.hei12 {
+    float: left;
+    margin: 0 10px;
+    display: inline;
+    white-space: nowrap;
+}
+
+#iframe1 {
+    width: 615px;
+    height: 460px;
+    margin: 0 auto;
+}
+
+.domNone {
+    display: none;
+}
+
+/*@media screen and (max-width: 1024px) {
+    .navPC ul {
+        width: 100%;
+    }
+
+    .box1, .box2, .box3, .box4, .box5, .banner, .navPC, .topMain {
+        width: 98%;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    #pcVideo {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .domPC {
+        display: none;
+    }
+
+    .domMobile {
+        display: block;
+    }
+
+    .ifrDiv {
+        display: none;
+    }
+
+    !*手机导航*!
+    !*header*!
+    #mobileHeader {
+        width: 100%;
+        height: 45px;
+        border-bottom: 2px solid #00abe7; !*position: fixed;z-index: 999;top: 0px;left: 0px;*!
+        position: relative;
+        background: #f5f3f2 url(http://www.xinhuanet.com/2015/fortune/xilan/xh_mobile_map.png) no-repeat 98% 0px;
+        -webkit-background-size: 154px;
+        background-size: 154px;
+    }
+
+    #mobileHeader .logo {
+        display: block;
+        width: 65px;
+        height: 45px;
+        background: url(http://www.xinhuanet.com/2015/fortune/xilan/xh_mobile_header.png) no-repeat 0px 0px;
+        -webkit-background-size: 57px;
+        background-size: 57px;
+        position: absolute;
+        top: 0px;
+        left: 10px;
+    }
+
+    #mobileHeader .home {
+        display: inline-block;
+        height: 45px;
+        line-height: 45px;
+        font-size: 22px;
+        padding: 0 5px 0 15px;
+        color: #00aae7;
+        margin: 0 0 0 76px;
+        background: url(http://www.xinhuanet.com/2015/fortune/xilan/xh_mobile_header.png) 0 -160px no-repeat;
+        -webkit-background-size: 57px;
+        background-size: 57px;
+        vertical-align: top;
+        font-family: "微软雅黑";
+    }
+
+    #mobileHeader .arrow {
+        display: inline-block;
+        width: 20px;
+        height: 45px; !*background: url(http://www.xinhuanet.com/2015/fortune/xilan/xh_mobile_header.png) no-repeat 6px -90px;-webkit-background-size: 57px;background-size: 57px;*!
+        vertical-align: top;
+    }
+
+    #mobileHeader .name {
+        display: inline-block;
+        height: 45px;
+        line-height: 45px;
+        font-size: 18px;
+        padding: 0 5px;
+        color: #231815;
+        vertical-align: top;
+    }
+
+    #mobileHeader .right {
+        display: block;
+        width: 30px;
+        height: 45px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    #mobileHeader .right i {
+        display: block;
+        width: 19px;
+        height: 19px;
+        position: absolute;
+        top: 14px;
+        right: 10px;
+        background: url(http://www.xinhuanet.com/2015/fortune/xilan/xh_mobile_header.png) no-repeat -38px -58px;
+        -webkit-background-size: 57px;
+        background-size: 57px;
+    }
+
+    #mobileHeader .mobileNavList {
+        width: 100%;
+        height: 0px;
+        overflow: hidden;
+        position: absolute;
+        top: 46px;
+        left: 0px;
+        background: #379be9;
+        z-index: 6;
+    }
+
+    #mobileHeader .mobileNavList a {
+        float: left;
+        width: 20%;
+        padding: 10px 0;
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .pagewidth {
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .main_tit .info {
+        padding-left: 0;
+    }
+
+    .set_font {
+        margin-right: 0;
+    }
+
+    .main_tit h1 {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    #content {
+        width: 90%;
+    }
+
+    .share {
+        width: 90%;
+    }
+
+    #datu {
+        width: 98%;
+        margin: 0 auto;
+        padding: 0px;
+        background: none;
+    }
+
+    #slider-bg {
+        width: 300px;
+        margin-left: 0;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    .slides_container {
+        width: 300px;
+        height: 295px;
+    }
+
+    #slider-photos {
+        width: 300px;
+        height: 400px;
+    }
+
+    .slides_container div.slide {
+        width: 300px;
+        height: 330px;
+    }
+
+    .slides_container div.slide img {
+        height: 195px;
+    }
+
+    .caption {
+        top: 200px;
+        height: 100px;
+    }
+
+    #slides .next, #slides .prev {
+        top: 90px;
+        height: 30px;
+        left: 3px;
+    }
+
+    #slides .next {
+        left: 267px;
+    }
+
+    #slides .next img, #slides .prev img {
+        width: 30px;
+        height: auto;
+    }
+
+    .pagination {
+        display: table;
+        position: initial;
+    }
+
+    .pagination li {
+        display: table-cell;
+    }
+
+    #iframe1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    #content img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}*/
+
+.divNone {
+    display: none;
+}

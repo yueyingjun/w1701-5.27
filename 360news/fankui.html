@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户意见反馈</title>
+    <link rel="stylesheet" href="css/fankui.css">
+</head>
+<body>
+<div id="doc">
+    <div id="hd">
+        <div class="inner">
+            <div class="logo">
+                <h1><a href="##">&nbsp;</a><a class="title">反馈中心</a></h1>
+            </div>
+        </div>
+    </div>
+    <div id="bd">
+        <div class="crumbs">
+            <a href="##" target="_blank">360搜索</a> &gt;
+            <span class="cur">意见反馈</span>
+        </div>
+        <div class="inner">
+            <div class="side">
+                <div class="menu">
+                    <span class="s10">
+                        <a href="##">关于我们</a></span><span class="s1">
+                        <a href="##" class="cur">意见反馈</a>
+                    </span>
+                    <span class="s2">
+                        <a href="##">快照删除</a>
+                    </span>
+                    <span class="s5">
+                        <a href="##">图片举报</a>
+                    </span>
+                    <span class="s9">
+                        <a href="##">地图反馈</a>
+                    </span>
+                    <span class="s11">
+                        <a href="##">黄页提交</a>
+                    </span>
+                    <span class="s3">
+                        <a href="##">网站收录</a>
+                    </span>
+                    <span class="s4">
+                        <a href="##">新闻源收录</a>
+                    </span>
+                    <span class="s7">
+                        <a href="##">申请赔付</a>
+                    </span>
+                    <span class="s8">
+                        <a href="##">我要举报</a>
+                    </span>
+                </div>
+            </div>
+            <div class="container">
+                <div class="hd"><h2>欢迎您的意见及建议</h2></div>
+                <div class="bd">
+                    <div class="tips">
+                        <p>感谢您使用360搜索！请告诉我们您对360搜索的意见和建议，我们会参考您的反馈不断优化我们的产品和服务。<br/>
+                            （如有其他疑问和建议，
+                            <a href="##">请联系公司相关业务部门</a>。）
+                        </p>
+                    </div>
+                    <div class="feedback">
+                        <div class="mod-form">
+                            <form action="" method="post" name="delcache" id="feedbackform">
+                                <div class="i" style="padding-top:26px;">
+                                    <div class="k"><b>*</b>反馈产品：</div>
+                                    <div class="v">
+                                        <select id="product" data-name="product" name="product" class="select"
+                                                style="margin-right:10px;background:0;line-height:30px;border:1px solid #ccc;padding:1px;"
+                                                data-html="">
+                                            <option value='web'>网页搜索</option>
+                                            <option value='news' selected>新闻搜索</option>
+                                            <option value='newsapp'>新闻移动客户端</option>
+                                            <option value='image'>图片搜索</option>
+                                            <option value='m_image'>图片搜索移动版</option>
+                                            <option value='liangyi'>良医搜索</option>
+                                            <option value='video'>视频搜索</option>
+                                            <option value='music'>音乐搜索</option>
+                                            <option value='wenda'>问答搜索</option>
+                                            <option value='baike'>百科搜索</option>
+                                            <option value='soft'>软件搜索</option>
+                                            <option value='zhanzhang'>站长平台</option>
+                                            <option value='top_so'>搜索热榜</option>
+                                            <option value='iso'>随变搜索</option>
+                                            <option value='scholar'>学术搜索</option>
+                                            <option value='english'>英文搜索</option>
+                                            <option value='weburlsafe'>网页搜索url误报</option>
+                                            <option value='soindex'>指数搜索</option>
+                                            <option value='highlight'>每日看点</option>
+                                        </select>
+                                        <div class="prompt"></div>
+                                    </div>
+                                </div>
+                                <h4 class="tit" style="padding-top:0;">请详细描述您遇到的问题、您的意见及建议:
+                                </h4>
+                                <div class="i i-nocol">
+                                    <div class="limit">您还可以输入
+                                        <em id="contentnum">800</em>个字
+                                    </div>
+                                    <div class="v">
+                                        <textarea type="textarea" class="input input-placeholder" id="content"
+                                                  name="content" style="width:640px; height:140px;">
+                                        </textarea>
+                                    </div>
+                                </div>
+                                <div class="i i-nocol">
+                                    <div class="input-file" style="display:inline-block">
+                                        <div class="bt-addimg"></div>
+                                        <input type="file" id="img_1" name="img[]" class="file">
+                                        <input type="file" id="img_2" name="img[]" class="file">
+                                        <input type="file" id="img_3" name="img[]" class="file">
+                                        <input type="file" id="img_4" name="img[]" class="file">
+                                        <input type="file" id="img_5" name="img[]" class="file">
+                                    </div>
+                                    <div id="file_uploadQueue"></div>
+                                    <div id="preview_wrapper" style=" display: none;">
+                                    </div>
+                                </div>
+                                <div class="i">
+                                    <div class="k"><b>*</b>您的邮箱：</div>
+                                    <div class="v">
+                                        <input type="text" class="input input-placeholder" name="contact" id="contact"
+                                               style="width:220px;"/>
+                                        <input type="hidden" id="browertype" name="browertype" value=""/>
+                                        <input type="hidden" id="browerversion" name="browerversion" value=""/>
+                                        <input type="hidden" id="osversion" name="osversion" value=""/>
+                                        <input type="hidden" id="referer" name="referer" value=""/>
+                                        <input type="hidden" id="additional" name="additional" value=""/>
+                                        <input type="hidden" id="src" name="src" value=""/>
+                                        <div class="prompt">（方便我们及时告知您处理结果）</div>
+                                    </div>
+                                </div>
+                                <div class="i">
+                                    <div class="k"><b>*</b>验证码：</div>
+                                    <div class="v">
+                                        <input type="text" class="input input-placeholder" style="width:80px;"
+                                               id="checkcode" name="checkcode"/>
+                                        <img src="img/yzm1.png" alt="验证码" class="checkcode" name="checkcodesrc"
+                                             id="checkcodesrc">
+                                        <a id="checkcodeimg" href="#">看不清？换一张</a>
+                                        <div class="prompt"></div>
+                                    </div>
+                                </div>
+                                <div class="btn">
+                                    <button type="submit" class="bt-submit-1">提交</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ft"><span>Copyright © 360.CN All Rights Reserved. </span></div>
+</div>
+</body>
+</html>
