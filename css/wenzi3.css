@@ -1,0 +1,353 @@
+/*主要信息*/
+.Main{
+    height: 2950px;
+}
+.Main .neikuan{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+.fuqi{
+    width: 1200px;
+    height: 3000px;
+    position: absolute;
+    left: 0;
+    background: #fff;
+    top:20px;
+    box-shadow: 0 0 20px #000;
+    z-index: 999;
+    padding-top: 100px;
+}
+.neikuan-x{
+    width: 993px;
+    margin: 0 auto;
+}
+.fuqi-header{
+    color: #595857;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+.fuqi-header span{
+    font-size: 14px;
+    float: left;
+}
+.fuqi-header strong{
+    float: left;
+    font-weight: 700;
+    font-size: 18px;
+    color:#000;
+    margin: 0 8px 0 5px;
+}
+.title{
+    float: left;
+    margin-right: 8px;
+}
+.title span{
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 10px;
+    margin-bottom: 2px;
+    line-height: 15px;
+    font-weight: 700;
+}
+.t2 .x-xian{
+    width: 24px;
+}
+.t2 .x-dian{
+    margin-left: 26px;
+}
+.x-xian{
+    width: 18px;
+    height: 2px;
+    background: #000;
+    margin-top: 17px;
+}
+.x-dian{
+    width: 2px;
+    height: 2px;
+    background: #000;
+    margin-left: 20px;
+}
+.aifen-xian{
+    width: 100%;
+    height: 1px;
+    margin-bottom: 80px;
+    background: #000;
+}
+.name{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    margin-bottom: 50px;
+}
+.name h1{
+    font-size: 20px;
+    color: #080707;
+    cursor: pointer;
+}
+.name h1{
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
+.name h2{
+    font-size: 18px;
+    color: #c0aca3;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.name h3{
+    font-size: 16px;
+    letter-spacing: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.hotnews{
+    margin-bottom: 80px;
+    font-size: 18px;
+}
+.hotnews h1{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.hotnews h3{
+    font-size: 18px;
+    color: #3d3d3d;
+    height: 50px;
+    line-height: 50px;
+    width: 100px;
+    border-top: 1px solid #fd4c01;
+
+}
+.Main-nr{
+    margin-bottom: 100px;
+}
+/*简介*/
+.Main-name{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.Main_nr{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Main_nr p{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.Main_tu{
+    margin-top: 50px;
+    width: 996px;
+    height: 271px;
+    position: relative;
+}
+.tu1{
+    display: block;
+    position: absolute;
+    left: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    width: 335px;
+    height: 212px;
+}
+.tu2{
+    display: block;
+    position: absolute;
+    left: 0;
+    top:0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 495px;
+    height: 265px;
+    z-index: 5;
+}
+.tu2 img{
+    width: 495px;
+    height: 265px;
+}
+.tu1 img{
+    width: 335px;
+    height: 212px;
+}
+.t2{
+    right: 0;
+    left:auto;
+}
+.fx{
+    width: 188px;
+    height: 88px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.fx span{
+    margin-bottom: 20px;
+}
+.tubiao{
+    margin-top: 30px;
+    display: flex;
+    justify-content:space-between;
+}
+.fx .tubiao-q{
+    float: left;
+}
+.zhangjie{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 60px;
+    background: #120101;
+    color: #fff;
+    display: flex;
+    justify-content:space-around;
+}
+.zhangjie strong{
+    margin: 0 10px;
+    float: left;
+    line-height: 60px;
+}
+.zhangjie .left div,.zhangjie .right div{
+    width: 300px;
+    line-height: 60px;
+    height: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left;
+    cursor: pointer;
+}
+.zhangjie .left div:hover,.zhangjie .right div:hover{
+    text-decoration:underline;
+}
+/*评论*/
+.youke{
+    margin-bottom: 50px;
+}
+.youke h1{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.youke h2{
+    font-size: 14px;
+}
+.pinglun{
+    width: 830px;
+    height: 165px;
+    margin: 0 auto;
+    transition: all 1s;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 20px 50px;
+    margin-bottom: 50px;
+}
+.pinglun:hover{
+    box-shadow: 0 0 10px #ccc;
+}
+.touxiang,.touxiang a{
+    display: block;
+    width: 85px;
+    height: 85px;
+    float: left;
+}
+.touxiang a img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+.pl-wenzi{
+    float: left;
+    margin-left: 50px;
+    height:150px;
+    width: 590px;
+}
+.pl-wenzi-top{
+    border-bottom: 1px solid #000;
+}
+.pl-wenzi-top h1{
+    font-size: 18px;
+    color: #333;
+}
+.pl-wenzi-top h1 span{
+    float: right;
+    font-size: 18px;
+    color: #662612;
+}
+.pl-wenzi-bottom{
+    width: 590px;
+    height: 80px;
+    margin-top: 30px;
+}
+.pl{
+    width: 80%;
+    height: 100%;
+    color: #222;
+    box-sizing: border-box;
+    padding-top: 30px;
+    float: left;
+}
+.huifu{
+    float: left;
+    width: 20%;
+    height: 100%;
+    color: #666;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+}
+.huifu span{
+    color: #999;
+    float: left;
+    line-height: 40px;
+}
+.huifu i{
+    float: left;
+}
+.huifu a,.huifu a img{
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+.lybbox{
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+
+}
+.lybbox textarea{
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    resize:none;
+}
+.lybbox input[type=button]{
+    float: right;
+    margin-top: 30px;
+    width:80px;
+    height: 30px;
+    background: #fd4c01;
+    color: #fff;
+}
+.con{
+    width: 830px;
+    margin: 0 auto;
+}
+.con ul{
+    display: flex;
+    flex-direction:column-reverse;
+}
+.tishi{
+    text-align: center;
+    clear:right;
+    color: #333;
+
+}
+.tishi span,.tishi b{
+    color: orange;
+}
+

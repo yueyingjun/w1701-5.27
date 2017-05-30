@@ -1,0 +1,361 @@
+.clear:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+.neikuan{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*主要信息*/
+.Main{
+    height: 3520px;
+    background: #fff;
+}
+.Main .neikuan{
+    position: relative;
+}
+.fuqi{
+    width: 1200px;
+    height: 3580px;
+    position: absolute;
+    left: 0;
+    background: #fff;
+    top:20px;
+    box-shadow: 0 0 20px #000;
+    z-index: 999;
+    padding-top: 100px;
+}
+.neikuan-x{
+    width: 993px;
+    margin: 0 auto;
+}
+.fuqi-header{
+    color: #595857;
+    height: 20px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+.fuqi-header span{
+    font-size: 14px;
+    float: left;
+}
+.fuqi-header strong{
+    float: left;
+    font-weight: 700;
+    font-size: 18px;
+    color:#000;
+    margin: 0 8px 0 5px;
+}
+.title{
+    float: left;
+    margin-right: 8px;
+}
+.title span{
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 10px;
+    margin-bottom: 2px;
+    line-height: 15px;
+    font-weight: 700;
+}
+.t2 .x-xian{
+    width: 24px;
+}
+.t2 .x-dian{
+    margin-left: 26px;
+}
+.x-xian{
+    width: 18px;
+    height: 2px;
+    background: #000;
+    margin-top: 17px;
+}
+.x-dian{
+    width: 2px;
+    height: 2px;
+    background: #000;
+    margin-left: 20px;
+}
+.aifen-xian{
+    width: 100%;
+    height: 1px;
+    margin-bottom: 80px;
+    background: #000;
+}
+.name{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    margin-bottom: 50px;
+}
+.name h1{
+    font-size: 20px;
+    color: #080707;
+    cursor: pointer;
+}
+.name h1{
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
+.name h2{
+    font-size: 18px;
+    color: #c0aca3;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.name h3{
+    font-size: 16px;
+    letter-spacing: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.hotnews{
+    margin-bottom: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+.hotnews h1{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.hotnews h3{
+    margin: 0 auto;
+    font-size: 18px;
+    color: #3d3d3d;
+    height: 50px;
+    line-height: 50px;
+    width: 100px;
+    border-top: 1px solid #fd4c01;
+
+}
+.Main-nr{
+    margin-bottom: 100px;
+}
+/*简介*/
+.Main-nr-header{
+    height:32px;
+    margin-bottom: 40px;
+}
+.Main-nr-header-left{
+    font-size: 14px;
+    line-height: 14px;
+    color: #9d7c6e;
+    letter-spacing: 3px;
+    float: left;
+}
+.Main-nr-header-left div{
+    letter-spacing: 0;
+}
+.Main-nr-header i{
+    width: 2px;
+    height:32px;
+    transform: rotate(30deg);
+    background: #000;
+    float: left;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+.Main-nr-header p{
+   font-size: 20px;
+    color: #9d7c6e;
+    line-height: 32px;
+}
+
+.header-dian{
+    position: absolute;
+    left: 0;
+    top:10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #000;
+}
+.header-z-z{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #000;
+    line-height: 30px;
+    float: left;
+}
+.header-xian{
+    width: 1px;
+    height: 30px;
+    background: #000;
+    transform: rotate(30deg);
+    margin-left: 15px;
+    margin-right: 15px;
+    float: left;
+}
+.header-z-y{
+    font-size: 20px;
+    line-height: 30px;
+    color: #7b7978;
+    float: left;
+}
+.neikuan-xx{
+    width: 925px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.jianju{
+    height: 20px;
+    width:100%;
+}
+.Main-nr .yingwen{
+    color:#8e8d8c;
+}
+
+/*咖啡系列*/
+.linian-box{
+    height: 250px;
+    display: flex;
+    justify-content:center;
+    position: relative;
+}
+.liniantu{
+    width: 50%;
+    height: 250px;
+}
+.liniantu a,.liniantu a img{
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+.linianwenzi{
+    width: 50%;
+    height: 250px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    color: #73706f;
+    line-height: 25px;
+}
+.nr-gengduo{
+    width: 50px;
+    height: 50px;
+    background: #7f3938;
+    color: #fff;
+    position: absolute;
+    right: 440px;
+    top: 95px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.fs{
+    letter-spacing: 3px;
+}
+.nr-right{
+    text-align: right;
+}
+.xili-z{
+    background: #e7e5e4;
+}
+
+.linianwenzi h1{
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.linianwenzi p{
+    font-size: 14px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+/*伴侣系列*/
+.banlvbox{
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.banlv-nr{
+    width: 800px;
+    height: 215px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-right: 2px;
+    padding-left: 5px;
+    transition: all 1s;
+    cursor: pointer;
+}
+.banlv-nr:hover{
+    box-shadow: 0 0 10px #666;
+}
+.banlv-tu{
+    width: 321px;
+    height: 214px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.banlv-tu a,.banlv-tu a img{
+    display: block;
+    width: 321px;
+    height: 204px;
+}
+.banlv-wenzi{
+    width:400px;
+    height: 150px;
+    float: left;
+}
+.banlv-wenzi h1,.banlv-wenzi p{
+    color: #545454;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.fenyedaohang{
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+.shang{
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    background: #7f3938;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    padding: 6px;
+    display: inline-block;
+}
+.fenyedaohang span:hover{
+    background: #d68c2b;
+    color: #fff;
+}
+.fenyedaohang{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 700px;
+    margin: 0 auto;
+}
+.fenyedaohang span{
+    cursor: pointer;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border:2px solid #7f3938;
+    text-align: center;
+    line-height: 26px;
+}
+.tiaozhuan{
+    display: inline-block;
+    color: #d68c2b;
+    font-size: 16px;
+}
+.tiaozhuan input{
+    width:40px;
+    height: 30px;
+}
