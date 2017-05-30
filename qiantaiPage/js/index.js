@@ -53,4 +53,20 @@ $(function () {
         $("body").animate({scrollTop:0},500);
 
     })
+    $(".js-app-feedback").hover(function () {
+        $(".app-footer-guide").animate({left:-100},500).css("opacity","1").css("display","block");
+    },function () {
+        $(".app-footer-guide").animate({left:-120},500).css("opacity","0").css("display","none");
+    })
+
+    $(".js-show-feedback-box").hover(function () {
+        $(".js-show-feedback-box .go-hover").css("opacity","1");
+    },function () {
+        $(".js-show-feedback-box .go-hover").css("opacity","0");
+    })
+    $(".js-go-top").hover(function () {
+        $(".js-go-top .go-hover").css("opacity","1");
+    },function () {
+        $(".js-go-top .go-hover").css("opacity","0");
+    })
 })

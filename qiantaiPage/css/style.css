@@ -1406,3 +1406,21 @@ a{
     background-position: -30px 1px;
     margin-top: 9px;
 }
+.go-top:hover {
+    background: #ff6060;
+}
+.app-footer-guide:before {
+    width: 9px;
+    height: 9px;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    background: #fff;
+    border: solid 1px #ddd;
+    border-width: 0 1px 1px 0;
+    position: absolute;
+    top: 15px;
+    right: -5px;
+    content: " ";
+    margin-top: -5px;
+}
