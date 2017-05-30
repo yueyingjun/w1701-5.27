@@ -1,0 +1,13 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover{
+	color: #cc0000;
+}

@@ -1,0 +1,452 @@
+body {
+    text-size-adjust: 100%;
+    font: 12px 宋体, "Arial Narrow", HELVETICA;
+    background: rgb(255, 255, 255);
+}
+.tkp_navWrap {
+    height: 38px;
+    width: 100%;
+    margin-bottom: 10px;
+    position: fixed;
+    z-index: 999999998;
+}
+.tkp_navBox {
+    top: 0px;
+    width: 100%;
+    min-width: 1000px;
+    height: 38px;
+    background-color: rgb(0, 110, 187);
+    text-align: center;
+    z-index: 999999999;
+    font-family: 宋体;
+    line-height: 26px;
+}
+.tkp_navBox .navBox_l {
+    position: relative;
+    float: left;
+    z-index: 20;
+    padding: 0 10px 0 0;
+}
+.fl_dib {
+    float: left;
+    display: inline-block;
+}
+.tkp_navBox ul {
+    float: left;
+}
+.tkp_navBox li {
+    float: left;
+    background: url("../images/icon_sprite.png") no-repeat #006ebb;
+    background-position: 0 -113px;
+    font-size: 12px;
+}
+.tkp_navBox li.first {
+    font-weight: bold;
+}
+.tkp_navBox li a, .tkp_navBox li a:hover, .tkp_navBox .navBox_r li.i_app a:hover, .tkp_navBox .navBox_r li.i_login a:hover {
+    color: #feffff;
+    _background-color: #006ebb;
+}
+.tkp_navBox li a {
+    display: block;
+    padding: 6px 13px;
+}
+.tkp_navBox .i_moreNav {
+    display: block;
+    padding-left: 15px;
+    background: url('../images/icon_sprite.png') no-repeat;
+    background-position: -22px -97px;
+}
+.tkp_navBox .navmenu {
+    display: none;
+    position: absolute;
+    top: 38px;
+    right: -5px;
+    background: #006ebb;
+    text-align: center;
+    width: 74px;
+}
+.tkp_navBox li a {
+    display: block;
+    padding: 6px 13px;
+}
+.tkp_navBox li:hover .navmenu{
+	display: block;
+}
+.fr_dib {
+    float: right;
+    display: inline-block;
+}
+.tkp_navBox .ul_app {
+    margin-right: 20px;
+}
+.tkp_navBox .navBox_r li.i_app, .tkp_navBox .navBox_r ul li.i_login {
+    background: none;
+}
+.tkp_navBox .navBox_r li.i_app a {
+    background: url('../images/icon_sprite.png') no-repeat;
+    background-position: -85px 8px;
+    padding-left: 20px;
+}
+.tkp_navBox .navBox_r li a {
+    padding: 6px 10px;
+}
+.tkp_navBox .navBox_r li.i_login a {
+    background: url('../images/icon_sprite.png') no-repeat;
+    background-position: -85px -18px;
+    padding-left: 20px;
+}
+
+.tkp_navBox .navBox_r li a {
+    padding: 6px 10px;
+}
+.container {
+    padding: 30px 0;
+}
+.comWidth, .comWith {
+    width: 1000px;
+    margin: 0 auto;
+}
+.con_l {
+    width: 646px;
+    margin-top: 50px;
+}
+.fl_dib {
+    float: left;
+    display: inline-block;
+}
+.tpk_con_nav {
+    width: 646px;
+    height: 26px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+.tpk_nav_logo {
+    width: 147px;
+    height: 26px;
+    overflow: hidden;
+}
+.tpk_nav_logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.tpk_nav_link {
+    width: auto;
+    height: 14px;
+    margin-top: 12px;
+}
+.fr_dib {
+    float: right;
+    display: inline-block;
+}
+.tpk_nav_link span {
+    color: #999;
+    margin: 0 8px;
+}
+.tpk_con_tle {
+    color: rgb(37, 37, 37);
+    font: 26px/38px 微软雅黑;
+    margin: 25px 0px 10px;
+}
+.tpk_article_info {
+    height: 28px;
+    line-height: 28px;
+    color: #666;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted #ddd;
+}
+.fl_dib {
+    float: left;
+    display: inline-block;
+}
+.article_share {
+    position: relative;
+    margin-left: -10px;
+}
+.share_list {
+    /* display: none; */
+    position: absolute;
+    top: 24px;
+    left: 0px;
+    width: 75px;
+    height: 90px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: 0 none;
+    padding: 5px;
+    z-index: 9999;
+}
+.share_list a.s_weibo {
+    background-position: 0 0;
+}
+.share_list a {
+    display: block;
+    width: 50px;
+    height: 24px;
+    padding-left: 25px;
+    line-height: 17px;
+    background: url('../images/icon22.png') no-repeat;
+}
+.share_list a.s_qzone {
+    background-position: 0 -27px;
+}
+.share_list a.s_qq {
+    background-position: 0 -54px;
+}
+.share_list a.s_sina {
+    background-position: 0 -79px;
+}
+.s_share {
+    display: block;
+    position: relative;
+    width: 85px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+.fr_dib {
+    float: right;
+    display: inline-block;
+}
+.tpk_text p {
+    margin: 20px 0 0 0;
+}
+.tpk_text {
+    color: rgb(51, 51, 51);
+    font: 16px/30px 微软雅黑;
+}
+.tpk_page {
+    text-align: center;
+    margin: 20px 0;
+}
+.tkp_con_author {
+    height: 25px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #999;
+    margin-bottom: 45px;
+}
+.tkp_con_author span {
+    float: right;
+}
+.tkp_con_like {
+    height: 27px;
+    margin-bottom: 45px;
+}
+.con_like_l {
+    width: 335px;
+}
+.con_like_l a.a_like {
+    background-position: 0 0;
+}
+.con_like_l a {
+    background: url('../images/i_cont_sprite.png') no-repeat;
+    padding: 0 33px;
+    line-height: 29px;
+    height: 27px;
+}
+.con_like_l a.a_unlike {
+    background-position: 0 -65px;
+}
+.con_like_r {
+    width: 155px;
+    margin-top: 2px;
+}
+.fr_dib {
+    float: right;
+    display: inline-block;
+}
+.bshare-custom.icon-medium {
+    font-size: 14px;
+    line-height: 20px !important;
+}
+.bshare-custom {
+    font-size: 13px;
+    line-height: 16px !important;
+}
+.bshare-custom.icon-medium .bshare-weixin {
+    background: url('../images/weixin.gif') no-repeat;
+    display: inline-block;
+}
+.tkp_con_xg {
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.con_xg_tle {
+    width: 646px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.con_xg_tle span {
+    font-weight: bold;
+}
+.tkp_con_xg li {
+    background: url('../images/i_cont_sprite.png') -28px -185px no-repeat;
+    width: 636px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 10px;
+    overflow: hidden;
+}
+.tkp_con_xg li a {
+    color: #333;
+}
+.tkp_con_xg li span {
+    color: #999;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.con_r {
+    width: 300px;
+    margin-top: 50px;
+}
+.tkp_con_sreach {
+    width: 300px;
+    height: 45px;
+}
+.tkp_con_sreach .seach {
+    height: 31px;
+    font-size: 12px;
+    margin: 3px 0 10px 0;
+    float: right;
+    display: inline;
+}
+.tkp_con_sreach .seachList {
+    width: 50px;
+    height: 23px;
+    background: #F3F3F3;
+    border: solid 1px #CBCBCB;
+    font-size: 14px;
+    float: left;
+    position: relative;
+    text-indent: 8px;
+}
+.tkp_con_sreach .seach input {
+    width: 170px;
+    height: 23px;
+    border: solid 1px #CBCBCB;
+    background: white;
+    color: #BDBDBD;
+    border-left: 0;
+    line-height: 23px;
+    padding-left: 10px;
+    float: left;
+}
+.tkp_con_sreach .seach .button {
+    width: 67px;
+    height: 25px;
+    background: #E3E3E3;
+    border: solid 1px #CBCBCB;
+    border-left: 0;
+    color: #666;
+    font-size: 12px;
+    float: left;
+    cursor: pointer;
+    overflow: hidden;
+    padding-left: 0px;
+}
+.tkp_con_sreach .seach input {
+    width: 170px;
+    height: 23px;
+    border: solid 1px #CBCBCB;
+    background: white;
+    color: #BDBDBD;
+    border-left: 0;
+    line-height: 23px;
+    padding-left: 10px;
+    float: left;
+}
+.tkp_con_sreach .seachList h3 {
+    margin-top: 3px;
+    height: 23px;
+    overflow: hidden;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+}
+.tkp_con_sreach .seachList em {
+    width: 8px;
+    height: 6px;
+    background: url('../images/icon08.png') no-repeat;
+    position: absolute;
+    right: 4px;
+    top: 10px;
+}
+.ad_300_250 {
+    padding-top: 5px;
+}
+.tpk_con_title {
+    height: 30px;
+    font: 18px/30px 微软雅黑;
+    margin: 20px 0px 15px;
+}
+.tpk_con_title a {
+    color: #C90;
+}
+.tpk_con_list {
+    overflow: hidden;
+}
+.tpk_con_list li {
+    width: 300px;
+    height: 95px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.list_l {
+    width: 130px;
+    height: 95px;
+    overflow: hidden;
+}
+.tpk_con_list h5, .list_r {
+    font: 14px/21px 微软雅黑;
+}
+.tpk_con_list h5, .list_r {
+    font: 14px/21px 微软雅黑;
+}
+.tpk_con_list h5 a {
+    color: #999;
+}
+.tpk_con_list h5 a.txt, .list_r a, .list_txt a {
+    color: #333;
+}
+.list_r {
+    width: 150px;
+}
+.tpk_con_list dl {
+    width: 110%;
+}
+.tpk_con_list dd {
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    margin-right: 20px;
+    float: left;
+}
+.list_img {
+    width: 140px;
+    height: 95px;
+    overflow: hidden;
+}
+.list_txt {
+    font: 14px/20px "微软雅黑";
+    margin-top: 5px;
+}
+.tpk_con_list li {
+    width: 300px;
+    height: 95px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.list_l {
+    width: 130px;
+    height: 95px;
+    overflow: hidden;
+}
+.lid_img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}

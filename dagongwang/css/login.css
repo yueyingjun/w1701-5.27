@@ -1,0 +1,209 @@
+.pubTopNav {
+    background: url('../images/topnavbg.jpg') repeat-x;
+    color: #ccc;
+    height: 30px;
+    overflow: hidden;
+}
+.comWidth, .comWith {
+    width: 1000px;
+    margin: 0 auto;
+}
+.fl_dib {
+    float: left;
+    display: inline-block;
+}
+.pubTopNav li {
+    float: left;
+    background: url('../images/icon2.png') right center no-repeat;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+    font: 12px/30px "宋体";
+}
+.pubTopNav li.last {
+    background: none !important;
+    border: none !important;
+    padding-right: 0;
+}
+.fr_dib {
+    float: right;
+    display: inline-block;
+}
+.loginMain {
+    background: url('../images/login_main_bg_2.png') no-repeat center top;
+    height: 608px;
+}
+.loginMain .lm .lm_more {
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 165px;
+    width: 79px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 10px;
+    color: #666666;
+    background: url('../images/login_more_bg.png') no-repeat left top;
+}
+.loginMain .lm {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.loginMain .lm .lm_login_div {
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    background: url('../images/login_inpu_bg.png') no-repeat left top;
+    width: 345px;
+    height: 359px;
+}
+.loginMain .lm .lm_login {
+    width: 315px;
+    height: 295px;
+    overflow: hidden;
+    padding-left: 22px;
+    padding-top: 55px;
+}
+.loginMain .lm .lm_login .login_error {
+    color: #cc0000;
+    font-size: 12px;
+    line-height: 25px;
+    width: 270px;
+    height: 25px;
+    overflow: hidden;
+    padding-left: 45px;
+}
+.loginMain .lm .lm_login .login_ul {
+    display: block;
+    clear: both;
+    height: 45px;
+    line-height: 35px;
+    padding-top: 10px;
+}
+.loginMain .lm .lm_login .login_ul .login_li {
+    display: inline;
+    float: left;
+    font-size: 14px;
+    text-align: left;
+    width: 45px;
+    color: #646464;
+}
+.loginMain .lm .lm_login .login_ul .login_li_con {
+    display: inline;
+    float: left;
+    font-size: 12px;
+    width: 260px;
+    height: 40px;
+    line-height: 35px;
+    color: #333;
+}
+.loginMain .lm .lm_login .login_ul .login_li_con input {
+    display: inline;
+    float: left;
+    padding: 5px;
+    width: 240px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #76cbf4;
+    color: #646464;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    text-align: left;
+}
+.loginMain .lm .lm_login .login_li_con2 {
+    font-size: 12px;
+    width: 260px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 45px;
+    padding-bottom: 10px;
+}
+.loginMain .lm .lm_login .login_li_con2 input {
+    display: inline;
+    float: left;
+    height: 35px;
+}
+.loginMain .lm .lm_login .login_li_con2 font {
+    display: inline;
+    float: left;
+    font-size: 12px;
+    line-height: 35px;
+    color: #4d4d4d;
+    padding-left: 5px;
+}
+.loginMain .lm .lm_login .login_li_con2 a {
+    color: #62a5cf;
+    padding-left: 100px;
+}
+.loginMain .lm .lm_login .login_li_con3 {
+    font-size: 12px;
+    width: 260px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 45px;
+    padding-bottom: 10px;
+}
+.loginMain .lm .lm_login .login_li_con3 .login_btn {
+    float: left;
+    display: inline-block;
+    background: url('../images/login_btn.png') no-repeat left top;
+    width: 112px;
+    height: 38px;
+    border: 0 none;
+    cursor: pointer;
+}
+.loginMain .lm .login_qszc {
+    font-size: 12px;
+    color: #333;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 55px;
+    padding-top: 28px;
+}
+.loginMain .lm .login_qszc a {
+    color: #365ab6;
+    cursor: pointer;
+    padding-left: 25px;
+}
+#userFooter {
+    background: url('../images/login_foot_bg.png') repeat-x left top;
+    height: 94px;
+}
+#userFooter .copyright {
+    padding-top: 20px;
+    width: 980px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+
+.copyright {
+    padding: 20px 0 30px 0;
+    height: 80px;
+    font: 12px/20px "宋体";
+    text-align: center;
+    color: #2b2b2b;
+}
+#userFooter .copyright .cop_dg {
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 0px;
+}
+#userFooter .copyright .p-cut {
+    color: #2b2b2b;
+    text-align: center;
+    line-height: 22px;
+    font-size: 12px;
+}
+.copyright .p-cut {
+    font: 12px/22px "宋体";
+    margin-top: 10px;
+}
+#userFooter .copyright .cop_dg a {
+    color: #2b2b2b;
+    text-decoration: none;
+}
+.copyright .cop_dg a {
+    color: #2b2b2b;
+}

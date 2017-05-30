@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>大公网-用户登录</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<div class="pubTopNav" id="pubTopNav">
+        <div class="comWidth clearfix">
+            <div class="fl_dib">
+                <ul>
+                    <li><a href="##/" target="_blank">大公首页</a></li>
+                    <li><a href="##" target="_blank">网站导航</a></li>
+                    <li class="last"><a target="_blank" href="##">新闻客户端</a></li>
+                </ul>
+            </div>
+            <div class="fr_dib">
+                <ul>
+                    <li class="setWebLange"><a href="##" target="_slef" class="a_setLange">繁体</a></li>
+                    <li><a href="login.html" target="_self">登录</a></li><li><a href="regist.html" target="_blank">注册</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="loginMain">
+	    <div class="lm">
+	        <!-- 帮助中心-->
+	        <div class="lm_help"></div>
+	        <!-- 了解更多-->
+	        <a class="lm_more" href="##" target="_blank">了解更多</a>
+	        <!-- 账户登录-->
+	        <div class="lm_login_div">
+	            <div class="lm_login">
+	                <!-- 如果你想修改 form的id 那么需要同时修改login.js里面的$("#login_form").submit();-->
+	                <form id="login_form" action="/user/login" method="post">
+	                    <!-- 错误显示区域-->
+	                    <div class="login_error" id="error_msg">
+	                                                        </div>
+	                    <!-- 错误显示区域end-->
+	                    <!-- 登录输入框-->
+	                    <ul class="login_ul">
+	                        <li class="login_li">账号：</li>
+	                        <li class="login_li_con">
+	                        <input type="text" id="uname" name="user_name" placeholder="用户名/邮箱地址">
+	                        </li>
+	                    </ul>
+	                    <ul class="login_ul">
+	                        <li class="login_li">密码：</li>
+	                        <li class="login_li_con">
+	                        <input type="password" id="pwd" name="user_password" placeholder="输入您的密码" autocomplete="off">
+	                        </li>
+	                    </ul>
+	                    <div class="login_li_con2">
+	                        <input type="checkbox" id="rember_cb" name="rember_cb"><font>下次自动登录</font>
+	                        <a href="/user/password" target="_blank">忘记密码？</a>                </div>
+	                    <div class="login_li_con3">
+	                        <input type="hidden" name="_auth_token" value=""><input type="hidden" name="callback" value="##">
+	                        <input class="login_btn" onclick="javascript:return submitLogin();" onmouseover="this.className = 'login_btn_on'" onmouseout="this.className = 'login_btn'" type="button" name="login">
+	                    </div>
+	                
+	                <!-- 登录输入框end-->
+	                <!-- 还没有账号？快速注册-->
+	                <div class="login_qszc">还没有账号？<a href="/user/register" target="_self">快速注册</a></div>
+	                <!-- 还没有账号？快速注册end-->
+	            </form>
+	        </div>
+	    	</div>
+
+                <!-- 账户登录end-->
+                <!-- 快速登录 如果暂时用不到快速登录 那么先屏蔽 别删除 因为js里面有事件关联-->
+	        <div class="lm_kuaisu">
+	            <font></font>
+	            <ul>
+	                <!--
+	                <li id="qqLoginBtn"></li>
+	                <li><a class="qq" href="javascript:;"></a></li>
+	                <li><a class="kx" href="#"></a></li>
+	                <li><a class="tb" href="#"></a></li>
+	                <li><a class="sina" href="#"></a></li>
+	                -->
+	            </ul>
+	        </div>
+                <!-- 快速登录end-->
+        </div>
+    </div>
+    <div class="footer" id="userFooter">
+                <div class="copyright">
+                    <div class="cop_dg"> <a href="##" target="_blank">关于我们</a> | <a href="##" target="_blank"> 网站声明</a> | <a href="##" target="_blank"> 举报投诉须知</a> | <a href="##" target="_blank"> 诚聘英才</a> | <a href="##" target="_blank"> 联系我们</a> | <a target="_blank" href="##"> 广告服务</a> | <a href="##" target="_blank"> 网站地图</a> | <a href="##" target="_blank"> 京ICP备13049349号</a> | <a href="##" target="_blank"> 京公网安备11010102000014号</a> </div>
+                    <div class="p-cut"> 大公报总机:+852-2575 7181 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大公网:香港 +852-2573 1269 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （值班电话）+86-10-52047788</div>
+                    <div class="p-cut">大公网版权所有,未经允许,不得转载 中国大公网络有限公司</div>
+                </div>
+            </div>
+</body>
+</html>

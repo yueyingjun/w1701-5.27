@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>大公网-用户注册</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/regist.css">
+</head>
+<body>
+	<div class="pubTopNav" id="pubTopNav">
+        <div class="comWidth clearfix">
+            <div class="fl_dib">
+                <ul>
+                    <li><a href="##/" target="_blank">大公首页</a></li>
+                    <li><a href="##" target="_blank">网站导航</a></li>
+                    <li class="last"><a target="_blank" href="##">新闻客户端</a></li>
+                </ul>
+            </div>
+            <div class="fr_dib">
+                <ul>
+                    <li class="setWebLange"><a href="##" target="_slef" class="a_setLange">繁体</a></li>
+                    <li><a href="login.html" target="_self">登录</a></li><li><a href="regist.html" target="_blank">注册</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="regMain">
+            <div class="rm">
+                <!-- logo-->
+                <!--<a class="logo" href="http://www.takungpao.com/" target="_blank"></a>-->
+                <!-- 帮助中心-->
+                <div class="rm_help"><a href="#" target="_blank">帮助中心</a></div>
+                <!-- 账户注册-->
+                <div class="reg_div clearfix">
+                    <div class="reg_title">
+                        <span class="r_t_left">邮箱注册</span>
+                        <span class="r_t_right">已有账号？<a href="login.html" target="_blank">登录</a></span>
+                    </div>
+                    <div class="reg_con">
+                        <!-- 注册左侧-->
+                        <div class="r_c_left">
+                            <div class="reg_tip">Hi，新朋友，欢迎注册大公网，以下各项均必填。如注册遇到困难，请<a href="##" target="_blank"> 联系我们</a> :)<br>
+                                <span style="color:red;text-align:center"></span>
+                            </div>
+                            <form id="reg_form" name="reg_form" action="regist.html" method="post" autocomplete="off">
+                                <ul class="reg_ul">
+                                    <li class="reg_li">邮 箱</li>
+                                    <li class="reg_li_con">
+                                    <input type="text" id="r_email" name="user_email" placeholder="用于登录和找回密码">
+                                    </li>
+                                    <li class="reg_li_tip" id="email_tip"><span>请输入常用邮箱，通过验证后可用于登录和找回密码</span></li>
+                                    <li class="reg_li_error" id="email_error"></li>
+                                </ul>
+                                <ul class="reg_ul">
+                                    <li class="reg_li">昵称</li>
+                                    <li class="reg_li_con">
+                                    <input type="text" id="r_name" name="user_name" placeholder="输入您的昵称">
+                                    </li>
+                                    <li class="reg_li_tip" id="name_tip"><span>6-15位中文英文、数字、下划线，一经确认将不能更改</span></li>
+                                    <li class="reg_li_error" id="name_error"></li> </ul> <ul class="reg_ul">
+                                    <li class="reg_li">密 码</li>
+                                    <li class="reg_li_con"> <input type="password" id="r_pwd" name="user_password_new" placeholder="输入您的密码"> </li>
+                                    <li class="reg_li_tip" id="pwd_tip"> <div class="pwd_tips"> <div class="pwd_tips_info"><font>强度：</font><div class="len_box"><div class="len_color"></div></div>
+                                            <font id="pwd_flag"></font></div> <div class="pwd_tips_info">密码长度6~14位，字母区分大小写</div>
+                                    </div>
+                                    </li>
+                                    <li class="reg_li_error" id="pwd_error"></li>
+                                </ul>
+                                <ul class="reg_ul">
+                                    <li class="reg_li">确认密码</li>
+                                    <li class="reg_li_con">
+                                    <input type="password" id="r_rpwd" name="user_password_repeat" placeholder="再次输入您的密码">
+                                    </li>
+                                    <li class="reg_li_tip" id="rpwd_tip"><span>请再次输入密码</span></li>
+                                    <li class="reg_li_error" id="rpwd_error"></li>
+                                    <li class="reg_li_tip" id="rpwd_suc"><span>√</span></li>
+                                </ul>
+                                <ul class="reg_ul">
+                                    <li class="reg_li">验证码</li>
+                                    <li class="reg_li_con">
+                                    <input type="text" id="r_yzm" name="user_captcha" class="input_yzm" placeholder="请输入验证码">
+                                    <img id="ImgCodeLabelID" src="http://passport.takungpao.com/ajaxRegCode" onclick="javascript:refreshimg()" style="cursor:hand" alt="看不清？">
+                                    <a href="javascript:;" onclick="refreshimg()">看不清？</a>
+                                    </li>
+                                    <li class="reg_li_tip" id="yzm_tip"><span class="yzm_span">请输入图片中的字符，不区分大小写</span></li>
+                                    <li class="reg_li_error" id="yzm_error"></li>
+                                </ul>
+                                <div class="reg_li_con2">
+                                    <input type="checkbox" id="rember_cb" name="protocol"><font>我已阅读并接受</font>
+                                    <a href="/protocol" target="_blank">《用户协议》</a>
+                                </div>
+                                <ul class="reg_ul">
+                                    <li class="reg_li">&nbsp;</li>
+                                    <li class="reg_li_con">
+                                    <input type="submit" name="register" value="" class="reg_btn">
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+                        <!-- 注册左侧end-->
+                        <!-- 注册右侧-->
+                        <div class="r_c_right"><div class="img_info"></div></div>
+                        <!-- 注册右侧end-->
+                    </div>
+                </div>
+                <!-- 账户注册end-->
+            </div>
+        </div>
+</body>
+</html>
