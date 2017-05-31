@@ -1,0 +1,89 @@
+.messagebox{
+    width: 1000px;
+    height:600px;
+    margin:0 auto;
+    border-radius: 15px;
+    border:1px solid #000;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.top{
+    width: 100%;
+    text-align: center;
+    background: url(../img/list/bg.jpg@360h) center center no-repeat;
+    background-size: 100%;
+}
+.top_bt{
+    width: 80%;
+    height:10%;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    /*color: #fff;*/
+    border-bottom: 1px solid #ccc;
+    margin:0 auto;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+.top_bt span{
+    font-size: 14px;
+    position: absolute;
+    right:20px;
+}
+.messagebox .left{
+    width: 200px;
+    height:200px;
+    border:1px solid #ccc;
+    float: left;
+    margin-left: 20px;
+}
+.messagebox .left .top{
+    width: 100%;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    background: #D2DD07;
+    color: #fff;
+    font-size: 14px;
+}
+.messagebox .left ul{
+    overflow: hidden;
+}
+.messagebox .left ul li{
+    list-style: none;
+    width: 90%;
+    height:30px;
+    margin:0 auto;
+    line-height: 30px;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+}
+.messagebox .left ul li:last-child{
+    border-bottom: 0;
+}
+.messagebox .left ul li span{
+    float: right;
+    margin-right: 10px;
+}
+.messagebox .right{
+    width: 640px;
+    height:430px;
+    float: left;
+    border: 1px solid #ccc;
+    margin-left: 40px;
+    padding:20px;
+    position: relative;
+}
+.title1{
+    width: 100%;
+    height:30px;
+    margin-bottom: 10px;
+}
+.bottom{
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+}

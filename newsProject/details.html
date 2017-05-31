@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>生活列表页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/shange.css">
+    <link rel="stylesheet" href="css/details.css">
+    <script src="js/JQuery.js"></script>
+    <script src="js/hover.js"></script>
+    <script src="js/animate.js"></script>
+    <script>
+        $(function(){
+            //导航
+            var as=document.querySelectorAll("nav span a");
+            $("nav").delegate("a","click",function(){
+                var a=  $(this);
+                for(var i=0;i<as.length;i++){
+                    as[i].style.background="";
+                }
+                a.css("background","#D0011D");
+            })
+
+            //右边图
+            var right_pics=document.querySelectorAll(".right_img");
+            var right_box=document.querySelectorAll(".right_box");
+            var len=right_box.length;
+            var picnum=0;
+            var pic0=right_pics[0];
+
+            Array.from(right_box).forEach(function (ele,index) {
+                $(right_box[index]).hover(function () {
+                    num=index;
+                    $(".right_img").eq(num).css("display","block")
+                    pic0=right_pics[num];
+                },function(){
+                    $(".right_img").eq(index).css("display","none")
+                })
+            })
+
+
+//            Array.from(right_box).forEach(function(ele,index){
+//                for(var i=0;i<len;i++){
+//                    right_pics[i].classList.remove("pic_active");
+//                }
+//               right_pics[index].classList.add("pic_active");
+//
+//            })
+        })
+    </script>
+</head>
+<body>
+    <div class="totop">
+        <img src="img/list/totop.png" alt="">
+    </div>
+    <!--导航开始-->
+        <nav>
+        <div class="nav_con">
+            <span class="hover"><a href="javascript:;">首页</a></span>
+            <span><a href="javascript:;">星座</a></span>
+            <span><a href="javascript:;">家居</a></span>
+            <span><a href="javascript:;">美食</a></span>
+            <span><a href="javascript:;">潮流</a></span>
+            <span><a href="javascript:;">婚嫁</a></span>
+            <span><a href="javascript:;">塑性</a></span>
+            <span><a href="javascript:;">户外</a></span>
+        </div>
+    </nav>
+    <!--导航结束-->
+
+    <!--内容开始-->
+            <div class="row">
+                <div class="list_box col-md-8">
+                    <div class="tiao">
+                        <a href="">首页</a>><a href="">星座</a>
+                    </div>
+                    <div class="middle">
+                        <h1>啥星座最不配：哪些情侣不太合适 一言不合就掐架</h1>
+                        <div class="more">发布时间： 2017-03-05 14:54:47　|　来源： 新浪星座　|　作者： 魔法星座　|　责任编辑： 李芳</div>
+                        <p><img src="img/list/xz.gif" alt="啥星座情侣一言不合就掐架"></p>
+                        <p align="center">啥星座情侣一言不合就掐架</p>
+
+                        <p style="text-indent: 30px; margin: 0px 3px 15px;text-align: left">白羊座--天秤座</p>
+                        <p style="text-indent: 30px; margin: 0px 3px 15px;text-align: left">
+                            对于精力充沛的白羊来说，任何时候都是行动和思想同步进行，好像只要稍微考虑一下就会与目标拉开好远的距离，如此一来，
+                            有时候就得重新来过，偏偏白羊又是个特别讨厌重复的星座，一次就好，才有新意，才有激情，如果要他们总围着一件事情打转
+                            转，那是无论怎样都无法忍受的，会毫不犹豫的弃之寻找新目标，爱情同样如此，爱就轰轰烈烈的爱，若不爱就离开。至于天秤，
+                            和白羊的个性简直是南辕北辙，不是一个世界的，除了做事犹犹豫豫，更为重要的是太面面俱到了，全方位的思考是他们的强项，
+                            生怕漏掉什么没有注意到的细节，于是会反反复复的检查，核对，爱情更是会细致入微的对待，思绪飘来飘去，似乎永远找不到
+                            落脚点，这两个星座，一个脚步太快了，一个又太慢了，或许可以互补，却不是最合适的情侣，因为本性不会因时间而改变，再到配合对方。
+                        </p>
+
+                        <p style="text-indent: 30px; margin: 0px 3px 15px;text-align: left">金牛座--双鱼座</p>
+                        <p style="text-indent: 30px; margin: 0px 3px 15px;text-align: left">
+                            金牛是个稳扎稳打的典型星座，可以说，这是一种本能，也许，个别情况下也会有疏忽，可不会有第二次，他们会把教训牢牢的记在心中，甚至会为了预防犯同样的错误而做一些自己知道的标记，以此作为提醒，爱情更是谨慎到家了，没有百分百的把握，是不会行动的，他们的持久力可真是不能小视，而实际更是金牛爱情的基础，可以浪漫，但不允许过度。而作为古老轮回结束的双鱼，感情可是人生的重点，为了所爱的人牺牲奉献，在双鱼看来如同是做梦一般的美，虽然常常因此心痛到流泪，却无法停止。这两个星座，可以成为很好的朋友，相互倾诉心事，却不属于超幸福恋人，因为重视物质的金牛永远也无法体会双鱼那看似有些虚无缥缈的幻想，真要天天呆在一起，会在毫无察觉的情况下，越走越远。
+                        </p>
+
+                        <p style="text-indent: 30px; margin: 0px 3px 15px;text-align: left">狮子座--巨蟹座</p>
+                        <p style="text-indent:  30px; margin: 0px 3px 15px;text-align: left">
+                            说双子是变化与速度的代表，一点都不为过，因为思绪常常都无法控制，所以会情不自禁的想东想西，可以很快的接收新信息，却也会以最快的速度将之忘得干干净净，于是常常让人怀疑他们是不是有认真，而爱情更是令人琢磨不透了，似乎接受了，可就是一眨眼的功夫立马推翻了之前的决定，一心一意对于双子来说实在是太难了。神秘的天蝎，虽然也会有令人费解的一面，可对待感情，他们就执着了，一旦确定了，就会用真心来好好呵护，什么都可以变，只有爱情，无论遭遇多大的风浪，天蝎也会坚定的守护，伤心也好，难过也罢，不到万不得已，是不会放手的，于是他们成了深情的典范，和双子可以说是对立星座，不管是从哪个方面说，他们也不是合适的情侣，一动一静，爱情无法找到相同的频率。
+
+                        </p>
+
+                        <p style="text-indent: 30px; margin: 0px 3px 15px;text-align: left">狮子座--巨蟹座</p>
+                        <p style="text-indent:  30px; margin: 0px 3px 15px;text-align: left">
+                            说双子是变化与速度的代表，一点都不为过，因为思绪常常都无法控制，所以会情不自禁的想东想西，可以很快的接收新信息，却也会以最快的速度将之忘得干干净净，于是常常让人怀疑他们是不是有认真，而爱情更是令人琢磨不透了，似乎接受了，可就是一眨眼的功夫立马推翻了之前的决定，一心一意对于双子来说实在是太难了。神秘的天蝎，虽然也会有令人费解的一面，可对待感情，他们就执着了，一旦确定了，就会用真心来好好呵护，什么都可以变，只有爱情，无论遭遇多大的风浪，天蝎也会坚定的守护，伤心也好，难过也罢，不到万不得已，是不会放手的，于是他们成了深情的典范，和双子可以说是对立星座，不管是从哪个方面说，他们也不是合适的情侣，一动一静，爱情无法找到相同的频率。
+
+                        </p>
+
+                        <p style="text-indent: 30px; margin: 0px 3px 15px;text-align: left">狮子座--巨蟹座</p>
+                        <p style="text-indent:  30px; margin: 0px 3px 15px;text-align: left">
+                            说双子是变化与速度的代表，一点都不为过，因为思绪常常都无法控制，所以会情不自禁的想东想西，可以很快的接收新信息，却也会以最快的速度将之忘得干干净净，于是常常让人怀疑他们是不是有认真，而爱情更是令人琢磨不透了，似乎接受了，可就是一眨眼的功夫立马推翻了之前的决定，一心一意对于双子来说实在是太难了。神秘的天蝎，虽然也会有令人费解的一面，可对待感情，他们就执着了，一旦确定了，就会用真心来好好呵护，什么都可以变，只有爱情，无论遭遇多大的风浪，天蝎也会坚定的守护，伤心也好，难过也罢，不到万不得已，是不会放手的，于是他们成了深情的典范，和双子可以说是对立星座，不管是从哪个方面说，他们也不是合适的情侣，一动一静，爱情无法找到相同的频率。
+
+                        </p>
+                    </div>
+                </div>
+                <div class="right col-md-4">
+                    <div class="list_right">
+                        <div class="list_title">热点推荐</div>
+                        <!--内容-->
+                        <div class="right_box">
+                            <div class="right_con">
+                                <div class="right_time">2017-04-06</div>
+                                <div class="right_img pic_active">
+                                    <a href="javascript:;"><img src="img/list/l1.jpg" alt="" ></a>
+                                </div>
+                                <div class="right_title">
+                                    <a href="javascript:;">维多利亚古典风吹起新时尚 文艺复古癌患者必看</a>
+                                </div>
+                                <div class="list_con">
+                                    从19世纪开始，婚纱造型就成为每个女孩子一生中最重要的造型之一，而十九世纪的婚纱也很大程度上留有维多利亚的古典情节。文艺复古凸显质感与细节，精致蕾丝，荷叶剪裁，复古高领都是必不可少的元素。
+                                </div>
+                                <div class="type">婚纱造型,古典,新娘,复古</div>
+                            </div>
+                        </div>
+
+                        <div class="right_box">
+                            <div class="right_con">
+                                <div class="right_time">2017-04-06</div>
+                                <div class="right_img">
+                                    <a href="javascript:;"><img src="img/list/l1.jpg" alt=""></a>
+                                </div>
+                                <div class="right_title">
+                                    <a href="javascript:;">维多利亚古典风吹起新时尚 文艺复古癌患者必看</a>
+                                </div>
+                                <div class="list_con">
+                                    从19世纪开始，婚纱造型就成为每个女孩子一生中最重要的造型之一，而十九世纪的婚纱也很大程度上留有维多利亚的古典情节。文艺复古凸显质感与细节，精致蕾丝，荷叶剪裁，复古高领都是必不可少的元素。
+                                </div>
+                                <div class="type">婚纱造型,古典,新娘,复古</div>
+                            </div>
+                        </div>
+
+                        <div class="right_box">
+                            <div class="right_con">
+                                <div class="right_time">2017-04-06</div>
+                                <div class="right_img">
+                                    <a href="javascript:;"><img src="img/list/l1.jpg" alt=""></a>
+                                </div>
+                                <div class="right_title">
+                                    <a href="javascript:;">维多利亚古典风吹起新时尚 文艺复古癌患者必看</a>
+                                </div>
+                                <div class="list_con">
+                                    从19世纪开始，婚纱造型就成为每个女孩子一生中最重要的造型之一，而十九世纪的婚纱也很大程度上留有维多利亚的古典情节。文艺复古凸显质感与细节，精致蕾丝，荷叶剪裁，复古高领都是必不可少的元素。
+                                </div>
+                                <div class="type">婚纱造型,古典,新娘,复古</div>
+                            </div>
+                        </div>
+
+                        <div class="right_box">
+                            <div class="right_con">
+                                <div class="right_time">2017-04-06</div>
+                                <div class="right_img">
+                                    <a href="javascript:;"><img src="img/list/l1.jpg" alt=""></a>
+                                </div>
+                                <div class="right_title">
+                                    <a href="javascript:;">维多利亚古典风吹起新时尚 文艺复古癌患者必看</a>
+                                </div>
+                                <div class="list_con">
+                                    从19世纪开始，婚纱造型就成为每个女孩子一生中最重要的造型之一，而十九世纪的婚纱也很大程度上留有维多利亚的古典情节。文艺复古凸显质感与细节，精致蕾丝，荷叶剪裁，复古高领都是必不可少的元素。
+                                </div>
+                                <div class="type">婚纱造型,古典,新娘,复古</div>
+                            </div>
+                        </div>
+
+                        <div class="right_box">
+                            <div class="right_con">
+                                <div class="right_time">2017-04-06</div>
+                                <div class="right_img">
+                                    <a href="javascript:;"><img src="img/list/l1.jpg" alt=""></a>
+                                </div>
+                                <div class="right_title">
+                                    <a href="javascript:;">维多利亚古典风吹起新时尚 文艺复古癌患者必看</a>
+                                </div>
+                                <div class="list_con">
+                                    从19世纪开始，婚纱造型就成为每个女孩子一生中最重要的造型之一，而十九世纪的婚纱也很大程度上留有维多利亚的古典情节。文艺复古凸显质感与细节，精致蕾丝，荷叶剪裁，复古高领都是必不可少的元素。
+                                </div>
+                                <div class="type">婚纱造型,古典,新娘,复古</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <!--内容结束-->
+
+</body>
+</html>

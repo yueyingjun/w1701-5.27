@@ -1,0 +1,539 @@
+body {
+    font-family: '宋体';
+    font-size: 12px;
+    color: #000;
+    line-height: 20px;
+    background: url(../img/art/b5.gif) repeat-y top center #f6f6f6;
+}
+.topbox {
+    background: #fff;
+    height: 105px;
+    border-bottom: 3px solid #000;
+}
+.topbar {
+    width: 963px;
+    margin: 0 auto;
+    height: 57px;
+    padding: 24px 17px 24px 0;
+}
+.topbarimg {
+    width: 312px;
+    float: left;
+    display: inline;
+    margin-right: 76px;
+    padding-left: 24px;
+}
+a {
+    font-family: '宋体';
+    font-size: 12px;
+    color: #000;
+    line-height: 20px;
+    text-decoration: none;
+}
+img {
+    border: 0;
+    vertical-align: top;
+}
+.topbar .top2 {
+    width: 289px;
+    height: 28px;
+    float: left;
+    margin-top: 22px;
+    padding: 0 1px;
+    background: url(../img/art/a1.gif);
+}
+.topbar  .top2  input {
+    width: 257px;
+    height: 26px;
+    padding: 0 13px;
+    line-height: 25px;
+    color: #CCC;
+    margin: 1px 0;
+    border: 0;
+}
+.topbar .top3 {
+    width: 177px;
+    float: right;
+}
+nav {
+    clear: both;
+    width: 100%;
+    height: 49px;
+    text-align: center;
+    border-top: 3px solid #474B49;
+    line-height: 40px;
+    font-size: 14px;
+    color: #CCC;
+    background: url(../img/art/b5.gif) repeat-y top center #f6f6f6;
+}
+nav div {
+    width: 980px;
+    height: 49px;
+    position: relative;
+    margin: 0 auto;
+}
+nav a {
+    line-height: 40px;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    margin: 0 3px;
+}
+nav span {
+    padding: 0 9px;
+}
+.floor{
+    width: 980px;
+    overflow: hidden;
+    margin:0 auto;
+    padding-bottom: 20px;
+    clear: both;
+}
+.floor> .left_con{
+    width: 690px;
+    float: left;
+    display: inline;
+}
+.bannerimg {
+    width: 690px;
+    height: 285px;
+    position: relative;
+    overflow: hidden;
+}
+.bannerimg ul {
+    height: 285px;
+}
+.bannerimg li {
+    width: 690px;
+    height: 285px;
+    float: left;
+}
+.bannerimg li img {
+    width: 690px;
+    height: 285px;
+}
+.bannerimg div.lunbobox {
+    height: 15px;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+}
+.bannerimg span {
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    margin-left: 1px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 14px;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+}
+.toptitle {
+    clear: both;
+    padding: 7px 0 17px 0;
+}
+.toptitle h1 {
+    height: 56px;
+    overflow: hidden;
+    font-family: '微软雅黑';
+    font-size: 30px;
+    line-height: 56px;
+    font-weight: normal;
+    text-align: center;
+}
+.toptitle h1 a {
+    font-family: '微软雅黑';
+    font-size: 28px;
+    line-height: 56px;
+}
+.toptitle p {
+    padding-top: 6px;
+    line-height: 30px;
+    font-size: 14px;
+    height: 90px;
+    overflow: hidden;
+}
+.toptitle p a {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.floor .topcon{
+    clear: both;
+    overflow: hidden;
+}
+.floor .topcon .video {
+    width: 264px;
+    float: left;
+    padding-top: 11px;
+}
+.floor .topcon .video h1{
+    border-top: 3px solid #474B49;
+    border-bottom: 1px solid #CCC;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 88px;
+    margin-bottom: 3px;
+}
+.floor .topcon .video h1 span {
+    display: inline-block;
+    padding-left: 20px;
+    background: url(../img/art/a3.gif) no-repeat 0 13px;
+}
+.video dl {
+    clear: both;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.bbd {
+    border-bottom: 1px dotted #c8c8c8;
+}
+.video dt {
+    width: 102px;
+    height: 102px;
+    float: left;
+}
+.video dd {
+    width: 146px;
+    height: 109px;
+    overflow: hidden;
+    float: right;
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+}
+.video dt img {
+    width: 102px;
+    height: 102px;
+}
+.video dd p {
+    line-height: 24px;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+.video dd a {
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+}
+.video dd p a {
+    line-height: 24px;
+    font-size: 14px;
+    color: #000;
+}
+.video ul {
+    clear: both;
+    padding-top: 5px;
+}
+.video li {
+    height: 32px;
+    overflow: hidden;
+    padding-left: 22px;
+    background: url(../img/art/b8.jpg) no-repeat 0 8px;
+    border-bottom: 1px dotted #ccc;
+    line-height: 32px;
+}
+.video li a {
+    line-height: 32px;
+}
+.news {
+    width: 411px;
+    float: right;
+}
+.news li {
+    padding-left: 15px;
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+    font-size: 14px;
+}
+.news li span {
+    padding-right: 10px;
+}
+.news li a {
+    line-height: 30px;
+    font-size: 14px;
+}
+.bannerright{
+    width: 270px;
+    float: right;
+    display: inline;
+}
+h3.topic {
+    border-top: 3px solid #474B49;
+    border-bottom: 1px solid #c8c8c8;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    padding-left: 90px;
+    clear: both;
+}
+.bbs {
+    border-bottom: 1px solid #c8c8c8;
+}
+h3.topic span {
+    display: inline-block;
+    padding-left: 20px;
+    background: url(../img/art/a3.gif) no-repeat 0 13px;
+}
+h3.topic a {
+    font-size: 16px;
+    line-height: 40px;
+}
+.topic_xia {
+    clear: both;
+    padding: 8px 5px 14px 5px;
+}
+.topic_xia h1 {
+    padding-bottom: 3px;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+.topic_xia p {
+    padding-bottom: 4px;
+    line-height: 22px;
+}
+.topic_xia> div {
+    width: 260px;
+    height: 130px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+.topic_xia  #toup {
+    padding: 5px 0 5px 0;
+    text-align: center;
+}
+.pad1 {
+    padding-right: 5px;
+    font-size: 10px;
+}
+#txt {
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+}
+#txt span {
+    margin: 0 4px;
+    color: #C80000;
+    font-size: 18px;
+    font-weight: bold;
+}
+.tj {
+    width: 63px;
+    height: 21px;
+    border: 0;
+    background: url(../img/art/s14.jpg);
+}
+.viewpoint {
+    clear: both;
+    padding-bottom: 12px;
+}
+.viewpoint dl {
+    padding-bottom: 8px;
+}
+.viewpoint dd {
+    width: 270px;
+    height: 112px;
+    padding-bottom: 2px;
+}
+
+.viewpoint dt {
+    background: #000;
+    padding: 0 12px;
+    color: #fff;
+}
+.viewpoint dt a {
+    color: #fff;
+}
+.viewpoint dd img {
+    width: 270px;
+    height: 110px;
+}
+.viewpoint ul {
+    clear: both;
+}
+.viewpoint li {
+    padding-left: 12px;
+    line-height: 26px;
+}
+.viewpoint li a {
+    line-height: 26px;
+}
+.artist {
+    clear: both;
+    padding-bottom: 16px;
+}
+.artist dl {
+    zoom: 1;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.artist dt {
+    width: 68px;
+    height: 68px;
+    float: left;
+}
+.artist dd {
+    width: 187px;
+    float: right;
+}
+.artist dt img {
+    width: 68px;
+    height: 68px;
+}
+.artist .lun {
+    clear: both;
+    display: flex;
+}
+.artist img {
+    justify-content: space-around;
+    width: 50%;
+    margin-right: 10px;
+    height: 71px;
+}
+.artist img:nth-child(2){
+    margin-right: 0;
+}
+.artist div {
+    clear: both;
+    text-align: center;
+}
+.artist div a {
+    margin: 0 5px;
+}
+.yishu{
+    width: 980px;
+    margin:0 auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.yishu>.left{
+    width: 690px;
+    float: left;
+    display: inline;
+}
+.yishu>.right{
+    width: 270px;
+    float: right;
+    display: inline;
+}
+.shalong {
+    clear: both;
+    zoom: 1;
+    overflow: hidden;
+    padding-top: 7px;
+}
+.shalong .rightPic {
+    width: 405px;
+    height: 192px;
+    float: right;
+    padding-top: 8px;
+    position: relative;
+    overflow: hidden;
+}
+.shalong .rightPic  img {
+    width: 405px;
+    height: 192px;
+}
+.shalong .shalongleft{
+    width: 255px;
+    float: left;
+    padding: 10px 0 0 0;
+}
+.shalong .shalongleft  h1 {
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+}
+.shalong .shalongleft  h1 {
+    line-height: 26px;
+    font-size: 14px;
+}
+.shalong .shalongleft p.desc {
+    height: 88px;
+    overflow: hidden;
+}
+.shalong .shalongleft p {
+    clear: both;
+    line-height: 22px;
+    color: #666;
+}
+.shalong .shalongleft p a {
+    line-height: 22px;
+    color: #666;
+}
+.dujia {
+    padding-top: 12px;
+}
+.dujia h1 {
+    padding: 4px 0;
+    font-size: 14px;
+    text-align: center;
+}
+.dujia h1 a {
+    font-size: 14px;
+}
+.dujia p {
+    padding: 0 0 10px 0;
+    color: #666;
+}
+.dujia ul {
+    clear: both;
+}
+.dujia li {
+    padding-left: 25px;
+    height: 30px;
+    overflow: hidden;
+    background: url(../img/art/b8.jpg) no-repeat 0 8px;
+    line-height: 30px;
+}
+.dujia li a {
+    line-height: 30px;
+}
+footer{
+    border-top: 3px solid #474B49;
+    padding: 17px 0 6px 0;
+    text-align: center;
+    width: 980px;
+    margin:0 auto;
+    clear: both;
+}
+footer .main {
+    overflow: hidden;
+    width: 980px;
+    margin: 0 auto;
+}
+footer .left {
+    width: 265px;
+    float: left;
+    text-align: right;
+}
+img {
+    border: 0;
+    vertical-align: top;
+}
+.right {
+    width: 700px;
+    float: right;
+    line-height: 27px;
+}
+footer .right a {
+    line-height: 27px;
+}
+.wx {
+    width: 120px;
+    height: 170px;
+    position: fixed;
+    left: 50%;
+    top: 310px;
+    margin-left: 520px;
+    background: url(../img/art/wx.jpg) no-repeat 0 0;
+}
