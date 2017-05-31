@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/tz.css">
+</head>
+<body>
+	 <form>
+        <h2>注册成功</h2>
+        <p>页面将在 <span>5</span>秒后跳转。<br>如需立即跳转，点击<a href="shouye.html">此处</a>跳转。</p>
+        <div class="jz">
+        	<img src="img/10.gif">
+        </div>
+    </form>
+</body>
+</html>
+<script>
+    let span = document.querySelector('span');
+    let url = document.querySelector('a').href;
+    let i = 5;
+    let t = setInterval(function () {
+        i--;
+        if(i === 0){
+            clearInterval(t);
+            location.href = url;
+            return;
+        }
+        span.innerHTML = i;
+    },1000);
+</script> 

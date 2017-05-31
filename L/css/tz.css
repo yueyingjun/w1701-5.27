@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image:url(../img/timg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form{
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+	margin: auto;
+	background: #000;
+}
+form>h2{
+	text-align: center;
+	margin-top: 20px;
+	color: #fff;
+}
+form>p{
+	text-align: center;
+	margin-top: 20px;
+	color: #fff;
+}
+form>.jz{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+}
+form>.jz>img{
+	width: 100%;
+	margin-top: 80px;
+}
