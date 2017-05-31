@@ -1,0 +1,233 @@
+header {
+    width: 100%;
+    height: 69px;
+}
+.header {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header .log {
+    width: 121px;
+    height: 69px;
+    float: left;
+}
+.header .log img {
+    width: 100%;
+    height: 100%;
+}
+.header .date {
+    float: left;
+    padding: 13px 0px 0px 10px;
+}
+.header .date .phone {
+    width: 58px;
+    height: 18px;
+    margin-bottom: 3px;
+    background-position: -194px -149px;
+    line-height: 18px;
+    text-indent: 14px;
+    background: url("../img/phone.png");
+}
+.header .date .phone .a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #004276;
+}
+.header .date .time {
+    font-size: 12px;
+    line-height: 24px;
+    color: #585858;
+    margin-top: 15px;
+}
+.phone {
+    width: 58px;
+    height: 18px;
+    margin-bottom: 3px;
+    background-position: -194px -149px;
+    line-height: 18px;
+    text-indent: 14px;
+    background: url("../img/phone.png");
+}
+.header-right {
+    width: 470px;
+    height: 61px;
+    float: right;
+    text-align: right;
+}
+.header-right b {
+    font-weight: bold;
+}
+.header-right b .red {
+    color: #91363a;
+}
+.header-right a {
+    font-size: 12px;
+    line-height: 32px;
+    color: #004276;
+}
+.header-right .lag {
+    width: 470px;
+    height: 17px;
+    background: url(../img/wenzi.gif) no-repeat;
+    overflow: hidden;
+    margin-top: 12px;
+}
+.header-right .lag a {
+    float: left;
+    margin-right: 10px;
+    line-height: 18px;
+    display: inline-block;
+    margin-left: 2px;
+    padding-top: 17px;
+    font-size: 12px;
+}
+.logo{
+    width:600px;
+    height:400px;
+    margin: 80px auto;
+    border: 2px solid #ccc;
+}
+.sao{
+    width: 150px;
+    height: auto;
+    float: left;
+
+}
+.saowen{
+    float: left;
+    margin-top: 20px;
+    width:100%;
+    height:auto;
+    text-align: left;
+    line-height: 30px;
+    font-size: 14px;
+    color: #000;
+}
+.erw{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+.erw img{
+    width:100%;
+    height: 100%;
+}
+.logo-main{
+    float: right;
+    width:440px;
+    height:auto;
+}
+.input1{
+    width: 200px;
+    height:30px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.input1:first-child{
+    margin-top: 60px;
+}
+.put1{
+    width: 150px;
+    height: 30px;
+}
+.dlb{
+    width: 200px;
+    height: 30px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 20px;
+    line-height: 23px;
+}
+.put2{
+    display:block; width:80px;height: 20px;float: left; color:#fff;
+    margin-left: 10px;
+    border:none;background: #000;
+    border-radius: 5px;
+}
+.xiatou{
+    float: left;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+.friend {
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.friend .friend-m {
+    width: 1000px;
+    height: 81px;
+    margin: 0 auto;
+    border-top: 1px solid #737373;
+    position: relative;
+}
+.friend .friend-m .fri {
+    width: 75px;
+    height: 81px;
+    float: left;
+    font-size: 16px;
+}
+.friend .friend-m .fri a {
+    width: 75px;
+    height: 81px;
+    padding: 5px 0;
+    display: block;
+    color: #004276;
+}
+.friend .friend-m .frim {
+    width: 920px;
+    height: 81px;
+    float: left;
+    font-size: 12px;
+}
+.friend .friend-m .frim a {
+    float: left;
+    padding: 10px 6px;
+    display: block;
+    color: #000000;
+}
+.xiatou a{
+    color: #8F1C21;
+}
+.wei {
+    width: 1000px;
+    margin: 0 auto;
+    border-top: 5px solid #000000;
+    color: #424242;
+    line-height: 23px;
+    padding-bottom: 14px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.wei a {
+    color: #2F3444;
+}
+.kexin {
+    margin-top: 20px;
+}
+.input01{
+    width: 250px;
+    height:30px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.input01:first-child{
+    width: 250px;
+    height:30px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+input{
+    cursor: pointer;
+}
+a:hover{
+    color: #8F1C21;
+}
