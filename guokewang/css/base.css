@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding:0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+li{
+	 list-style: none;
+}
+a{
+	color: #0078b6;
+	text-decoration: none;
+}

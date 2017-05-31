@@ -1,0 +1,287 @@
+ .banner{
+	width: 100%;
+	height: 750px;
+	background: blue;
+
+	position: relative;
+	
+	
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+.banner .banner-tu{
+	width: 100%;
+	height: 750px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: auto;
+
+
+}
+.banner .zz{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 148, 42, 0.21);
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: auto;
+
+	/* float: left; */
+	
+}
+
+.header{
+	width: 100%;
+	height: 100px;
+	background:rgba(255,255,255,0.8);
+  position: absolute;
+	top: 0;
+	left: 0;
+	margin: auto;
+
+}
+.header-k{
+	width: 1200px;
+	height: 100%;
+	/* background: red; */
+	margin:0 auto;
+}
+.header-k .zi-k{
+	width: 90px;
+	height: 100%;
+	/* background: pink; */
+	
+}
+.header-k .zi-k:nth-child(1){
+	margin-right: 80px;
+	float: left;
+}
+.header-k .zi-k:nth-child(2){
+	margin-right: 80px;
+	float: left;
+}
+.header-k .zi-k:nth-child(3){
+	/* margin-right: 80px; */
+	float: left;
+}
+.header-k .zi-k:nth-child(4){
+	/* margin-right: 80px; */
+	float: left;
+	margin-left: 130px;
+}
+.header-k .zi-k:nth-child(5){
+	margin-left: 80px;
+	float: right;
+}
+.header-k .zi-k:nth-child(6){
+	margin-left: 80px;
+	float: right;
+}
+.header-k .zi-k:nth-child(7){
+	/* margin-left: 80px; */
+	float: right;
+}
+.zi-k h3{
+    font-size: 20px;
+    text-align: center;
+    /* line-height: 60px; */
+    margin-top: 25px;
+}
+.zi-k h3 P{
+    font-size: 16px;
+    text-align: center;
+    /* line-height:40px; */
+      font-weight:500;
+}
+.zi-k .tu{
+	width: 100%;
+	height: 100%;
+   /*  background: blue; */
+   /*  margin: 0 auto; */
+  /*   margin-top:17px ; */
+    background: url('../img/4-logo.png') center center no-repeat; 
+    background-size: 100%;
+
+}
+
+
+.banner .nr{
+	width: 1050px;
+	height: 650px;
+	/* background: blue; */
+	/* float: left; */
+	position: absolute;
+	top: 20px;
+	left:0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	
+}
+.banner .nr .jt-z{
+	width: 50.5px;
+	height: 51px;
+	background: url('../img/lbjty.png');
+	position: absolute;
+	top: 314.5px;
+	left: 0;
+}
+.banner .nr .jt-y{
+	width: 50.5px;
+	height: 51px;
+	background: url('../img/lbjtz.png');
+	position: absolute;
+	top: 314.5px;
+	right: 0;
+}
+.banner .nr .zi{
+width: 100%;
+height: 100px;
+position: absolute;
+top: 37%;
+margin: 0 auto;
+color: #fff;
+text-align: center;
+font-family: '苹方';
+font-size:35px;
+opacity: 0.8;
+
+}
+.banner .nr h2{
+  margin-left:4%;
+}
+.nr ul{
+	width: 20%;
+	height: 7%;
+	/* background: pink; */
+	 position: absolute;
+    bottom: 50px;
+    left: 43%;
+    margin: auto;
+}
+.nr ul li{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #fff;
+	float: left;
+	margin-right:20px;
+}
+/* banner */
+/* zhengwen */
+.dakuang{
+	width: 1050px;
+	height:2800px;
+	 /* background: pink;  */
+    /* overflow: hidden; */
+	margin: 0 auto;
+	position: relative;
+	/* margin-top: -126px; */
+	
+}
+.wenben{
+	width: 100%;
+	height:2850px;
+	background: #fff;
+	border-top: 7px solid #96CA66;
+	box-shadow: 0px 8px 40px 0px #b0b0b0;
+	position: absolute;
+	top: -80px;
+	left: 0;
+	margin: auto;
+} 
+.wenben .xbt{
+	width: 100%;
+	height: 40px;
+	/* background: pink; */
+	float: left;
+}
+.wenben .xbt p{
+	font-family: "苹方";
+	font-size: 20px;
+	color: #0C912E;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.wenben .bt{
+	width: 250px;
+	height: 100px;
+	background: url('../img/bt-1.png') center center no-repeat;
+	background-size: 75%;
+	/* float: left; */
+	margin: 0 auto;
+	margin-top: 130px;
+
+}
+.wenben .nr{
+	width: 800px;
+	height: auto;
+	/* background: yellow; */
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.wenben .nr h3{
+	font-family: "苹方";
+	font-size: 18px;
+	font-weight: 700;
+	line-height:50px;
+	margin-top: 20px;
+	}
+.wenben .nr p{
+	width: 100%;
+	height:auto;
+	font-family: "苹方";
+	font-size: 16px;
+	line-height: 40px;
+	
+}
+.wenben .nr .chatu{
+	width: 800px;
+	height: 400px;
+	background: url('../img/dy-banner.jpg')center center no-repeat;
+	background-size: 100%;
+	margin-top: 30px;
+}
+.dakuang .fanye{
+	width: 800px;
+	height: 50px;
+	/* background: blue; */
+	position: absolute;
+	bottom: 60px;
+	left: 12%;
+	margin: auto;
+    text-align: center;
+}
+
+
+
+
+/* dibu */
+footer{
+    font-size: 12px;
+    color: #999;
+    background-color: #fff;
+    position: relative;
+    z-index: 100;
+    clear: both;
+    line-height: 35px;
+    margin: 30px auto 0;
+    overflow: hidden;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 1000px;
+}
+.footer1{
+    margin: 0 auto;
+    overflow: hidden;
+}
+footer .footer1 a{
+    margin: 0 10px;
+}
+.footer2{
+    border-top: 1px solid #ececec;
+}
