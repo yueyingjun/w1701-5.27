@@ -1,0 +1,144 @@
+.baseLogin {
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.input-field {
+    width:100px;
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #666;
+}
+.input-field>input {
+    color: #fff;
+    width: 282px;
+    font-size: 16px;
+    line-height: 32px;
+    height: 32px;
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    z-index: 1;
+    color: #333;
+    outline: 0;
+}
+form{
+    width: 260px;
+    position: absolute;
+    left:0;
+    right: 0;
+    margin:auto;
+    margin-top:150px;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+}
+
+
+ .captcha-wrap {
+
+    position: absolute;
+    top: 1px;
+    right:-200px;
+    width: 102px;
+    height: 40px;
+     margin: auto;
+}
+.captcha-wrap .captcha {
+    display: block;
+    width: 102px;
+    height: 40px;
+    cursor: pointer;
+}
+.y-wrap .y-right {
+    float: right;
+}
+.captcha-wrap img{
+    height: 100%;
+    width:100%;
+}
+ .code-btn {
+    position: absolute;
+    top: 0;
+    right:-200px;
+    color: #406599;
+    cursor: pointer;
+    font-size: 16px;
+    width: 80px;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 16px;
+    text-align: center;
+}
+.code-btn:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 4px;
+      height: 34px;
+      width: 1px;
+      background-color: #ddd;
+  }
+.action {
+    font-size: 14px;
+    color: #222;
+    margin-top: 4px;
+    margin-bottom: 24px;
+}
+.y-wrap .y-box {
+    display: block;
+}
+.action .remember {
+    margin-right: 4px;
+}
+.action>label {
+    vertical-align: middle;
+}
+label {
+    cursor: pointer;
+}
+.action-btn {
+    color: #fff;
+    font-size: 18px;
+    line-height: 42px;
+    width: 300px;
+    text-align: center;
+    background-color: #f85959;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+input {
+    border: 0;
+    outline: 0;
+}
+ .sns-login {
+    font-size: 0;
+    text-align: center;
+}
+ .sns-login .sns {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-left: 24px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+.sns-login .phone-login {
+    background-image: url(../img/icon_phone_pc_eb2b87d.png);
+
+}
+ .sns-login .weibo-login {
+    background-image: url(../img/icon_weibo_pc_bde1e60.png);
+
+}
+.sns-login .qq-login {
+    background-image: url(../img/icon_qq_pc_de846d6.png);
+}
+.sns-login .weixin-login {
+    background-image: url(../img/icon_weixin_pc_1d58bef.png);
+}
