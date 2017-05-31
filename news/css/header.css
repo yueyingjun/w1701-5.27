@@ -1,0 +1,38 @@
+header{
+    height: 50px;
+    background-color: #000;
+}
+.xinwenlei{
+    width:100%;
+    height: 50px;
+}
+.fenlei{
+    float: left;
+}
+.fenlei li{
+    float: left;
+}
+.xinwenlei a{
+    color:gray;
+    font-size: 17px;
+    padding:0 20px;
+    text-decoration: none;
+    line-height: 50px;
+}
+.xinwenlei a:hover{
+    color:#ffc81f;
+}
+.logoin{
+    float: right;
+    height: 50px;
+}
+.about{
+    float: right;
+}
+.logoin a{
+    padding:0 10px;
+    line-height: 48px;
+}
+.logo{
+    float: left;
+}
