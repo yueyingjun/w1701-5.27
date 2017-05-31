@@ -1,0 +1,87 @@
+.reg-box {
+    padding: 40px 0 60px;
+}
+.reg-form {
+    padding: 0 90px;
+}
+.coremin .ipt {
+    border-radius: 3px 0 0 3px;
+    border-right: none;
+    float: left;
+    width: 228px;
+}
+.yz-img, .yz-sms {
+    background: #fff;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 38px;
+    width: 92px;
+}
+.core {
+    min-height: 64px;
+}
+.disabled {
+    color: #ccc;
+}
+.yz-sms {
+    border-left: 1px solid #e5e5e5;
+    color: #666;
+    font-size: 12px;
+    line-height: 36px;
+    text-align: center;
+}
+.default-li {
+    color: #b2b2b2;
+    height: 60px;
+    padding-top: 18px;
+}
+.default-li .fl {
+    float: left;
+}
+.for-deal {
+    color: #399be6;
+    cursor: pointer;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 4px;
+    text-decoration: none;
+}
+.frame-mod {
+    height: 578px;
+}
+.fr-wrap {
+    height: 558px;
+}
+.login-btn {
+    background: #e1322f;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font: 14px/1.5 "Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Tahoma,arial,sans-serif;
+    height: 35px;
+    outline: none;
+    text-align: center;
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+.BTVlogin-main{
+    width: 100%;
+    height: 515px;
+    margin:0;
+    padding:0;
+}
+h4{
+    margin: 0;
+}
+.yz-img img {
+    height: 36px;
+    width: 80px;
+}

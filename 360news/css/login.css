@@ -1,0 +1,207 @@
+
+.bounce-in {
+    -webkit-animation-duration: .3s;
+    animation-duration: .3s;
+    -webkit-animation-name: bounce-in;
+    animation-name: bounce-in;
+}
+.frame-mod {
+    background: rgba(0,0,0,0.1);
+    border-radius: 5px;
+    font: 14px/1.5 "Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Tahoma,arial,sans-serif;
+    left: 50%;
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    width: 520px;
+    height: 558px;
+    overflow: hidden;
+    z-index: 999;
+}
+.fr-wrap {
+    background: #fff;
+    width: 500px;
+    height: 558px;
+    margin:0 auto;
+    position: relative;
+}
+
+.frame-mod .btn-close {
+    background: url('../img/colose.png');
+    cursor: pointer;
+    height: 45px;
+    position: absolute;
+    right: 4px;
+    top: 10px;
+    width: 45px;
+}
+h4{
+    margin: 0;
+}
+.login-title {
+    border-bottom: 1px solid #eee;
+    height: 65px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.login-title span.current {
+    color: #e1413e;
+}
+
+.login-title span.current i {
+    display: block;
+}
+.login-title span i {
+    background: #dd3635;
+    border-radius: 2px;
+    bottom: -1px;
+    /*display: block;*/
+    /*display: none;*/
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 100px;
+}
+.login-title span {
+    color: #444;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 18px;
+    height: 65px;
+    line-height: 65px;
+    margin-left: 100px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+}
+.BTVlogin-main li.current {
+    display: block;
+}
+.BTVlogin-main .login-box {
+    overflow: hidden;
+    padding: 18px 0 0;
+}
+.BTVlogin-main li {
+    /*display: none;*/
+}
+.login-form {
+    border-bottom: 1px solid #e8edef;
+    padding: 0 100px 0;
+}
+.core {
+    min-height: 64px;
+}
+.ipt {
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    color: #444;
+    font-size: 12px;
+    height: 38px;
+    line-height: 38px;
+    outline: none;
+    padding: 0 9px;
+    width: 100%;
+}
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.login-btn {
+    background: #e1322f;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font: 14px/1.5 "Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Tahoma,arial,sans-serif;
+    height: 35px;
+    outline: none;
+    text-align: center;
+    width: 100%;
+}
+.default-li {
+    color: #b2b2b2;
+    height: 42px;
+    padding-top: 18px;
+}
+.default-li .fl {
+    float: left;
+}
+.momentHid {
+    display: none;
+}
+.fl {
+    float: left;
+}
+.rem-lo {
+    display: none;
+}
+.la-uncheck {
+    background-position: 0 0;
+}
+.rem-la {
+    background: url('../img/下载.png') no-repeat;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 25px;
+}
+.default-li .fr {
+    float: right;
+}
+.for-word {
+    color: #399be6;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+}
+.other-login {
+    padding-top: 38px;
+    text-align: center;
+}
+.other-login h5 {
+    color: #444;
+    font-size: 18px;
+    padding-bottom: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 400;
+}
+.other-login p.other-wb {
+    background-position: 0 0;
+}
+.other-login p {
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    margin: 0 5px;
+    width: 30px;
+}
+.other-login p {
+    background: url('../img/下载 (1).png') no-repeat;
+}
+.other-login p a {
+    display: block;
+    height: 30px;
+}
+.other-login p.other-wx {
+    background-position: 0 -30px;
+}
+.other-login p.other-qq {
+    background-position: 0 -60px;
+}
+.other-login .other-qihoo {
+    background: url('../img/下载 (2).png') no-repeat;
+
+}
