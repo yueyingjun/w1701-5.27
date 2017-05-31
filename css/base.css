@@ -7,6 +7,9 @@
 article, aside, details, figcaption, figure, footer, header, hgroup, img, menu, nav, section {
     display: block;
 }
+em,i{
+    font-style: normal;
+}
 body {
     line-height: 1;
     font-family: STHeiti, "Microsoft YaHei", simsun, sans-serif, Arial;
@@ -155,11 +158,8 @@ a{
 .jt{
     width: 100%;
     position: fixed;
-    top: 0;
+    top: 50%;
     left: 0;
-    bottom:0;
-    right:0;
-    margin: auto;
     z-index: 10;
 }
 .jt a{

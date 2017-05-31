@@ -54,3 +54,134 @@
 .center-con{
     padding:10px;
 }
+.news-view{
+    margin-bottom: 10px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.news-img a img{
+    width: 100%;
+    height: auto;
+}
+.news-header{
+    padding: 5px 0;
+}
+.news-header h3 a{
+    font-size: 16px;
+    line-height: 20px;
+    color: #333;
+    font-weight: 700;
+    padding-right: 5px;
+}
+.news-footer p {
+    position: relative;
+    color: #999;
+    line-height: 25px;
+    overflow: hidden;
+}
+.news-footer p span{
+    float: left;
+    color: #777;
+}
+.news-footer p span a{
+    color: #777;
+}
+.news-footer p span i{
+    margin-right: 3px;
+}
+.comment{
+    float: right!important;
+    margin-left: 10px;
+}
+.comment i{
+    width: 14px;
+    height: 16px;
+    background: url(../img/11.png) -83px -141px no-repeat;
+    display: inline-block;
+    vertical-align: -4px;
+    margin-right: 3px;
+}
+.news-view:hover{
+    background: #fff;
+    box-shadow: 1px 1px 2px 0 #d0d0d0;
+}
+.mokuai1-1-1{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 440px;
+}
+.mokuai1-1-2{
+    height: 4px;
+}
+.mokuai1-1-1 ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    width: 470px;
+}
+.slider-page {
+    position: relative;
+    height: 440px;
+}
+.page-img a img{
+    width: 100%;
+    height: 313px;
+}
+.tags{
+    position: absolute;
+    left: 30px;
+    top: 265px;
+}
+.tags a{
+    padding: 0 10px;
+    color: #fff;
+    background: #f12b15;
+    font-size: 14px;
+    line-height: 24px;
+    display: inline-block;
+}
+.page-header{
+    background-color: #000;
+    border-top: 1px solid #333;
+    padding: 15px 30px 10px;
+}
+.page-header h3 a{
+    font-size: 24px;
+    line-height: 30px;
+    color: #e5e5e5;
+    font-weight: 400;
+}
+.page-footer{
+    background-color: #000;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+}
+.page-footer p{
+    line-height: 20px;
+    padding: 0 30px;
+}
+.page-footer p span{
+    color: #aaa;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 10px;
+    float: left;
+}
+.page-footer p span a{
+    color: #aaa;
+}
+.page-footer p .collect{
+    float: right;
+    margin-left: 10px;
+}
+.collect i{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin-right: 3px;
+    background-image: url(../img/11.png);
+    background-position: -83px -103px;
+}
