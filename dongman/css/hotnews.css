@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+
+/* id */
+#cyHotnews {
+    background-color: transparent;
+    border: 0;
+    color: #333;
+    display: block;
+    font-size: 13px;
+    font-weight: normal;
+    height: auto;
+    line-height: 1.4;
+    margin: 0 auto;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    width: auto;
+}
+
+/* é‡ç½®#cyHotnewsä¸‹çš„å…ƒç´ ï¼Œé˜²æ­¢ä¸ŽåŽŸé¡µé¢æ ·å¼å†²çª start */
+#cyHotnews div,#cyHotnews ul {
+    margin: 0;
+    padding: 0;
+}
+
+#cyHotnews a {
+    background: transparent;
+    text-decoration: none;
+}
+
+#cyHotnews a:active,#cyHotnews a:hover {
+    outline: 0;
+}
+/* end */
+
+#cyHotnews .cy-wrapper {
+}
+
+#cyHotnews .hotnews-header {
+    background-color: #23618a;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 16px;
+}
+
+/* æ–°é—»åˆ—è¡¨ */
+#cyHotnews .hotnews-list {
+    list-style: none;
+}
+
+/* å•æ¡æ–°é—» */
+#cyHotnews .hotnews-list .list-item {
+    border-bottom: 1px dotted silver;
+    margin: 6px 10px 0px 10px;
+    padding-bottom: 6px;
+    list-style: none;
+}
+
+/* å•ç‹¬å¤„ç†æœ€åŽä¸€æ¡æ–°é—»ï¼Œä¸åŠ ä¸‹åˆ’çº¿ï¼Œä½Žç‰ˆæœ¬IEä¸æ”¯æŒè¯¥é€‰æ‹©å™¨ */
+#cyHotnews .hotnews-list .list-item:last-child {
+    border-bottom: none;
+}
+
+/* æ–°é—»æŽ’å */
+#cyHotnews .hotnews-list .rank {
+    color: #BD0000;
+    float: left;
+    font-family: Georgia;
+    width: 20px;
+}
+
+/* æ–°é—»è¯„è®ºæ•° */
+#cyHotnews .hotnews-list .num {
+    color: #BD0000;
+    float: left;
+    width: 44px;
+}
+
+/* æ–°é—»æ ‡é¢˜ */
+#cyHotnews .hotnews-list .content {
+    color: #333;
+}
+
+/* éšè— */
+#cyHotnews .hide {
+    display: none;
+}
+
+/* æ­£åœ¨æ˜¾ç¤ºçš„tabé¡µ*/
+#cyHotnews .current-on {
+    display:inline-block;
+    margin-top:3px; 
+    overflow:hidden; 
+    width: 35px;
+    text-align: center;
+    line-height: 20px;
+    background:white;
+    height:25px;
+    color:#333;
+}
+
+#cyHotnews .gb-final-comm-tab1{ 
+    overflow:hidden; 
+    *zoom:1;
+    float:right
+}
+
+#cyHotnews .gb-final-comm-tab1 .gb-final-tab-item{ 
+    float:left; 
+    height:25px; 
+    width:auto; 
+    margin-left:2px;
+    padding-left:0px; 
+    _display:inline;
+    background: none;
+}
+
+#cyHotnews .gb-final-comm-tab1 .gb-final-tab-c{ 
+    display:inline-block; 
+    margin-top:3px; 
+    overflow:hidden; 
+    width: 35px; 
+    height:20px;
+    text-align: center; 
+    line-height: 20px;
+    font-size:14px; 
+    color:#ffffff;
+}
+
+#cyHotnews .gb-final-comm-tab1 .gb-final-current{ 
+    color:#fff;  
+    font-weight: bold; 
+    background: #0066cc
+}

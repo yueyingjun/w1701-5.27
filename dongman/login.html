@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>login</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="content">
+    <div class="content-title">
+        <div class="content-title-l">
+			<a href="http://account.178.com"><img class="ie6png" src="img/logo.png"></a>
+		</div><!--content-title-l-->
+		<div class="content-title-r"><!--<a href="#">服务反馈</a>|<a href="#">账户安全指南</a>|<a href="#">帮助</a>--></div>    
+	</div><!--content-title--> 
+    <div class="clearfix"></div>
+    
+    <div class="content-main">
+        <div class="contentm-main-l">
+            <div class="add-l"><img class="ie6png" src="img/logo-pic.png"></div>
+			<div class="add-r">
+                <img class="ie6png" src="img/logo-word.png">
+                <p></p>
+            </div>
+            <div class="clearfix"></div>
+			<div class="contentm-main-l-b">
+                <p>北京智珠网络技术有限公司(178.com)创立于2008年，总部位于北京，是一家新兴的中国互联网信息技术公司，在开发互联网应用、服务及其他技术方面拥有领先优势，利用最先进的互联网技术，加强人与人之间的信息交流和共享。公司由数十个从事互联网行业多年，经验丰富的精英人才组成，并拥有一只先进的技术团队，立志于为游戏玩家提供最全、最新，最快的中国互联网游戏资讯、信息内容和服务。  </p>
+			</div><!--contentm-main-l-b-->
+		</div><!--contentm-main-l-->
+        <div class="contentm-main-r">			       
+            <div class="contentm-main-r-con">
+                <h2 class="r-con-title">178用户登录</h2><!--contentm-top-rmtitle-->
+                <div class="r-con-loginarea">
+                    <form action="/q_account.php" method="post" id="loginForm" onsubmit="return RegisterForm.checkLogin(0);">
+                    <input type="hidden" name="_act" value="login">
+                    <input type="hidden" name="print" value="login">
+                    <input type="hidden" name="to" value="http://acg.178.com/">
+                    <div class=" new-item">                            
+                        <div class=" login-tit">账户名</div>
+                        <div class="bdmain">                                  
+                            <div class="yanzheng" title="用户名" id="l_nickname">
+                                <input type="text" name="email" id="l_email" value="昵称/电子邮箱" onfocus="if(this.value=='昵称/电子邮箱') this.value = '';$('l_nickname').className='yanzheng-hover-green'" onblur="$('l_nickname').className='yanzheng'">
+                            </div>
+                        </div><!-- bdmain结束-->
+                    </div><!--new-item结束 -->
+                    <div class="new-item">                            
+                        <div class=" login-tit">密码</div>
+                        <div class="bdmain">                                  
+                            <div class="yanzheng" title="如果你正在使用与其他网站相同的密码，建议你使用邮箱、安全问题进行一次密码重置" id="l_pw">
+                                <input type="password" name="password" id="l_password" onfocus="$('l_pw').className='yanzheng-hover-green'" onblur="$('l_pw').className='yanzheng'" title="如果你正在使用与其他网站相同的密码，建议你使用邮箱、安全问题进行一次密码重置">
+                            </div>
+                        </div><!-- bdmain结束-->
+                    </div><!--new-item结束 -->
+                    <div class="new-item">
+                        <div class="login-tit">验证码</div>
+                        <div class="new-item-mid" style="width:80px">
+                           <div class="yanzheng" id="v_code">
+                               <input type="text" id="vcode" name="vcode" title="验证码" maxlength="4" onfocus="$('v_code').className='yanzheng-hover-green'" onblur="$('v_code').className='yanzheng'">
+                           </div>           
+                         </div><!--new-item-mid结束 -->
+                         <div class="yzm-area" style="margin:-10px 0px 0px 60px">
+                            <img src="/q_vcode.php?_act=gen_reg" id="vcodeimg" title="点击图片刷新验证码" alt="点击图片刷新验证码" onclick="RegisterForm.reloadVcode();">
+                         </div>
+                    </div><!--new-item结束 -->
+                    <div class="clearfix"></div>
+                    <div class="setting">
+                        <label title="为了确保您的信息安全，请不要在网吧或者公共机房勾选此项！">
+                            <input type="checkbox" id="noexpires" name="noexpires" value="31536000" checked="">下次自动登录
+                        </label>
+                        <a href="/?p=reset_pass">找回密码</a>
+                    </div>
+                    <div class="signin"><input class="landbtn" type="submit" title="登录" id="loginBtn" value=""></div>
+                    </form>
+                    <div class="clearfix"></div>
+                    <div class="partner">
+                        <p>通过使用合作账号登录</p>
+                        <a class="p-qql ie6png" href="/qq.php?to=http://acg.178.com/" title="QQ帐号"></a>
+                        <a class="p-sina ie6png" href="/sina.php?to=http://acg.178.com/" title="新浪微博"></a>
+                        <a class="p-qq ie6png" href="/tencent.php?to=http://acg.178.com/" title="腾讯微博"></a>
+                    </div>
+                    <div class="reg">
+                        <p>还不是178用户？</p>
+                        <div class="r-con-register"><a href="/?p=register" title="立即注册"></a></div>
+                    </div><!--reg-->    
+                </div><!--r-con-loginarea-->                        
+            </div><!--contentm-main-r-con-->
+        </div><!--contentm-main-r-->
+    </div><!--content-main-->		    
+</div>
+</body>
+</html>
