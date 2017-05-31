@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /* 去除a标签的下划线 */
+    box-sizing: border-box;
+}
+/* a{
+	color: #b0b0b0;
+} */
+ul,
+li,
+ol {
+    list-style: none;
+}
+em,
+i {
+    font-style: normal;
+    display: block;
+}
+body {
+    font-family: "宋体", arial;
+    color: #004276;
+    font-size: 14px;
+}
