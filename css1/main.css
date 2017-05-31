@@ -1,0 +1,291 @@
+body{
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    font-family: 微软雅黑;
+}
+.navback {
+    height: auto;
+    background: url(../img/heabg.jpg) repeat-x left top;
+    border-radius: 0;
+    border: none;
+    margin: -1px 0 0;
+}
+.navbar-header {
+    float: left;
+}
+.navbutt {
+    background: #e7e7e7;
+    margin: 54px 15px 51px 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navimg {
+    float: left;
+    height: 145px;
+    padding: 47px 0 51px 36px;
+    margin-left: -15px;
+}
+.navback .navul {
+    float: left;
+    padding: 0 41px;
+    margin: 60px 0 55px 68px;
+    background: url(../img/navbg.png) no-repeat left top;
+}
+@media (max-width: 992px){
+    .navback .navul {
+        float: right;
+        padding: 0 20px;
+        margin: 60px 0 55px 0;
+        background: url(../img/navbg.png) no-repeat left top;
+    }
+}
+.navback .navul li {
+    list-style: none;
+    float: left;
+    margin: 0 25px;
+}
+.nav > li {
+    position: relative;
+    display: block;
+}
+.navback .navul li a {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    line-height: 30px;
+    padding: 0;
+}
+.act{
+    border-bottom: 2px solid#fff;
+}
+.con_left {
+    margin-top: 0;
+    float: left;
+    width: 66%;
+}
+.con_left dl.toppic {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.con_left dl.toppic dt a img {
+    width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+}
+.con_left dl.toppic dd {
+    margin-top: -45px;
+    height: 45px;
+}
+.con_left dl.toppic dd span {
+    display: block;
+    height: 45px;
+    background: #000;
+    opacity: 0.5;
+}
+.con_left dl.toppic dd p {
+    margin: -45px 0 0 15px;
+    color: #fff;
+    line-height: 45px;
+    font-size: 18px;
+    opacity: 0.99;
+}
+.con_left dl.toppic dd p a {
+    color: #fff;
+}
+.con_left .conart {
+    margin-top: 15px;
+}
+.con_left .conart dl {
+    width: 100%;
+    padding: 25px 0;
+    border-bottom: 1px solid #ebebeb;
+}
+.clearfix {
+    zoom: 1;
+    clear: both;
+}
+.con_left .conart dl dt {
+    width: 30.6%;
+    height: auto;
+    border: 1px solid #ebebeb;
+    font-weight: bold;
+}
+.con_left .conart dl dt img {
+    width: 100%;
+    height: auto;
+}
+.con_left .conart dl dd.ddbak {
+    width: 3.5%;
+    height: 1px;
+    visibility: hidden;
+    font-size: 1px;
+}
+.con_left .conart dl dt, .con_left .conart dl dd {
+    float: left;
+}
+.con_left .conart dl dd {
+    width: 65.9%;
+}
+.con_left .conart dl dd h2 {
+    font-size: 18px;
+    color: #1c1b1b;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 26px;
+    margin-top: 0px;
+}
+.con_left .conart dl dd h2 a {
+    color: #1c1b1b;
+}
+.con_left .conart dl dd p {
+    color: #535353;
+    line-height: 25px;
+    font-size: 12px;
+}
+.con_left .conart dl dd p a {
+    color: #787878;
+}
+.con_left .conart dl dd span.date {
+    display: block;
+    color: #8e8e8e;
+    text-align: right;
+    margin-right: 10px;
+}
+.con_left .page {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.con_left .page .pastyle {
+    padding: 2px 16px;
+    margin: 0 4px;
+    border: 1px solid #d3452a;
+    border-radius: 13px;
+}
+.con_left .page .pagrey {
+    color: #9e9e9e;
+    border: 1px solid #9e9e9e;
+}
+.con_left .page .pagrey2 {
+    color: #9e9e9e;
+}
+.con_left .page a {
+    display: inline-block;
+    color: #d3452a;
+    padding: 0 5px;
+}
+.con_mid_bak {
+    width: 4%;
+    height: 1px;
+    visibility: hidden;
+    font-size: 1px;
+}
+.con_mid_bak, .con_right {
+    float: left;
+    margin-top: 40px;
+}
+.con_right {
+    width: 30%;
+    background: #fff;
+}
+.con_right dl.dlright {
+    width: 100%;
+    padding: 21px 16px 17px;
+}
+.con_right dl.dlright dt {
+    float: left;
+    margin-right: 15px;
+}
+.con_right dl.dlright dt img {
+    width: 100%;
+    height: auto;
+}
+.con_right dl.dlright dt .img {
+    margin-top: 40px;
+}
+.con_right dl.dlright dd {
+    background: #f4f4f4;
+    padding: 45px 12px 50px;
+    float: left;
+}
+.con_right dl.dlright dd ul {
+    padding-top: 5px;
+    border-top: 1px solid #d5dade;
+}
+.con_right dl.dlright dd ul li {
+    padding: 13px 0;
+    border-bottom: 1px dashed #d5dade;
+    list-style: inside disc;
+    font-size: 14px;
+    color: #18252a;
+}
+.con_right dl.dlright dd ul li a {
+    font-size: 14px;
+    color: #18252a;
+}
+.con_right dl.dlright dd a.more {
+    /* display: inline-block; */
+    display: none;
+    float: right;
+    font-size: 12px;
+    color: #acacac;
+    height: 40px;
+    line-height: 40px;
+}
+.top {
+    position: fixed;
+    display: none;
+    cursor: pointer;
+    border-radius: 5px;
+    bottom: 250px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    background: url(../img/gotop.png) no-repeat center;
+}
+.footer {
+    background: #6a7478;
+    margin-top: 95px;
+    padding: 10px 15px;
+}
+.footer p {
+    margin: 0 auto;
+    background: #6a7478;
+    text-align: center;
+    font-size: 12px;
+    color: #d2d2d2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
