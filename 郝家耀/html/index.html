@@ -524,12 +524,16 @@
                             <em>订阅号：Amaze UI</em>
                         </div>
                     </div>
+                    <div class="top">
+                        <img src="../img/top.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
 </body>
 <script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/animate.js"></script>
 <script>
     var banner=$(".banner-box .t2");
     var btns=$(".banner-box ul li");
@@ -558,5 +562,10 @@
     },function () {
         t=setInterval(move,2000)
     });
+    //返回顶部：
+    var totop=document.querySelector(".top");
+    totop.onclick=function () {
+        animate(document.body,{scrollTop:0},300);//返回顶部的作法
+    };
 </script>
 </html>
