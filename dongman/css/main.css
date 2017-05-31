@@ -1,0 +1,298 @@
+.head .topbar-fix {
+    background: url('../img/nav-bg-img.jpg') no-repeat #fff;
+    border: 1px solid #f6f5fa;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 4px 2px 2px #f1f1f1;
+    -moz-box-shadow: 4px 2px 2px #f1f1f1;
+    box-shadow: 4px 2px 2px #f1f1f1;
+}
+.wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    background: url('../img/head-bg-img.jpg') center top no-repeat #fff;
+}
+.head .ico010 {
+    background: url('../img/nav-icon.png') 0 -198px no-repeat;
+}
+.head .ico01 {
+    background: url('../img/nav-icon.png') no-repeat;
+}
+.head .ico02 {
+    background: url('../img/nav-icon.png') 0 -22px no-repeat;
+}
+.head .ico03 {
+    background: url('../img/nav-icon.png') 0 -44px no-repeat;
+}
+.head .ico04 {
+    background: url('../img/nav-icon.png') 0 -66px no-repeat;
+}
+.head .ico05 {
+    background: url('../img/nav-icon.png') 0 -88px no-repeat;
+}
+.head .ico06 {
+    background: url('../img/nav-icon.png') 0 -110px no-repeat;
+}
+.head .ico07 {
+    background: url('../img/nav-icon.png') 0 -132px no-repeat;
+}
+.head .ico09 {
+    background: url('../img/nav-icon.png') 0 -176px no-repeat;
+}
+.head .ico08 {
+    background: url('../img/nav-icon.png') 0 -154px no-repeat;
+}
+.maincon .slide .gallery-left {
+    background: url('../img/mc-line.png') 154px top no-repeat;
+    position: relative;
+}
+.maincon .slide .gallery-left {
+    background: url('../img/mc-line.png') 154px top no-repeat;
+    position: relative;
+}
+.maincon .slide {
+    float: left;
+    width: 870px;
+    height: 400px;
+    padding-right: 20px;
+    position: relative;
+    margin-left: 73px;
+    margin-top: 10px;
+}
+.maincon .slide .gallery-right {
+    float: left;
+    width: 665px;
+    font-size: 0;
+    margin-left: 15px;
+}
+.maincon {
+    width: 1275px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.maincon .latest {
+    float: right;
+    width: 330px;
+    height: 400px;
+    background: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.ui-title .more i {
+    width: 39px;
+    height: 10px;
+    background-image: url('../img/sb-more.png');
+    background-position: 0 -40px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.imgtextlist .ui-repeater .ui-repeater-item .imgbox a .icon {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 15px;
+    right: 15px;
+    background: url('../img/news-item-ico.png') no-repeat;
+    background-size: 28px 56px;
+    display: none;
+}
+.imgtextlist .loader a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('../img/loader-btn.png') no-repeat;
+}
+.imgtextlist .loader a:hover {
+    background: url('../img/loader-btn-hover.png') no-repeat;
+}
+.foot .fn-wrap .foot-info .attention .icons .icons-item .code {
+    width: 233px;
+    height: 289px;
+    background: url('../img/code.png');
+    position: absolute;
+    padding-top: 46px;
+    left: -95px;
+    top: -280px;
+    display: none;
+}
+body {
+    background: #fff url('../img/body-bg.gif') repeat-x;
+    margin: 0px;
+    padding: 0px;
+    color: #6b6b6b;
+}
+.partner a {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    display: inline-block;
+    background: url('../img/partner-icon.png') no-repeat;
+}
+
+.r-con-register a{
+	display: inline-block;
+    background: url('../img/visit-btn.png') no-repeat;
+    cursor: pointer;
+    width: 117px;
+    height: 29px;
+    background-position: 0 -404px;
+}
+.signin .landbtn {
+    width: 90px;
+    height: 29px;
+    background-position: 0 -282px;
+    border: 0;
+    display: inline-block;
+    background: url('../img/visit-btn.png') no-repeat;
+    cursor: pointer;
+}
+.swiper-container .swiper-slide a img{
+	width: 665px;
+	height: 400px;
+}
+.visit-content-main-r, .pass-content-main-r {
+    float: right;
+    height: 530px;
+    background: url('../img/border-left-bg.gif') repeat-y;
+}
+.reg-area .webreg-btn {
+    width: 159px;
+    height: 44px;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    background: url('../img/visit-btn.png') no-repeat;
+	background-position: 0 -465px;
+}
+.visit-content-main, .pass-content-main {
+    background: #f7f7f7 url('../img/visit-content-main-bg.jpg') no-repeat 0 bottom;
+    border: 1px solid #b1c3df;
+    outline: 1px solid #f1f1f1;
+    outline-offset: 0;
+    overflow: hidden;
+}
+.r-con-toparea input {
+    width: 69px;
+    height: 24px;
+    text-align: center;
+    background: url('../img/r-toparea-btn.gif') no-repeat;
+    border: 0;
+    cursor: pointer;
+}
+.tsina {
+    background: url('../img/share.png') 0 -38px no-repeat;
+    margin-right: 12px;
+}
+.tqq {
+    background: url('../img/share.png') 0 -57px no-repeat;
+    margin-right: 13px;
+}
+.tweixin {
+    background: url('../img/share.png') no-repeat;
+    margin-right: 14px;
+}
+.bdsharebuttonbox-t a {
+    display: block;
+    width: 21px;
+    height: 19px;
+    float: left;
+}
+.tqzone {
+    background: url('../img/share.png') 0 -19px no-repeat;
+}
+.bdsharebuttonbox-b a {
+    display: block;
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+.bsina {
+    background: url('../img/share-btn.png') no-repeat;
+    margin-right: 12px;
+}
+.bqq {
+    background: url('../img/share-btn.png') -44px 0 no-repeat;
+    margin-right: 13px;
+}
+.bweixin {
+    background: url('../img/share-btn.png') -88px 0 no-repeat;
+    margin-right: 14px;
+}
+.bqzone {
+    background: url('../img/share-btn.png') -132px 0 no-repeat;
+}
+#cyQing .cy-wrapper .qing-list .qing-item.qing-color0 {
+    background: url('../img/color0.png') no-repeat;
+    background-size: 100% 100%;
+}
+div#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w div.action-function-w ul li.function-face-w {
+    background-image: url('../img/icon1.png');
+}
+#SOHUCS #SOHU_MAIN .module-cmt-list .face-item, .module-cy-user-page .face-item {
+    background: url('../img/face-map.png') no-repeat center;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+#cyQing .cy-wrapper .qing-list .qing-item {
+    padding: 0 15px;
+    background-size: 100% 100%;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    height: 35px;
+    line-height: 35px;
+}
+#cyQing .qing-item {
+    border-radius: 1px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 2px 5px 3px 0;
+    padding: 5px 10px;
+    white-space: nowrap;
+}
+#cyQing .cy-wrapper .qing-input button {
+    width: 120px;
+    height: 46px;
+    border: 1px solid #ffd3e7;
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+    background: #ff84bb;
+    position: relative;
+    left: -4px;
+    top: 5px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w {
+    background: url('../img/cy_bg.png') no-repeat;
+}
+.page-artical #SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w .btn-fw, .page-artical #SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w:hover .btn-fw {
+    background: url('../img/issue.png') no-repeat!important;
+}
+.page-artical #SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w .btn-fw:hover, .page-artical #SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w:hover .btn-fw:hover {
+    background: url('../img/issue-hover.png') no-repeat!important;
+}
+#SOHUCS #SOHU_MAIN .module-cmt-list .cmt-list-type ul.type-lists li.active {
+    background-image: url('../img/cmtlist-bg-active.png');
+}
+#SOHUCS #SOHU_MAIN .module-cmt-list .block-title-gw ul li div.title-name-gw div.title-name-gw-tag {
+    background-image: url('../img/title-tag.png');
+}
+#SOHUCS #SOHU_MAIN .module-cmt-list .action-click-gw .click-disable-eg a i.icon-ding-bg, #SOHUCS #SOHU_MAIN .module-cmt-list .action-click-gw .click-disable-eg a:hover i.icon-ding-bg, #SOHUCS #SOHU_MAIN .module-cmt-list .action-click-gw a:hover i.icon-ding-bg {
+    background: url('../img/poll-hover.jpg') no-repeat !important;
+}
+#SOHUCS #SOHU_MAIN .module-cmt-list .action-click-gw a .icon-cai-bg {
+    background: url('../img/down.jpg') no-repeat !important;
+}
+#SOHUCS #SOHU_MAIN .module-cmt-list .wrap-action-gw .action-click-gw span.click-prop-gw .prop-span a {
+    background-image: url('../img/prop-ico.png');
+}
+.icon-ding-bg {
+    background: url('../img/ding.jpg') no-repeat !important;
+}

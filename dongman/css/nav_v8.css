@@ -1,0 +1,383 @@
+.globalNav_178 {
+  position: relative;
+  z-index: 900;
+  height: 40px;
+  line-height: 40px;
+  background-color: #2f2f2f;
+  background-image: url(http://cimg.178.com/www/v8/nav_bg.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.globalNav_178 * {
+  font-family: "å¾®è½¯é›…é»‘", "\5b8b\4f53", sans-serif;
+}
+.globalNav_178 ul {
+  padding: 0;
+  margin: 0;
+}
+.globalNav_178 .globalNav-cont {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+.globalNav_178 li {
+  list-style: none;
+}
+.globalNav_178 a {
+  text-decoration: none;
+}
+.globalNav_178 .globalNav-cont-left {
+  float: left;
+  height: 100%;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater {
+  height: 100%;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item {
+  box-sizing: border-box;
+  width: 108px;
+  float: left;
+  font-size: 12px;
+  color: #999;
+  text-align: left;
+  cursor: pointer;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item a {
+  color: #999;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.index_178 {
+  width: 85px;
+  padding-left: 22px;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178 {
+  position: relative;
+  padding-left: 40px;
+  background: url(http://cimg.178.com/www/v8/nav.png) no-repeat;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178:hover {
+  color: #333;
+  background: url(http://cimg.178.com/www/v8/nav_hover.png) no-repeat;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178:hover .nav_primary_178 {
+  display: block;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178 .nav_primary_178 {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  background: white;
+  width: 108px;
+  box-sizing: border-box;
+  border: 1px solid #ecf3f4;
+  border-top: none;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178 .nav_primary_178 .primary-item {
+  height: 28px;
+  line-height: 28px;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178 .nav_primary_178 .primary-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  padding-left: 20px;
+  color: #666;
+  box-sizing: border-box;
+  font-size: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178 .nav_primary_178 .primary-item a:hover {
+  background: #f8f8f8;
+  color: #f74f4d;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178 .nav_primary_178 .split-line {
+  height: 11px;
+  background: url(http://cimg.178.com/www/v8/split-line.png);
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178 .nav_primary_178 .secondary a {
+  height: 28px;
+  line-height: 28px;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178 .nav_primary_178 .secondary a span {
+  float: left;
+  display: inline-block;
+  height: 28px;
+  line-height: 28px;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178 .nav_primary_178 .secondary a em {
+  float: left;
+  margin-left: 8px;
+  display: inline-block;
+  height: 28px;
+  width: 4px;
+  background: url(http://cimg.178.com/www/v8/icon1.png);
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178 .nav_primary_178 .secondary:hover .secondary-nav {
+  display: block;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178 .nav_primary_178 .secondary:hover em {
+  background: url(http://cimg.178.com/www/v8/icon2.png);
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178 .nav_primary_178 .secondary-nav {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  left: 106px;
+  bottom: -1px;
+  width: 118px;
+  border: 1px solid #ecf3f4;
+  box-sizing: border-box;
+  background: white;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178 .nav_primary_178 .secondary-item {
+  height: 28px;
+  line-height: 28px;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178 .nav_primary_178 .secondary-item a {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.nav_178 .nav_primary_178 .secondary-item a img {
+  vertical-align: middle;
+  width: 14px;
+  height: 14px;
+  border: none;
+  margin-right: 5px;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.weibo_178 {
+  padding-left: 40px;
+  background: url(http://cimg.178.com/www/v8/weibo.png) no-repeat;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.weibo_178:hover {
+  background: url(http://cimg.178.com/www/v8/weibo_hover.png) no-repeat;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.weibo_178:hover a {
+  color: white;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.wechat_178 {
+  position: relative;
+  padding-left: 40px;
+  background: url(http://cimg.178.com/www/v8/wechat.png) no-repeat;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.wechat_178 .wechat_178_wrap {
+  display: none;
+  position: absolute;
+  left: -36px;
+  top: 40px;
+  width: 180px;
+  height: 210px;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.wechat_178:hover {
+  color: #333;
+  background: url(http://cimg.178.com/www/v8/wechat_hover.png) no-repeat;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.wechat_178:hover .wechat_178_wrap {
+  display: block;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.wechat_178 .wechat_178-box {
+  position: absolute;
+  left: 0;
+  top: 10;
+  width: 180px;
+  height: 200px;
+  background: white;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  padding-top: 12px;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.wechat_178 .wechat_178-box em {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 7px solid #f1f1f1;
+  left: 50%;
+  margin-left: -6px;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.wechat_178 .wechat_178-box .triangle1 {
+  top: -6px;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.wechat_178 .wechat_178-box .triangle2 {
+  top: -5px;
+  border-bottom: 8px solid white;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.wechat_178 .wechat_178-box .code_178 {
+  width: 132px;
+  height: 132px;
+  margin: 0 auto 14px;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.wechat_178 .wechat_178-box .code_178 img {
+  width: 100%;
+  height: 100%;
+}
+.globalNav_178 .globalNav-cont-left .globalNav-repeater-item.wechat_178 .wechat_178-box .code-desc_178 {
+  height: 12px;
+  line-height: 12px;
+  text-align: center;
+  color: #666;
+  font-size: 12px;
+  margin-bottom: 3px;
+  margin-top: 0;
+}
+.globalNav_178 .globalNav-cont-right {
+  float: right;
+}
+.globalNav_178 .globalNav-cont-right .unlogin {
+  height: 40px;
+  line-height: 40px;
+  padding-top: 14px;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+.globalNav_178 .globalNav-cont-right .unlogin a {
+  float: right;
+  display: inline-block;
+  height: 12px;
+  line-height: 12px;
+  font-size: 12px;
+  color: #999;
+  padding-left: 10px;
+}
+.globalNav_178 .globalNav-cont-right .unlogin a:hover {
+  color: white;
+}
+.globalNav_178 .globalNav-cont-right .unlogin a.regist_178 {
+  border-left: 1px solid #414141;
+}
+.globalNav_178 .globalNav-cont-right .unlogin a.login_178 {
+  padding-right: 10px;
+}
+.globalNav_178 .globalNav-cont-right .logined {
+  position: relative;
+  width: 112px;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 12px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-bottom: none;
+}
+.globalNav_178 .globalNav-cont-right .logined .notice_178 {
+  display: none;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background: #f74f4d;
+}
+.globalNav_178 .globalNav-cont-right .logined .userheader_178 {
+  position: relative;
+  float: left;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+}
+.globalNav_178 .globalNav-cont-right .logined .userheader_178 img {
+  width: 20px;
+  height: 20px;
+}
+.globalNav_178 .globalNav-cont-right .logined .userheader_178 .notice_178 {
+  right: -3px;
+  top: -3px;
+}
+.globalNav_178 .globalNav-cont-right .logined .userheader_178.hasnotice .notice_178 {
+  display: block;
+}
+.globalNav_178 .globalNav-cont-right .logined .username_178 {
+  float: left;
+  margin-left: 8px;
+  height: 20px;
+  line-height: 20px;
+  width: 45px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  color: #999;
+}
+.globalNav_178 .globalNav-cont-right .logined .username_178 a {
+  color: #999;
+}
+.globalNav_178 .globalNav-cont-right .logined:hover {
+  background: white;
+  border-color: #ecf3f4;
+}
+.globalNav_178 .globalNav-cont-right .logined:hover .username_178 {
+  color: #333;
+}
+.globalNav_178 .globalNav-cont-right .logined:hover .username_178 a {
+  color: #333;
+}
+.globalNav_178 .globalNav-cont-right .logined:hover .logined-desc_178 {
+  display: block;
+}
+.globalNav_178 .globalNav-cont-right .logined .logined-desc_178 {
+  display: none;
+  box-sizing: border-box;
+  position: absolute;
+  left: -1px;
+  top: 39px;
+  background: white;
+  border: 1px solid #ecf3f4;
+  border-top: none;
+  width: 112px;
+}
+.globalNav_178 .globalNav-cont-right .logined .logined-desc-item {
+  height: 28px;
+  line-height: 28px;
+  padding-left: 20px;
+}
+.globalNav_178 .globalNav-cont-right .logined .logined-desc-item a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  color: #666;
+}
+.globalNav_178 .globalNav-cont-right .logined .logined-desc-item a span {
+  position: absolute;
+  left: 56px;
+  top: 9px;
+  display: inline-block;
+  height: 10px;
+  line-height: 10px;
+  background: #f74f4d;
+  color: white;
+  font-size: 8px;
+  padding: 0 4px;
+  border-radius: 6px;
+  display: none;
+}
+.globalNav_178 .globalNav-cont-right .logined .logined-desc-item:hover {
+  background: #f8f8f8;
+}
+.globalNav_178 .globalNav-cont-right .logined .logined-desc-item:hover a {
+  color: #f74f4d;
+}
+.globalNav_178 .globalNav-cont-right .logined .split-line {
+  height: 10px;
+  background: url(http://cimg.178.com/www/v8/splitline.png);
+}
+@media (max-width: 767px) {
+	div.globalNav_178,
+	.global-ad,
+	.foot,
+	.all_flag {
+        display: none !important;
+    }
+}
+.globalNav_178{
+    display: block !important;
+}

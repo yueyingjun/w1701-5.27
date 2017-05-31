@@ -1,0 +1,44 @@
+.globalFooter_178 {
+  height: 72px;
+  background: #f8f8f8;
+}
+.globalFooter_178 ul {
+  padding: 0;
+  margin: 0;
+}
+.globalFooter_178 * {
+  font-family: "Microsoft Yahei", sans-serif;
+}
+.globalFooter_178 .globalFooter_178-cont {
+  height: 72px;
+  line-height: 72px;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+.globalFooter_178 .globalFooter_178-cont span,
+.globalFooter_178 .globalFooter_178-cont a {
+  font-size: 12px;
+  color: #999;
+  margin: 0;
+  box-sizing: border-box;
+}
+.globalFooter_178 .globalFooter_178-cont a {
+  padding: 0 10px;
+  text-decoration: none;
+}
+.globalFooter_178 .globalFooter_178-cont a.border-right-178 {
+  border-right: 1px solid #999;
+}
+.globalFooter_178 .globalFooter_178-cont a:hover {
+  color: #f74f4d;
+  text-decoration: underline;
+}
+@media (max-width: 767px) {
+	.globalNav_178,
+	.global-ad,
+	.foot,
+	.all_flag {
+        display: none !important;
+    }
+}
