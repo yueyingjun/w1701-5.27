@@ -1,0 +1,400 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	height: 104px;
+}
+.logo{
+	width: 1000px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #fff;
+    overflow: hidden;
+}
+.daohang{
+	width: 100%;
+	height: 40px;
+	border-top: 4px solid #cb0d0d;
+}
+.yijifenlei{
+	width: 1000px;
+	height: 40px;
+	margin: 0 auto;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 0 1px  1px 2px #ccc;
+}
+.logo img{
+	width: 221px;
+	height: 60px;
+	float: left;
+}
+.icons1{
+	width: 25px;
+	height: 28px;
+	padding-left: 17px;
+	float: left;
+	margin: 20px 0 0 17px;
+	background-image: url(../img/2.png);
+	background-position: 0 -1070px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 28px;
+}
+.butt{
+	margin-top: 16px;
+	width: 48px;
+	height: 28px;
+	float: right;
+	background-color: #e23838;
+	background-image: url(../img/3.png);
+	background-size: 30% 50%;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.text{
+	width: 180px;
+	height: 20px;
+	padding: 3px;
+	border:1px solid #aaa;
+	float: right;
+	margin-top: 16px;
+}
+.yijifenlei ul{
+	width: 100%;
+	height: 40px;
+	display: flex;
+    justify-content: space-around;
+}
+.yijifenlei li{
+	width: auto;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    text-align: center;
+    line-height: 40px;
+    color: #222;
+}
+.yijifenlei li a{
+	width: 100%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    text-align: center;
+    line-height: 40px;
+    color: #222;
+}
+.yijifenlei  li:hover{
+    background-color: #e23838;
+    color: #fff;
+}
+.yijifenlei li:nth-child(1){
+	background-color: #e23838;
+}
+.zhengwen{
+	width: 1000px;
+	/*height: 460px;
+	background-color: red;*/
+	margin: 20px auto;
+	overflow: hidden;
+	position: relative;
+}
+.xjp{
+	width: 670px;
+	height: 108px;
+	float: left;
+	background-color: #fff;
+	margin-top: 1px solid #fff;
+	margin-top: 30px; 
+}
+.xjpbt{
+	width: 670px;
+	height: 24px;
+	margin-bottom: 15px;
+	font-size: 24px;
+	line-height: 24px;
+	font-family: 微软雅黑;
+}
+.fenxiang{
+    float: right;
+    width: 20px;
+    height: 15px;
+    background-image: url(../img/2.png);
+    background-position: 0 -118px;
+}
+.fanxiang{
+	width: 656px;
+	height: 28px;
+	padding-left: 14px;
+	font-size: 16px;
+	line-height: 28px;
+	overflow: hidden;
+	color: #000;
+}
+.fanxiang:hover{
+	color: #dc0000;
+}
+.dian{
+	float: left;
+	width: 5px;
+	height: 5px;
+	background-color: #dc0000;
+	margin-top: 11px;
+}
+.bier{
+	width: 670px;
+	height: 112px;
+	background-color: #fff;
+	padding-bottom: 15px;
+	border-top: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	float: left;
+	font-size: 20px;
+	font-weight: 微软雅黑;
+	line-height: 50px;
+	color: #000;
+}
+.bier a{
+	color: #000;
+}
+.bier:hover{
+	background-color: #eee;
+	color: #dc0000;
+}
+.bier img{
+	width: 120px;
+	height: 96px;
+	float: left;
+	margin-top: 15px;
+}
+.fenxiang1{
+    float: right;
+    width: 20px;
+    height: 15px;
+    background-image: url(../img/2.png);
+    background-position: 0 -118px;
+    margin-top: 96px;
+}
+.jinri{
+	width: 276px;
+	height: 278px;
+	padding: 0 12px 20px;
+	float: right;
+	background-color:#fff;
+	position: absolute;
+	right: 0;
+	top: 30px;
+}
+.huati{
+	width: 276px;
+	height: 30px;
+	margin-top: 10px;
+	float: left;
+	background-image: url(../img/4.png);
+	background-size: 150px 30px;
+	background-repeat: no-repeat;
+}
+.huatixia{
+	width: 276px;
+	height: 238px;
+	float: left;
+	background-color: #eee;
+}
+.jiaoyu{
+	width: 100%;
+	height: 21px;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000;
+}
+.ganen{
+	width: 100%;
+	height: 80px;
+	margin: 10px 0 12px;
+}
+.ganen img{
+	width: 120px;
+	height: 80px;
+	float: left;
+}
+.ganen p{
+	width: 136px;
+	padding: 0 10px;
+	position: relative;
+	float: right;
+	font-size: 14px;
+	line-height: 18px;
+	color: #aaa;
+}
+.xiangxi{
+	width: 60px;
+	height: 20px;
+	position: absolute;
+	left:180px;
+	top: 107px;
+	font-size: 15px;
+	color: #000;
+}
+.xiangxi:hover{
+	color: #dc0000;
+}
+.sidali{
+	width: 100%;
+	height: 28px;
+	font-size: 14px;
+	color: #000;
+	line-height: 28px;
+	float: left;
+	overflow: hidden;
+	font-family: 微软雅黑;
+}
+.video{
+	width: 1000px;
+	height: 410px;
+	margin: 0 auto;
+}
+.remen{
+	width: 670px;
+	height: 410px;
+	float: left;
+	background-color: #fff;
+}
+.remenzi{
+	width: 670px;
+	height: 32px;
+	margin-top: 34px;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: 微软雅黑;
+}
+.shipinzi{
+	width: 84px;
+	height: auto;
+	border-bottom: 2px solid #dc0000;
+	float: left;
+}
+.genduo{
+	width: 586px;
+	height: 32px;
+	border-bottom: 2px solid #ccc;
+	float: left;
+	overflow: hidden;
+}
+.genduozi{
+	/*height: 12px;*/
+	margin-top: 10px;
+	color: #aaa;
+	font-size: 12px;
+	float: right;
+}
+.clearbix{
+	width: 100%;
+	height: 330px;
+}
+.clearbix li{
+	width: 154px;
+	height: 160px;
+	margin-bottom: 22px;
+	margin-right: 10px;
+	float: left;
+}
+.clearbix li img{
+	width: 154px;
+	height: 110px;
+}
+.clearbix li p{
+	width: 142px;
+	height: 40px;
+	padding: 0 6px;
+	font-size: 12px;
+	color: #000;
+	line-height: 15px;
+}
+.clearbix li p:hover{
+	background-color: #eee;
+	color: #dc0000;
+}
+.paihang{
+	width: 300px;
+	height: 408px;
+	border-top: 2px solid #aaa;
+	float: left;
+	background-color: #eee;
+	margin-left: 20px;
+}
+.paihangzi{
+	width: 300px;
+	height: 38px;
+	overflow: hidden;
+}
+.reduph,.pinlunph{
+    width: 100px;
+    height: 38px;
+    float: left;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+    font-family: 微软雅黑;
+}
+.phxian{
+    width: 1px;
+    height: 20px;
+    float: left;
+    background-color: #aaa;
+    margin-top: 9px;
+}
+.xidian{
+	width: 276px;
+	height: 330px;
+	margin-top: 10px;
+	padding: 0 12px 20px;
+}
+.xidian li{
+	width: 100%;
+	height: auto;
+	margin: 7px 0 10px;
+}
+.xuhao{
+	width: 15px;
+	height: 15px;
+	float: left;
+	background-color: red;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 15px;
+}
+.xidian li a{
+	font-size: 14px;
+	color: #000;
+	line-height: 18px;
+	font-family: 微软雅黑;
+}
+.xuhao1{
+	width: 15px;
+	height: 15px;
+	float: left;
+	background-color: #ccc;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 15px;
+}
+.logo a{
+	width: auto;
+	height: 28px;
+	padding: 0 10px;
+	margin-top: 16px;
+	font-size: 20px;
+	font-family: 微软雅黑;
+	line-height: 28px;
+	color: #aaa;
+	float: right;
+}
