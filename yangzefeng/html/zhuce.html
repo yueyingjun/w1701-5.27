@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>zhuce</title>
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="../static/js/jquery.validate.js"></script>
+    <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/sql.css">
+    <style>
+        #tijiao{
+            display: block;
+            text-align: center;
+            line-height:35px;
+            color:#fff;
+            float:left;
+            width:100px;
+            height:35px;
+            background:linear-gradient(to left, #323335, rgba(255,255,255, 0.5));
+            position:absolute;
+            bottom:25px;
+            left:220px;
+            border:none;
+        }
+        label{
+            position:relative;
+        }
+    </style>
+</head>
+<body>
+    <form action="zhuce.php" id="form">
+        <label>
+            账号：<input type="text" name="user" id="zhanghao">
+        </label>
+        <label>
+            密码：<input type="password" name="pass1" id="pass">
+        </label>
+        <label>
+            密码：<input type="password" name="pass2" id="pass2">
+        </label>
+        <labei>
+            <input type="submit" id="tijiao">
+        </labei>
+    </form>
+</body>
+</html>
+<script>
+    $("#form").validate({
+        rules: {
+            user: {
+                required:true,
+                minlength:3
+            },
+            pass1: {
+                required: true,
+                minlength: 3
+            },
+            pass2: {
+                required: true,
+                minlength: 3
+            },
+        },
+        messages: {
+            user: {
+                required: "请输入用户名",
+                minlength: "账号不能小于3个",
+            },
+            pass1: {
+                required: "请输入密码",
+                minlength: "密码不能小于3个",
+            },
+            pass2: {
+                required: "请输入密码",
+                minlength: "密码不能小于3个",
+            },
+        },
+        errorPlacement: function(error, element) {
+            $('<div id="box">').html(error).insertAfter(element);
+            error.css({'width':'100px','height':'30px','color':'#fff',fontSize:'12px',position:'absolute',left:'270px',top:'-20px'});
+        },
+        success:function(val,element){
+            $(val).html('ok').insertAfter(element)
+        }
+    })
+</script>

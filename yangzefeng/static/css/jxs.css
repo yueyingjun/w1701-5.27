@@ -1,0 +1,222 @@
+header{
+    width:100%;
+    height:142px;
+    background:#000;
+    overflow: hidden;
+}
+.top_one{
+    width:100%;
+    height:auto;
+}
+.top_center{
+    width:115px;
+    height:44px;
+    background-image: url("../img/login.png");
+    background-size:100%;
+    margin-top:30px;
+    float:left;
+    margin-left:46%;
+}
+.top_right{
+    height:22px;
+    color:#fff;
+    font-size:12px;
+    margin-top:30px;
+    line-height: 22px;
+    float:right;
+    margin-right:100px;
+}
+.top_right > li{
+    float:left;
+    margin-right:10px;
+}
+.top_right > li > a{
+    color:#fff;
+}
+.top_right > li > a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.top_right > li:first-child{
+    margin-right:5px;
+}
+/*nav*/
+.nav{
+    width:100%;
+    height:52px;
+    text-align: center;
+    color:#fff;
+    float:left;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
+.nav li{
+    float:left;
+    margin-right:15px;
+    font-size: 14px;
+}
+.nav li a{
+    color:#fff;
+}
+.nav li a:hover{
+    color:#000;
+}
+/*main*/
+.title{
+    width:1050px;
+    height:auto;
+    margin:30px auto;
+    font-size:34px;
+    font-family: "Classico Italic",Optima,Arial,sans-serif;
+}
+.titleone{
+    width:1050px;
+    height:auto;
+    margin:20px auto;
+    color: #666;
+    font-size:20px;
+    font-family: sans-serif;
+}
+form{
+    width:1050px;
+    height:auto;
+    margin:0 auto;
+}
+#man{
+    width:28%;
+    height:30px;
+    margin-right:5%;
+    margin-bottom:15px;
+}
+#one input{
+    width:28%;
+    height:30px;
+    margin-right:5%;
+    margin-bottom:15px;
+}
+#guo{
+    width:28%;
+    height:30px;
+    margin-right:5%;
+    margin-bottom:15px;
+}
+.car{
+    width:1050px;
+    height:auto;
+    margin:20px auto;
+    color: #666;
+    font-size:20px;
+    font-family: sans-serif;
+}
+#che{
+    width:1050px;
+    height:auto;
+    margin:0 auto;
+}
+#car{
+    width:28%;
+    height:30px;
+    margin-right:5%;
+    margin-bottom:15px;
+}
+
+/*disange */
+.jxs{
+    width:1050px;
+    height:auto;
+    margin:20px auto;
+    color: #666;
+    font-size:20px;
+    font-family: sans-serif;
+}
+#jxs{
+    width:1050px;
+    height:auto;
+    margin:0 auto;
+    margin-bottom: 30px;
+}
+#jxs input{
+    width:28%;
+    height:30px;
+    margin-right:5%;
+    margin-bottom:15px;
+}
+textarea{
+    width:1050px;
+    height:auto;
+
+}
+
+/*底部*/
+footer{
+    width:100%;
+    height:200px;
+    padding: 20px;
+    background:#000;
+}
+.home{
+    width:200px;
+    text-align: center;
+    margin:5px auto;
+    color:#fff;
+    font-size:12px;
+
+}
+.home span:nth-child(odd){
+    font-family: "宋体";
+}
+.home span:nth-child(2) a{
+    color:#fff;
+}
+.home span:nth-child(2) a:hover{
+    text-decoration: none;
+}
+.home span:nth-child(4) a{
+    color:#fff;
+}
+.home span:nth-child(4) a:hover{
+    text-decoration: none;
+}
+.login{
+    width:115px;
+    height:44px;
+    background-image: url("../img/login.png");
+    background-size:100%;
+    margin:20px auto;
+}
+.sub{
+    display: block;
+    border:1px solid #000;
+    background: none;
+    margin-left:360px;
+    height:30px;
+    width:200px;
+    margin-bottom:20px;
+}
+.sub:hover{
+    background:#000;
+    color:#fff;
+}
+footer ul{
+    width:603px;
+    height:30px;
+    margin:0 auto;
+    text-align: center;
+}
+footer ul li{
+    width:auto;
+    height:100%;
+    margin:0 6px;
+    float:left;
+}
+footer ul li a{
+    color:#fff;
+    font-size: 12px;
+}
+footer p{
+    width:100%;
+    text-align: center;
+    color:#fff;
+    font-size: 12px;
+}
