@@ -1,0 +1,709 @@
+body{
+    font-size: 12px;
+    font-family: simsun,arial,helvetica,clean,sans-serif;
+    background: #fff;
+    color: #2b2b2b;
+}
+.toubu{
+    width: 1000px;
+    height: 36px;
+    margin: 0 auto;
+    padding: 7px 10px 3px;
+    font-family: "宋体";
+    position: relative;
+    z-index: 999;
+    background: #fff;
+}
+.toubu ul{
+    float: left;
+    width: 774px;
+    height: 24px;
+    line-height: 24px;
+}
+.toubu ul li{
+    float: left;
+    background: url(http://y2.ifengimg.com/9949a678442334cc/2013/1118/line.gif) no-repeat left center;
+    padding: 0 9px 0 9px;
+}
+.toubu ul li a:hover{
+    color:#F34343;
+    text-decoration: underline;
+}
+.more{
+    width: 48px;
+    float: left;
+}
+.more a{
+    height: 24px;
+    line-height: 24px;
+    color: #2b2b2b;
+    display: block;
+    width: 41px;
+    padding-left: 8px;
+}
+.more img  {
+    margin-top: 12px;
+}
+.more a:hover{
+    color:#F34343;
+    text-decoration: underline;
+}
+.denglu{
+    width: 158px;
+    height: 24px;
+    line-height: 24px;
+    text-align: right;
+    color: #666;
+    overflow: hidden;
+    float: left;
+}
+.denglu a{
+    color: #666;
+    margin-left: 6px;
+}
+.denglu a:hover{
+    text-decoration: underline;
+}
+.logo{
+    width: 1000px;
+    margin: 0 auto;
+    height: 60px;
+    padding-top: 25px;
+}
+.logo-img{
+    float: left;
+    font-size: 12px;
+    width: 127px;
+    height: 26px;
+}
+.logo-img img{
+    display: block;
+}
+.logo-kuang{
+    width: 300px;
+    float: right;
+}
+.logo-kuang1{
+    width: 78px;
+    height: 26px;
+    margin-right: 5px;
+    position: relative;
+    float: left;
+}
+.logo-kuang1 a{
+    color: #666;
+    display: block;
+    width: 76px;
+    height: 24px;
+    line-height: 24px;
+    background: url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/s_bg01_1.gif) no-repeat right top;
+    padding-left: 10px;
+    border: 1px solid #999;
+}
+.logo-kuang2{
+    width: 217px;
+    height: 24px;
+    background: url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/s_bg02_1.gif) no-repeat right top;
+    border: 1px solid #b2b2b2;
+    float: left;
+}
+.logo-text{
+    color: #666;
+    border: 0;
+    background: 0;
+    width: 178px;
+    padding: 0 10px;
+    height: 24px;
+    line-height: 24px;
+    float: left;
+}
+.logo-btn{
+    width: 37px;
+    height: 24px;
+    float: left;
+    cursor: pointer;
+}
+.daohang{
+    width: 100%;
+    margin: 0 auto;
+    height: 81px;
+    background: url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/nav_bg01.gif) repeat-x center top;
+}
+.daohang1{
+    width: 1000px;
+    margin: 0 auto;
+}
+.daohang-top{
+    background: url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/nav_bg01.gif) repeat-x;
+    height: 40px;
+}
+.daohang-ul{
+    background: url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/nav_bg02.gif) left top no-repeat;
+    height: 40px;
+    overflow: hidden;
+}
+.daohang-ul li{
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    background: url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/nav_bg02.gif) right top no-repeat;
+    padding: 0 17px;
+    float: left;
+}
+.daohang-ul li:first-child{
+    padding: 0 36px;
+}
+.daohang-ul li a{
+    color: #fff;
+}
+.daohang-ul li:first-child>a{
+    color:#ccb867;
+}
+.daohang-ul li a:hover{
+    color:#ccb867;
+}
+.daohang-bottom{
+    height: 40px;
+    overflow: hidden;
+}
+.daohang-ul1{
+    height: 40px;
+    margin-left: -16px;
+    overflow: hidden;
+}
+.daohang-ul1 li{
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    background: url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/nav_bg03.gif) left top no-repeat;
+    padding: 0 14px 0 16px;
+    float: left;
+}
+.daohang-ul1 li a{
+    color: #2b2b2b;
+}
+.daohang-ul1 li a:hover{
+    color:#F34343;
+}
+.con1{
+    width: 1000px;
+    margin: 0 auto;
+    height:auto;
+}
+.con1-left{
+    width: 650px;
+    float: left;
+    border-top: solid 1px #ededed;
+    overflow: hidden;
+}
+.con1-right{
+    width: 300px;
+    float: right;
+}
+.con1-left-1{
+    width: 650px;
+    background: url(http://y0.ifengimg.com/fe/zx1/images/xian_df30d870.jpg) repeat-x left bottom;
+    margin-top: 14px;
+    padding-bottom: 18px;
+}
+.con1-left-1 span{
+    background: url(http://y0.ifengimg.com/fe/zx1/images/xbj_a2f363cf.jpg) no-repeat center center;
+    width: 56px;
+    height: 22px;
+    float: left;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 22px;
+    padding-left: 5px;
+    margin-top: 6px;
+}
+.con1-left-1 h1{
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 6px;
+}
+.con1-left-1 h1 a{
+    font-size: 22px;
+    color: #004276;
+    font-family: Microsoft YaHei;
+    text-decoration: none;
+    font-weight: normal;
+    margin-left: 9px;
+}
+.xiahuaxian{
+    height: 10px;
+    line-height: 10px;
+    overflow: hidden;
+}
+.con1-left-1 p a{
+    font-size: 14px;
+    color: #004276;
+    line-height: 28px;
+}
+.con1-kuang1{
+    width: 100%;
+    height:28px;
+}
+.con1-left-2{
+    width: 3442px;
+    height:41px;
+    background: url(http://y0.ifengimg.com/fe/zx1/images/xian_df30d870.jpg) repeat-x left bottom;
+    line-height: 41px;
+}
+.con1-left-2 p{
+    background: url(http://y0.ifengimg.com/fe/zx1/images/dian1_14fd99e2.jpg) no-repeat center center;
+    float: left;
+    padding-left: 13px;
+    margin-right: 16px;
+}
+.con1-left-2 p a{
+    color:#004276;
+    font-size: 14px;
+}
+.huandengpian{
+    width: 650px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 12px;
+}
+.huandengpian1{
+    width: 650px;
+    height: 400px;
+    overflow: hidden;
+    display: none;
+}
+.huandengpian1:first-child{
+    display: block;
+}
+.huandengpian1 img{
+    display: block;
+    width: 650px;
+    height: 400px;
+}
+.text{
+    width: 650px;
+    height: 50px;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity:0.5;
+}
+.huandengpian1 p a{
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    line-height: 50px;
+}
+.text a:hover{
+    text-decoration: underline;
+}
+.huandengpian1 p{
+    font: bold 16px Microsoft YaHei;
+    color: #fff;
+    position: absolute;
+    width: 472px;
+    height: 50px;
+    line-height: 50px;
+    bottom: 0;
+    _bottom: 0;
+    left: 12px;
+}
+.con1-r-1{
+    width: 300px;
+    border-bottom: solid 2px #f54144;
+    height: 22px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+.con1-r-1 a{
+    float: left;
+}
+.con1-r-2{
+    width: 300px;
+    overflow: hidden;
+}
+.con1-r-2-1{
+    height: 46px;
+    width: 300px;
+    background: url(http://y3.ifengimg.com/l/2015/20/87f7e4c8d571484/line04.jpg) no-repeat left bottom;
+    overflow: hidden;
+    float: left;
+}
+.tupian{
+    float: left;
+    width: 31px;
+    height: 20px;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    margin-left: 5px;
+}
+.tupianxia{
+    font-size: 14px;
+    float: left;
+    margin-left: 12px;
+    padding-top: 14px;
+    padding-bottom: 11px;
+    font-family: "微软雅黑";
+}
+.tupianxiaxia{
+    font-size: 12px;
+    float: left;
+    padding-top: 18px;
+    padding-left: 14px;
+    padding-bottom: 15px;
+    color: #004276;
+    height: 14px;
+    width: 190px;
+}
+.tupianxiaxia a{
+    color: #004276;
+    background: url(http://y0.ifengimg.com/fe/zx1/images/live_00d3c82f.jpg) no-repeat left 3px;
+    padding-left: 18px;
+    height: 14px;
+    display: block;
+    line-height: 14px;
+    overflow: hidden;
+}
+.tupianxiaxia a:hover{
+    color: #F34343;
+    text-decoration: underline;
+}
+.zhaopin{
+    height: 46px;
+    width: 300px;
+    background: url(http://y3.ifengimg.com/l/2015/20/87f7e4c8d571484/line04.jpg) no-repeat left bottom;
+    overflow: hidden;
+    float: left;
+}
+.zhaopin1{
+    width: 33px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFF;
+    background: #d1d1d1;
+    margin-left: 7px;
+    margin-top: 12px;
+    float: left;
+}
+.zhaopin2 a{
+    float: left;
+    padding-top: 15px;
+    margin-left: 13px;
+}
+.zhaopin a:hover{
+    color: #F34343;
+    text-decoration: underline;
+}
+.con2{
+    width: 650px;
+    overflow: hidden;
+}
+.con2-1{
+    height: 29px;
+    line-height: 29px;
+    overflow: hidden;
+}
+.con2-ul{
+    width: 650px;
+    overflow: hidden;
+    zoom: 1;
+    border-bottom: none;
+    background: #fff;
+    z-index: 110;
+    width: 650px;
+    border-top: solid 1px #d1d1d1;
+    border-left: solid 1px #d1d1d1;
+}
+.con2-ul li{
+    width: 80px;
+    float: left;
+    color: #000;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Microsoft YaHei;
+    border-right: solid 1px #d1d1d1;
+    border-bottom: solid 2px #d1d1d1;
+}
+.con2-ul li:first-child{
+    width: 89px;
+    color: #f54343;
+    background: #f7f7f7;
+    border-bottom: solid 2px #f54144;
+    font-weight: bold;
+}
+.con2-biaotiao{
+    height: 6px;
+    line-height: 6px;
+    overflow: hidden;
+}
+.con2-con2-1{
+    width: 650px;
+    height: 114px;
+    border-bottom: solid 1px #ededed;
+    padding-top: 12px;
+    position: relative;
+    overflow: hidden;
+}
+.tu{
+    width: 168px;
+    height: 90px;
+    float: left;
+    margin-right: 24px;
+    overflow: hidden;
+}
+.zi{
+    float: left;
+    width: 430px;
+}
+.zi h2 a{
+    margin-top: 10px;
+    line-height: 24px;
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    color: #004276;
+}
+.pl{
+    position: absolute;
+    width: 45px;
+    height: 14px;
+    right: 0;
+    bottom: 9px;
+}
+.pl a{
+    background: url(http://y0.ifengimg.com/fe/zx1/images/ly_a9ebd58d.jpg) no-repeat 0 2px;
+    width: 43px;
+    height: 14px;
+    display: block;
+    color: #d1d1d1;
+    overflow: hidden;
+    padding-left: 18px;
+    line-height: 14px;
+    text-decoration: none;
+}
+.zi h2 a:hover{
+    color: #F34343;
+    text-decoration: underline;
+}
+.con3{
+    width: 300px;
+    overflow: hidden;
+    margin-top: 29px;
+    float: left;
+}
+.con3-1{
+    width: 300px;
+    border-top: solid 2px #d1d1d1;
+    height: 28px;
+}
+.con3-1 a{
+    float: left;
+    font-size: 18px;
+    color: #2b2b2b !important;
+    font-family: "微软雅黑";
+    text-decoration: none;
+    padding-top: 6px;
+}
+.con3-2{
+    overflow: hidden;
+    margin-top: 18px;
+    float: left;
+}
+.con3-ul{
+    width: 300px;
+    overflow: hidden;
+}
+.con3-ul li{
+    overflow: hidden;
+    cursor: pointer;
+}
+.con3-con{
+    padding-bottom: 11px;
+    margin-bottom: 8px;
+    background: url(http://y0.ifengimg.com/fe/zx1/images/xian_df30d870.jpg) repeat-x left bottom;
+}
+.con3-h2{
+    font-size: 14px;
+    color: #004276;
+    margin-bottom: 12px;
+    background: 0;
+    padding: 0;
+}
+.con3-h2 a:hover{
+    color: #F34343;
+    text-decoration: underline;
+}
+.con3-tu{
+    float: left;
+    width: 90px;
+    height: 90px;
+    display: block;
+    overflow: hidden;
+}
+.con3-p{
+    line-height: 20px;
+    color: #666;
+    display: block;
+    padding-top: 3px;
+    width: 190px;
+    float: right;
+}
+.con3-p a{
+    color: #f44444;
+}
+.con3-p a:hover{
+    text-decoration: underline;
+}
+.dibu{
+    width: 1000px;
+    height:auto;
+    margin: 30px auto 0;
+    border-top: 2px solid #2b2b2b;
+}
+.dibuzuo{
+    float: left;
+    width: 96px;
+    padding-top: 30px;
+}
+.dibusaoma{
+    width: 96px;
+}
+.dibusaoma h3{
+    font-size: 16px;
+    color: #999;
+    font-weight: normal;
+    padding-bottom: 11px;
+}
+.con11{
+    width: 100%;
+    height:auto;
+
+}
+.dibuduoxuan{
+    float: left;
+    background: url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2014/0318/newsn_02.jpg) no-repeat top left;
+    width: 78px;
+    height: 18px;
+    line-height: 18px;
+    padding-left: 6px;
+    margin-top: 10px;
+    position: relative;
+}
+.dibuduoxuan h3{
+    font-weight: normal;
+    color: #004276;
+    font-size: 12px;
+    padding-top: 1px;
+    cursor: pointer;
+}
+.dibuyou{
+    float: left;
+    width: 779px
+}
+.dby{
+    padding-top: 22px;
+}
+.dby li{
+    width: 78px;
+    float: left;
+}
+.dby li a{
+    color: #666;
+    display: block;
+    line-height: 28px;
+}
+.hzmt{
+    font: bold 18px Microsoft YaHei;
+    float: left;
+    width: 76px;
+    padding-top: 26px;
+    margin-left: 49px;
+}
+.weibu{
+    width: 100%;
+    margin: 50px auto 0;
+    height: 80px;
+}
+.weibu1{
+    width: 1000px;
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+}
+.weibutop{
+    height: 44px;
+    padding-top: 15px;
+    border-top: 1px solid #fff;
+    overflow: hidden;
+    color: #000;
+    line-height: 28px;
+    font-size: 12px;
+}
+.weibubottom{
+    font-family: Arial,"宋体";
+    color: #666;
+    height: 28px;
+    text-align: center;
+    overflow: hidden;
+    line-height: 28px;
+}
+.wb1{
+    float: left;
+}
+.wb1 a{
+    padding: 0 7px;
+    border-right: 1px solid #000;
+}
+.wb2{
+    float: right;
+    width: 200px;
+}
+.wb2-ul li{
+    float: left;
+    height: 28px;
+    overflow: hidden;
+}
+.wb2-ul li:first-child{
+    background: url(//p2.ifengimg.com/a/2016_21/nav0416_14_fd540caa-fd540caadc.gif) no-repeat left 9px;
+    padding-left: 19px;
+}
+.wb2-ul li:nth-child(4){
+    background: url(//p2.ifengimg.com/a/2016_21/nav0416_17-68c300b50b.gif) no-repeat left 9px;
+    padding-left: 17px;
+    margin-left: 18px;
+}
+.weibubottom span{
+    padding-right: 12px;
+    font-size: 12px;
+}
+.wb2-ul li a:hover{
+    color: #F34343;
+    text-decoration: underline;
+}
+.wb1 a:hover{
+    color: #F34343;
+    text-decoration: underline;
+}
+.lunbo{
+    position: absolute;
+    height: 5px;
+    top: 341px;
+    right: 0;
+    overflow: hidden;
+}
+.lunbo li{
+    float: left;
+    width: 5px;
+    height: 5px;
+    background: #f7f7f7;
+    margin: 0 7px 0 0;
+    display: inline;
+    cursor: pointer;
+}
+.lunbo li:first-child{
+    background: #f54144;
+}

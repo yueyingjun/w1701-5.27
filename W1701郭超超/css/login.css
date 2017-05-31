@@ -1,0 +1,137 @@
+body{
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    color: rgb(43, 43, 43);
+    font-size: 12px;
+}
+.box{
+    width: 520px;
+    height: 410px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+.toubu{
+    width: 520px;
+    height: 75px;
+    overflow: hidden;
+    background: #f54343;
+}
+.toubu a{
+    width: 126px;
+    height: 44px;
+    overflow: hidden;
+    margin: 15px 0 0 20px;
+    background: url(http://y1.ifengimg.com/global_login_newedtion/login_new_20150828.png) no-repeat 0 0;
+    display: block;
+    float: left;
+}
+.con{
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+}
+.con1{
+    width: 520px;
+    height: 308px;
+    position: relative;
+    margin-top: 38px;
+}
+.con2{
+    overflow: hidden;
+    zoom: 1;
+    padding-bottom: 20px;
+}
+.con2 label{
+    display: inline;
+    float: left;
+    width: 85px;
+    padding-left: 33px;
+    font-size: 14px;
+    color: #6a6a6a;
+    text-align: left;
+    line-height: 30px;
+}
+.con2 input{
+    color: #515151;
+    display: inline;
+    float: left;
+    width: 190px;
+    height: 28px;
+    overflow: hidden;
+    border: 1px solid #e1e1e1;
+    font-size: 12px;
+    margin-top: 0;
+    padding: 4px 5px 2px;
+}
+.con3{
+    padding: 0 0 0 85px;
+}
+.con3 input{
+    position: relative;
+    margin-top:0;
+}
+.con3 label{
+    display: inline-block;
+    cursor: pointer;
+    float: none;
+    font-size: 12px;
+    color: #e1e1e1;
+    text-align: left;
+    line-height: 18px;
+    width: auto;
+    padding: 0 0 0 3px;
+}
+.con4{
+    overflow: hidden;
+    zoom: 1;
+    padding: 26px 0 0 85px;
+}
+.con4 a:first-child{
+    display: inline;
+    float: left;
+    width: 110px;
+    height: 36px;
+    overflow: hidden;
+    background: url(http://y1.ifengimg.com/global_login_newedtion/login_new_20150828.png) no-repeat 0 -100px;
+    text-indent: -99999px;
+}
+.con4 a:nth-child(2){
+    float: left;
+    width: 300px;
+    height: 60px;
+    margin: 10px 0 0 19px;
+    color: #004a99;
+}
+.con4 span{
+
+}
+.con4 a:nth-child(3){
+    color: #004a99;
+}
+.con4 a:nth-child(4){
+    color: #004a99;
+    padding-left: 96px;
+}
+.con-r{
+    width: 200px;
+    height: 230px;
+    padding-left: 44px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 1px solid #e1e1e1;
+    margin-top: 38px;
+}
+.con-r a{
+    display: block;
+    width: 112px;
+    height: 36px;
+    overflow: hidden;
+    text-indent: -99999px;
+    margin-top: 20px;
+}

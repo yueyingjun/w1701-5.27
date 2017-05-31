@@ -1,0 +1,293 @@
+body{
+    font-family: 宋体, Arial, Helvetica, sans-serif;
+    color: rgb(43, 43, 43);
+    font-size: 12px;
+    background: #F9F9F9;
+}
+.toubu{
+    border-bottom: 1px solid #d9d9d9;
+    height: 51px;
+    background: #fff;
+    width: 100%;
+}
+.toubu1{
+    width: 1000px;
+    margin: 0 auto;
+}
+.con{
+    width: 1000px;
+    height:639px;
+    margin: 0 auto;
+    position: relative;
+    background: url(../img/15.jpg) no-repeat  left top;
+}
+.con1{
+    width: 604px;
+    float: left;
+    clear: both;
+    position: relative;
+    left: 50%;
+    margin-left: -302px;
+    padding: 50px 0 130px;
+}
+.con1 h2{
+    font-weight: normal;
+    font-family: 微软雅黑;
+    display: block;
+    text-align: center;
+    margin: 0px 0px 24px;
+    padding-bottom: 10px;
+}
+.con1-ul{
+    background: #fff url(../img/16.gif) repeat-y right 0;
+    height: 38px;
+    border-top: 1px solid #e5e5e5;
+    position: relative;
+    width: 240px;
+    z-index: 10;
+}
+.con1-ul li{
+    cursor: pointer;
+    border-left: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+    line-height: 38px;
+    font-size: 16px;
+    float: left;
+    width: 119px;
+}
+.con1-ul li:first-child{
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+}
+.con1-ul li:nth-child(2){
+
+}
+.box{
+    width: 603px;
+    background: #fff url(../img/16.gif) repeat-y right 0;
+    border-top: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+}
+.con2{
+    margin: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    font-size: 100%;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: normal;
+    padding: 46px 0 30px 48px;
+    min-height: 246px;
+}
+.con2-1{
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.title{
+    font-size: 14px;
+    width: 60px;
+    text-align: right;
+    float: left;
+}
+.con2-1 input{
+    float: left;
+    width: 270px;
+    background: url(../img/17.gif) no-repeat right bottom;
+    border: 0;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 6px;
+    font-size: 16px;
+    font-family: "verdana";
+    margin: 0 12px 0 16px;
+    color: #666;
+    position: relative;
+    z-index: 1;
+}
+.text{
+    color: #bbb;
+    float: left;
+    width: 160px;
+}
+.input{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    font-size: 100%;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: normal;
+}
+.input>input{
+    height: 30px;
+    line-height: 30px;
+    padding: 0 6px;
+    font-size: 16px;
+    font-family: "verdana";
+    margin: 0 12px 0 16px;
+    float: left;
+    color: #666;
+    position: relative;
+    z-index: 1;
+    width: 124px;
+    background: url(../img/17.gif) no-repeat left bottom;
+    background-size: cover;
+    position: relative;
+    border-right: 1px solid #ccc;
+}
+.input>a{
+    float: left;
+    margin-left: 12px;
+}
+.con3{
+    height: 40px;
+    line-height: 30px;
+    position: relative;
+    padding-top: 10px;
+}
+.con3>input{
+    float: left;
+    margin-left: 76px;
+}
+.con3>lable{
+    float: left;
+    line-height: normal;
+    margin-left: 6px;
+}
+.btn{
+    width: 135px;
+    height: 30px;
+    background: url(../img/19.gif) no-repeat;
+    color: #fff!important;
+    margin-left: 76px;
+}
+.bot{
+    height: 8px;
+    width: 604px;
+    overflow: hidden;
+    clear: both;
+    background: url(../img/20.gif) no-repeat;
+    margin-left: -1px;
+}
+.dibu{
+    width: 1000px;
+    border: 1px #d9d9d9 solid;
+    margin: 0 auto;
+    font-family: simsun, Arial;
+    font-size: 12px;
+    clear: both;
+    background: #fff;
+}
+.dibu>ul{
+    width: 776px;
+    float: left;
+    padding: 8px 0px;
+}
+.dibu>ul li{
+    padding: 0px 4px 0px 5px;
+    background: url(https://id.ifeng.com/static/images/common/zxicon_26.gif) right center no-repeat;
+    float: left;
+}
+.wb2{
+    float: right;
+    width: 200px;
+}
+.wb2-ul li{
+    float: left;
+    height: 28px;
+    overflow: hidden;
+    line-height: 28px;
+}
+.wb2-ul li:first-child{
+    background: url(//p2.ifengimg.com/a/2016_21/nav0416_14_fd540caa-fd540caadc.gif) no-repeat left 9px;
+    padding-left: 19px;
+}
+.wb2-ul li:nth-child(4){
+    background: url(//p2.ifengimg.com/a/2016_21/nav0416_17-68c300b50b.gif) no-repeat left 9px;
+    padding-left: 17px;
+    margin-left: 18px;
+}
+.weibubottom span{
+    padding-right: 12px;
+    font-size: 12px;
+}
+.wb2-ul li a:hover{
+    color: #F34343;
+    text-decoration: underline;
+}
+.dibutiao{
+    width: 1000px;
+    height: 21px;
+    margin: 0 auto;
+    background: #fff url(https://id.ifeng.com/static/images/common/icon02_04.gif) repeat-x bottom;
+    font-size: 0px;
+    line-height: 0px;
+    clear: both;
+}
+.weibu{
+    color: #000;
+    width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    line-height: 24px;
+    font-family: Arial, simsun;
+    font-size: 12px;
+    background: #fff;
+    padding-top: 8px;
+}
+.weibu1{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    font-size: 100%;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: normal;
+    line-height: 22px;
+}
+.weibu1 a{
+    padding: 0px 8px;
+    color: #000;
+}
+.weibu2{
+    color: #000;
+    line-height: 22px;
+}
+.con-r{
+    position: absolute;
+    right: 20px;
+    width: 120px;
+    top: 50px;
+}
+.con-r h3{
+    font-size: 12px;
+    font-weight: normal;
+    margin: 5px 0 30px;
+    padding-bottom: 10px;
+}
+.con-r p{
+    padding-bottom: 12px;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    font-size: 100%;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: normal;
+}
+.con-r p a{
+    display: block;
+    width: 148px;
+    height: 18px;
+}
