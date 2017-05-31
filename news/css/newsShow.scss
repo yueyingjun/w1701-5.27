@@ -1,0 +1,186 @@
+$color:#0081CC;
+html,body{
+  width: 100%;
+  height: auto;
+  overflow: auto;
+}
+//头部
+header {
+  width: 100%;
+  height: 45px;
+  //background: #F7F7F7;
+  .headerBox {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    //background: #3A97FF;
+    line-height: 45px;
+    .headerLeft {
+      width: 40%;
+      height: 100%;
+      float: left;
+      line-height: 45px;
+      .logo {
+        width: 40px;
+        height: 100%;
+        float: left;
+        img {
+          width: 38px;
+          height: 45px;
+        }
+      }
+    }
+    .headerRight {
+      width: 15%;
+      height: 100%;
+      float: right;
+      font-size: 12px;
+      a {
+        color: #666;
+      }
+    }
+  }
+}
+
+  //面包屑导航
+  .navBox {
+    width: 1000px;
+    height: 26px;
+    margin: 10px auto;
+    p {
+      font-size: 13px;
+      color: #666;
+      a {
+        color: #666;
+      }
+    }
+  }
+
+  //正文
+  .contentBox {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    //background: rebeccapurple;
+    hgroup {
+      border-bottom: 1px solid #ccc;
+      h2 {
+        line-height: 40px;
+      }
+      span {
+        font-size: 12px;
+        color: #666;
+        line-height: 30px;
+        a {
+          color: #CF1F21;
+        }
+      }
+    }
+    .content {
+      width: 100%;
+      height: auto;
+      margin: 20px;
+      text-align: center;
+      .contLeft {
+        width: 100%;
+        //background: yellow;
+        img {
+          width: 680px;
+          height: 453px;
+          //margin-left: 230px;
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 12px;
+          color: #666;
+          text-align: left;
+        }
+      }
+    }
+  }
+
+//底部
+.dibu{
+  width: 620px;
+  height: 13px;
+  margin: 0 auto;
+  /*background: red;*/
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.dibu a{
+  font-size: 10px;
+  font-family: "微软雅黑";
+  color: #666;
+  line-height: 13px;
+  /*text-align: center;*/
+}
+
+.dibu a:hover{
+  color: #25B2FE;
+  text-decoration: underline;
+}
+
+.dibu .bord{
+  height: 13px;
+  /*border-right: 1px solid #DFDFDF;*/
+  float: left;
+  margin-right: 5px;
+}
+
+.dibutwo {
+  font-size: 10px;
+  font-family: "微软雅黑";
+  color: #666;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+
+.dibutwo a:hover{
+  color: #25B2FE;
+  text-decoration: underline;
+}
+
+
+.dibuthree{
+  font-size: 10px;
+  font-family: "微软雅黑";
+  color: #666;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.dibufour{
+  font-size: 10px;
+  font-family: "微软雅黑";
+  color: #666;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.dibufive {
+  font-size: 10px;
+  font-family: "微软雅黑";
+  color: #666;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+.dibufive a:hover{
+  color: #25B2FE;
+  text-decoration: underline;
+}
+
+
+.dibufive img{
+  vertical-align: middle;
+}
+

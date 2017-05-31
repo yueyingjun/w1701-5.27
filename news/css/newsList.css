@@ -1,0 +1,464 @@
+@charset "UTF-8";
+html, body {
+  overflow: auto;
+}
+
+body {
+  background: none !important;
+}
+
+header {
+  width: 100%;
+  height: 45px;
+}
+
+header .headerBox {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  line-height: 45px;
+}
+
+header .headerBox .headerLeft {
+  width: 40%;
+  height: 100%;
+  float: left;
+  line-height: 45px;
+}
+
+header .headerBox .headerLeft .logo {
+  width: 40px;
+  height: 100%;
+  float: left;
+}
+
+header .headerBox .headerLeft .logo img {
+  width: 38px;
+  height: 45px;
+}
+
+header .headerBox .headerRight {
+  width: 28%;
+  height: 100%;
+  float: right;
+  font-size: 12px;
+}
+
+header .headerBox .headerRight #login {
+  color: #0081CC;
+  padding-right: 20px;
+}
+
+header .headerBox .headerRight #import {
+  width: 125px;
+  height: 22px;
+  border: 1px solid #ACB6B7;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+header .headerBox .headerRight #select {
+  width: 50px;
+  height: 22px;
+  border: 1px solid #ACB6B7;
+  margin-left: 10px;
+  font-size: 10px;
+  outline: none;
+}
+
+header .headerBox .headerRight #search {
+  width: 35px;
+  height: 22px;
+  margin-left: -3px;
+  font-size: 10px;
+  background: #0A9AD6;
+  color: #fff;
+}
+
+nav {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.navBox {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  line-height: 40px;
+  color: #666;
+}
+
+.navBox a {
+  color: #666;
+  text-align: center;
+  padding-right: 8px;
+  padding-left: 7px;
+  font-size: 14px;
+}
+
+.navBox a:first-child {
+  padding-left: 20px;
+}
+
+.navBox a:nth-child(2) {
+  color: #CF1F21;
+}
+
+.navBox a:hover {
+  text-decoration: underline;
+  color: #CF1F21;
+}
+
+.navBox #read {
+  line-height: 40px;
+}
+
+.navBox #read option {
+  line-height: 40px;
+}
+
+.navBox2 {
+  background: #0081CC;
+}
+
+.navBox2 a {
+  color: #fff;
+}
+
+.navBox2 a:first-child {
+  color: #CF1F21;
+}
+
+.navBox2 a:nth-child(2) {
+  color: #fff;
+}
+
+.navBox2 a:hover {
+  text-decoration: underline;
+  color: #CF1F21;
+}
+
+.nav2 #read {
+  margin-left: 490px;
+}
+
+.nav2 #import {
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+
+.nav2 #search {
+  background: none;
+  color: #fff;
+}
+
+.contentBox {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.contLeft {
+  width: 60%;
+  height: 100%;
+  float: left;
+}
+
+.contLeft .content {
+  width: 100%;
+  height: auto;
+}
+
+.contLeft .content nav {
+  width: 96%;
+  height: 40px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  line-height: 40px;
+  position: relative;
+  font-size: 14px;
+}
+
+.contLeft .content nav a {
+  display: block;
+  width: auto;
+  height: 100%;
+  padding: 0 29px;
+  text-align: center;
+  float: left;
+  color: #666;
+  font-size: 14px;
+}
+
+.contLeft .content nav .line {
+  width: 100%;
+  height: 2px;
+  background: #858585;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.contLeft .content .list {
+  width: 100%;
+  height: auto;
+}
+
+.contLeft .content .list .news-item {
+  padding: 0px 0px 10px;
+}
+
+.contLeft .content .list .news-item h4 a {
+  font-size: 14px;
+  color: #666;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.contLeft .content .list .news-item h4 a:hover {
+  color: #0081CC;
+  text-decoration: underline;
+}
+
+.contLeft .content .list .news-item .info:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.contLeft .content .list .news-item .info .time {
+  font-size: 10px;
+  color: #666;
+  padding-right: 440px;
+}
+
+.contLeft .content .list .news-item .info span {
+  font-size: 10px;
+  color: #666;
+}
+
+.contLeft .content .list .news-item .info span a {
+  color: #666;
+}
+
+.contLeft .content .list .line {
+  width: 95%;
+  height: 1px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+
+.contLeft ul.pagination {
+  width: 80%;
+  height: 60px;
+  margin: 35px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contLeft ul.pagination a.lefta, .contLeft ul.pagination a.righta {
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.contLeft ul.pagination a.lefta span, .contLeft ul.pagination a.righta span {
+  float: left;
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+  font-weight: bold;
+  color: #666;
+  text-align: center;
+  line-height: 50px;
+  font-family: '宋体';
+}
+
+.contLeft ul.pagination > li.nubli {
+  width: 30px;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.contLeft ul.pagination > li.nubli > a.nub {
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: none;
+  border: none;
+  color: #9FA0A0;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.contLeft ul.pagination > li.nubli > a.active {
+  background-color: #0081CC;
+  color: #fff;
+}
+
+.contRight {
+  width: 40%;
+  height: auto;
+  float: right;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.contRight .line {
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+
+.contRight .hostTitle {
+  width: 95%;
+  height: 30px;
+}
+
+.contRight .hostTitle a {
+  display: block;
+  width: 50%;
+  height: 100%;
+  float: left;
+  line-height: 30px;
+  box-sizing: border-box;
+  color: #0081CC;
+  font-size: 13px;
+}
+
+.contRight .hostTitle a:nth-child(2) {
+  text-align: right;
+  font-size: 10px;
+  color: #666;
+}
+
+.contRight .hostTitle a:hover {
+  color: #CF1F21;
+}
+
+.contRight .hostList {
+  width: 95%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.contRight .hostList ul {
+  width: 100%;
+  height: auto;
+}
+
+.contRight .hostList ul li {
+  width: auto;
+}
+
+.contRight .hostList ul li span {
+  line-height: 20px;
+  vertical-align: middle;
+  color: #666;
+  font-size: 11px;
+}
+
+.contRight .hostList ul li span:nth-child(1) {
+  color: #666;
+}
+
+.contRight .hostList ul li span:hover {
+  text-decoration: underline;
+}
+
+.dibu {
+  width: 620px;
+  height: 13px;
+  margin: 0 auto;
+  /*background: red;*/
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.dibu a {
+  font-size: 10px;
+  font-family: "微软雅黑";
+  color: #666;
+  line-height: 13px;
+  /*text-align: center;*/
+}
+
+.dibu a:hover {
+  color: #25B2FE;
+  text-decoration: underline;
+}
+
+.dibu .bord {
+  height: 13px;
+  /*border-right: 1px solid #DFDFDF;*/
+  float: left;
+  margin-right: 5px;
+}
+
+.dibutwo {
+  font-size: 10px;
+  font-family: "微软雅黑";
+  color: #666;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.dibutwo a:hover {
+  color: #25B2FE;
+  text-decoration: underline;
+}
+
+.dibuthree {
+  font-size: 10px;
+  font-family: "微软雅黑";
+  color: #666;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.dibufour {
+  font-size: 10px;
+  font-family: "微软雅黑";
+  color: #666;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.dibufive {
+  font-size: 10px;
+  font-family: "微软雅黑";
+  color: #666;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dibufive a:hover {
+  color: #25B2FE;
+  text-decoration: underline;
+}
+
+.dibufive img {
+  vertical-align: middle;
+}

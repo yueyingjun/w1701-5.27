@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        color:#2e2e2e;
+        font-family: 微软雅黑;
+        border:none;
+    }
+
+    html,body{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    body{
+        background: url(2.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    form{
+        width: 480px;
+        height: 340px;
+        padding: 10px 0;
+        background: rgba(0,0,0,0.3);
+        border-radius: 6px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.5);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    h3{
+        margin: 20px auto;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        color: #fff;
+    }
+    .user,.pass,.yanzheng{
+        height: auto;
+        width: 370px;
+        margin: 0 auto;
+        line-height: 40px;
+        padding: 10px 15px;
+        border-bottom: 1px solid #fff;
+        position: relative;
+        color: #fff;
+        outline: none;
+    }
+  .yanzheng{
+      /*float: left;*/
+      /*width:270px;*/
+  }
+    .user img,.pass img{
+        width: 20px;
+        height: 25px;
+        margin-bottom: -8px;
+    }
+
+    .userm,.passm{
+        position: absolute;
+        top: 0;
+        left: 95px;
+        background: #0085d0;
+        width: 105px;
+        height: auto;
+        padding: 2px;
+        border-radius: 3px;
+        font-size: 8px;
+        line-height: 15px;
+        color: #fff;
+        display: none;
+    }
+    .userm:before,.passm:before{
+        content: '';
+        border: 10px solid #0085d0;
+        position: absolute;
+        left: 6px;
+        top: 15px;
+        border-left-color:transparent;
+        border-right-color:transparent;
+        border-bottom-color:transparent;
+    }
+    .user input,.pass input{
+        background: none;
+        border: hidden;
+        /*border: 1px solid #dfdfdf;*/
+        width: 340px;
+        height: 35px;
+        font-size: 14px;
+        padding-left: 3px;
+        color:#fff;
+        outline: none;
+    }
+    .yanzheng input{
+        display: inline-block;
+        background: none;
+        border: hidden;
+        /*border: 1px solid #dfdfdf;*/
+        width: 160px;
+        height: 35px;
+        font-size: 14px;
+        padding-left: 3px;
+        color:#fff;
+        outline: none;
+    }
+    .yanzheng img{
+        height:35px;
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    #submit{
+        width: 80px;
+        height: 36px;
+        background: #33CD91;
+        border-radius: 3px;
+        text-align: center;
+        line-height: 36px;
+        color: #fff;
+        float: left;
+        margin: 40px 40px 30px 125px;
+        font-size: 18px;
+        outline: none;
+    }
+    #zhuce{
+        width: 80px;
+        height: 36px;
+        background: #33CD91;
+        border-radius: 3px;
+        text-align: center;
+        line-height: 36px;
+        color: #fff;
+        float: left;
+        text-decoration: none;
+        margin: 40px;
+        font-size: 18px;
+    }
+    #zhuce input{
+        background: none;
+        font-size: 18px;
+        color: #fff;
+    }
+</style>
+<body>
+<form action="login.php" method="post">
+    <h3> Login</h3>
+    <div class="user">
+        <div class="one"><img src="gerenzhongxin.png" alt="">
+            <!-- 用户名： --><input type="text" name="username" id="username" placeholder="请输入账号（2-10个字符，包含字母、数字、下划线）"></div>
+        <div class="userm">用户名不能为空</div>
+    </div>
+    <div class="pass">
+        <img src="mima.png" alt="">
+        <!-- 密&nbsp;&nbsp;码： --><input type="password" name="password" id="password" placeholder="请输入密码（2-10个字符，包含字母、数字、下划线）">
+        <div class="passm">密码不能为空</div>
+    </div>
+    <div class="yanzheng">
+        验证码：<input type="text" name="yan" id="yan" placeholder="请输入验证码">
+        <img src="getcheck.php" alt="" onclick="this.src='getcheck.php?abc='+Math.random()">
+    </div>
+
+    <input type="submit" name="sub" id="submit" value="登陆">
+    <a href="zhuce.html" id="zhuce"><input type="submit" value="注册"></a>
+</form>
+</body>
+</html>

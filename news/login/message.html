@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>提示页面</title>
+</head>
+<body>
+    <div class="header">信息提示</div>
+    <?php echo $message?>
+    <p>浏览器将在 <span>3</span>秒后自动跳转 </p>
+    <a href="<?php echo $src ?>">
+        <p>跳转链接</p>
+    </a>
+</body>
+</html>
+<script>
+    var span=document.querySelector('span');
+    var url=document.querySelector('a').href;
+
+    var i=3;
+    var t=setInterval(function () {
+        i--;
+        span.innerHTML=i;
+        if(i===0){
+            location.href=url;
+            console.log(url);
+        }
+    },1000)
+</script>
