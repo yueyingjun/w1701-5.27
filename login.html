@@ -13,10 +13,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <link href="css/style.css" rel='stylesheet' type='text/css' />
-<link rel="stylesheet" href="css/logo.css">
 <body>
 <nav class="navbar navbar-default" role="navigation">
-
 	<div class="container">
 	    <div class="navbar-header">
 	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -52,7 +50,64 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	  </div>
 	    <!--/.navbar-collapse-->
 	</nav>
-<div style="width:982px; margin-left:auto; margin-right:auto; margin-top:10px; margin-bottom:10px; background:url(../images/c2.jpg) repeat-y"></div>
-
+<!-- 注册页面 -->
+<div class="lg_login">
+	<div class="lq_zuo">
+		<div class="lq_mune">
+			<div class="lq_yo">
+				用户中心
+			</div>
+			<div class="lq_list">
+				<a href="">用户登录</a>
+				<a href="">用户注册</a>
+				<a href="">修改密码</a>
+			</div>
+		</div>
+	</div>
+	<div class="lq_you">
+		<div class="lq_bt">
+			<div class="lq_bt1">
+				<span style="cursor:pointer" onclick="location.href='index.html'">首页</span>
+				 > 
+				<span>用户中心</span>
+					 > 用户注册
+					
+			</div>
+		</div>
+		<div class="lq_yonhu">
+			<div class="lq_your">
+				用户注册
+			</div>
+		</div>
+		<div class="lq_start">
+			<form name="form2" method="POST" action="zcsave.asp" onsubmit="return checkdate()">
+				<table class="lq_table" cellspacing="0">
+					<tbody>
+						<tr>
+							<td width="20" height="20" background="images/zc01.jpg"></td>
+							<td width="560" height="20" background="images/zc02.jpg"></td>
+							<td width="20" height="20" background="images/zc03.jpg"></td>
+						</tr>
+						<tr>
+							<td height="20" background="images/zc08.jpg"></td>
+							<td style="text-align:center">
+								<div class="lq_start_mu">
+									<div class="lqm">
+										请选择您的用户名
+	    								<div class="lq_k">
+	    									<div class="lq_k1">
+	    										用户名:
+	    									</div>
+	    								</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>
+	</div>
+</div>
 </body>
 </html>	

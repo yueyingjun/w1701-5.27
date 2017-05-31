@@ -3031,3 +3031,121 @@ span a{
 .login-bottom{
     margin-bottom: 3rem;
 }
+/*注册页面*/
+.lg_login{
+   width: 899px;
+    height: 559px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: url(../images/news_r11_c1.jpg) repeat-y;
+}
+.lq_zuo{
+    width: 208px;
+    height: 559px;
+    float: left;
+    background: url(../images/news_r13_c2.jpg) no-repeat bottom left;
+}
+.lq_mune{
+     float: left;
+    width: 208px;
+    height: 100%;
+    text-align: left; 
+}
+.lq_yo{
+    height: 24px;
+    background: url(../images/news_r2_c2.jpg) no-repeat;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.lq_list{
+    line-height: 36px;
+    padding: 15px;
+}
+.lq_list a {
+    display: block;
+    background: url(../images/c3.jpg) no-repeat;
+    padding-left: 60px;
+    color: #000000;
+    text-decoration: none;
+}
+.lq_you{
+    width: 680px;
+    float: right;
+}
+.lq_bt{
+    width: 680px;
+    height: 26px;
+    background-image: url(../images/news_r1_c7.jpg);
+    line-height: 26px;
+}
+.lq_bt1{
+    width: 560px;
+    float: right;
+    text-align: left;
+    height: 26px;
+    font-size: 12px;
+ line-height: 26px;
+}
+.lq_yonhu{
+    width: 679px;
+    border-left: 1px solid #acd8ff;
+    border-right: 1px solid #acd8ff;
+    text-align: center;
+}
+.lq_your{
+    width: 638px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-bottom: dotted 1px #B3B3B3;
+    background: url(../images/news_r5_c8.jpg) no-repeat;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 25px;
+     font-size: 12px;
+}
+.lq_start{
+    border: solid 1px #ACD8FF;
+    width: 679px;
+    border-top: 0;
+}
+.lq_table{
+        margin-top: 30px;
+    margin-bottom: 50px;
+    width: 600px;
+    border: 0;
+
+}
+.lq_start_mu{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lqm{
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    text-indent: 22px;
+    border-bottom: 1px dashed #D6D6D6;
+    background-image: url(../images/login_conn.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.lq_k{
+    height: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.lq_k1{
+    width: 100px;
+    height: 30px;
+    text-align: right;
+    float: left;
+}
