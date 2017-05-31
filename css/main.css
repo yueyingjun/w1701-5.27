@@ -571,14 +571,14 @@
     display: block;
     color: #000;
 }
-.navbar-nav .j1{
-    display: none;
+.crown .navbar-nav{
+    padding: 10px!important;
 }
-
 #CommonWeal{
     margin:50px auto;
     padding:0;
 }
+
 .container{
     padding: 0 0 2em 0;
     margin: 0 auto;

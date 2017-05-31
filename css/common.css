@@ -177,9 +177,7 @@ header #zone a {
     width: 100%;
     padding: 0.4em;
 }
-.crown .navbar-nav{
-    padding: 10px!important;
-}
+
 .navbar, .navbar-nav {
     margin: 0!important;
     padding: 0px!important;
@@ -504,6 +502,9 @@ input[type="search"] {
     -moz-border-radius: 0!important;
     -khtml-border-radius: 0!important;
     -webkit-border-radius: 0!important;
+}
+.navbar-nav .j1{
+    display: none;
 }
 
 
