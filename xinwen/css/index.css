@@ -43,7 +43,7 @@ body {
     .title .t-right .sousuo {
       width: 30px;
       height: 30px;
-      background: url("img/sousuo.png") no-repeat center center;
+      background: url("../img/sousuo.png") no-repeat center center;
       background-color: #f0f0f0; }
   .title .t-left {
     width: 1220px;
@@ -166,7 +166,7 @@ body {
           padding-left: 16px;
           min-width: 20px;
           display: inline-block;
-          background: url(img/ct_bg.png) no-repeat left center; }
+          background: url(../img/ct_bg.png) no-repeat left center; }
         .con .con-left .left-1 .conditions .heads {
           width: 28px;
           height: 16px;
@@ -175,7 +175,7 @@ body {
           color: #ffffff;
           font-size: 12px;
           padding: 2px 4px 6px 8px;
-          background: url(img/sybg.png) no-repeat right center;
+          background: url(../img/sybg.png) no-repeat right center;
           overflow: hidden; }
       .con .con-left .left-1 .hidde {
         width: 260px;
@@ -197,7 +197,7 @@ body {
           width: 99px;
           height: 19px;
           display: block;
-          background: url("img/share.png") no-repeat center center; }
+          background: url("../img/share.png") no-repeat center center; }
   .con .con-right {
     width: 203px;
     height: auto;
@@ -269,7 +269,7 @@ body {
           height: 14px;
           display: block;
           float: left;
-          background: url(img/numhot_bg14.png) no-repeat;
+          background: url(../img/numhot_bg14.png) no-repeat;
           margin: 3px 0px 6px; }
       .con .con-right .uls .lis:nth-child(2) span {
         background-position: 0px -14px !important; }
@@ -348,7 +348,7 @@ body {
         left: 1px;
         width: 100px;
         height: 25px;
-        background: url(img/news_slidebg50.jpg) no-repeat 0 0; }
+        background: url(../img/news_slidebg50.jpg) no-repeat 0 0; }
         .con .con-title .tit .liage span {
           float: left;
           width: 50px;
@@ -433,7 +433,7 @@ body {
           padding-left: 16px;
           min-width: 20px;
           display: inline-block;
-          background: url(img/ct_bg.png) no-repeat left center; }
+          background: url(../img/ct_bg.png) no-repeat left center; }
         .con .contents .lis .conditions .heads {
           width: 28px;
           height: 16px;
@@ -442,7 +442,7 @@ body {
           color: #ffffff;
           font-size: 12px;
           padding: 2px 4px 6px 8px;
-          background: url(img/sybg.png) no-repeat right center;
+          background: url(../img/sybg.png) no-repeat right center;
           overflow: hidden;
           z-index: 111 !important; }
       .con .contents .lis .hidde {
@@ -465,7 +465,7 @@ body {
           width: 99px;
           height: 19px;
           display: block;
-          background: url("img/share.png") no-repeat center center; }
+          background: url("../img/share.png") no-repeat center center; }
 
 .kong {
   width: 100%;
