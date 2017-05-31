@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            color:#2e2e2e;
+            font-family: 微软雅黑;
+            border:none;
+        }
+
+        html,body{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        body{
+            background: url(2.jpg) no-repeat center center;
+            background-size: cover;
+        }
+        form{
+            width: 520px;
+            height: 400px;
+            padding: 10px 0;
+            background: rgba(0,0,0,0.3);
+            border-radius: 6px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.5);
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        h3{
+            margin: 20px auto;
+            font-size: 20px;
+            line-height: 40px;
+            text-align: center;
+            color: #fff;
+        }
+        /*.one{
+            width: 420px;
+            height: auto;
+            float: left;
+             border-bottom: 1px solid #fff;
+        }*/
+        .user,.pass,.pass1{
+            height: auto;
+            width: 300px;
+            margin: 0 auto;
+            line-height: 40px;
+            padding: 10px 15px;
+            border-bottom: 1px solid #fff;
+            position: relative;
+            color: #fff;
+            outline: none;
+            /* background:red;*/
+        }
+        .userm,.passm{
+            float: right;
+
+            width: 120px;
+            margin-left: 10px;
+            margin-top: -40px;
+            height: auto;
+
+            font-size: 14px;
+
+            color: #fff;
+            /*background: green;*/
+            /*display: none;*/
+        }
+        .user img,.pass img,.pass1 img{
+            width: 20px;
+            height: 25px;
+            margin-bottom: -8px;
+        }
+
+        .user input,.pass input,.pass1 input{
+            background: none;
+            /*border: 1px solid #dfdfdf;*/
+            width: 200px;
+            height: 30px;
+            font-size: 14px;
+            padding-left: 3px;
+            border: none;
+            color: #fff;
+            outline: none;
+        }
+        #submit{
+            width: 330px;
+            height: 40px;
+            background: #33CD91;
+            border-radius: 3px;
+            text-align: center;
+            line-height: 30px;
+            color: #fff;
+            float: left;
+            margin: 40px 10px 20px 95px;
+            font-size: 18px;
+        }
+        #zhuce{
+            width: 80px;
+            height: 30px;
+            background: #0085d0;
+            border-radius: 3px;
+            text-align: center;
+            line-height: 30px;
+            color: #fff;
+            float: left;
+            text-decoration: none;
+            margin: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+<form action="zhuce.php" method="post">
+    <h3>Register</h3>
+    <div class="user">
+        <div class="one"><img src="gerenzhongxin.png" alt="">
+            <input type="text" name="user" id="user" placeholder="请输入用户名"></div>
+        <!--<div class="userm">此用户名已存在</div>-->
+    </div>
+    <div class="pass">
+        <img src="mima.png" alt="">
+        <input type="password" name="pass" id="pass" placeholder="请输入密码">
+
+    </div>
+    <div class="pass1">
+        <img src="queren.png" alt="">
+        <input type="password" name="pass" id="pass1" placeholder="请再次输入密码">
+        <!--<div class="passm">两次密码保持一致</div>-->
+    </div>
+    <input type="submit" name="sub" id="submit" value="注册">
+
+</form>
+</body>
+</html>

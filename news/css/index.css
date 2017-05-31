@@ -1,0 +1,528 @@
+@charset "UTF-8";
+html, body {
+  overflow: auto; }
+
+body {
+  background: none !important; }
+
+header {
+  width: 100%;
+  height: 45px; }
+  header .headerBox {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    line-height: 45px; }
+    header .headerBox .headerLeft {
+      width: 40%;
+      height: 100%;
+      float: left;
+      line-height: 45px; }
+      header .headerBox .headerLeft .logo {
+        width: 40px;
+        height: 100%;
+        float: left; }
+        header .headerBox .headerLeft .logo img {
+          width: 38px;
+          height: 45px; }
+    header .headerBox .headerRight {
+      width: 28%;
+      height: 100%;
+      float: right;
+      font-size: 12px; }
+      header .headerBox .headerRight #login {
+        color: #0081CC;
+        padding-right: 20px; }
+      header .headerBox .headerRight #import {
+        width: 125px;
+        height: 22px;
+        border: 1px solid #ACB6B7;
+        box-sizing: border-box;
+        font-size: 10px; }
+      header .headerBox .headerRight #select {
+        width: 50px;
+        height: 22px;
+        border: 1px solid #ACB6B7;
+        margin-left: 10px;
+        font-size: 10px;
+        outline: none; }
+      header .headerBox .headerRight #search {
+        width: 35px;
+        height: 22px;
+        margin-left: -3px;
+        font-size: 10px;
+        background: #0A9AD6;
+        color: #fff; }
+
+nav {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-top: 5px; }
+
+.navBox {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  background: #0081CC;
+  line-height: 40px;
+  color: #fff; }
+  .navBox a {
+    color: #fff;
+    text-align: center;
+    padding-right: 8px;
+    padding-left: 7px;
+    font-size: 14px; }
+    .navBox a:first-child {
+      padding-left: 20px; }
+    .navBox a:hover {
+      text-decoration: underline;
+      color: #CF1F21; }
+  .navBox #read {
+    line-height: 40px; }
+    .navBox #read option {
+      line-height: 40px; }
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: -5px 5px !important; }
+
+.content {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.contLeft {
+  width: 33.3%;
+  height: auto;
+  float: left; }
+  .contLeft .bannerBox {
+    width: 100%;
+    height: 100%; }
+    .contLeft .bannerBox .line {
+      width: 95%;
+      height: 2px;
+      background: #858585; }
+    .contLeft .bannerBox .videoTitle {
+      width: 95%;
+      height: 30px; }
+      .contLeft .bannerBox .videoTitle a {
+        display: block;
+        width: 50%;
+        height: 100%;
+        float: left;
+        line-height: 30px;
+        box-sizing: border-box;
+        color: #0081CC; }
+        .contLeft .bannerBox .videoTitle a:nth-child(2) {
+          text-align: right;
+          font-size: 10px;
+          color: #666; }
+        .contLeft .bannerBox .videoTitle a:hover {
+          color: #CF1F21; }
+    .contLeft .bannerBox .banner {
+      width: 95%;
+      height: 260px;
+      background: blue;
+      margin-left: 0;
+      margin: 0 !important; }
+      .contLeft .bannerBox .banner .imgBox {
+        width: 340px;
+        height: 100%;
+        position: relative; }
+        .contLeft .bannerBox .banner .imgBox a {
+          display: block;
+          width: 100%;
+          height: 100%; }
+          .contLeft .bannerBox .banner .imgBox a img {
+            width: 340px;
+            height: 239px; }
+        .contLeft .bannerBox .banner .imgBox .wen {
+          width: 317px;
+          height: 35px;
+          background: rgba(0, 0, 0, 0.6);
+          position: absolute;
+          bottom: 20px;
+          left: 317px;
+          color: #fff;
+          text-align: center;
+          line-height: 35px; }
+  .contLeft .videoBox {
+    width: 100%;
+    height: 100%; }
+    .contLeft .videoBox .line {
+      width: 95%;
+      height: 2px;
+      background: #858585; }
+    .contLeft .videoBox .videoTitle {
+      width: 95%;
+      height: 30px; }
+      .contLeft .videoBox .videoTitle a {
+        display: block;
+        width: 50%;
+        height: 100%;
+        float: left;
+        line-height: 30px;
+        box-sizing: border-box;
+        color: #0081CC; }
+        .contLeft .videoBox .videoTitle a:nth-child(2) {
+          text-align: right;
+          font-size: 10px;
+          color: #666; }
+        .contLeft .videoBox .videoTitle a:hover {
+          color: #CF1F21; }
+    .contLeft .videoBox .video {
+      width: 95%;
+      height: 100px; }
+      .contLeft .videoBox .video .vLeft {
+        width: 49%;
+        height: 90px;
+        float: left;
+        background: blue;
+        position: relative; }
+        .contLeft .videoBox .video .vLeft img {
+          width: 155px;
+          height: 90px; }
+        .contLeft .videoBox .video .vLeft .play {
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          bottom: 2px;
+          left: 3px; }
+      .contLeft .videoBox .video .vRight {
+        width: 49%;
+        height: 90px;
+        float: right;
+        background: blue;
+        position: relative; }
+        .contLeft .videoBox .video .vRight img {
+          width: 155px;
+          height: 90px; }
+        .contLeft .videoBox .video .vRight .play {
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          bottom: 2px;
+          left: 3px; }
+    .contLeft .videoBox .videoList {
+      width: 95%;
+      height: auto;
+      margin-bottom: 10px; }
+      .contLeft .videoBox .videoList ul {
+        width: 100%;
+        height: auto; }
+        .contLeft .videoBox .videoList ul li {
+          width: auto; }
+          .contLeft .videoBox .videoList ul li span {
+            line-height: 20px;
+            vertical-align: middle;
+            font-size: 11px; }
+            .contLeft .videoBox .videoList ul li span a {
+              font-size: 11px;
+              color: #666; }
+              .contLeft .videoBox .videoList ul li span a:hover {
+                text-decoration: underline; }
+  .contLeft .imageBox {
+    width: 100%;
+    height: 100%; }
+    .contLeft .imageBox .line {
+      width: 95%;
+      height: 2px;
+      background: #858585; }
+    .contLeft .imageBox .videoTitle {
+      width: 95%;
+      height: 30px; }
+      .contLeft .imageBox .videoTitle a {
+        display: block;
+        width: 50%;
+        height: 100%;
+        float: left;
+        line-height: 30px;
+        box-sizing: border-box;
+        color: #0081CC; }
+        .contLeft .imageBox .videoTitle a:nth-child(2) {
+          text-align: right;
+          font-size: 10px;
+          color: #666; }
+        .contLeft .imageBox .videoTitle a:hover {
+          color: #CF1F21; }
+    .contLeft .imageBox .image {
+      width: 95%;
+      height: auto; }
+      .contLeft .imageBox .image img {
+        width: 47%;
+        float: left;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        overflow: hidden;
+        box-sizing: border-box; }
+        .contLeft .imageBox .image img:nth-child(2n) {
+          margin-right: 0; }
+
+.contMiddle {
+  width: 33.3%;
+  height: auto;
+  float: left; }
+  .contMiddle .line {
+    width: 95%;
+    height: 2px;
+    background: #858585; }
+  .contMiddle .importNewsTitle {
+    width: 95%;
+    height: 30px; }
+    .contMiddle .importNewsTitle a {
+      display: block;
+      width: 50%;
+      height: 100%;
+      float: left;
+      line-height: 30px;
+      box-sizing: border-box;
+      color: #0081CC;
+      font-size: 13px; }
+      .contMiddle .importNewsTitle a:nth-child(2) {
+        text-align: right;
+        font-size: 10px;
+        color: #666; }
+      .contMiddle .importNewsTitle a:hover {
+        color: #CF1F21; }
+  .contMiddle .importNewsList {
+    width: 95%;
+    height: auto; }
+    .contMiddle .importNewsList ul {
+      width: 100%;
+      height: auto;
+      list-style: none; }
+      .contMiddle .importNewsList ul li {
+        list-style: none;
+        width: auto; }
+        .contMiddle .importNewsList ul li span {
+          line-height: 20px;
+          vertical-align: middle;
+          font-size: 11px; }
+          .contMiddle .importNewsList ul li span:nth-child(1) {
+            color: #666; }
+          .contMiddle .importNewsList ul li span:hover {
+            text-decoration: underline; }
+  .contMiddle .dashed {
+    width: 93%;
+    height: 1px;
+    border-bottom: 1px dashed #ccc;
+    margin-top: 10px; }
+  .contMiddle .list2 {
+    margin-top: 10px; }
+  .contMiddle .list2 ul li:first-child a {
+    font-weight: bold;
+    color: #0081CC; }
+    .contMiddle .list2 ul li:first-child a:hover {
+      text-decoration: underline; }
+
+.contRight {
+  width: 33.3%;
+  height: auto;
+  float: left; }
+  .contRight .line {
+    width: 100%;
+    height: 2px;
+    background: #858585; }
+  .contRight .hostTitle {
+    width: 95%;
+    height: 30px; }
+    .contRight .hostTitle a {
+      display: block;
+      width: 50%;
+      height: 100%;
+      float: left;
+      line-height: 30px;
+      box-sizing: border-box;
+      color: #0081CC;
+      font-size: 13px; }
+      .contRight .hostTitle a:nth-child(2) {
+        text-align: right;
+        font-size: 10px;
+        color: #666; }
+      .contRight .hostTitle a:hover {
+        color: #CF1F21; }
+  .contRight .hostList {
+    width: 95%;
+    height: auto;
+    margin-bottom: 10px;
+    color: #666; }
+    .contRight .hostList ul {
+      width: 100%;
+      height: auto; }
+      .contRight .hostList ul li {
+        width: auto; }
+        .contRight .hostList ul li span {
+          line-height: 20px;
+          vertical-align: middle;
+          font-size: 11px; }
+          .contRight .hostList ul li span a {
+            color: #666;
+            font-size: 11px; }
+            .contRight .hostList ul li span a:hover {
+              text-decoration: underline; }
+  .contRight .hundredTitle {
+    width: 95%;
+    height: 30px; }
+    .contRight .hundredTitle a {
+      display: block;
+      width: 50%;
+      height: 100%;
+      float: left;
+      line-height: 30px;
+      box-sizing: border-box;
+      color: #0081CC;
+      font-size: 13px; }
+      .contRight .hundredTitle a:nth-child(2) {
+        text-align: right;
+        font-size: 10px;
+        color: #666; }
+      .contRight .hundredTitle a:hover {
+        color: #CF1F21; }
+  .contRight .digest {
+    font-size: 12px;
+    color: #666; }
+  .contRight .tuwen {
+    width: 100%;
+    height: 120px;
+    margin-top: 8px; }
+    .contRight .tuwen .photo {
+      width: 50%;
+      height: 100%;
+      float: left; }
+      .contRight .tuwen .photo img {
+        width: 168px;
+        height: 112px; }
+    .contRight .tuwen .wen {
+      width: 45%;
+      float: right;
+      height: 100%;
+      font-size: 10px;
+      color: #666;
+      line-height: 18px; }
+      .contRight .tuwen .wen a {
+        font-weight: bold;
+        color: #CF1F21; }
+  .contRight .importNewsList {
+    width: 95%;
+    height: auto; }
+    .contRight .importNewsList ul {
+      width: 100%;
+      height: auto;
+      list-style: none; }
+      .contRight .importNewsList ul li {
+        list-style: none;
+        width: auto; }
+        .contRight .importNewsList ul li span {
+          line-height: 20px;
+          vertical-align: middle;
+          font-size: 11px; }
+          .contRight .importNewsList ul li span:nth-child(1) {
+            color: #666; }
+          .contRight .importNewsList ul li span:hover {
+            text-decoration: underline; }
+  .contRight .dashed {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ccc;
+    margin: 10px 0; }
+
+/*底部*/
+.cooperation {
+  width: 1000px;
+  height: 136px;
+  margin: 40px auto;
+  border: 1px solid #c2d4e8; }
+  .cooperation h4 {
+    height: 24px;
+    width: 204px;
+    color: #666;
+    border-left: 1px solid #c2d4e8;
+    border-right: 1px solid #c2d4e8;
+    text-align: center;
+    margin: -12px auto 0;
+    background-color: #fff;
+    position: relative; }
+    .cooperation h4 span {
+      display: inline-block;
+      width: 72px;
+      height: 17px;
+      background-position: -600px -225px;
+      vertical-align: top; }
+  .cooperation .content {
+    padding: 10px 0 10px 37px;
+    color: #666;
+    line-height: 28px; }
+    .cooperation .content p {
+      display: block; }
+      .cooperation .content p a {
+        font-size: 10px;
+        color: #666; }
+
+.dibu {
+  width: 620px;
+  height: 13px;
+  margin: 0 auto;
+  /*background: red;*/
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
+.dibu a {
+  font-size: 10px;
+  font-family: "微软雅黑";
+  color: #666;
+  line-height: 13px;
+  /*text-align: center;*/ }
+
+.dibu a:hover {
+  color: #25B2FE;
+  text-decoration: underline; }
+
+.dibu .bord {
+  height: 13px;
+  /*border-right: 1px solid #DFDFDF;*/
+  float: left;
+  margin-right: 5px; }
+
+.dibutwo {
+  font-size: 10px;
+  font-family: "微软雅黑";
+  color: #666;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px; }
+
+.dibutwo a:hover {
+  color: #25B2FE;
+  text-decoration: underline; }
+
+.dibuthree {
+  font-size: 10px;
+  font-family: "微软雅黑";
+  color: #666;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px; }
+
+.dibufour {
+  font-size: 10px;
+  font-family: "微软雅黑";
+  color: #666;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 15px; }
+
+.dibufive {
+  font-size: 10px;
+  font-family: "微软雅黑";
+  color: #666;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.dibufive a:hover {
+  color: #25B2FE;
+  text-decoration: underline; }
+
+.dibufive img {
+  vertical-align: middle; }
