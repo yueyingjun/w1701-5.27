@@ -1,0 +1,322 @@
+header{
+    width: 100%;
+    height: 40px;
+    background: url("../img/topbg.jpg");
+    position: fixed;
+    top:0;
+    left: 0;
+    margin: auto;
+    z-index: 999;
+}
+nav{
+    width: 100%;
+    height: 100%;
+    padding: 0 10%;
+    margin: 0 auto;
+}
+nav .left{
+    float: left;
+    width: auto;
+}
+nav a, nav p{
+    padding: 0 9px;
+    font-size: 12px;
+    color: #333;
+    line-height: 40px;
+    float: left;
+}
+nav p{
+    position: relative;
+}
+nav .right{
+    float: right;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    margin-top: 40px;
+}
+.top-main{
+    width: 100%;
+    height: 100%;
+    padding: 0 10%;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    margin-top: 25px;
+}
+.findbox{
+    float: right;
+    margin-top: 25px;
+}
+.wenben{
+    width: 295px;
+    height:28px;
+    float: left;
+}
+.anniu{
+    width: 57px;
+    height:28px;
+    background: #1e63b0;
+    color: #fff;
+    font-size: 14px;
+    float: left;
+}
+.nav{
+    width: 100%;
+    height: 40px;
+}
+.nav-main{
+    width: 100%;
+    height: 100%;
+    background: #1e63b0;
+    padding: 0 10%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-main li{
+    color: #fff;
+    padding: 10px 10px;
+}
+.hot-new{
+    width: 100%;
+    height: 591px;
+    padding: 0 10%;
+}
+.xiao-title{
+    height: 55px;
+    width: 100%;
+}
+.weather{
+    float: left;
+    height: 55px;
+}
+.weather span{
+    line-height:55px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.tufa{
+    float: right;
+    height: 55px;
+}
+.tufa span{
+    line-height:55px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.banner{
+    width: 100%;
+    height: 330px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.banner-xia{
+    width: 100%;
+    height: 166px;
+    margin-top: 50px;
+    background: rgb(243, 243, 243);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-xianr{
+    width: 30%;
+    height: 96px;
+    border-right: 1px solid rgb(204, 204, 204);;
+}
+.banner-xianr:nth-child(3){
+    border: 0;
+}
+.bxn-img{
+    width: 83px;
+    height: 65px;
+    float: left;
+}
+.bxn-zi{
+    float: left;
+    height: 65px;
+    margin-left: 10px;
+}
+.bxn-zi h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+.bxn-zi h3 span{
+    color: rgb(192, 0, 0);;
+}
+.bxn-zi p{
+    font-size: 12px;
+    color: #333;
+}
+.banner-xianr p{
+    font-size: 16px;
+    float: left;
+    margin-top: 5px;
+    color: rgb(0, 68, 102);
+}
+.banner-xianr ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.banner-xianr ul li{
+    font-size: 16px;
+    color: rgb(0, 68, 102);
+    list-style: disc;
+}
+.main{
+    width: 100%;
+    padding: 0 10%;
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.main-left{
+    width: 65%;
+    float: left;
+    border-top:2px solid #333;
+}
+.main-right{
+    width: 30%;
+    float: right;
+    border-top:2px solid #333;
+}
+.title{
+    width: 100%;
+    height: 38px;
+    padding-top: 10px;
+    font-size: 24px;
+}
+.title span{
+    float: right;
+    font-size: 12px;
+}
+.news{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+}
+.news-title{
+    width: 100%;
+    height: 26px;
+}
+.news-title a{
+    display: block;
+    float: left;
+    font-size: 22px;
+    font-weight: 700;
+}
+.news-title p{
+    float: right;
+}
+.news-title p a{
+    display: block;
+    font-size: 12px;
+    line-height:26px;
+    margin-left: 5px;
+}
+.news-content{
+    color: #666;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+.news-about a{
+    font-size: 12px;
+    color: #1e63b0;
+}
+.news-time{
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.paihang-title{
+    width: 100%;
+    height: 32px;
+}
+.paihang-title p{
+    width: 90px;
+    height: 30px;
+    background: #9a0000;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+}
+.paihang-title span{
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.paihang-title span b{
+    font-size: 20px;
+    font-weight: 400;
+}
+.qita-net{
+    width: 100%;
+    height: 144px;
+    margin-top: 15px;
+    padding: 0 30px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.qita-net li{
+     list-style: circle;
+}
+.lanmu{
+    margin-bottom: 20px;
+}
+.lanmu-img{
+    width: 100%;
+}
+.lanmu-img img{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.lanmu-zi{
+    display: block;
+    width: 100%;
+    height: 36px;
+    font-size: 12px;
+    color: #333;
+}
+.footer{
+    width: 100%;
+    height: 140px;
+    padding: 0 10%;
+    background: #333;
+    margin-top: 30px;
+}
+.footer-1{
+    width: 100%;
+    height: 62px;
+    padding-top: 20px;
+    text-align: center;
+}
+.footer-1 span{
+    padding: 0 2px 0 4px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+.footer-2{
+    width: 100%;
+    height: 61px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
