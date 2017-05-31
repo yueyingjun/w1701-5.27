@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sql</title>
+    <link rel="stylesheet" href="../static/css/common.css">
+    <link rel="stylesheet" href="../static/css/sql.css">
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="../static/js/jquery.validate.js"></script>
+</head>
+<body>
+    <form action="mysql.php" id="form">
+        <label>
+            账号：<input type="text" name="user" id="zhanghao">
+        </label>
+        <label>
+            密码：<input type="password" name="pass" id="pass">
+        </label>
+        <label>
+            验证码：<input type="text" name="yanzheng" id="yanzheng">
+            <img src="yanzheng.php" alt="">
+        </label>
+        <labei>
+            <input type="submit" id="denglu">
+        </labei>
+        <labei>
+            <input type="button" id="zhuce" value="注册">
+        </labei>
+    </form>
+</body>
+</html>
+<script>
+    var img=document.querySelector('img');
+    img.onclick=function () {
+        img.src='yanzheng.php?aa='+Math.random();
+    }
+    var zhuce=document.querySelector('#zhuce');
+    zhuce.onclick=function () {
+        location.href="zhuce.html";
+    }
+    //表单
+
+
+//
+    $("#form").validate({
+        rules: {
+            user: {
+                required:true,
+                minlength:3
+            },
+            pass: {
+                required: true,
+                minlength: 3
+            },
+            yanzheng: "required",
+        },
+        messages: {
+            user: {
+                required: "请输入用户名",
+                minlength: $.validator.format("账号不能小于3个")
+            },
+            pass: {
+                required: "请输入密码",
+                minlength: $.validator.format("密码不能小于3个")
+            },
+            yanzheng:"验证码不能为空",
+        },
+        errorPlacement: function(error, element) {
+            $('<div id="box">').html(error).insertAfter(element);
+            error.css({'width':'100px','height':'30px','color':'#fff',fontSize:'12px',position:'absolute',left:'270px',top:'-20px'});
+        },
+        success:function(val,element){
+            $(val).html('ok').insertAfter(element)
+        }
+    });
+</script>
+

@@ -1,0 +1,199 @@
+header{
+    width:100%;
+    height:142px;
+    background:#000;
+    overflow: hidden;
+}
+.top_one{
+    width:100%;
+    height:auto;
+}
+.top_center{
+    width:115px;
+    height:44px;
+    background-image: url("../img/login.png");
+    background-size:100%;
+    margin-top:30px;
+    float:left;
+    margin-left:46%;
+}
+.top_right{
+    height:22px;
+    color:#fff;
+    font-size:12px;
+    margin-top:30px;
+    line-height: 22px;
+    float:right;
+    margin-right:100px;
+}
+.top_right > li{
+    float:left;
+    margin-right:10px;
+}
+.top_right > li > a{
+    color:#fff;
+}
+.top_right > li > a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.top_right > li:first-child{
+    margin-right:5px;
+}
+/*nav*/
+.nav{
+    width:100%;
+    height:52px;
+    text-align: center;
+    color:#fff;
+    float:left;
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
+.nav li{
+    float:left;
+    margin-right:15px;
+    font-size: 14px;
+}
+.nav li a{
+    color:#fff;
+}
+.nav li a:hover{
+    color:#000;
+}
+
+.title{
+    width:310px;
+    height:40px;
+    height:auto;
+    margin:0px auto;
+    margin-top:100px;
+    margin-bottom:30px;
+    line-height:40px;
+    overflow: hidden;
+
+}
+.title span:nth-child(odd){
+    width:60px;
+    height:1px;
+    display: block;
+    background:#000;
+    float:left;
+
+}
+.title span:nth-child(1){
+    margin-top:19px;
+    margin-right:10px;
+}
+.title span:nth-child(3){
+    margin-top:19px;
+    margin-left:10px;
+}
+.title span:nth-child(2){
+    display: block;
+    font-size:37px;
+    color:#000;
+    float:left;
+}
+p.shuoming{
+    width:100%;
+    text-align: center;
+    font-size:14px;
+    color:#000;
+}
+.line{
+    width:1080px;
+    height:1px;
+    background:#ccc;
+    background-image: linear-gradient(0deg to right #fff,#ccc);
+    margin:40px auto;
+}
+.container{
+    width:100%;
+}
+.container .row{
+    width:1080px;
+    height:auto;
+    margin:0 auto;
+}
+.col-lg-8 img{
+    width:100%;
+}
+.title_little{
+    font-family:Classico Italic;
+}
+.go{
+    margin-top:20px;
+}
+.go span{
+    font-family: "宋体";
+    color:#000;
+}
+.go a{
+    color:#000;
+}
+.go a:hover{
+    text-decoration: none;
+}
+
+
+/*底部*/
+footer{
+    width:100%;
+    height:200px;
+    padding: 20px;
+    background:#000;
+}
+.home{
+    width:200px;
+    text-align: center;
+    margin:5px auto;
+    color:#fff;
+    font-size:12px;
+
+}
+.home span:nth-child(odd){
+    font-family: "宋体";
+}
+.home span:nth-child(2) a{
+    color:#fff;
+}
+.home span:nth-child(4) a{
+    color:#fff;
+}
+.home span:nth-child(4) a:hover{
+    text-decoration: none;
+}
+.home span:nth-child(2) a:hover{
+     text-decoration: none;
+ }
+.login{
+    width:115px;
+    height:44px;
+    background-image: url("../img/login.png");
+    background-size:100%;
+    margin:20px auto;
+}
+footer ul{
+    width:46%;
+    height:30px;
+    margin:0 auto;
+    text-align: center;
+}
+footer ul li{
+    width:auto;
+    height:100%;
+    margin:0 6px;
+    float:left;
+}
+footer ul li a{
+    color:#fff;
+    font-size: 12px;
+}
+footer p{
+    width:100%;
+    text-align: center;
+    color:#fff;
+    font-size: 12px;
+}
