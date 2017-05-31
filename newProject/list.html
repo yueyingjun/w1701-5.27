@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>头条新闻</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/list.css">
+    <script src="js/main.js"></script>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+	<header>
+		<div class="daohang">
+			<div class="daohagn-main">
+				<div class="dh-logo">
+					<a href=""></a>
+					<a href="">
+						<img src="img/new.png" alt="">
+					</a>
+				</div>
+				<div class="dg change">
+					<a href="" class="dg-top">
+						<span class="img"></span>
+						<em>导航</em>
+						<span class="xiala"></span>
+					</a>
+					<div class="dhcon">
+						<div class="item">
+							<h3>休闲娱乐</h3>
+							<ul class="list">
+								<li><a href="">电影</a></li>
+								<li><a href="">动漫</a></li>
+								<li><a href="">综艺</a></li>
+								<li><a href="">搞笑</a></li>
+								<li><a href="">直播</a></li>
+								<li><a href="">视频</a></li>
+								<li><a href="">网友</a></li>
+								<li><a href="">明星</a></li>
+								<li><a href="">交友</a></li>
+								<li><a href="">体育</a></li>
+								<li><a href="">足球</a></li>
+								<li><a href="">NBA</a></li>
+								<li><a href="">星座</a></li>
+								<li><a href="">电视剧</a></li>
+								<li><a href="">小游戏</a></li>
+							</ul>
+						</div>
+						<div class="item itemmiddle">
+							<h3>生活服务</h3>
+							<ul class="list">
+								<li><a href="">团购</a></li>
+								<li><a href="">银行</a></li>
+								<li><a href="">军事</a></li>
+								<li><a href="">房产</a></li>
+								<li><a href="">股票</a></li>
+								<li><a href="">基金</a></li>
+								<li><a href="">天气</a></li>
+								<li><a href="">菜谱</a></li>
+								<li><a href="">汽车</a></li>
+								<li><a href="">地图</a></li>
+								<li><a href="">招聘</a></li>
+								<li><a href="">儿童</a></li>
+								<li><a href="">母婴</a></li>
+								<li><a href="">健康</a></li>
+								<li><a href="">大学</a></li>
+								<li><a href="">手机</a></li>
+							</ul>
+						</div>
+						<div class="item itemlast">
+							<h3>其他类别</h3>
+							<ul class="list">
+								<li><a href="">软件</a></li>
+								<li><a href="">邮箱</a></li>
+								<li><a href="">微博</a></li>
+								<li><a href="">公益</a></li>
+								<li><a href="">宠物</a></li>
+								<li><a href="">杀毒</a></li>
+								<li><a href="">设计</a></li>
+								<li><a href="">电脑</a></li>
+								<li><a href="">桌面</a></li>
+								<li><a href="">行业</a></li>
+								<li><a href="">摄影</a></li>
+								<li><a href="">应用</a></li>
+								<li><a href="">考试</a></li>
+								<li><a href="">学习</a></li>
+								<li><a href="">小清新</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="seach">
+					<form action="">
+						<input type="text" class="text" name="word">
+						<button class="btn"></button>
+					</form>
+				</div>
+				<di class="tools ">
+					<di class="login change">
+						<a href="login.html" target="_blank">
+							<span></span>
+							<em>一键登录</em>
+						</a>
+					</di>
+					<div class="ewm change">
+						<a href="">
+							<img src="img/ewm.png" alt="">
+						</a>
+						<div class="code-img">
+							<img src="img/erweima.png" alt="">
+						</div>
+					</div>
+					<div class="home change">
+						<a href=""></a>
+					</div>
+				</di>
+			</div>
+		</div>
+		<nav>
+			<div class="nav-main">
+				<ul class="fenlei">
+					<li class="active">
+						<a href="">头条</a>
+					</li>
+					<li>
+						<a href="">娱乐</a>
+					</li>
+					<li>
+						<a href="">体育</a>
+					</li>
+					<li>
+						<a href="">财经</a>
+					</li>
+					<li>
+						<a href="">军事</a>
+					</li>
+					<li>
+						<a href="">国内</a>
+					</li>
+					<li>
+						<a href="">国际</a>
+					</li>
+					<li>
+						<a href="">历史</a>
+					</li>
+					<li>
+						<a href="">科技</a>
+					</li>
+					<li>
+						<a href="">汽车</a>
+					</li>
+					<li>
+						<a href="">教育</a>
+					</li>
+					<li>
+						<a href="">游戏</a>
+					</li>
+					<li>
+						<a href="">房产</a>
+					</li>
+					<li>
+						<a href="">时尚</a>
+					</li>
+					<li>
+						<a href="">热点排行</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div class="lefttabbox">
+			<div class="listtab">
+				<a href="#">头条</a>
+				<a href="#">娱乐</a>
+				<a href="#">体育</a>
+				<a href="#">财经</a>
+				<a href="#">军事</a>
+				<a href="#">国内</a>
+				<a href="#">国际</a>
+				<a href="#">历史</a>
+				<div class="tabmore">
+					<span>更多</span>
+					<div class="morelist">
+						<a href="" >汽车</a>
+						<a href="" >教育</a>
+						<a href="" >游戏</a>
+						<a href="" >房产</a>
+						<a href="" >时尚</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="zixun">
+			<div class="zixun-box">
+				<div class="hot-zixun">
+					<p class="new-top-title kuaixun"></p>
+					<ul class="newscontent">
+						<li>
+							<a href="">金毛随机托运受重伤 东航付5万元救治费</a>
+						</li>
+						<li>
+							<a href="">央行重拳出击!这几类人不能在银行开户了</a>
+						</li>
+						<li>
+							<a href="">媒体：端午节不能说“快乐”是吹毛求疵</a>
+						</li>
+						<li>
+							<a href="">官员：用矿泉水瓶装酒 非15年30年不喝</a>
+						</li>
+						<li>
+							<a href="">台湾歌手"不去中国捞钱"网友：永远别来</a>
+						</li>
+						<li>
+							<a href="">小伙杀陌生少年自称不想活了 曾是留守儿童</a>
+						</li>
+						<li>
+							<a href="">老人迷失荒林三天三夜 靠吃草喝露水充饥</a>
+						</li>
+						<li>
+							<a href="">北京部分公厕用纸浪费 有人叠3米厕纸放口袋</a>
+						</li>
+					</ul>
+				</div>
+				<div class="qiqu-shipin">
+					<p class="new-top-title kuaixun shipin"></p>
+					<ul class="video-main">
+						<li>
+							<a href="">
+                                <span class="span-img">
+                                    <img src="img/video1.jpg" alt="">
+                                    <span class="time">02:12</span>
+                                </span>
+								<span class="video-text">200磅的妹子教你怎么穿紧身裤，把肉化成性感浪一年</span>
+							</a>
+						</li>
+						<li style="margin-right: 0">
+							<a href="">
+                                <span class="span-img">
+                                    <img src="img/video1.jpg" alt="">
+                                    <span class="time">02:12</span>
+                                </span>
+								<span class="video-text">200磅的妹子教你怎么穿紧身裤，把肉化成性感浪一年</span>
+							</a>
+						</li>
+						<li>
+							<a href="">
+                                <span class="span-img">
+                                    <img src="img/video1.jpg" alt="">
+                                    <span class="time">02:12</span>
+                                </span>
+								<span class="video-text">200磅的妹子教你怎么穿紧身裤，把肉化成性感浪一年</span>
+							</a>
+						</li>
+						<li style="margin-right: 0">
+							<a href="">
+                                <span class="span-img">
+                                    <img src="img/video1.jpg" alt="">
+                                    <span class="time">02:12</span>
+                                </span>
+								<span class="video-text">200磅的妹子教你怎么穿紧身裤，把肉化成性感浪一年</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="hot-zixun" style="margin-bottom: 30px">
+					<p class="new-top-title kuaixun toutiao"></p>
+					<ul class="newscontent">
+						<li>
+							<a href="">中国花20亿在家门口装“高清摄像头”</a>
+						</li>
+						<li>
+							<a href="">6月1日起这些新规将影响你我的生活</a>
+						</li>
+						<li>
+							<a href="">80后中科院美女学霸：想破解中国北斗</a>
+						</li>
+						<li>
+							<a href="">孔令辉因"赌场追债事件"暂停主帅工作</a>
+						</li>
+						<li>
+							<a href="">金毛托运被打重伤：东航垫付5万救治费</a>
+						</li>
+					</ul>
+				</div>
+				<div class="hot-zixun" style="margin-bottom: 30px">
+					<p class="new-top-title kuaixun gouwu"></p>
+					<a href="" class="gwtj-img">
+						<img src="img/gwtj.jpg" alt="">
+						<p></p>
+						<span>浓情端午，粽意飘香！</span>
+					</a>
+					<ul class="newscontent">
+						<li>
+							<a href="">抄底价好货1元起包邮哦！</a>
+						</li>
+						<li>
+							<a href="">个性T恤，今夏必备！</a>
+						</li>
+						<li>
+							<a href="">今日特价，全场五折封顶！</a>
+						</li>
+						<li>
+							<a href="">居家好物低至1折！</a>
+						</li>
+						<li>
+							<a href="">全场19.9元封顶包邮！</a>
+						</li>
+					</ul>
+				</div>
+				<div class="hot-zixun" style="margin-bottom: 30px">
+					<p class="new-top-title kuaixun junshi"></p>
+					<ul class="newscontent">
+						<li>
+							<a href="">美认可中国解决朝核问题的努力 愿合作</a>
+						</li>
+						<li>
+							<a href="">韩国对中美战略模糊:萨德成烫手山芋</a>
+						</li>
+						<li>
+							<a href="">中国拿下美国一块“宝地” ！世界颤抖</a>
+						</li>
+						<li>
+							<a href="">特朗普炮轰盟友遭批：将胜利送给普京</a>
+						</li>
+						<li>
+							<a href="">中国唯一培养舰载机飞行员的院校亮相</a>
+						</li>
+					</ul>
+				</div>
+				<div class="box-fixed">
+					<div class="hot-zixun" style="margin-bottom: 30px">
+						<p class="new-top-title kuaixun shehui"></p>
+						<ul class="newscontent">
+							<li>
+								<a href="">夫妻新婚蜜月出游 刚到北海妻子就被抓</a>
+							</li>
+							<li>
+								<a href="">客厅瓷砖发热烫手 房主:可能有辐射</a>
+							</li>
+							<li>
+								<a href="">帅哥开豪车路边搭讪 美女掏1000块给他</a>
+							</li>
+							<li>
+								<a href="">儿子游手好闲 父母交60万税款收回别墅</a>
+							</li>
+							<li>
+								<a href="">惊险一刻！澳渔夫惊扰五米长巨鳄遭追逐</a>
+							</li>
+						</ul>
+					</div>
+					<div class="hot-zixun" style="margin-bottom: 30px">
+						<p class="new-top-title kuaixun yule"></p>
+						<ul class="newscontent">
+							<li>
+								<a href="">真被逼婚?霍建华一句话说出当年真相</a>
+							</li>
+							<li>
+								<a href="">"内地张柏芝"沦为配角 还"破坏"闺蜜恋情</a>
+							</li>
+							<li>
+								<a href="">《欢乐颂2》遭骂 豆瓣网上评分仅为5.2</a>
+							</li>
+							<li>
+								<a href="">柳岩穿吊带裙现身 身材太火辣引起争议</a>
+							</li>
+							<li>
+								<a href="">杨幂小时候讲故事视频出新 这次讲啥</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="con-news">
+                <div class="news-list">
+					<ul>
+                        <li>
+                            <div class="box-border">
+                                <div class="box-img">
+                                    <a href="" target="_blank">
+                                        <img src="img/con4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="box-text">
+                                    <h3>
+                                        <a href="" target="_blank"> 原南京浦镇火车站文保建筑遭破坏. </a>
+                                    </h3>
+                                    <p><a href="" target="_blank">5月29日报道，原南京浦镇火车站有一处红瓦的英式建筑，目前是南京市文物保护单位，但是细心的市民发现，最近有人对房屋进行私自拆改，还新建了一个...</a></p>
+                                </div>
+                            </div>
+                            <div class="box-list-bq">
+                                <span class="bq">
+                                    <a href="">里皮</a>
+                                    <a href="">国足</a>
+                                    <a href="">中国足球</a>
+                                </span>
+								<span class="hotnews">
+									<a href="" target="_blank">巴山财经</a>
+								</span>
+                                <span class="hotnews">7分钟前更新</span>
+                                <div class="sharebox">
+                                    <span class="share"></span>
+									<span class="sharemore">
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+									</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box-border">
+                                <div class="box-img">
+                                    <a href="" target="_blank">
+                                        <img src="img/con4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="box-text">
+                                    <h3>
+                                        <a href="" target="_blank"> 原南京浦镇火车站文保建筑遭破坏. </a>
+                                    </h3>
+                                    <p><a href="" target="_blank">5月29日报道，原南京浦镇火车站有一处红瓦的英式建筑，目前是南京市文物保护单位，但是细心的市民发现，最近有人对房屋进行私自拆改，还新建了一个...</a></p>
+                                </div>
+                            </div>
+                            <div class="box-list-bq">
+                                <span class="bq">
+                                    <a href="">里皮</a>
+                                    <a href="">国足</a>
+                                    <a href="">中国足球</a>
+                                </span>
+								<span class="hotnews">
+									<a href="" target="_blank">巴山财经</a>
+								</span>
+                                <span class="hotnews">7分钟前更新</span>
+                                <div class="sharebox">
+                                    <span class="share"></span>
+									<span class="sharemore">
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+									</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box-border">
+                                <div class="box-img">
+                                    <a href="" target="_blank">
+                                        <img src="img/con4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="box-text">
+                                    <h3>
+                                        <a href="" target="_blank"> 原南京浦镇火车站文保建筑遭破坏. </a>
+                                    </h3>
+                                    <p><a href="" target="_blank">5月29日报道，原南京浦镇火车站有一处红瓦的英式建筑，目前是南京市文物保护单位，但是细心的市民发现，最近有人对房屋进行私自拆改，还新建了一个...</a></p>
+                                </div>
+                            </div>
+                            <div class="box-list-bq">
+                                <span class="bq">
+                                    <a href="">里皮</a>
+                                    <a href="">国足</a>
+                                    <a href="">中国足球</a>
+                                </span>
+								<span class="hotnews">
+									<a href="" target="_blank">巴山财经</a>
+								</span>
+                                <span class="hotnews">7分钟前更新</span>
+                                <div class="sharebox">
+                                    <span class="share"></span>
+									<span class="sharemore">
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+									</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box-border">
+                                <div class="box-img">
+                                    <a href="" target="_blank">
+                                        <img src="img/con4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="box-text">
+                                    <h3>
+                                        <a href="" target="_blank"> 原南京浦镇火车站文保建筑遭破坏. </a>
+                                    </h3>
+                                    <p><a href="" target="_blank">5月29日报道，原南京浦镇火车站有一处红瓦的英式建筑，目前是南京市文物保护单位，但是细心的市民发现，最近有人对房屋进行私自拆改，还新建了一个...</a></p>
+                                </div>
+                            </div>
+                            <div class="box-list-bq">
+                                <span class="bq">
+                                    <a href="">里皮</a>
+                                    <a href="">国足</a>
+                                    <a href="">中国足球</a>
+                                </span>
+								<span class="hotnews">
+									<a href="" target="_blank">巴山财经</a>
+								</span>
+                                <span class="hotnews">7分钟前更新</span>
+                                <div class="sharebox">
+                                    <span class="share"></span>
+									<span class="sharemore">
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+									</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box-border">
+                                <div class="box-img">
+                                    <a href="" target="_blank">
+                                        <img src="img/con4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="box-text">
+                                    <h3>
+                                        <a href="" target="_blank"> 原南京浦镇火车站文保建筑遭破坏. </a>
+                                    </h3>
+                                    <p><a href="" target="_blank">5月29日报道，原南京浦镇火车站有一处红瓦的英式建筑，目前是南京市文物保护单位，但是细心的市民发现，最近有人对房屋进行私自拆改，还新建了一个...</a></p>
+                                </div>
+                            </div>
+                            <div class="box-list-bq">
+                                <span class="bq">
+                                    <a href="">里皮</a>
+                                    <a href="">国足</a>
+                                    <a href="">中国足球</a>
+                                </span>
+								<span class="hotnews">
+									<a href="" target="_blank">巴山财经</a>
+								</span>
+                                <span class="hotnews">7分钟前更新</span>
+                                <div class="sharebox">
+                                    <span class="share"></span>
+									<span class="sharemore">
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+									</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box-border">
+                                <div class="box-img">
+                                    <a href="" target="_blank">
+                                        <img src="img/con4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="box-text">
+                                    <h3>
+                                        <a href="" target="_blank"> 原南京浦镇火车站文保建筑遭破坏. </a>
+                                    </h3>
+                                    <p><a href="" target="_blank">5月29日报道，原南京浦镇火车站有一处红瓦的英式建筑，目前是南京市文物保护单位，但是细心的市民发现，最近有人对房屋进行私自拆改，还新建了一个...</a></p>
+                                </div>
+                            </div>
+                            <div class="box-list-bq">
+                                <span class="bq">
+                                    <a href="">里皮</a>
+                                    <a href="">国足</a>
+                                    <a href="">中国足球</a>
+                                </span>
+								<span class="hotnews">
+									<a href="" target="_blank">巴山财经</a>
+								</span>
+                                <span class="hotnews">7分钟前更新</span>
+                                <div class="sharebox">
+                                    <span class="share"></span>
+									<span class="sharemore">
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+									</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box-border">
+                                <div class="box-img">
+                                    <a href="" target="_blank">
+                                        <img src="img/con4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="box-text">
+                                    <h3>
+                                        <a href="" target="_blank"> 原南京浦镇火车站文保建筑遭破坏. </a>
+                                    </h3>
+                                    <p><a href="" target="_blank">5月29日报道，原南京浦镇火车站有一处红瓦的英式建筑，目前是南京市文物保护单位，但是细心的市民发现，最近有人对房屋进行私自拆改，还新建了一个...</a></p>
+                                </div>
+                            </div>
+                            <div class="box-list-bq">
+                                <span class="bq">
+                                    <a href="">里皮</a>
+                                    <a href="">国足</a>
+                                    <a href="">中国足球</a>
+                                </span>
+								<span class="hotnews">
+									<a href="" target="_blank">巴山财经</a>
+								</span>
+                                <span class="hotnews">7分钟前更新</span>
+                                <div class="sharebox">
+                                    <span class="share"></span>
+									<span class="sharemore">
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+									</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box-border">
+                                <div class="box-img">
+                                    <a href="" target="_blank">
+                                        <img src="img/con4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="box-text">
+                                    <h3>
+                                        <a href="" target="_blank"> 原南京浦镇火车站文保建筑遭破坏. </a>
+                                    </h3>
+                                    <p><a href="" target="_blank">5月29日报道，原南京浦镇火车站有一处红瓦的英式建筑，目前是南京市文物保护单位，但是细心的市民发现，最近有人对房屋进行私自拆改，还新建了一个...</a></p>
+                                </div>
+                            </div>
+                            <div class="box-list-bq">
+                                <span class="bq">
+                                    <a href="">里皮</a>
+                                    <a href="">国足</a>
+                                    <a href="">中国足球</a>
+                                </span>
+								<span class="hotnews">
+									<a href="" target="_blank">巴山财经</a>
+								</span>
+                                <span class="hotnews">7分钟前更新</span>
+                                <div class="sharebox">
+                                    <span class="share"></span>
+									<span class="sharemore">
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+									</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box-border">
+                                <div class="box-img">
+                                    <a href="" target="_blank">
+                                        <img src="img/con4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="box-text">
+                                    <h3>
+                                        <a href="" target="_blank"> 原南京浦镇火车站文保建筑遭破坏. </a>
+                                    </h3>
+                                    <p><a href="" target="_blank">5月29日报道，原南京浦镇火车站有一处红瓦的英式建筑，目前是南京市文物保护单位，但是细心的市民发现，最近有人对房屋进行私自拆改，还新建了一个...</a></p>
+                                </div>
+                            </div>
+                            <div class="box-list-bq">
+                                <span class="bq">
+                                    <a href="">里皮</a>
+                                    <a href="">国足</a>
+                                    <a href="">中国足球</a>
+                                </span>
+								<span class="hotnews">
+									<a href="" target="_blank">巴山财经</a>
+								</span>
+                                <span class="hotnews">7分钟前更新</span>
+                                <div class="sharebox">
+                                    <span class="share"></span>
+									<span class="sharemore">
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+									</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box-border">
+                                <div class="box-img">
+                                    <a href="" target="_blank">
+                                        <img src="img/con4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="box-text">
+                                    <h3>
+                                        <a href="" target="_blank"> 原南京浦镇火车站文保建筑遭破坏. </a>
+                                    </h3>
+                                    <p><a href="" target="_blank">5月29日报道，原南京浦镇火车站有一处红瓦的英式建筑，目前是南京市文物保护单位，但是细心的市民发现，最近有人对房屋进行私自拆改，还新建了一个...</a></p>
+                                </div>
+                            </div>
+                            <div class="box-list-bq">
+                                <span class="bq">
+                                    <a href="">里皮</a>
+                                    <a href="">国足</a>
+                                    <a href="">中国足球</a>
+                                </span>
+								<span class="hotnews">
+									<a href="" target="_blank">巴山财经</a>
+								</span>
+                                <span class="hotnews">7分钟前更新</span>
+                                <div class="sharebox">
+                                    <span class="share"></span>
+									<span class="sharemore">
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+									</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="box-border">
+                                <div class="box-img">
+                                    <a href="" target="_blank">
+                                        <img src="img/con4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="box-text">
+                                    <h3>
+                                        <a href="" target="_blank"> 原南京浦镇火车站文保建筑遭破坏. </a>
+                                    </h3>
+                                    <p><a href="" target="_blank">5月29日报道，原南京浦镇火车站有一处红瓦的英式建筑，目前是南京市文物保护单位，但是细心的市民发现，最近有人对房屋进行私自拆改，还新建了一个...</a></p>
+                                </div>
+                            </div>
+                            <div class="box-list-bq">
+                                <span class="bq">
+                                    <a href="">里皮</a>
+                                    <a href="">国足</a>
+                                    <a href="">中国足球</a>
+                                </span>
+								<span class="hotnews">
+									<a href="" target="_blank">巴山财经</a>
+								</span>
+                                <span class="hotnews">7分钟前更新</span>
+                                <div class="sharebox">
+                                    <span class="share"></span>
+									<span class="sharemore">
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+										<a href="" target="_blank"></a>
+									</span>
+                                </div>
+                            </div>
+                        </li>
+					</ul>
+				</div>
+            </div>
+		</div>
+
+	</main>
+    <div class="fix-right">
+        <div class="yijian">
+            <div class="feedback"></div>
+            <div class="infrotxt fankui">
+                <a href="" target="_blank">意见反馈</a>
+            </div>
+        </div>
+        <div class="yijian returntop">
+            <div class="gotobg"></div>
+            <div class="infrotxt fanhui">
+                <a href="#" >返回顶部</a>
+            </div>
+        </div>
+    </div>
+<footer>
+    <div class="container">
+        <div class="foot-left">
+            <a href="" target="_blank" class="foot-logo"></a>
+            <div class="bottom-nav">
+                <a href="" target="_blank" class="foot-item">关于我们</a>
+                <a href="" target="_blank" class="foot-item">常见问题</a>
+                <a href="" target="_blank" class="foot-item">反馈意见</a>
+                <a href="" target="_blank" class="foot-item">全站地图</a>
+                <a href="" target="_blank" class="foot-item">京ICP证030173号</a>
+            </div>
+        </div>
+        <div class="foot-right">
+            <div class="extend-nav">
+                <a href="" class="foot-item ">
+                    <i></i>
+                    <span>下载<br>手机端</span>
+                </a>
+                <a href="" class="foot-item shoucang">
+                    <i></i>
+                    <span>收藏<br>本站</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,72 @@
+.lefttabbox{
+    width: 115px;
+    float: left;
+    position: absolute;
+    top: 120px;
+    z-index: 10;
+    clear: both;
+    height: 364px;
+}
+.news-list ul li{
+    width: 750px;
+}
+.content{
+    margin-left: 120px;
+}
+.listtab{
+    position: absolute;
+    top: 11px;
+    width: 95px;
+    border-top: 2px solid #0aa770;
+    padding-bottom: 2px;
+    background-color: #f7f7f8;
+}
+.listtab a{
+    display: block;
+    width: 95px;
+    height: 40px;
+    color: #333;
+    font-size: 18px;
+    font-family: 'Microsoft Yahei';
+    line-height: 40px;
+    text-align: center;
+}
+.tabmore{
+    width: 95px;
+    height: 40px;
+    position: relative;
+    z-index: 30;
+}
+.tabmore span{
+    display: block;
+    width: 95px;
+    height: 40px;
+    color: #333;
+    font-size: 18px;
+    font-family: 'Microsoft Yahei';
+    line-height: 40px;
+    text-align: center;
+}
+.morelist{
+    position: absolute;
+    z-index: 200;
+    left: 95px;
+    bottom: 0;
+    background-color: #f7f7f8;
+    border-left: 1px solid #fff;
+    display: none;
+}
+
+.morelist a{
+    display: block;
+    width: 95px;
+    height: 40px;
+    color: #333;
+    font-size: 18px;
+    font-family: 'Microsoft Yahei';
+    line-height: 40px;
+    text-align: center;
+}
+.sharebox{
+    float: left;
+}

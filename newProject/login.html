@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/base.css">
+</head>
+<style>
+    form{
+        width: 300px;
+        padding: 10px;
+        padding-right: 30px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    p{
+        width: 100%;
+        margin-bottom: 15px;
+        position: relative;
+        overflow: hidden;
+    }
+    p input{
+        width: 100%;
+    }
+    lable.user-lable{
+        display: block;
+        position: absolute;
+        top: 8px;
+        left: 6px;
+        width: 24px;
+        height: 24px;
+        overflow: hidden;
+        padding: 0 0 0 24px;
+        background: url("img/login.png") no-repeat;
+        background-position: 0 -68px
+    }
+    lable.user-lable.pass{
+        background-position: 0 -147px;
+    }
+    .yonghuming{
+        width: 260px;
+        height: 42px;
+        padding: 12px 10px;
+        padding-left: 38px;
+        font-size: 14px;
+        color: #666666;
+    }
+    .btn{
+        width: 260px;
+        height: 48px;
+        font-size: 16px;
+        font-weight: 700;
+        background: #3f89ec;
+        line-height: 48px;
+        text-align: center;
+        border-radius: 3px;
+        border: 0;
+        color: #ffffff;
+    }
+    a{
+        display: block;
+        font-size: 12px;
+        color: #2e7fdb;
+        text-decoration: underline;
+        float: right;
+    }
+    h1{
+        text-align: center;
+        font-weight: 400;
+    }
+
+</style>
+<body>
+    <form action="">
+        <p>
+            <h1>登录</h1>
+        </p>
+        <p>
+            <lable class="user-lable"></lable>
+            <input type="text" name="user" placeholder="手机/邮箱/用户名" class="yonghuming">
+        </p>
+        <p>
+            <lable class="user-lable pass"></lable>
+            <input type="password" name="user" placeholder="密码" class="yonghuming">
+        </p>
+        <p>
+            <a>登录遇到问题</a>
+        </p>
+        <p>
+            <input type="submit" value="登录" class="btn">
+        </p>
+        <p>
+            <a href="regist.html" target="_blank">立即注册</a>
+        </p>
+
+    </form>
+</body>
+</html>
