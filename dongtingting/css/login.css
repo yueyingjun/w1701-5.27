@@ -1,0 +1,152 @@
+header{
+    width: 100%;
+    height: 40px;
+    background: url("../img/topbg.jpg");
+    position: fixed;
+    top:0;
+    left: 0;
+    margin: auto;
+    z-index: 999;
+}
+nav{
+    width: 100%;
+    height: 100%;
+    padding: 0 10%;
+    margin: 0 auto;
+}
+nav .left{
+    float: left;
+    width: auto;
+}
+nav a, nav p{
+    padding: 0 9px;
+    font-size: 12px;
+    color: #333;
+    line-height: 40px;
+    float: left;
+}
+nav p{
+    position: relative;
+}
+nav .right{
+    float: right;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    padding: 0 10%;
+    margin-top: 40px;
+    background: #fff;
+}
+.top-main{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: url("../img/xiangqingbg.jpg") no-repeat left bottom;
+    background-size: 100%;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    margin-top: 25px;
+}
+.login{
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    top:40px;
+    background: #fff;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.login input{
+    width: 100%;
+    height: 35px;
+    margin-top: 15px;
+}
+.login .login-anniu{
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+.login .anniu{
+    width: 70px;
+    color: #fff;
+    background: #1e63b0;
+    border: 0;
+    font-size: 16px;
+}
+.login .xuanze{
+    width: 12px;
+    height: 12px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.login .login-anniu span{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.login p{
+    font-size: 12px;
+    color: #1e63b0;
+    border-bottom: 1px solid #ccc;
+}
+.hezuo{
+    width: 100%;
+    height: 56px;
+    margin-top: 20px;
+}
+.hezuo p{
+    width: 100%;
+    color: #1e63b0;
+    font-size: 14px;
+    text-align: center;
+    border: 0;
+}
+.hezuo-img{
+    width: 100%;
+    height: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+}
+.hezuo-img img{
+    margin-left: 5px;
+    width: 16px;
+    height: 16px;
+}
+.footer{
+    width: 100%;
+    height: 140px;
+    padding: 0 10%;
+    margin-top: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.footer-1{
+    width: 100%;
+    height: 62px;
+    padding-top: 20px;
+    text-align: center;
+}
+.footer-1 span{
+    padding: 0 2px 0 4px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
+.footer-2{
+    width: 100%;
+    height: 61px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+}
