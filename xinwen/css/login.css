@@ -1,0 +1,150 @@
+nav{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.nav-left{
+    width: 800px;
+    margin: 0 auto;
+    float: inherit;
+}
+.content{
+    margin: 0 auto;
+    text-align: center;
+    width: 800px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08), inset 0 1px 2px rgba(255,255,255,.75), 0 0 135px 40px rgba(222, 223, 248, .4);
+    margin-bottom:15px;
+}
+.table-wrap{
+    padding: 42px 90px;
+    overflow: hidden;
+}
+.zu{
+    display: flex;
+    margin-bottom: 44px;
+}
+.zu li{
+    font-size: 22px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.zu li:nth-child(1){
+    color: #cb0d0d;
+    font-weight: normal;
+}
+.zu li span{
+    width: 62px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 18px;
+}
+.control-group{
+    padding-bottom: 32px;
+}
+label{
+    float: left;
+    height: 34px;
+}
+#reg{
+    text-align: initial;
+}
+.phone{
+    padding: 9px 0;
+    width: 86px;
+    height: 18px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #525252;
+    display: inline-block;
+}
+.tel{
+    margin-right: 20px;
+    padding: 4px 5px;
+    width: 227px;
+    height: 24px;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #c8c8c8;
+    border-radius: 2px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.tel input{
+    width:100%;
+    height:100%;
+    border:0;
+}
+.txt-info{
+    height: 26px;
+    padding-top: 8px;
+    font-size: 12px;
+    line-height: 22px;
+    overflow: hidden;
+    color: #8f8f8f;
+}
+.ipt{
+    width: 113px;
+}
+.ver-btn{
+    border: 1px solid #c8c8c8;
+    text-align: center;
+    background: #f1f1f1;
+    color: #8f8f8f;
+    padding: 6px 12px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+.ver-btn:hover{
+    background: #cb0d0d;
+    color: #fff;
+}
+.ver{
+    margin-right:20px;
+}
+.agrees{
+    margin-left:90px;
+}
+.agrees a{
+    color: cornflowerblue;
+}
+.agreest{
+    margin-right:5px;
+    vertical-align: middle;
+}
+.groups{
+    padding-bottom: inherit;
+}
+.groupss{
+    padding-bottom: 15px;
+}
+.zcbtn{
+    padding: 14px 78px;
+    font-size: 20px;
+    line-height: 20px;
+    border-radius: 3px;
+    border:0;
+    color: #fff;
+    cursor: pointer;
+    background: rgba(128, 128, 128, 0.84);
+    outline: none;
+}
+.zcbtn:hover{
+    background:#cb0d0d;
+}
+footer{
+    background: none;
+    text-align: center;
+}
+.txt-copy p{
+    color: #a9a9a9;
+}
+
+
+
+
+
+
+
+
+

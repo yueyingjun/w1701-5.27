@@ -1,0 +1,104 @@
+nav{
+    border-bottom:1px solid #e4e4e4;
+    padding-top:20px;
+    padding-bottom:0;
+}
+.nav-right{
+    float: left;
+}
+.nav-rightul{
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    height: 100%;
+    width:700px;
+}
+.nav-rightul li{
+    width:100%;
+    height:100%;
+}
+.nav-rightul li a{
+    width:100%;
+    height:100%;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    outline: 0;
+    color: #222;
+}
+.nav-rightul li a:hover{
+    color: #cb0d0d;
+    font-weight: bold;
+}
+.nav-rightul li a.active{
+    color: #cb0d0d;
+    font-weight: bold;
+}
+.main{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+}
+.head{
+    text-align: center;
+    padding-top:30px;
+}
+.head h3{
+    color: #999;
+    padding:10px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.img{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding:30px;
+}
+.img img{
+    vertical-align: middle;
+    width:400px;
+    height:300px;
+}
+.main-txt{
+    padding:0 30px;
+    padding-bottom:10px;
+    border-bottom:1px solid #e4e4e4;
+}
+.main-txt p{
+    margin-bottom: 28px;
+    word-wrap: break-word;
+}
+.pinlun{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+    padding:20px;
+    text-align: center;
+}
+.pinlun .pin{
+    width:500px;
+    height:100px;
+    margin:20px;
+}
+.pinlun .jiao{
+    width: 80px;
+    height: 50px;
+    vertical-align: bottom;
+    margin: 29px 0;
+    font-size: 20px;
+}
+.ft li{
+    color:#5f5f5f
+}
+footer p{
+    text-align: center;
+    color: #5f5f5f;
+    padding:10px;
+}
+
+
+
+
+
+
