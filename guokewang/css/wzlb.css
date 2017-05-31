@@ -1,0 +1,377 @@
+ .banner{
+	width: 100%;
+	height: 750px;
+	background: blue;
+	 position: relative;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+.banner .banner-tu{
+	width: 100%;
+	height: 750px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: auto;
+
+
+}
+.banner .zz{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 148, 42, 0.21);
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: auto;
+
+	
+	/* float: left; */
+	
+}
+
+.header{
+	width: 100%;
+	height: 100px;
+	background:rgba(255,255,255,0.7); 
+  position: absolute;
+	top: 0;
+	left: 0;
+	margin: auto;
+
+}
+.header-k{
+	width: 1200px;
+	height: 100%;
+	/* background: red; */
+	margin:0 auto;
+}
+.header-k .zi-k{
+	width: 90px;
+	height: 100%;
+	/* background: pink; */
+	
+}
+.header-k .zi-k:nth-child(1){
+	margin-right: 80px;
+	float: left;
+}
+.header-k .zi-k:nth-child(2){
+	margin-right: 80px;
+	float: left;
+}
+.header-k .zi-k:nth-child(3){
+	/* margin-right: 80px; */
+	float: left;
+}
+.header-k .zi-k:nth-child(4){
+	/* margin-right: 80px; */
+	float: left;
+	margin-left: 130px;
+}
+.header-k .zi-k:nth-child(5){
+	margin-left: 80px;
+	float: right;
+}
+.header-k .zi-k:nth-child(6){
+	margin-left: 80px;
+	float: right;
+}
+.header-k .zi-k:nth-child(7){
+	/* margin-left: 80px; */
+	float: right;
+}
+.zi-k h3{
+    font-size: 20px;
+    text-align: center;
+    /* line-height: 60px; */
+    margin-top: 25px;
+}
+.zi-k h3 P{
+    font-size: 16px;
+    text-align: center;
+    /* line-height:40px; */
+      font-weight:500;
+}
+.zi-k .tu{
+	width: 100%;
+	height: 100%;
+   /*  background: blue; */
+   /*  margin: 0 auto; */
+  /*   margin-top:17px ; */
+    background: url('../img/4-logo.png') center center no-repeat; 
+    background-size: 100%;
+
+}
+
+
+.banner .nr{
+	width: 1050px;
+	height: 650px;
+	/* background: blue; */
+	/* float: left; */
+	position: absolute;
+	top: 20px;
+	left:0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	
+}
+.banner .nr .jt-z{
+	width: 50.5px;
+	height: 51px;
+	background: url('../img/lbjty.png');
+	position: absolute;
+	top: 314.5px;
+	left: 0;
+}
+.banner .nr .jt-y{
+	width: 50.5px;
+	height: 51px;
+	background: url('../img/lbjtz.png');
+	position: absolute;
+	top: 314.5px;
+	right: 0;
+}
+.banner .nr .zi{
+width: 100%;
+height: 100px;
+position: absolute;
+top: 37%;
+margin: 0 auto;
+color: #fff;
+text-align: center;
+font-family: '苹方';
+font-size:35px;
+opacity: 0.8;
+font-weight: 400;
+
+}
+.banner .nr h2{
+  margin-left:4%;
+}
+.nr ul{
+	width: 20%;
+	height: 7%;
+	/* background: pink; */
+	 position: absolute;
+    bottom: 50px;
+    left: 43%;
+    margin: auto;
+}
+.nr ul li{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #fff;
+	float: left;
+	margin-right:20px;
+}
+/* banner */
+/* zhengwen */
+.dakuang{
+	width: 1050px;
+	height:2700px;
+	 /* background: pink;  */
+    /* overflow: hidden; */
+	margin: 0 auto;
+	position: relative;
+	/* margin-top: -126px; */
+	
+}
+.wenben{
+	width: 100%;
+	height:2700px;
+	background: #fff;
+	border-top: 7px solid #96CA66;
+	box-shadow: 0px 8px 40px 0px #b0b0b0;
+	position: absolute;
+	top: -80px;
+	left: 0;
+	margin: auto;
+} 
+.wenben .xbt{
+	width: 100%;
+	height: 40px;
+	/* background: pink; */
+	float: left;
+}
+.wenben .xbt p{
+	font-family: "苹方";
+	font-size: 20px;
+	color: #0C912E;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.wenben .bt1{
+	width: 210px;
+	height: 100px;
+	background: url('../img/bt-2.png') center center no-repeat;
+	background-size: 85%;
+	/* float: left; */
+	margin: 0 auto;
+	margin-top: 130px;
+
+}
+.toutiao{
+	width:800px;
+	height: 600px;
+	margin: 0 auto;
+	/* background: red; */
+	margin-top: 100px;
+}
+.toutiao img{
+	width: 100%;
+	height: 100%;
+}
+.toutiao ul{
+	width: 100%;
+	height: 100%;
+	
+}
+.toutiao ul li{
+	width: 50%;
+	height: 50%;
+	/* border: 2px solid; */
+	float: left;
+	position: relative;
+}
+.toutiao ul li:nth-child(1){
+	border: 3px dashed green;
+}
+.toutiao ul li:nth-child(4){
+	border: 3px dashed green;
+}
+.toutiao ul li h3{
+	font-family: "苹方";
+	font-size: 20px;
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	margin: auto;
+}
+.toutiao ul li p{
+	width: 80%;
+	font-family: "苹方";
+	text-align: justify;
+	font-size: 16px;
+	line-height: 30px;
+	position: absolute;
+	top: 60px;
+	left: 30px;
+	margin: auto;
+}
+.toutiao ul li .tu{
+	width: 62px;
+	height: 24px;
+	background: url('../img/more.png')center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	bottom: 35px;
+	right:40px;
+	margin: auto;
+}
+
+.wenben .bt2{
+	width: 210px;
+	height: 120px;
+	background: url('../img/bt-1.png') center center no-repeat;
+	background-size: 85%;
+	/* float: left; */
+	margin: 0 auto;
+	margin-top: 130px;
+
+}
+.xinwen{
+	width: 800px;
+	height: 200px;
+	margin: 0 auto;
+	/* background: blue; */
+	margin-top: 100px;
+}
+.xinwen .tu{
+	width: 37%;
+	height: 100%;
+	/* background: pink; */
+	float: left;
+}
+.xinwen img{
+	width: 100%;
+	height: 100%;
+}
+.xinwen .zi{
+	width: 57%;
+	height: 100%;
+	/* background: pink; */
+	float: right;
+	position: relative;
+}
+.xinwen .zi h3{
+	font-family: "苹方";
+	font-size: 20px;
+
+}
+.xinwen .zi p{
+	width:500px;
+	font-family: "苹方";
+	text-align: justify;
+	font-size: 16px;
+	line-height: 30px;
+	margin-top: 10px;
+	
+}
+.xinwen .zi .tu{
+	width: 62px;
+	height: 24px;
+	background: url('../img/more.png')center center no-repeat;
+	background-size: 100%;
+	position: absolute;
+	bottom: 15px;
+	right:10px;
+	margin: auto;
+
+}
+
+
+.dakuang .fanye{
+	width: 800px;
+	height: 50px;
+	/* background: blue; */
+	position: absolute;
+	bottom: 60px;
+	left: 12%;
+	margin: auto;
+    text-align: center;
+}
+
+
+
+
+/* dibu */
+footer{
+    font-size: 12px;
+    color: #999;
+    background-color: #fff;
+    position: relative;
+    z-index: 100;
+    clear: both;
+    line-height: 35px;
+    margin: 30px auto 0;
+    overflow: hidden;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 1000px;
+}
+.footer1{
+    margin: 0 auto;
+    overflow: hidden;
+}
+footer .footer1 a{
+    margin: 0 10px;
+}
+.footer2{
+    border-top: 1px solid #ececec;
+}

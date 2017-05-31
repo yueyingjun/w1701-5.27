@@ -1,0 +1,375 @@
+body{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+a{
+color: #0078b6;
+}
+header{
+    border-top: 3px solid #85c155;
+}
+.top{
+    background: #fafafa;
+}
+.top-k{
+    height: 80px;
+    padding: 20px 0 0 0;
+    margin: 0 auto;
+    width: 1000px;
+}
+.logo{
+    width: 118px;
+    height: 35px;
+    float: left;
+    background: url("../img/denglu-logo.png");
+}
+.bt{
+    margin:5px 0 0 17px;
+    width: 621px;
+    float: left;
+}
+.bt li{
+float: left;
+font-size: 20px;
+margin: 0 1px 0 0;
+}
+.bt li a {
+    color: #4ba733;
+    float: left;
+    padding: 0 17px 0 15px;
+    font-size: 20px;
+}
+#seach{
+    float: right;
+    border-radius: 4px;
+    border: 1px solid #ededed;
+    height: 36px;
+    padding: 1px 0 0 1px;
+    background: #FFF;
+    font-size: 12px;
+
+}
+.seachtxt{
+    padding: 3px 6px 4px 5px;
+    border: 0;
+    outline: 0;
+    width: 194px;height: 29px;
+}
+.seachsou{
+    background: url(../img/5-icon.png) transparent no-repeat;
+    display: inline-block;
+    text-indent: -9999px;
+    overflow: hidden;
+    vertical-align: middle;
+    margin: 6px 0 0 0;
+    background-position: 9px -52px;
+    width: 31px;
+    height: 23px;
+    border: 0;
+}
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+.denglu{
+    height: 175px;
+    overflow: hidden;
+    background: #f3f3f3;
+    margin-bottom: 28px;
+}
+.denglu .neirong{
+    margin-top: 57px;
+    height: 48px;
+    padding: 0 0 0 9px;
+    text-align: center;
+}
+.denglu .neirong p {
+    font-weight: normal;
+    font-size: 21px;
+    color: #333;
+    margin-right: 13px;
+    line-height: 48px;
+    display: inline;
+}
+.denglu .neirong a{
+    color: #f7f7f7;
+    height: 50px;
+    line-height: 50px;
+    font-size: 21px;
+    width: 180px;
+    background-color: #88c833;
+    display: inline-block;
+    margin: 0 7px;
+}
+.dakuang{
+    width: 1050px;
+    height:auto;
+    overflow: hidden;
+    margin:0 auto;
+    /*background: red;*/
+}
+.main{
+    width: 680px;
+    float: left;
+    /*background: pink;*/
+    height: auto;
+    overflow: hidden;
+}
+.side{
+    font-size: 12px;
+    width: 300px;
+    float: right;
+    margin-left: 20px;
+    padding: 42px 0 0 0;
+    /*background: green;*/
+}
+.main-title{
+    width: 100%;
+    height: 50px;
+    /*background: yellow;*/
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
+    float: left;
+    margin-top: 20px;
+}
+.main-neirong{
+    width: 100%;
+    height: 536px;
+    /*background: deepskyblue;*/
+    float: left;
+}
+h2{
+    font-size: 20px;
+    line-height: 50px;
+}
+.main-neirong{
+    margin-bottom: 20px;
+}
+.main-neirong li{
+    width: 50%;
+    height: 50%;
+    /*border:2px solid;*/
+    float: left;
+    padding: 0 10px 16px 0;
+}
+.main-neirong li h3 {
+    font-size: 16px;
+    color: #333;
+    height: 49px;
+    line-height: 57px;
+    overflow: hidden;
+    font-weight: 300;
+}
+.main-neirong li .middle{
+    width: 100%;
+    height: 100px;
+
+}
+.main-neirong li .middle img {
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-right: 10px;
+}
+.main-neirong li .middle .zi{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.main-neirong li .middle .zi p {
+    margin-top: 10px;
+    height: 48px;
+    overflow: hidden;
+    line-height: 1.67;
+}
+.xiaoneirong li{
+    width: 100%;
+    font-size: 14px;
+    height: 20px;
+    line-height: 28px;
+    border: 0;
+    margin-bottom: 5px;
+
+}
+.xiaoneirong li a{
+    color: #6d6d6c;
+}
+.side .title{
+    margin-top: 20px;
+    width: 100%;
+    height: 25px;
+ }
+.side .title h2{
+    float: left;
+    line-height: 30px;
+    font-weight: 400;
+}
+.side .title a{
+    float: right;
+    line-height: 30px;
+}
+.group{
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+.side-group li{
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 70px;
+    background: #ececec;
+}
+.side-group li img{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.side-group li .zi{
+    width: 70%;
+    height: 100%;
+    float: right;
+
+}
+.side-group li .zi h3{
+    font-size: 15px;
+    float: left;
+}
+.side-group li .zi a{
+    color: #4ba733;
+    float: left;
+font-weight: 400;
+}
+span{
+    color: #999;
+    line-height: 25px;
+    margin-left: 10px;
+}
+.gellipsis {
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 15px;
+    color: #999;
+    margin-top: 5px;
+}
+.side-k{
+    border-top:1px solid #eaeaea;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.side-k-ul{
+  width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.side-k-ul li a{
+    height: 30px;
+    margin-bottom: 2px;
+    margin-right: 10px;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #999;
+    font-size: 14px;
+    line-height: 30px;
+}
+.side-link {
+    margin-top:50px;
+    overflow: hidden;
+}
+.side-link a.weixin {
+    border: 1px #85c155 solid;
+    text-indent: 1.5em;
+    margin-right: 6px;
+    color: #85c155;
+}
+.side-link a {
+    display: block;
+    position: relative;
+    float: left;
+    width: 145px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+}
+.side-link a.weixin span {
+    background: url(../img/weixin-icon.png) center center no-repeat;
+}
+.side-link a span {
+    position: absolute;
+    top: 7px;
+    width: 30px;
+    height: 25px;
+}
+.side-link a.weibo {
+    text-indent: 3em;
+    border: 1px #e5554f solid;
+    color: #e5554f;
+}
+.side-link a {
+    display: block;
+    position: relative;
+    float: left;
+    width: 145px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+}
+.side-link a.weibo span {
+    background: url(../img/weibo-icon.png) center center no-repeat;
+}
+.side-link a span {
+    position: absolute;
+    top: 7px;
+    width: 30px;
+    height: 25px;
+}
+.ipone{
+    background: url(../img/ipone.png);
+    background-size: 100%;
+    clear: both;
+    width: 300px;
+    height: 171px;
+    margin: 20px 0;
+    position: relative;
+}
+.guanggao{
+    width: 1020px;
+    margin: 0 auto;
+    height: 80px;
+}
+.guanggao img{
+    width: 100%;
+    height:100%;
+}
+footer{
+    font-size: 12px;
+    color: #999;
+    background-color: #fff;
+    position: relative;
+    z-index: 100;
+    clear: both;
+    line-height: 35px;
+    margin: 30px auto 0;
+    overflow: hidden;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 1000px;
+}
+.footer1{
+    margin: 0 auto;
+    overflow: hidden;
+}
+footer .footer1 a{
+    margin: 0 10px;
+}
+.footer2{
+    border-top: 1px solid #ececec;
+}
