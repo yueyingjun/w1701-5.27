@@ -1,0 +1,355 @@
+*{
+	padding:0;margin:0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	width:100%;
+	height:100%;
+}
+/*注册*/
+	form.zhuce{
+        width:400px;
+        height:229px;
+        border-radius:4px;
+        border-left:1px solid #D5ECFC;
+        border-right:1px solid #D5ECFC;
+        box-sizing:border-box;
+        background:#B5D6E9;
+        color:#51626A;
+        font-size:14px;
+        margin:auto;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        z-index:1;
+        display:none;
+    }
+    .zhuce label{
+        display:block;
+        margin-top:10px;
+        text-align:center;
+    }
+    .zhuce .first{
+        margin-top:40px;
+    }
+    .zhuce label input{
+        width:156px;
+        height:25px;
+        border-radius:4px;
+        border:1px solid #BECBD1;
+        background:#F8FAF9;
+        padding-left:10px;
+    }
+    .zhuce input[type='submit']{
+        width:73px;
+        height:25px;
+        background:linear-gradient(to left,#7BA7C2,#D5ECF4,#7BA7C2);
+        border:1px solid #AEC2CB;
+        border-radius:4px;
+        text-align:center;
+        line-height:25px;
+        font-size:12px;
+        font-weight:600;
+        color:#63757F;
+        margin-top:10px;
+    }
+/*登录*/
+    .sign{
+        width:400px;
+        height:229px;
+        border-radius:4px;
+        border-left:1px solid #D5ECFC;
+        border-right:1px solid #D5ECFC;
+        box-sizing:border-box;
+        background:#B5D6E9;
+        color:#51626A;
+        font-size:14px;
+        margin:auto;
+        z-index:1;
+        position:absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        display:none;
+    }
+    .sign  .top{
+        width:100%;
+        height:30px;
+        background:#E2F1F8;
+        line-height:30px;
+        color:#4C5E6A;
+        padding-left:10px;
+        box-sizing:border-box;
+    }
+    .sign label{
+        display:block;
+        margin-top:10px;
+        text-align:center;
+    }
+    .sign .first{
+        margin-top:20px;
+    }
+    .sign label input{
+        width:156px;
+        height:25px;
+        border-radius:4px;
+        border:1px solid #BECBD1;
+        background:#F8FAF9;
+        padding-left:10px;
+    }
+    .sign .check input{
+        width:92px;
+    }
+    .sign .check img {
+        height:28px;
+        vertical-align: bottom;
+        /*给行内块元素加管用*/
+    }
+    .sign .tijiao{
+        width:100%;
+        height:64px;
+        padding-top:10px;
+        box-sizing:border-box;
+    }
+    .sign .tijiao input,.tijiao button{
+        width:73px;
+        height:25px;
+        background:linear-gradient(to left,#7BA7C2,#D5ECF4,#7BA7C2);
+        border:1px solid #AEC2CB;
+        border-radius:4px;
+        text-align:center;
+        line-height:25px;
+        font-size:12px;
+        font-weight:600;
+        color:#63757F;
+    }
+    .sign .tijiao input{
+        margin-left:10px;
+    }
+    .sign .tijiao button{
+        margin-left:10px;
+    }
+    /*body*/
+.body{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+/*nav*/
+nav{
+	width:970px;
+	height:46px;
+	margin:0 auto;
+	margin-top:20px;
+}
+.nav-left{
+	float:left;
+	display:flex;
+	align-items: center;	
+}
+.nav-left img{
+	width:40px;
+}
+.nav-left span{
+	font-size:16px;
+	color:#023875;
+	margin-left:10px;
+}
+.nav-right{
+	width:35%;
+	height:100%;
+	float:right;
+	display:flex;
+	align-items: center;
+}
+.nav-a{
+	margin-right:20px;
+}
+nav .nav-a a:first-child::after{
+	content:'';
+	width:2px;
+	height:14px;
+	background:#ccc;
+	display:inline-block;
+	margin-left:6px;
+	margin-top:3px;
+	float:right;
+}
+nav .nav-a a{
+	font-size:14px;	
+	color:#023875;
+	float:left;
+	margin-left:6px;
+}
+nav form input{
+	width:180px;
+	height:24px;
+	border:1px solid #023875;
+	padding-left:5px;
+	box-sizing:border-box;
+	float:left;
+}
+nav form button{
+	width:40px;
+	height:24px;
+	border:1px solid #023875;
+	border-left:0;
+	float:left;
+} 
+/*header*/
+header{
+	height:40px;
+	width:100%;	
+	border-top:2px solid #023875;	
+}
+.header{
+	height:100%;
+	width:970px;
+	margin:0 auto;
+	display:flex;
+	align-items: center;
+	justify-content:space-around;
+	font-size:16px;	
+}
+.h-title{
+	width:100%;
+	height:100%;
+	display:flex;
+	align-items: center;
+	justify-content:space-around;
+	color:#023875;	
+}
+.h-title:hover{
+	background:#023875;
+	color:#fff;
+}
+.active{
+	background:#023875;
+	color:#fff;
+}
+/*all*/
+.all1{
+	width:984px;
+	overflow:hidden;
+	margin:20px auto;
+}
+.left{
+	width:685px;
+	float:left;	
+}
+.title{
+	width:100%;
+	height:55px;
+	border-top:2px solid #C7C7C7;
+	border-bottom:1px solid #ECECEC;
+	padding-top:6px;
+	box-sizing:border-box;
+}
+.title h4{
+	font-size:20px;
+	color:#006699;
+}
+.title h6{
+	font-size:10px;
+	font-weight:normal;
+	color:#B299B2;	
+}
+.left{
+	overflow:hidden;
+	margin-top:20px;
+}
+.all1-lleft{
+	width:400px;
+	float:left;
+}
+.all1-lleft .line1{
+	width:100%;
+	height:175px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.all1-lleft .line1:nth-child(2){
+	border-top:1px dotted #CCC;
+}
+.all1-lleft .line1 a{
+	display:flex;
+	align-items: center;
+}
+.all1-lleft .line1 a .rect{
+	width:3px;
+	height:3px;
+	background:#7195B7;	
+	margin-right:6px;
+}
+.all1-lleft .line1 a h4{
+	font-size:14px;
+	color:#4B4B4B;	
+	font-weight:normal;
+}
+.all1-lleft .line1 .strong h4{
+	color:#222;
+	font-size:18px;
+	font-weight:bold;
+}
+.all1-lright{
+	margin-top:16px;
+	margin-left:20px;
+	width:240px;
+	height:348px;
+	float:left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;	
+}
+.all1-lright a img{
+	width:100%;	
+}
+.all1-lright a span{
+	display:block;
+	width:240px;
+	height:30px;
+	background:#000;
+	position:relative;
+	top:-30px;
+	font-size:8px;
+	color:#fff;
+	line-height:30px;
+}
+/*right*/
+.right{
+	margin-top:20px;
+	width:290px;
+	float:right;
+}
+.right .list{
+	margin-top:10px;
+	width:100%;
+	height:360px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;	
+}
+.right  .list a{
+	height:35px;
+	display:flex;
+	align-items: center;
+	border-bottom:1px dotted #ECECEC;
+}
+.right  .list a .rect{
+	width:3px;
+	height:3px;
+	background:#7195B7;	
+	margin-right:6px;
+}
+.right  .list a h4{
+	font-size:12px;
+	color:#898989;	
+	font-weight:normal;
+}
