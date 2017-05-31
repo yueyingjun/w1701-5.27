@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    /*text-transform: none;*/
+    /* 去除A标签的下划线 */
+}
+a{
+	color: #2b2b2b;
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+/*
+a:hover{
+	color: #F34343;
+	text-decoration: underline;
+}*/
