@@ -1,0 +1,37 @@
+body{
+	background-image: url(../img/index_1.png);
+	background-size: 100%;
+}
+form{
+	width: 614px;
+	height: 482px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background: rgba(255,255,255,.8);
+	box-shadow: 0 0 10px rgba(0,0,0,.08);
+	padding-top: 100px;
+	box-sizing: border-box;
+}
+.text,.sub{
+	width: 336px;
+	height: 48px;
+	display: block;
+	margin: 10px auto;
+	border: 1px solid #e2e2e2;
+	font-size: 18px;
+	border-radius: 3px;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.sub{
+	background: #86ce2f;
+	color: #FFFFFF;
+	font-size: 24px;
+	border: none;
+	font-family: "苹方";
+	border-radius: 0;
+}
