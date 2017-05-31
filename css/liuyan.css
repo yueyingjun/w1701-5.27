@@ -1,0 +1,153 @@
+.mainer{
+   width: 990px;
+    height: auto;
+    margin: 0 auto;
+}
+main {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.col_main {
+    width: 750px;
+    margin-right: 10px;
+    float: left;
+}
+
+.hd {
+    height: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.hd h3 {
+    float: left;
+    height: 28px;
+    padding: 3px 10px 0 10px;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: normal;
+}
+
+.bd {
+    padding: 10px 0;
+}
+
+.bd .empty {
+    display: block;
+    padding: 50px 0;
+    color: #999;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+main form {
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    padding: 10px 20px 20px;
+    background-color: #f6f6f6;
+    border: 1px solid #e5e5e5;
+}
+
+main form > fieldset {
+    width: auto;
+    margin: 0 1em;
+}
+
+.label, label {
+    float: left;
+    display: block;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.label b, label b {
+    float: left;
+    width: 10em;
+    color: #000;
+    font-size: 16px;
+    padding: 5px 0 4px;
+    font-weight: 700;
+    display: block;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.label em, label em {
+    float: left;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    margin-left: 10px;
+    padding: 5px 0;
+}
+
+.form .required b:before {
+    content: '*';
+    margin-right: 3px;
+    color: #f53;
+    font-size: 1.5em;
+    line-height: 0.5em;
+    font-weight: normal;
+}
+
+.radio_wrap fieldset {
+    float: left;
+    width: auto;
+    margin: 0 1em;
+    margin-left: 10px;
+}
+
+.radio_wrap label {
+    float: left;
+    width: auto;
+    color: #000;
+    border: none;
+    margin: 0;
+    padding: 4px 0;
+    margin-right: 15px;
+}
+
+input[type=email], input[type=text], textarea {
+    float: left;
+    margin-left: 10px;
+    width: 16em;
+    height: 19px;
+    border: 1px solid #b3b3b3;
+    padding: 5px 8px;
+}
+
+textarea {
+    width: 450px;
+    height: auto;
+    max-width: 700px;
+    max-height: 360px;
+}
+
+.form .submit_wrap {
+    float: left;
+    clear: both;
+    padding: 5px 0 5px 10em;
+}
+
+.form .submit_wrap input[type=submit] {
+    margin: 0 5px 0 10px;
+    position: relative;
+    display: inline-block;
+    padding: 7px 15px 7px 18px;
+    color: #fff;
+    letter-spacing: 0.2em;
+    line-height: 1em !important;
+    border-radius: 5px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    background-color: #333;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    background-image: -webkit-linear-gradient(top, #666, #333);
+}
