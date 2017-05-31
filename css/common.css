@@ -177,9 +177,12 @@ header #zone a {
     width: 100%;
     padding: 0.4em;
 }
+.crown .navbar-nav{
+    padding: 10px!important;
+}
 .navbar, .navbar-nav {
     margin: 0!important;
-    padding: 0!important;
+    padding: 0px!important;
     border-radius: 0;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
@@ -249,7 +252,7 @@ header #zone a {
 .navbar-toggle {
     margin: 0.3em 0.6em!important;
 }
-.dropdown:hover .dropdown-menu{
+.obese .jewel .dropdown:hover .dropdown-menu{
     display: block;
 }
 .sherlock-holmes {
