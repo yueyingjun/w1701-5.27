@@ -1,0 +1,265 @@
+body{
+	font-family: "宋体";
+    font-size: 12px;
+    background: #f7f7f7;
+    line-height: 24px;
+    color: #393939;
+}
+/* 头部开始 */
+.top{
+	width: 100%;
+	height: 33px;
+	background: #379BE9;
+    line-height: 33px;
+    background-size: 100%;
+}
+.pagewidth{
+	width: 790px;
+	height: 33px;
+	margin: 0 auto;
+}
+.menu{
+	color: #dbeefd;
+    float: left;
+}
+.menu a:hover{
+	background: red;
+}
+.top .menu a{
+	color: #dbeefd;
+    margin: 0 3px;
+}
+.top input{
+	float: right;
+	margin-top: 6px;
+}
+/* 头部结束 */
+
+
+
+/* 中间开始 */
+.qq-content{
+	width: 1240px;
+	height: 2735px;
+	/* background: #ccc; */
+	margin: 0 auto;
+}
+.qq-left{
+	width: 140px;
+    float: left;
+    display: inline;
+    margin: 104px 30px 0 0;
+    position: relative;
+    color: #000;
+}
+.qq-left .oneul{
+	font-size: 16px;
+    width: 140px;
+    background-color: #fafafa;
+    text-align: center;
+    border-top: 2px solid #379be9;
+}
+.oneul li:hover{
+	background: red;
+}
+.qq-left .oneul li{
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}.qq-left .oneul li:nth-child(1){
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #E6F2FC;
+}
+.qq-content .qq-main{
+	width: 740px;
+    height: 100%;
+    /* background: yellow; */
+    float: left;
+    display: inline;
+    position: relative;
+}
+.qq-content .qq-main h1{
+	font-size: 26px;
+    text-align: center;
+    line-height: 60px;
+}
+.qq-content .catalog{
+	height: 30px;
+	font-size: 16px;
+    /* border-bottom: 1px solid #f0f0f0; */
+    margin: 4px 0 15px;
+}
+.qq-content .catalog .news{
+	width: 78px;
+    height: 40px;
+    float: left;
+    display: inline;
+	background: url('../img/common.png') center center no-repeat;
+	background-size: 100%;
+}
+.qq-content .catalog img{
+	padding-right: 8px;
+    float: left;
+    display: inline;
+    margin: 10px 19px 0 4px;
+    border-right: 1px solid #e8e8e8;
+}
+.qq-content .catalog .rows{
+	width: 520px;
+    float: left;
+    display: inline;
+    line-height: 45px;
+    margin-bottom: -1px;
+}
+.qq-content .rows li{
+	display: inline-block;
+    /* border: 1px solid #FFF; */
+    border-bottom-color: #f0f0f0;
+    height: 42px;
+    width: 70px;
+}
+.qq-content .qq-main .tabBox{
+	border-top: 1px solid #f0f0f0;
+}
+.qq-content .qq-main .tabBox .ultitle{
+	    font-size: 16px;
+}
+.qq-content .qq-main .tabBox .ultitle li{
+	font-size: 20px;
+	padding: 20px 0;
+}
+.qq-content .qq-main .tabBox .ultitle li .time{
+	font-size: 14px;
+	float: right;
+	color: #9e9e9e;
+	margin-right: 10px;
+}
+.qq-content .qq-main .tabBox .tiao{
+	text-align: right;
+    margin-top: 20px;
+}
+.qq-content .qq-main .tabBox .tiao ul li{
+	width: 30px;
+	height: 30px;
+	display: inline;
+    margin-right: 3px;
+}
+.qq-content .qq-main .tabBox .tiao ul li span{
+	font-size: 14px;
+    line-height: 30px;
+    padding: 6px 10px;
+    border: 1px solid #f0f0f0;
+    font-weight: 700;
+    color: #ccc;
+}
+.qq-content .qq-main .tabBox .tiao ul li:nth-child(1) span{
+	background: #379be9;
+}
+.qq-content .qq-main .tabBox .tiao ul li .jump{
+	display: inline;
+    margin-right: 3px;
+}
+.tiao ul .jump input{
+ 	text-align: center;
+    border: 1px solid #f0f0f0;
+    width: 28px;
+    height: 28px;
+    margin: 0 5px;
+ }  
+
+.qq-content .qq-right{
+	width: 300px;
+    height:2635px;
+    float: right;
+    display: inline;
+    position: relative;
+    margin-top: 100px;
+    /* background: red; */
+}
+.qq-right p{
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	line-height: 40px;
+}
+.onenews{
+	width: 100%;
+	height: auto;
+	/* background: yellow; */
+}
+.onenews li{
+	width: 100%;
+	height: 90px;
+	border-bottom: 1px solid #ccc;
+	/* background: pink; */
+}
+.onenews li:nth-child(1){
+	border-top: 1px solid #ccc;
+}
+.onenews li .pic{
+	float: left;
+    display: inline;
+    width: 100px;
+    height: 68px;
+    overflow: hidden;
+    margin-right: 2px;
+    position: relative;
+    margin-top: 16px;
+}
+.onenews li a{
+	 display: block;
+    overflow: hidden;
+    color: #000;
+}
+   
+.onenews li .txt{
+	line-height: 44px;
+	font-size: 14px;	
+}
+.qq-right .jd{
+	width: 300px;
+	height: 250px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.eyenews{
+	width: 300px;
+	height: auto;
+	/* background: blue; */
+}
+.eyenews ul li{
+	 width: 130px;
+    height: 133px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    margin: 0 0 25px 14px;
+    /* background: pink; */
+}
+.eyenews ul li img{
+	width: 130px;
+	height: 80px;
+}
+.eyenews ul li span{
+	font-size: 12px;
+}
+/* 中间结束 */
+
+
+/* 底部开始 */
+.foot{
+	width: 790px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 46px;
+}
+.foot p{
+	width: 790px;
+	height: 25px;
+	float: left;
+	line-height: 25px;
+	text-align: center;
+}
+/* 底部结束 */
