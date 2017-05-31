@@ -1,0 +1,505 @@
+html,body{
+    height: 2000px;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background: #1436F6;
+    line-height: 50px;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 999;
+}
+header a{
+    color: #fff;
+    display: block;
+    float: right;
+}
+header span{
+    display: inline-block;
+    margin-left: 2%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 0.5%;
+    width: 70px;
+}
+header span a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+header span a:hover{
+    border: 1px solid #fff;
+    transition: all 0.5s;
+}
+.content{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 70px;
+}
+.title{
+    float: left;
+    width: 100%;
+    font-size: 16px;
+}
+.time{
+    display: block;
+    font-size: 14px;
+    color: #ccc;
+    margin-left: 0;
+}
+.author{
+    display: block;
+    font-size: 18px;
+    margin-left: 0;
+}
+.detail{
+    width: 100%;
+    margin-top: 5%;
+    font-size: 18px;
+    line-height: 30px;
+}
+.img-para{
+    /*float: left;*/
+}
+.img-para img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.remen {
+    width: 100%;
+    overflow: hidden;
+    background: #f9f9f9;
+}
+
+.remen p {
+    font-size: 20px;
+    padding-left: 5%;
+    border-left: 3px solid #337eff;
+    margin-top: 5%;
+}
+
+.remen ul {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+section .remen ul li {
+    width: 95%;
+    height: 90px;
+    margin-top: 5%;
+    padding-left: 7%;
+    padding-bottom: 5%;
+    margin-bottom: 2%;
+
+}
+
+.remen ul li .remen-left {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.remen ul li .remen-left a {
+    display: block;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+.remen ul li .remen-left a img {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.remen-right {
+    width: 74%;
+    height: 60px;
+    float: left;
+    padding-left: 5%;
+}
+
+.remen-right a {
+    display: block;
+    width: 100%;
+    height: 60px;
+}
+
+.remen-right a h3 {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 3%;
+    color: #888;
+}
+
+.line {
+    margin-top: 8%;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #888;
+}
+
+.remen ul li:last-child .line {
+    border-bottom: 0 solid #888;
+}
+
+.tuijian {
+    width: 100%;
+    overflow: hidden;
+}
+
+.tuijian p {
+    font-size: 20px;
+    padding-left: 5%;
+    border-left: 3px solid #337eff;
+    margin-top: 5%;
+}
+
+.tuijian .tui-im {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.tuijian .tui-im img {
+    width: 100%;
+    float: left;
+}
+
+.tuijian ul {
+    width: 100%;
+    overflow: hidden;
+}
+
+.tuijian ul li {
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.tuijian ul li span {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #ddd;
+    margin-top: 1%;
+}
+
+.tuijian ul li a {
+    color: #666;
+    padding-left: 2%;
+}
+
+.tuijian ul li a:hover {
+    color: red;
+}
+
+.lunbo {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+
+.lunbo .yh-list {
+    float: left;
+    width: 100%;
+    height: 227px;
+}
+
+.lunbo .yh-list .yh-listli {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.lunbo .yh-list .yh-listli a {
+    float: left;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.yh-listli.active {
+    z-index: 1;
+}
+
+.lunbo .yh-list .yh-listli a img {
+    float: left;
+    width: 100%;
+    min-height: 227px;
+    transition: all 1s;
+}
+
+.lunbo .yh-lunbo {
+    width: 35%;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2%;
+    margin: auto;
+    z-index: 5;
+}
+
+.lunbo .yh-lunbo .yh-lunbos {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ccc;
+}
+
+.lunbo .yh-lunbo .yh-lunbos.actives {
+    background: #337eff;
+}
+
+.scorllnav {
+    /*display: none;*/
+    position: fixed;
+    top: 5px;
+    left: 0;
+    background: white;
+    z-index: 888;
+    margin-top: 0;
+    transition: all 1s;
+}
+
+.scorllnav ul li.active {
+    background: #337eff;
+
+}
+
+.scorllnav ul li.active a {
+    color: white;
+}
+
+.paihang p {
+    font-size: 20px;
+    padding-left: 5%;
+    border-left: 3px solid #337eff;
+    margin-top: 5%;
+}
+
+section .paihang li {
+    margin-bottom: 2%;
+}
+
+.paihang a {
+    display: inline-block;
+    line-height: 37px;
+    padding-left: 10%;
+}
+
+.paihang a:hover {
+    color: #f34540;
+}
+
+.paihang em {
+    color: #f34540;
+    font-size: 26px;
+    margin-top: -1px;
+    line-height: 37px;
+}
+
+.paihang li {
+    height: 37px;
+}
+
+.paihang span {
+    font-size: 14px;
+    float: right;
+    color: #f34540;
+    display: inline-block;
+    line-height: 37px;
+}
+.dingbu {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    left: 50%;
+    bottom: 30%;
+    margin-left: 50%;
+    transition: all 1s;
+}
+
+.dingbu .top {
+    width: 40px;
+    height: 40px;
+    background: #337ab7;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    z-index: 888;
+}
+
+.dingbu .bottom {
+    width: 40px;
+}
+.share{
+    display: block;
+    text-align: right;
+    cursor: pointer;
+}
+.comment{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.comment .com-left{
+    width: 42px;
+    height: 42px;
+    float: left;
+}
+.comment .com-left img{
+    width: 42px;
+    height: 42px;
+    float: left;
+    border-radius: 50%;
+}
+.comment textarea{
+    width: 85%;
+    float: right;
+    border:  1px solid #ddd;
+    padding: 10px 20px;
+    height:95px;
+}
+.submit{
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+#send{
+    display: block;
+    width: 90px;
+    height: 32px;
+    background: #0098f1;
+    float: right;
+    border-radius: 5px;
+    color: white;
+    margin-top: 5%;
+    border: none;
+}
+.comments{
+    width: 100%;
+    overflow: hidden;
+    border-top: 1px solid #c0c0c0;
+    margin-top: 50px;
+    float: left;
+    font-size: 14px;
+}
+.comments li{
+    width: 100%;
+    /*height: 100px;*/
+    float: left;
+    padding-top: 3%;
+    overflow: hidden;
+}
+.comments .com-left img{
+    width: 42px;
+    height: 42px;
+    float: left;
+    border-radius: 50%;
+}
+.comments .com-right {
+    width: 90%;
+    float: right;
+
+}
+.comments .com-right .name{
+    color: #275fbd ;
+    font-size: 16px;
+}
+.comments .com-right .time{
+    display: inline-block;
+    margin-left: 5%;
+}
+.comments .com-right .zan{
+    float: right;
+    display: inline-block;
+    margin-right: 3%;
+    color:#999;
+    cursor: pointer;
+}
+.comments .com-right .con{
+     width: 100%;
+     font-size: 16px;
+ }
+.comments .com-right .replys{
+    background: #f9f9f9;
+    padding: 15px;
+    overflow: hidden;
+    line-height: 50px;
+}
+.comments .com-right .replys span{
+    display: inline-block;
+    float: left;
+    color: #275fbd;
+    font-size: 15px;
+}
+.comments .com-right .replys p {
+    /*display: inline-block;*/
+    float: left;
+    width: 80%;
+    margin-top: 0;
+    padding-left: 3%;
+}
+.comments .com-right p{
+    width: 100%;
+    margin-top: 3%;
+}
+.comments .com-right .reply{
+    float: right;
+    display: inline-block;
+    color:#999;
+    cursor: pointer;
+}
+.all{
+    text-align: center;
+    line-height: 40px;
+}
+.copyright {
+    float: left;
+    /*background: #ccc;*/
+    font-size: 13px;
+    color: #555;
+    padding-top: 14px;
+    /*border-top: 1px solid #303030;*/
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0;
+}
+
+.copyright a {
+    color: #555;
+}
+.remen img:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+@media (max-width: 992px) {
+    .small-you {
+        display: none;
+    }
+    .lo-detail{
+        width: 76%;
+    }
+}
