@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻网列表</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/details.css">
+    <script src="jQuery.js"></script>
+    <style>
+        @font-face {
+            font-family: 'iconfont';  /* project id 267135 */
+            src: url('//at.alicdn.com/t/font_dybjqbkvejy5vcxr.eot');
+            src: url('//at.alicdn.com/t/font_dybjqbkvejy5vcxr.eot?#iefix') format('embedded-opentype'),
+            url('//at.alicdn.com/t/font_dybjqbkvejy5vcxr.woff') format('woff'),
+            url('//at.alicdn.com/t/font_dybjqbkvejy5vcxr.ttf') format('truetype'),
+            url('//at.alicdn.com/t/font_dybjqbkvejy5vcxr.svg#iconfont') format('svg');
+        }
+    </style>
+</head>
+<body>
+<!--搜索栏开始-->
+<div class="search">
+    <div class="l logo"><img src="img/logo.jpg" alt=""></div>
+    <div class="search-box">
+        <input  type="text" class="search-input" placeholder="大家都在搜：体育">
+        <div class="inner">
+            <div class="inner-box">
+                <a class="item item-1" href="#">
+                    <div class="float-left index icon iconfont icon-1"></div>
+                    <div class="item-content">
+                        <div class="hot-search-word">蔬菜</div>
+                    </div>
+                </a>
+
+                <a class="item item-2" href="#">
+                    <div class="float-left index icon iconfont icon-2"></div>
+                    <div class="item-content">
+                        <div class="hot-search-word">这些粽子不合格</div>
+                    </div>
+                </a>
+
+                <a class="item item-3" href="#">
+                    <div class="float-left index icon iconfont icon-3"></div>
+                    <div class="item-content">
+                        <div class="hot-search-word">创客</div>
+                    </div>
+                </a>
+                <a class="item item-2" href="#">
+                    <div class="float-left index icon iconfont icon-2"></div>
+                    <div class="item-content">
+                        <div class="hot-search-word">行业平均工资出炉</div>
+                    </div>
+                </a>
+
+                <a class="item item-3" href="#">
+                    <div class="float-left index icon iconfont icon-3"></div>
+                    <div class="item-content">
+                        <div class="hot-search-word">王菲</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-search">搜 索</button>
+    <div class="r">
+        <div class="login links">登录</div>
+        <div class="regist links">注册</div>
+    </div>
+</div>
+<!--搜索栏结束-->
+<!--导航开始-->
+<nav>
+    <div class="nav-con">
+        <div class="list">
+            <a href="index.html" class="choose active">首页
+            </a>
+            <a href="#" class="choose">国际
+            </a>
+            <a href="#" class="choose">国内
+            </a>
+            <a href="#" class="choose">段子
+            </a>
+            <a href="#" class="choose">汽车
+            </a>
+            <a href="#" class="choose">娱乐
+            </a>
+            <a href="#" class="choose">体育
+            </a>
+            <a href="#" class="choose">美食
+            </a>
+            <a href="#" class="choose">科技
+            </a>
+            <a href="#" class="choose">社会
+            </a>
+            <a href="#" class="choose">军事
+            </a>
+            <a href="#" class="choose">NBA
+            </a>
+        </div>
+        <div class="down">
+            <div class="icon iconfont">&#xe621;</div>
+            <!--列表下拉-->
+            <div class="down-list">
+                <a href="" class="cho">首页
+                </a>
+                <a href="list.html" class="cho">国际
+                </a>
+                <a href="list.html" class="cho">国内
+                </a>
+                <a href="list.html" class="cho">段子
+                </a>
+                <a href="list.html" class="cho">汽车
+                </a>
+                <a href="list.html" class="cho">娱乐
+                </a>
+                <a href="list.html" class="cho">体育
+                </a>
+                <a href="list.html" class="cho">美食
+                </a>
+                <a href="list.html" class="cho">科技
+                </a>
+                <a href="list.html" class="cho">社会
+                </a>
+                <a href="list.html" class="cho">军事
+                </a>
+                <a href="list.html" class="cho">NBA
+                </a>
+                <a href="list.html" class="cho">数码
+                </a>
+                <a href="list.html" class="cho">美女
+                </a>
+                <a href="list.html" class="cho">健康
+                </a>
+                <a href="list.html" class="cho">时尚
+                </a>
+                <a href="list.html" class="cho">搞笑
+                </a>
+                <a href="list.html" class="cho">动画
+                </a>
+                <a href="list.html" class="cho">电台
+                </a>
+                <a href="list.html" class="cho">旅游
+                </a>
+                <a href="list.html" class="cho">编辑
+                </a>
+                <a href="list.html" class="cho">更多
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!--导航结束-->
+<!--内容开始-->
+<div class="content">
+    <div class="index-con">
+        <div class="slide">
+            <h2 class="joke-title">胡歌捐了这么多希望小学，竟然都是以她的名义？</h2>
+            <div class="meta">
+                <a href="#" class="people">圈掌柜</a>
+                <span>今天</span>
+                <div class="list">我要分享
+                    <span class="iconfont">&#xe61c;</span>
+                </div>
+            </div>
+            <div class="content-bd">
+                <p>胡歌，一位年纪轻轻的优秀演员，一位拿作品证明自己实力的有为演员在影视作品中，胡歌都是逍遥的泼皮形象，而在日常的生活中，却有着与他年纪不匹配的沧桑。</p>
+                <p><a href="#">霍建华</a>都曾对胡歌吐槽，他在生活中，永远有一种沧桑大叔的感觉。</p>
+                <p><span id="article-img-0" class="a-image"><img src="img/xq1.jpeg"></span></p>
+                <p>胡歌这一位，生活中带点小忧郁的明星，其实还真不是怪他，而是他的车祸经历，实在是痛侧心扉。历经生死之后的胡歌，开始逐渐变的不一样，也开始不为钱而活着，而为自己，为了生活中的人，为了更多的人有意义的活着。</p>
+                <p>胡歌的助理名叫<a href="/channel/w/张冕">张冕</a>，生活乐观活泼，单纯无比。即使担任胡歌的助理期间，经常由于好心帮了倒忙，不过她的心意，谁都明白。</p>
+                <p>胡歌一辈子都记得，自己第一次被人替戏时，是她出来陪他谈心聊天，也是她陪伴着自己，走过了一个个寒暑冬夏。</p>
+                <p>可突如其来的车祸，把张冕从胡歌的身边抢走了。胡歌在医院中，听到这个消息后，直接掩面哭泣到不能自己。在冷静下来以后，胡歌写了封书信给张冕的父母，停闭提笔，撕掉重写，在衡量了半天之后，胡歌才狠下心来，写出了死因：为了保护坐在旁边的我，不幸车祸遇难。</p>
+                <p><span id="article-img-1" class="a-image"><img src="img/xq2.jpeg"></span></p>
+                <p>胡歌这些年来，一直坚持用张冕的名义做慈善，张冕捐赠的希望小学，多达30多座，帮助了3000多名小学生解决了读书问题，<a href="#">张冕</a>女士获得多个县市的“希望之星的奖励”。</p>
+                <p><span id="article-img-2" class="a-image"><img src="img/xq3.jpeg"></span></p>
+                <p><span id="article-img-3" class="a-image"><img src="img/xq4.jpeg"></span></p>
+                <p>胡歌，一位用行动，践行着自己承偌的伟大演员。希望他早日结婚，也为自己好好活着吧。</p>
+                <div class="interact">
+                    <a href="javascript:;" class="article-like">收藏</a><span class="line"></span>
+                    <a href="javascript:;" class="article-complain">投诉</a>
+                </div>
+            </div>
+            <div class="comment">
+                <div class="hd-comment">
+                    <img src="img/comment1.png">
+                    <textarea placeholder="发表你的精彩评论，还可以输入140字" maxlength="140" class="comment-input">
+                    </textarea>
+                    <a href="javascript:;" class="add-comment-btn">发表</a>
+                </div>
+                <h5><span>最新评论</span><p></p></h5>
+                <ul class="commentlist">
+                    <li class="spe-com">
+                        <img src="img/comment4.jpeg">
+                        <div class="comment-box">
+                            <span class="comment-nickname">男音</span>
+                            <span class="comment-date">1分钟前</span>
+                            <a href="javascript:;" class="float-right comment-reply">回复</a>
+                            <a href="javascript:;" class="float-right comment-like ">0 赞</a>
+                        </div>
+                        <p class="com">看着胡歌电视剧长大的。仙剑，天外飞仙，琅琊版，伪装者。经典啊。零差评的男星，现在真的少</p>
+                    </li>
+                    <li class="spe-com">
+                        <img src="img/comment2.png">
+                        <div class="comment-box">
+                            <span class="comment-nickname">U1886</span>
+                            <span class="comment-date">1分钟前</span>
+                            <a href="javascript:;" class="float-right comment-reply">回复</a>
+                            <a href="javascript:;" class="float-right comment-like ">0 赞</a>
+                        </div>
+                        <p class="com">为我胡点赞</p>
+                    </li>
+                    <li class="spe-com">
+                        <img src="img/comment3.png">
+                        <div class="comment-box">
+                            <span class="comment-nickname">U6565754</span>
+                            <span class="comment-date">1分钟前</span>
+                            <a href="javascript:;" class="float-right comment-reply">回复</a>
+                            <a href="javascript:;" class="float-right comment-like ">1 赞</a>
+                        </div>
+                        <p class="com">有良心的好人，祝好人一生平安。</p>
+                    </li>
+                    <li class="spe-com">
+                        <img src="img/comment4.jpeg">
+                        <div class="comment-box">
+                            <span class="comment-nickname">U6565754</span>
+                            <span class="comment-date">1分钟前</span>
+                            <a href="javascript:;" class="float-right comment-reply">回复</a>
+                            <a href="javascript:;" class="float-right comment-like ">3 赞</a>
+                        </div>
+                        <p class="com">只有胡歌演的电视我才会第一时间跟。</p>
+                    </li>
+                </ul>
+                <!--<div class="no-comment"><img src="//staticimg.yidianzixun.com/modules/build/images/no_comment-12628b2d.png"><p>暂无评论，快来抢沙发！</p></div>-->
+                <a href="#" class="more-comments comments-tip" style="display: inline-block;">查看更多评论
+                    <span class="arrow-down    iconfont">&#xe621;                       </span>
+                </a>
+                <!--<div class="error-get-comments comments-tip" style="display: none;">加载失败，请点击重试</div>-->
+                <!--<div class="no-more-comments">已加载全部评论</div>-->
+            </div>
+        </div>
+        <div class="aside">
+            <div class="newlist">
+                <a href="" class="one">
+                    <div class="pic">
+                        <img src="img/aside2.jpeg" alt="">
+                    </div>
+                    <div class="intro">
+                        <div class="doc">
+                            <div class="doc-title">『探寻人工智能』爱，让我们有别于AI</div>
+                            <div class="doc-info">
+                                <div class="source">杨澜</div>
+                                <div class="date">昨天</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="one">
+                    <div class="pic">
+                        <img src="img/aside1.jpeg" alt="">
+                    </div>
+                    <div class="intro">
+                        <div class="doc">
+                            <div class="doc-title">那些爱过的人，都成了不敢再听的歌</div>
+                            <div class="doc-info">
+                                <div class="source">新世相</div>
+                                <div class="date">昨天</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="one">
+                    <div class="pic">
+                        <img src="img/aside3.jpeg" alt="">
+                    </div>
+                    <div class="intro">
+                        <div class="doc">
+                            <div class="doc-title">『探寻人工智能』爱，让我们有别于AI</div>
+                            <div class="doc-info">
+                                <div class="source">果壳网</div>
+                                <div class="date">4小时前</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="newlist">
+
+            </div>
+            <div class="newlist lists">
+                <div class="hot-channel">
+                    <h5>热门频道</h5>
+                    <ul class="channels">
+                        <li class="s-item" data-fromid="t9439" data-channelid="undefined" data-channelname="情感">
+                            <a href="#" class="imglink">
+                                <img src="img/pd1.jpeg" class="img">
+                                <p>情感</p>
+                            </a>
+                            <a class="related">订阅</a>
+                            <!--<a class="related-btn" href="javascript:;" data-id="t9439">已订阅</a>-->
+                        </li>
+                        <li class="s-item" data-fromid="u9139" data-channelid="undefined" data-channelname="春季健康">
+                            <a href="#" class="imglink">
+                                <img src="img/pd2.jpeg" class="img">
+                                <p>春季健康</p>
+                            </a>
+                            <a class="related">订阅</a>
+                            <!--<a class="related-btn" href="javascript:;" data-id="u9139">已订阅</a>-->
+                        </li>
+                        <li class="s-item" data-fromid="u11928" data-channelid="undefined" data-channelname="国足">
+                            <a href="#" class="imglink">
+                                <img src="img/pd3.jpeg" class="img">
+                                <p>国足</p>
+                            </a>
+                            <a class="related">订阅</a>
+                            <!--<a class="related-btn" href="javascript:;" data-id="u11928">已订阅</a>-->
+                        </li>
+                        <li class="s-item" data-fromid="sc36" data-channelid="undefined" data-channelname="明星">
+                            <a href="#">
+                                <img src="img/pd4.jpeg" class="img">
+                                <p>明星</p>
+                            </a>
+                            <a class="related">订阅</a>
+                            <!--<a class="related-btn" href="javascript:;" data-id="sc36">已订阅</a>-->
+                        </li>
+
+                        <li class="s-item" data-fromid="u9365" data-channelid="undefined" data-channelname="美食">
+                            <a href="#" class="imglink">
+                                <img src="img/pd5.jpeg" class="img">
+                                <p>美食</p>
+                            </a>
+                            <a class="related">订阅</a>
+                            <!--<a class="related-btn" href="javascript:;" data-id="u9365">已订阅</a>-->
+                        </li>
+
+                        <li class="s-item" data-fromid="e22619" data-channelid="undefined" data-channelname="特朗普">
+                            <a href="#" class="imglink">
+                                <img src="img/pd6.jpeg" class="img">
+                                <p>特朗普</p>
+                            </a>
+                            <a class="related">订阅</a>
+                            <!--<a class="related-btn" href="javascript:;" data-id="e22619">已订阅</a>-->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <!--内容结束-->
+<!--底部开始-->
+<footer>
+    <div class="footer-mini">
+        <p>
+            <span>京公网安备 11010802020163号</span>
+            <a href="http://static.yidianzixun.com/modules/docs/yidian_ypxxfw.pdf" target="_blank">互联网药品信息服务资格证书</a>
+            <span>京网文[2015]0377-157号</span>
+            <span>京ICP证140123号</span>
+        </p>
+        <p>
+            <a href="mailto:tousu@yidian-inc.com">举报邮箱：tousu@yidian-inc.com</a>
+            <span>公司名称：xxxxxxx有限公司</span>
+        </p>
+    </div>
+</footer>
+<!--底部结束-->
+    <!--遮罩-->
+    <div class="mask"></div>
+    <!--登录页面-->
+    <div class="registh">
+        <div class="close iconfont icon-close">&#xe606;</div>
+        <div class="logo"><img src="img/logo.jpg" alt=""></div>
+        <form class="login-form">
+            <div class="input-box username">
+                <input type="text" class="input-username" name="username" placeholder="手机号/邮箱">
+            </div>
+            <div class="input-box password">
+                <input type="password" class="input-password" name="psw" placeholder="密码">
+            </div>
+            <p class="error-msg">
+            <div class="error-msg-inner">
+                <!--<span class="icon-delete iconfont"></span>-->
+                <!--用户名格式不正确</div>-->
+            </p>
+            <button type="submit" class="btn btn-login">登录</button>
+            <button type="button" class="btn btn-has-border btn-register">注册</button>
+        </form>
+        <p class="link-wrapper">
+            <a class="to-login-mobile">手机快捷登录</a>
+            <a class="forget-psw">忘记密码</a>
+        </p>
+
+    </div>
+</body>
+<script src="demo.js"></script>
+</html>

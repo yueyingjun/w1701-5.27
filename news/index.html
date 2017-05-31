@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻网</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="jQuery.js"></script>
+    <style>
+        @font-face {
+            font-family: 'iconfont';  /* project id 267135 */
+            src: url('//at.alicdn.com/t/font_mhtre4ikm1butyb9.eot');
+            src: url('//at.alicdn.com/t/font_mhtre4ikm1butyb9.eot?#iefix') format('embedded-opentype'),
+            url('//at.alicdn.com/t/font_mhtre4ikm1butyb9.woff') format('woff'),
+            url('//at.alicdn.com/t/font_mhtre4ikm1butyb9.ttf') format('truetype'),
+            url('//at.alicdn.com/t/font_mhtre4ikm1butyb9.svg#iconfont') format('svg');
+        }
+    </style>
+</head>
+<body>
+<div class="header-top">
+    <div class="ewm">
+        <a href="">关于</a>
+    </div>
+</div>
+    <!--搜索栏开始-->
+    <div class="search">
+        <div class="l logo"><img src="img/logo.jpg" alt=""></div>
+        <div class="search-box">
+        <input  type="text" class="search-input" placeholder="大家都在搜：体育">
+         <div class="inner">
+            <div class="inner-box">
+                <a class="item item-1" href="#">
+                    <div class="float-left index icon iconfont icon-1"></div>
+                    <div class="item-content">
+                        <div class="hot-search-word">蔬菜</div>
+                    </div>
+                </a>
+
+                <a class="item item-2" href="#">
+                    <div class="float-left index icon iconfont icon-2"></div>
+                    <div class="item-content">
+                        <div class="hot-search-word">这些粽子不合格</div>
+                    </div>
+                </a>
+
+                <a class="item item-3" href="#">
+                    <div class="float-left index icon iconfont icon-3"></div>
+                    <div class="item-content">
+                        <div class="hot-search-word">创客</div>
+                    </div>
+                </a>
+                <a class="item item-2" href="#">
+                    <div class="float-left index icon iconfont icon-2"></div>
+                    <div class="item-content">
+                        <div class="hot-search-word">行业平均工资出炉</div>
+                    </div>
+                </a>
+
+                <a class="item item-3" href="#">
+                    <div class="float-left index icon iconfont icon-3"></div>
+                    <div class="item-content">
+                        <div class="hot-search-word">王菲</div>
+                    </div>
+                </a>
+            </div>
+         </div>
+        </div>
+        <button class="btn btn-search">搜 索</button>
+        <div class="r">
+            <div class="login links">登录</div>
+            <div class="regist links">注册</div>
+        </div>
+    </div>
+    <!--搜索栏结束-->
+    <!--导航开始-->
+    <nav>
+        <div class="nav-con">
+            <div class="list">
+                <a href="#" class="choose active">首页
+                </a>
+                <a href="list.html" class="choose">国际
+                </a>
+                <a href="list.html" class="choose">国内
+                </a>
+                <a href="list.html" class="choose">段子
+                </a>
+                <a href="list.html" class="choose">汽车
+                </a>
+                <a href="list.html" class="choose">娱乐
+                </a>
+                <a href="list.html" class="choose">体育
+                </a>
+                <a href="list.html" class="choose">美食
+                </a>
+                <a href="list.html" class="choose">科技
+                </a>
+                <a href="list.html" class="choose">社会
+                </a>
+                <a href="list.html" class="choose">军事
+                </a>
+                <a href="list.html" class="choose">NBA
+                 </a>
+            </div>
+            <div class="down">
+                <div class="icon iconfont">&#xe621;</div>
+                <!--列表下拉-->
+                <div class="down-list">
+                    <a href="" class="cho">首页
+                    </a>
+                    <a href="list.html" class="cho">国际
+                    </a>
+                    <a href="list.html" class="cho">国内
+                    </a>
+                    <a href="list.html" class="cho">段子
+                    </a>
+                    <a href="list.html" class="cho">汽车
+                    </a>
+                    <a href="list.html" class="cho">娱乐
+                    </a>
+                    <a href="list.html" class="cho">体育
+                    </a>
+                    <a href="list.html" class="cho">美食
+                    </a>
+                    <a href="list.html" class="cho">科技
+                    </a>
+                    <a href="list.html" class="cho">社会
+                    </a>
+                    <a href="list.html" class="cho">军事
+                    </a>
+                    <a href="list.html" class="cho">NBA
+                    </a>
+                    <a href="list.html" class="cho">数码
+                    </a>
+                    <a href="list.html" class="cho">美女
+                    </a>
+                    <a href="list.html" class="cho">健康
+                    </a>
+                    <a href="list.html" class="cho">时尚
+                    </a>
+                    <a href="list.html" class="cho">搞笑
+                    </a>
+                    <a href="list.html" class="cho">动画
+                    </a>
+                    <a href="list.html" class="cho">电台
+                    </a>
+                    <a href="list.html" class="cho">旅游
+                    </a>
+                    <a href="list.html" class="cho">编辑
+                    </a>
+                    <a href="list.html" class="cho">更多
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--导航结束-->
+    <!--内容开始-->
+    <div class="content">
+       <div class="index-con">
+           <div class="slide">
+               <div class="bn">
+                   <div class="banner">
+                       <a href="" class="act">
+                           <img src="img/bn1.jpg" alt="">
+                       </a>
+                       <a href="">
+                           <img src="img/bn2.jpg" alt="">
+                       </a>
+                       <a href="">
+                           <img src="img/bn3.jpg" alt="">
+                       </a>
+                   </div>
+                   <ul class="lunbo">
+                       <li class="act"></li>
+                       <li></li>
+                       <li></li>
+                   </ul>
+               </div>
+               <div class="new">
+                   <div class="doc-new s">
+                       <div class="doc-newp">
+                           <img src="img/new1.jpeg" alt="">
+                       </div>
+                       <div class="doc-neww">
+                               <div class="c-title">港媒：孔令辉被新加坡赌场追债256万港元</div>
+                               <div class="c-info">
+                                   <span class="source">环球网</span>
+                                   <span class="comment-count">5618评</span>
+                                   <span class="date">3分钟前</span>
+                                   <span class="iconfont icon-close-half"></span>
+                               </div>
+                       </div>
+                   </div>
+                   <div class="doc-new s">
+                       <div class="doc-newp">
+                           <img src="img/new2.jpeg" alt="">
+                       </div>
+                       <div class="doc-neww">
+                           <div class="c-title">北周的最后一颗魁星:连隋帝杨坚都忌惮的尉迟迥为何兵败？</div>
+                           <div class="c-info">
+                               <span class="source">环球网</span>
+                               <span class="comment-count">5618评</span>
+                               <span class="date">3分钟前</span>
+                               <span class="iconfont icon-close-half"></span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="doc-new s">
+                       <div class="doc-newp">
+                           <img src="img/new3.jpeg" alt="">
+                       </div>
+                       <div class="doc-neww">
+                           <div class="c-title">港媒：孔令辉被新加坡赌场追债256万港元</div>
+                           <div class="c-info">
+                               <span class="source">环球网</span>
+                               <span class="comment-count">5618评</span>
+                               <span class="date">3分钟前</span>
+                               <span class="iconfont icon-close-half"></span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="pic-new s" href="" target="_blank">
+                       <div class="doc-title">战胜心魔！刘翔克服恐惧重回跑道，再次征服110米栏看哭众人</div>
+                       <div class="doc-images">
+                           <div class="doc-image box-0">
+                               <img  src="img/new5.jpeg"></div>
+                           <div class="doc-image box-1">
+                               <img  src="img/new6.jpeg"></div>
+                           <div class="doc-image box-2">
+                               <img  src="img/new7.jpeg">
+                           </div>
+                           <div class="doc-image box-3">
+                               <img src="img/new4.jpeg">
+                           </div>
+                       </div>
+                       <div class="doc-info">
+                           <span class="source">叮咚体坛</span>
+                           <span class="comment-count">114评</span>
+                           <span class="date">11分钟前</span>
+                           <span class="iconfont icon-close-half"></span>
+                       </div>
+                   </div>
+                   <div class="doc-new s">
+                       <div class="doc-newp">
+                           <img src="img/new1.jpeg" alt="">
+                       </div>
+                       <div class="doc-neww">
+                           <div class="c-title">港媒：孔令辉被新加坡赌场追债256万港元</div>
+                           <div class="c-info">
+                               <span class="source">环球网</span>
+                               <span class="comment-count">5618评</span>
+                               <span class="date">3分钟前</span>
+                               <span class="iconfont icon-close-half"></span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="pic-new s" href="" target="_blank">
+                       <div class="doc-title">战胜心魔！刘翔克服恐惧重回跑道，再次征服110米栏看哭众人</div>
+                       <div class="doc-images">
+                           <div class="doc-image box-0">
+                               <img  src="img/new5.jpeg"></div>
+                           <div class="doc-image box-1">
+                               <img  src="img/new6.jpeg"></div>
+                           <div class="doc-image box-2">
+                               <img  src="img/new7.jpeg">
+                           </div>
+                           <div class="doc-image box-3">
+                               <img src="img/new4.jpeg">
+                           </div>
+                       </div>
+                       <div class="doc-info">
+                           <span class="source">叮咚体坛</span>
+                           <span class="comment-count">114评</span>
+                           <span class="date">11分钟前</span>
+                           <span class="iconfont icon-close-half"></span>
+                       </div>
+                   </div>
+                   <div class="doc-new s">
+                       <div class="doc-newp">
+                           <img src="img/new1.jpeg" alt="">
+                       </div>
+                       <div class="doc-neww">
+                           <div class="c-title">港媒：孔令辉被新加坡赌场追债256万港元</div>
+                           <div class="c-info">
+                               <span class="source">环球网</span>
+                               <span class="comment-count">5618评</span>
+                               <span class="date">3分钟前</span>
+                               <span class="iconfont icon-close-half"></span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="doc-new s">
+                       <div class="doc-newp">
+                           <img src="img/new2.jpeg" alt="">
+                       </div>
+                       <div class="doc-neww">
+                           <div class="c-title">北周的最后一颗魁星:连隋帝杨坚都忌惮的尉迟迥为何兵败？</div>
+                           <div class="c-info">
+                               <span class="source">环球网</span>
+                               <span class="comment-count">5618评</span>
+                               <span class="date">3分钟前</span>
+                               <span class="iconfont icon-close-half"></span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="doc-new s">
+                       <div class="doc-newp">
+                           <img src="img/new3.jpeg" alt="">
+                       </div>
+                       <div class="doc-neww">
+                           <div class="c-title">港媒：孔令辉被新加坡赌场追债256万港元</div>
+                           <div class="c-info">
+                               <span class="source">环球网</span>
+                               <span class="comment-count">5618评</span>
+                               <span class="date">3分钟前</span>
+                               <span class="iconfont icon-close-half"></span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="doc-new s">
+                       <div class="doc-newp">
+                           <img src="img/new1.jpeg" alt="">
+                       </div>
+                       <div class="doc-neww">
+                           <div class="c-title">港媒：孔令辉被新加坡赌场追债256万港元</div>
+                           <div class="c-info">
+                               <span class="source">环球网</span>
+                               <span class="comment-count">5618评</span>
+                               <span class="date">3分钟前</span>
+                               <span class="iconfont icon-close-half"></span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="pic-new s" href="" target="_blank">
+                       <div class="doc-title">战胜心魔！刘翔克服恐惧重回跑道，再次征服110米栏看哭众人</div>
+                       <div class="doc-images">
+                           <div class="doc-image box-0">
+                               <img  src="img/new5.jpeg"></div>
+                           <div class="doc-image box-1">
+                               <img  src="img/new6.jpeg"></div>
+                           <div class="doc-image box-2">
+                               <img  src="img/new7.jpeg">
+                           </div>
+                           <div class="doc-image box-3">
+                               <img src="img/new4.jpeg">
+                           </div>
+                       </div>
+                       <div class="doc-info">
+                           <span class="source">叮咚体坛</span>
+                           <span class="comment-count">114评</span>
+                           <span class="date">11分钟前</span>
+                           <span class="iconfont icon-close-half"></span>
+                       </div>
+                   </div>
+                   <div class="doc-new s">
+                       <div class="doc-newp">
+                           <img src="img/new1.jpeg" alt="">
+                       </div>
+                       <div class="doc-neww">
+                           <div class="c-title">港媒：孔令辉被新加坡赌场追债256万港元</div>
+                           <div class="c-info">
+                               <span class="source">环球网</span>
+                               <span class="comment-count">5618评</span>
+                               <span class="date">3分钟前</span>
+                               <span class="iconfont icon-close-half"></span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="doc-new s">
+                       <div class="doc-newp">
+                           <img src="img/new2.jpeg" alt="">
+                       </div>
+                       <div class="doc-neww">
+                           <div class="c-title">北周的最后一颗魁星:连隋帝杨坚都忌惮的尉迟迥为何兵败？</div>
+                           <div class="c-info">
+                               <span class="source">环球网</span>
+                               <span class="comment-count">5618评</span>
+                               <span class="date">3分钟前</span>
+                               <span class="iconfont icon-close-half"></span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="doc-new s">
+                       <div class="doc-newp">
+                           <img src="img/new3.jpeg" alt="">
+                       </div>
+                       <div class="doc-neww">
+                           <div class="c-title">港媒：孔令辉被新加坡赌场追债256万港元</div>
+                           <div class="c-info">
+                               <span class="source">环球网</span>
+                               <span class="comment-count">5618评</span>
+                               <span class="date">3分钟前</span>
+                               <span class="iconfont icon-close-half"></span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="doc-new s">
+                       <div class="doc-newp">
+                           <img src="img/new1.jpeg" alt="">
+                       </div>
+                       <div class="doc-neww">
+                           <div class="c-title">港媒：孔令辉被新加坡赌场追债256万港元</div>
+                           <div class="c-info">
+                               <span class="source">环球网</span>
+                               <span class="comment-count">5618评</span>
+                               <span class="date">3分钟前</span>
+                               <span class="iconfont icon-close-half"></span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="doc-new s">
+                       <div class="doc-newp">
+                           <img src="img/new2.jpeg" alt="">
+                       </div>
+                       <div class="doc-neww">
+                           <div class="c-title">北周的最后一颗魁星:连隋帝杨坚都忌惮的尉迟迥为何兵败？</div>
+                           <div class="c-info">
+                               <span class="source">环球网</span>
+                               <span class="comment-count">5618评</span>
+                               <span class="date">3分钟前</span>
+                               <span class="iconfont icon-close-half"></span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="doc-new s">
+                       <div class="doc-newp">
+                           <img src="img/new3.jpeg" alt="">
+                       </div>
+                       <div class="doc-neww">
+                           <div class="c-title">港媒：孔令辉被新加坡赌场追债256万港元</div>
+                           <div class="c-info">
+                               <span class="source">环球网</span>
+                               <span class="comment-count">5618评</span>
+                               <span class="date">3分钟前</span>
+                               <span class="iconfont icon-close-half"></span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="pic-new s" href="" target="_blank">
+                       <div class="doc-title">战胜心魔！刘翔克服恐惧重回跑道，再次征服110米栏看哭众人</div>
+                       <div class="doc-images">
+                           <div class="doc-image box-0">
+                               <img  src="img/new5.jpeg"></div>
+                           <div class="doc-image box-1">
+                               <img  src="img/new6.jpeg"></div>
+                           <div class="doc-image box-2">
+                               <img  src="img/new7.jpeg">
+                           </div>
+                           <div class="doc-image box-3">
+                               <img src="img/new4.jpeg">
+                           </div>
+                       </div>
+                       <div class="doc-info">
+                           <span class="source">叮咚体坛</span>
+                           <span class="comment-count">114评</span>
+                           <span class="date">11分钟前</span>
+                           <span class="iconfont icon-close-half"></span>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="aside">
+               <div class="newlist">
+                   <a href="" class="one">
+                       <div class="pic">
+                           <img src="img/aside2.jpeg" alt="">
+                       </div>
+                       <div class="intro">
+                               <div class="doc">
+                                   <div class="doc-title">『探寻人工智能』爱，让我们有别于AI</div>
+                                   <div class="doc-info">
+                                       <div class="source">杨澜</div>
+                                       <div class="date">昨天</div>
+                                   </div>
+                               </div>
+                       </div>
+                   </a>
+                   <a href="" class="one">
+                           <div class="pic">
+                               <img src="img/aside1.jpeg" alt="">
+                           </div>
+                       <div class="intro">
+                           <div class="doc">
+                               <div class="doc-title">那些爱过的人，都成了不敢再听的歌</div>
+                               <div class="doc-info">
+                                   <div class="source">新世相</div>
+                                   <div class="date">昨天</div>
+                               </div>
+                           </div>
+                       </div>
+                   </a>
+                   <a href="" class="one">
+                           <div class="pic">
+                               <img src="img/aside3.jpeg" alt="">
+                           </div>
+                       <div class="intro">
+                           <div class="doc">
+                               <div class="doc-title">『探寻人工智能』爱，让我们有别于AI</div>
+                               <div class="doc-info">
+                                   <div class="source">果壳网</div>
+                                   <div class="date">4小时前</div>
+                               </div>
+                           </div>
+                       </div>
+                   </a>
+               </div>
+               <div class="newlist">
+                   <div class="hot-article">
+                       <h4>热文排行</h4>
+                       <div class="con news-list">
+                           <a class="doc item-0 " href="#">
+                               <div class="doc-title">重庆七旬​老人迷失荒林三天三夜 靠吃草喝露水充饥​</div>
+                           </a>
+                           <a class="doc item-1 " href="">
+                               <div class="doc-title">北京一幼儿园外教打孩子被开 动画教你辨析黑外教</div>
+                           </a>
+                           <a class="doc item-2 " href="">
+                               <div class="doc-title">国防部证实美侦察机闯入香港空域 驳美媒不实报道</div>
+                           </a>
+                           <a class="doc item-3 " href="">
+                               <div class="doc-title">韩媒：朝鲜今晨再次试射1枚不明飞行物</div>
+                           </a>
+                           <a class="doc item-4 last" href="">
+                               <div class="doc-title">公园厕所用纸探访 天坛靠刷脸9分钟不可再取</div>
+                           </a>
+                       </div>
+                   </div>
+               </div>
+               <div class="newlist">
+
+               </div>
+           </div>
+
+       </div>
+    </div>
+    <!--内容结束-->
+<!--底部开始-->
+<footer>
+    <div class="footer-mini">
+        <p>
+            <span>京公网安备 11010802020163号</span>
+            <a href="http://static.yidianzixun.com/modules/docs/yidian_ypxxfw.pdf" target="_blank">互联网药品信息服务资格证书</a>
+            <span>京网文[2015]0377-157号</span>
+            <span>京ICP证140123号</span>
+        </p>
+        <p>
+            <a href="mailto:tousu@yidian-inc.com">举报邮箱：tousu@yidian-inc.com</a>
+            <span>公司名称：xxxxxxx有限公司</span>
+        </p>
+    </div>
+</footer>
+<!--底部结束-->
+      <!--遮罩-->
+    <div class="mask"></div>
+     <!--登录页面-->
+     <div class="registh">
+             <div class="close iconfont icon-close">&#xe606;</div>
+             <div class="logo"><img src="img/logo.jpg" alt=""></div>
+             <form class="login-form">
+                 <div class="input-box username">
+                     <input type="text" class="input-username" name="username" placeholder="手机号/邮箱">
+                 </div>
+                 <div class="input-box password">
+                     <input type="password" class="input-password" name="psw" placeholder="密码">
+                 </div>
+                 <p class="error-msg">
+                    <div class="error-msg-inner">
+                        <!--<span class="icon-delete iconfont"></span>-->
+                         <!--用户名格式不正确</div>-->
+                 </p>
+                 <button type="submit" class="btn btn-login">登录</button>
+                 <button type="button" class="btn btn-has-border btn-register">注册</button>
+             </form>
+             <p class="link-wrapper">
+                 <a class="to-login-mobile">手机快捷登录</a>
+                 <a class="forget-psw">忘记密码</a>
+             </p>
+
+             </div>
+
+</body>
+<script src="demo.js"></script>
+</html>
