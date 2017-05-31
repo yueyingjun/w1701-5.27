@@ -1,0 +1,132 @@
+body,html{
+    width:100%;
+    height:100%;
+}
+.bg{
+    width:100%;
+    height:100%;
+}
+.bg img{
+    width:100%;
+    height:100%;
+}
+.logo{
+    position:absolute;
+    top:120px;
+    left:200px;
+    width:251px;
+    height:98px;
+}
+.logo img{
+    width:100%;
+    height:100%;
+}
+.login{
+    width:418px;
+    height:316px;
+    position:fixed;
+    background:#fff;
+    top:0;
+    bottom:0;
+    right:200px;
+    margin:auto;
+    border: 2px solid #eee;
+}
+.login .tips{
+    position: relative;
+    margin: 0 auto 36px;
+    z-index: 11;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+}
+.title{
+    padding-top:10px;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.login-form{
+    width: 272px;
+    margin: 0 auto;
+}
+.uArea{
+    height: 55px;
+    position: relative;
+    z-index: 10;
+}
+.input-tips{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #aaa;
+    cursor: text;
+    display:block;
+}
+.inputOut{
+    width: 272px;
+    height: 42px;
+    background: url("../img/icon_3_tiny.png") -1px -1px no-repeat;
+}
+.inputOut input{
+    width: 268px;
+    height:38px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    padding: 10px 0 10px 10px;
+    line-height: 18px;
+    border: none;
+    background: 0 0;
+    color: #333;
+    font-size: 16px;
+}
+.submit{
+    position: relative;
+    height: 40px;
+    background-color: #86ce2f;
+}
+.submit input{
+    width: 100%;
+    height: 40px;
+    line-height: 35px;
+    border: none;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Microsoft Yahei","微软雅黑",SimHei,"黑体","Hiragino Sans GB",STHeiTi,sans-serif;
+    color: #fff;
+    background: 0 0;
+    cursor: pointer;
+}
+.bottom{
+    height: 16px;
+    margin-bottom: 8px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    font-size: 12px;
+    padding-right:10px;
+}
+.bottom a{
+    color: #666;
+}
+.dot{
+    color: #bfbfbf;
+    margin: 0 5px;
+}
+.copyright{
+    width:100%;
+    position:absolute;
+    bottom:40px;
+    text-align: center;
+}
+.copyright p{
+    line-height: 22px;
+}
+.copyright p a{
+    color:#fff;
+}
