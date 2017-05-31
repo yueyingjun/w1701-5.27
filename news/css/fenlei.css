@@ -1,0 +1,40 @@
+.title{
+    height: 41px;
+    margin: 30px 0;
+}
+.title li{
+    float: left;
+    padding:0 21px;
+    background-color: #ffc81f;
+}
+.title li:hover{
+    background-color:#ffe21f;
+}
+.title li a{
+    font-size: 18px;
+    line-height: 41px;
+    color:#fff;
+    text-decoration: none;
+}
+.pic{
+    float: left;
+}
+.pic img{
+    color: #333;
+    text-decoration: none;
+}
+.videolist{
+    float: right;
+    width: 260px;
+    line-height: 34px;
+    padding: 10px 10px;
+    font-size: 12px;
+}
+.videolist a{
+    color: #333;
+    text-decoration: none;
+}
+.card{
+    width: 640px;
+}
+

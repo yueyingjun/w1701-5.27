@@ -1,0 +1,280 @@
+
+.title{
+    height: 41px;
+    background-color: #ffc81f;
+    margin:30px 0;
+}
+.title h1{
+    float: left;
+    margin:0;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.title h1 a{
+    color:#fff;
+    line-height: 41px;
+    text-decoration: none;
+}
+.more{
+    float: right;
+    padding-right: 20px;
+}
+.more a{
+    line-height: 41px;
+    text-decoration: none;
+    color:#fff;
+}
+.more a:hover{
+    color:#555;
+}
+.xleft{
+    width: 340px;
+    float: left;
+}
+.xnav{
+    height: 28px;
+    line-height: 28px;
+    border-bottom: 2px solid #000;
+    font-size: 16px;
+    font-family: "Microsoft YaHei","微软雅黑";
+    position: relative;
+}
+.xnav a{
+    color:#32220c;
+}
+.xmore{
+    font-size: 12px;
+    line-height: 28px;
+}
+.xmore a{
+    line-height: 28px;
+}
+.xcontent{
+    padding: 10px 9px 0 9px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-bottom: 25px;
+}
+.xcontent ul li{
+    height: 29px;
+    border-bottom: 1px solid #ccc;
+    line-height: 29px;
+}
+.xcontent ul li a{
+    display: block;
+    height: 29px;
+    color:#666;
+    text-decoration: none;
+}
+.xcontent ul li a:hover{
+    background: #f5f5f5;
+    text-decoration: none;
+    color: #333;
+}
+.xcontent ul li a em{
+    font-size: 18px;
+    font-weight: bold;
+    width: 30px;
+    text-align: center;
+    font-style: normal;
+    float: left;
+}
+.wenzhang{
+    padding: 20px 10px 0 10px;
+}
+.wenzhang img{
+    width:310px;
+    transition: transform .6s ease-in-out,opacity .5s;
+    cursor: pointer;
+}
+.wenzhang img:hover{
+    transform: scale(1.05);
+}
+.wztitle{
+    padding: 12px 10px 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.wztitle h3{
+    overflow: hidden;
+    max-height: 44px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin:0;
+}
+.wztitle h3:hover{
+    color:#ffc81f;
+}
+.guonei .time{
+    padding: 0 10px 10px;
+    width: 100%;
+    color: #666;
+    font-size: 12px;
+    cursor: pointer;
+}
+.guonei .time span:hover{
+    color:#555;
+}
+.guonei .time span{
+    float: left;
+}
+.ribbon{
+    float: right;
+}
+.ribbon .iconfont{
+    margin-right: 15px;
+    color: #d1d1d1;
+    font-size: 14px;
+}
+.xmiddle{
+    width: 360px;
+    float: left;
+    margin-left: 60px;
+}
+.mnav{
+    height: 28px;
+    border-bottom: 2px solid #c9c9c9;
+    color: #1f3b7b;
+}
+.mnav .name{
+    font: bold 17px/28px "Microsoft YaHei","微软雅黑","宋体";
+    float: left;
+    height: 28px;
+    border-bottom: 2px solid #0c3694;
+    margin-bottom: -2px;
+    position: relative;
+    padding-right: 10px;
+}
+.mnav a{
+    color: #1f3b7b;
+    text-decoration: none;
+}
+.mnav .link{
+    float: right;
+    font-size: 12px;
+    line-height: 28px;
+}
+.mnews ul{
+    line-height: 24px;
+    font-size: 14px;
+    padding: 7px 0 5px;
+}
+.mnews ul a{
+    color: #1f3b7b;
+}
+.mnews ul li{
+    list-style: disc;
+    margin-left: 20px;
+}
+.mnews ul .time{
+    float: right;
+    font-size: 12px;
+    color: #9fadcd;
+    font-family: Arial;
+}
+.xright{
+    width: 320px;
+    float: left;
+    margin-left: 60px;
+}
+.rnav{
+    background: none;
+    padding-left: 0;
+    border-bottom-width: 2px;
+}
+.rnav a{
+    font-size: 16px;
+}
+.rmore{
+    line-height: 28px;
+}
+.rmore a{
+    font-size: 12px;
+    line-height: 28px;
+}
+.rlist h3{
+    font-size: 16px;
+}
+.rlist h3 a{
+    color: #a21607;
+}
+.xrimg a{
+    color: #d1d0d0;
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+.xrimg img{
+    width: 320px;
+    height: 174px;
+}
+.xtxt{
+    background: rgba( 0, 0, 0, .7 );
+    display: block;
+    font: 14px/30px "Microsoft YaHei","微软雅黑";
+    overflow: hidden;
+    text-align: center;
+    margin-top: -30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+}
+.xtxt:hover{
+    color:#ffc81f;
+}
+footer{
+    margin:30px 0;
+    height:265px;
+    background-color: #000;
+}
+.footer{
+    width:1000px;
+    padding:18px 0;
+    height: 246px;
+    margin:auto;
+}
+.lei{
+    float: left;
+    width:150px;
+    padding-left: 12px;
+    position: relative;
+}
+.lei li{
+    height: 30px;
+    line-height: 30px;
+}
+.lei li a{
+    color:hsla(0,0%,100%,.6);
+    text-decoration: none;
+}
+.lei li a:hover{
+    color:#ffc81f;
+}
+.search{
+    position: relative;
+    float: right;
+    width: 245px;
+    height: 36px;
+}
+.search input{
+    padding: 7px 10px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #999;
+    background-color: #000;
+    color: hsla(0,0%,100%,.6);
+    outline: none;
+}
+.search span{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 22px;
+    height: 22px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 22px;
+    cursor: pointer;
+}
