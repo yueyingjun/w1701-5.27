@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/zhuce.css">
+</head>
+<body>
+<div class="regBody">
+    <div class="msgBox">
+        <div class="head" style="display: none"></div>
+        <div class="msgBox" style="margin-top: 20px;">
+            <ul>
+                <li style="margin: 20px 20px 0px 50px;">
+                    <p style="color: #fff;margin-left: -25px;margin-bottom:5px;text-align: center;font-size: 15px">下载新时空客户端</p>
+                    <a href="">
+                        <img width="140px" src="images/zhuceewm.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="regBox">
+        <div class="head">
+            <div class="content">
+                    <span class="loginLink">
+                        我已注册，现在就
+                        <a href="" id="goLogin">登录</a>
+                    </span>
+                注册炫通行证
+            </div>
+            <div class="bg"></div>
+        </div>
+        <div class="body">
+            <div class="tab" id="zhuceOrBangding" style="display: none;"></div>
+            <div class="tabBox">
+                <div class="tabBlock" id="phoneReg">
+                    <form action="" id="phoneRegForm" method="post">
+                        <input type="hidden" name="t" value="1">
+                        <div class="text">
+
+                            * 便于登录、且忘记密码后可使用手机号码取回密码<br>
+                            * 昵称设定后，不可修改
+                            <a href="" class="bindphone" style="cursor: pointer;
+    padding: 4px 4px;
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 145px;
+    background: #6cafe2;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 12px;">绑定手机</a>
+                        </div>
+                        <input type="hidden" name="p_step" value="1">
+                        <label for="" class="item">
+                            <span class="name">手机号码</span>
+                            <span class="input">
+                                <input type="text" class="textBox long" name="mobilePhone" id="phoneRegPhone"
+                                maxlength="11" autocomplete="off" placeholder="可用于登录、密码召回等服务">
+                                <span class="msg">&nbsp;</span>
+                            </span>
+                        </label>
+                        <label for="" class="item">
+                            <span class="name">昵称</span>
+                            <span class="input">
+                                <input type="text" class="textBox long" name="mobilePhone" id="phoneRegNick"
+                                       maxlength="11" autocomplete="off" placeholder="可由中文、英文、字母和数字组成">
+                                <span class="msg">&nbsp;</span>
+                            </span>
+                        </label>
+                        <ul class="recommendList" id="phoneRegNickList"></ul>
+                        <label for="" class="item">
+                            <span class="name">设定密码</span>
+                            <span class="input">
+                                <input type="text" class="textBox long" name="mobilePhone" id="phoneRegPwd"
+                                       maxlength="11" autocomplete="off" placeholder="6-16位字符">
+                                <span class="msg">&nbsp;</span>
+                            </span>
+                        </label>
+                        <label for="" class="item">
+                            <span class="name">确定密码</span>
+                            <span class="input">
+                                <input type="text" class="textBox long" name="mobilePhone" id="phoneRegPwd1"
+                                       maxlength="11" autocomplete="off" placeholder="请再次输入您设置的密码">
+                                <span class="msg">&nbsp;</span>
+                            </span>
+                        </label>
+                        <div class="item other">
+                            <input type="submit" id="phoneRegSubmit" class="buttonBox" value="下一步">
+                            <input type="reset" id="phoneRegReset" class="buttonBox" value="重置">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bodyBg" >
+        <img id="bgImg" class="bgImg" src="images/body-bg.jpg" alt="">
+    </div>
+    <div class="footer">
+        <p>Copyright © 2000-2016 xinhuanet.com, All Rights Reserved</p>
+        <p>本网站所刊登的新华社及新华网各种新闻﹑信息和各种专题专栏资料，均为新华网版权所有，未经协议授权，禁止下载使用。</p>
+    </div>
+</div>
+</body>
+</html>
