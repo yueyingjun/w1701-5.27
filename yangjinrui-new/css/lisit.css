@@ -1,0 +1,346 @@
+body{
+font-size: 12px;
+color: #333;
+}
+.top{
+	height: 31px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    line-height: 20px;
+    color: #b7b7b7;
+    width: 100%;
+    background: #F8F8F8;
+    border-bottom: 1px solid #ececec;
+}
+.top-main{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+.top-left{
+	float: left;
+}
+.top-left a{
+    color: #5B5F5A;
+    font-size: 12px;
+} 
+.top-left .span1{
+	font-family: "宋体";
+    color: #B7B7B7;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 5px;
+}
+.top-right{
+	float: right;
+}
+.top-right a{
+	font-family: "微软雅黑";
+    text-decoration: none;
+    color: #939393;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.header{
+	width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0;
+    position: relative;
+    height: 72px;
+} 
+.header-logo{
+	width: 228px;
+	height: 52px;
+	float: left;
+}
+.header-logo a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.header-logo a img{
+	width: 100%;
+}
+.search{
+	width: 315px;
+	float: right;
+}
+.search-input{
+	width: 269px;
+	height: 29px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	float: left;
+}
+.sousuo{
+	float: left;
+    width: 46px;
+    height: 28px;
+    background: transparent url('../images/lisit/pic-02.jpg') no-repeat;
+    border: none;
+    cursor: pointer;
+    margin-left: -2px;
+}
+/* 目录 */
+.news-nav{
+	background: url('../images/lisit/n.jpg') repeat-x;
+    height: 44px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.news-main{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+.news-main a{
+	float: left;
+    height: 28px;
+    line-height: 28px;
+    color: #fff;
+    font-family: "宋体";
+    font-size: 16px;
+    text-decoration: none;
+    border-right: 1px solid #548f9f;
+    margin-top: 8px;
+    width: 68px;
+    text-align: center;
+}
+/* 内容开始 */
+.container{
+	width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+.container:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.cou-left{
+	width: 638px;
+	float: left;
+}
+.cou-list{
+    border-bottom: 1px solid #dfe0e4;
+    margin-bottom: 15px;
+    padding-bottom: 17px;
+    color: #888;
+}
+.cou-list-p1{
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.cou-list-p1 a{
+	display: inline-block;
+	font-size: 22px;
+    font-family: "微软雅黑";
+    font-weight: normal;
+    color: #000;
+}
+.cou-list-p2{
+	font-size: 12px;
+    color: #565656;
+    margin-bottom: 10px;
+}
+.cou-list-xiangqing{
+    color: #333;
+    margin-top: 5px;
+}
+.cou-list-xiangqing .pp1{
+	line-height: 30px;
+    font-size: 14px;
+}
+.cou-list-xiangqing .pp1 a{
+	color: #579f22;
+    white-space: nowrap;
+}
+.yema{
+	width: 100%;
+    text-align: center;
+}
+.yema .page{
+    padding: 14px 0 10px;
+}
+.yema .page a{
+	display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    text-align: center;
+    color: #333;
+    padding: 0 10px;
+}
+.yema .page a.a1{
+	background: url('../images/lisit/pages.png') no-repeat 0 5px;
+    width: 56px;
+    padding: 0;
+}
+.yema .page a.active{
+	background: #5a85b2;
+    border: 1px solid #5a85b2;
+    color: #fff;
+}
+    
+/* 列表右边 */
+.cou-right{
+	width: 320px;
+	height: auto;
+	overflow: hidden;
+	float: right;
+}
+.new-paihang{
+	width: 300px;
+	float: right;
+	text-align: left;
+}
+.newpai-title{
+	margin-bottom: 20px;
+	height: 36px;
+	border-bottom: 2px solid #f2f2f2;
+}
+.newpai-title-zi{
+	color: #005f75;
+    font-size: 24px;
+    font-family: "Microsoft YaHei";
+    border-bottom: 2px solid #c69c6d;
+    position: relative;
+    top: 0px;
+    float: left;
+    line-height: 36px;
+    height: 36px;
+}
+.newpai-title-con{
+	width: 100%;
+	height: 271px;
+	border: 1px solid #f2f2f2;
+    padding: 5px 10px;
+}
+.newpai-tcon-a1{
+	font-size: 12px;
+    line-height: 28px;
+    padding: 4px 0 3px;
+    display: inline-block;
+    width: 100%;
+    color: #656565;
+    text-decoration: none;
+}
+.newp-ta1-div{
+	width: 28px;
+    height: 28px;
+    float: left;
+    margin-right: 10px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #fff;
+    background: #db2323;
+    text-align: center;
+    border: 1px solid #d80c0c;
+}
+.newp-ta1-div.r4{
+	background: none;
+	color: #caa377;
+}
+.tupianji{
+	float: right;
+    width: 300px;
+    margin: 20px 0px 0px;
+}
+.tupianji .hh3{
+	height: 34px;
+    line-height: 34px;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #999999;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 18px;
+}
+.tupianji a{
+	display: inline-block;
+    width: 144px;
+    overflow: hidden;
+    text-align: center;
+    color: #252525;
+    margin: 10px 3px 0px 0px;
+    height: 121px;
+}
+.tupianji a img{
+	width: 100%;
+	height: 98px;
+    margin-bottom: 4px;
+}
+.zhuanti{
+	width: 300px;
+	float: right;
+}
+.zhuanti-title{
+	margin: 20px 0;
+	height: 36px;
+	border-bottom: 2px solid #f2f2f2;
+}
+.zhuanti-list{
+	line-height: 26px;
+}
+.zhuanti-item{
+	margin-bottom: 45px;
+}
+.zhuanti-item-a1{
+	font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 1px;
+    height: 16px;
+    overflow: hidden;
+    background: url('../images/lisit/pic-04.jpg') no-repeat 0px 6px;
+    padding-left: 15px;
+    font-weight: normal;
+    display: inline-block;
+    color: #00323f;
+}
+.zhuanti-item-con{
+    font-size: 12px;
+    color: #555555;
+    line-height: 18px;
+    margin-bottom: 4px;
+}
+.zhuanti-item-con a{
+	color: #c1272d;
+}
+.zhuanti-item-con .aa1{
+	width: 120px;
+	height: 80px;
+	float: left;
+	margin-right: 13px;
+}
+.zhuanti-item-con .aa1 img{
+	width: 100%;
+	height: 100%;
+	float: left;
+    margin-right: 13px;
+}
+
+/* 底部 */
+.footbox{
+	margin-top: 20px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.foot-main{
+    border-top: 1px solid #d9d9d9;
+	width: 1200px;
+	margin: 0 auto;
+}
+.foot-main p{
+	font-size: 12px;
+    color: #666;
+    line-height: 30px;
+    text-align: center;
+}
+.foot-main .p1 a{
+	padding: 0 15px;
+}
+.foot-main p a{
+	color: #666;
+}
