@@ -1,0 +1,541 @@
+.hdTop {
+    height: 40px;
+    background: #434343;
+    font-size: 12px;
+}
+
+.hdTopCon {
+    width: 970px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.logoNews {
+    width: 155px;
+    height: 95px;
+    position: absolute;
+    top: -40px;
+    left: 1px;
+    z-index: 9999;
+    background: url(../img/chinaLogo.png);
+}
+
+.hdTop .hdtReg {
+    display: block;
+    float: right;
+    padding: 0 19px;
+    height: 40px;
+    line-height:40px;
+    color:#fff;
+}
+
+.hdTop .hdtLogin {
+    display: block;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    position: relative;
+    z-index: 9999;
+}
+
+.hdTop .hdtLogin .hdtLogBoxWrap {
+    background: #917347;
+    height: 45px;
+    width: 62px;
+}
+
+.hdTop .hdtLogin .hdtLogBoxWrap a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height:45px;
+}
+
+.channelHead {
+    background: url(../img/bgRepNav2015.png) repeat-x;
+}
+
+.navNews {
+    background: url(../img/worldMainNav.png) no-repeat top center;
+}
+
+.navNews {
+    height: 70px;
+}
+
+.navNewsCon {
+    width: 970px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logoNews {
+    width: 155px;
+    height: 95px;
+    position: absolute;
+    top: -40px;
+    left: 1px;
+    z-index: 9999;
+    background: url(../img/chinaLogo.png);
+}
+
+.navNewsCon h1 {
+    position: absolute;
+    top: -100px;
+}
+
+.navNewsMain {
+    width: 600px;
+    float: left;
+    height: 32px;
+    margin: 21px 0 0 175px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navNewsMain ul {
+    height: 54px;
+    overflow: hidden;
+}
+
+.navNewsMain li {
+    float: left;
+    margin: 0 7px;
+}
+
+.navNewsMain li span {
+    width: 55px;
+    text-align: center;
+    height: 49px;
+    line-height: 28px;
+}
+
+.navNewsMain li span a {
+    color: #2b2b2b;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.navSearch, .searchSmall, .searchBig {
+    float: right;
+    width: 160px;
+    height: 32px;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.navSearch {
+    background: url(../img/bgSear.png) no-repeat;
+}
+
+.navSearch input.searchBox, .searchSmall input.searchBox, .searchBig input.searchBox {
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    color: #2c2624;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.navSearch input, .searchSmall input, .searchBig input {
+    float: left;
+    border: 0;
+    background: none;
+    outline-style: none;
+    padding: 0;
+}
+
+.conSec {
+    width: 960px;
+    display: block;
+    overflow: hidden;
+}
+
+.marginBot40 {
+    margin: 60px auto 40px;
+}
+
+.chinaNews, .highDynamic, .localNews, .wind {
+    height: 320px;
+    overflow: hidden;
+}
+
+.imNews {
+    width: 460px;
+    float: left;
+}
+
+.bgWhite {
+    background: #fff;
+}
+
+.chinaNews h2, .highDynamic h2 {
+    height: 45px;
+}
+
+.partTitBlue {
+    border-top: #2ca9e1 3px solid;
+}
+
+.partTit, .partTitBlue {
+    font-size: 16px;
+    font-weight: normal;
+    color: #2b2b2b;
+    height: 38px;
+    line-height: 38px;
+    text-indent: 12px;
+    margin: 0 0 10px;
+    position: relative;
+    border-top: #e6e6e6 3px solid;
+}
+
+.chinaNews h2 strong {
+    background-position: -275px -165px;
+    text-indent: -500px;
+    overflow: hidden;
+    top: 10px;
+}
+
+
+.chinaNews h2 strong {
+    background: url(../img/news2015.png) no-repeat;
+}
+
+.listPad {
+    margin: 0 30px 30px;
+}
+
+.listBoxT14 li, .listT14 li {
+    background-position: 0 -68px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.listBox li, .listBoxT14 li {
+    background: url(../img/ico.png) no-repeat;
+}
+
+.chinaNews li a, .highDynamic li a {
+    width: 321px;
+}
+
+.listBoxT14 a, .listT14 a {
+    display: inline-block;
+    font-size: 14px;
+    overflow: hidden;
+    text-indent: 0;
+}
+
+.listBoxT14 .linkHot {
+    background-position: 0 -71px;
+    width: 40px;
+    float: right;
+    padding: 0 0 0 20px;
+    margin: 5px 0 0;
+    text-align: left;
+    cursor: pointer;
+}
+
+.chinaNews, .highDynamic, .localNews, .wind {
+    height: 320px;
+    overflow: hidden;
+}
+
+.rigSec {
+    width: 460px;
+    float: right;
+}
+
+.bgWhite {
+    background: #fff;
+}
+
+.partTitBlue {
+    border-top: #2ca9e1 3px solid;
+}
+
+.partTit, .partTitBlue {
+    font-size: 16px;
+    font-weight: normal;
+    color: #2b2b2b;
+    height: 38px;
+    line-height: 38px;
+    text-indent: 12px;
+    margin: 0 0 10px;
+    position: relative;
+    border-top: #e6e6e6 3px solid;
+}
+
+h2 .titBgBlue {
+    background-position: 0 -165px;
+    color: #fff;
+}
+
+.partTit strong, .partTitBlue strong {
+    color: #2b2b2b;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    left: 30px;
+    top: -2px;
+    text-indent: 0;
+    text-align: center;
+}
+
+.partTit em, .partTitBlue em {
+    font-style: normal;
+    position: absolute;
+    right: 12px;
+    top: 1px;
+    display: block;
+    width: 110px;
+    text-align: right;
+}
+
+.partTit em a:visited, .partTitBlue em a:visited {
+    color: #5e5e5e;
+}
+
+.partTit em a, .partTitBlue em a {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.partTit a, .partTitBlue a {
+    color: #2b2b2b;
+}
+
+.listPad {
+    margin: 0 30px 30px;
+}
+
+.chinaNews li a, .highDynamic li a {
+    width: 321px;
+}
+
+.footNew {
+    display: block;
+    width: 100%;
+    min-width: 1000px;
+    margin: 0 auto 0;
+}
+
+.footOutNew {
+    display: block;
+    background: #0a70b1;
+    width: 100%;
+    height: 93px;
+    border-bottom: #d0cfd0 3px solid;
+    padding: 11px 0 0;
+}
+
+.fotherNew {
+    background: #0a70b1;
+    display: block;
+    width: 1000px;
+    height: 70px;
+    line-height: 22px;
+    overflow: hidden;
+    text-align: left;
+    margin: 0 auto;
+    border-right: #3288bf 1px solid;
+    position: relative;
+    list-style: inherit;
+}
+
+.fotherNew li {
+    padding: 0 29px;
+    float: left;
+    border-left: #3288bf 1px solid;
+    overflow: hidden;
+
+}
+
+.fotherNew li.fir {
+    width: 179px;
+}
+
+.fotherNew h3 {
+    display: block;
+    height: 20px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 14px;
+    color: #ceebff;
+    font-weight: bold;
+    border: none;
+    padding: 0;
+    margin: 0 0 3px;
+    text-indent: 12px;
+    overflow: hidden;
+}
+
+.fotherNew li.fir a {
+    display: block;
+
+
+}
+
+.fotherNew .iconList a {
+    display: inline-block;
+    background-position: 0 -163px;
+    padding-left: 12px;
+    font-size:12px;
+    color:#89C3EB;
+}
+
+.fotherNew li.sec {
+    width: 269px;
+}
+
+.fotherNew li.last {
+    width: 511px;
+    margin: 0;
+    padding-right: 0;
+}
+
+.fLink {
+    height: 40px;
+    text-align: center;
+    color: #f0f0f0;
+    font-size: 12px;
+}
+
+.flinkMain {
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+.fLink .marWid a, .fLink .marWidMain a {
+    margin: 0 15px;
+    text-indent: 0;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    color: #5e5e5e;
+    padding: 0;
+}
+
+.copyMain {
+    display: block;
+    width: 1000px;
+    background: #f2f2f2;
+    margin: 0 auto;
+    font-size:12px;
+    text-align: center;
+    color: #5e5e5e;
+    height: 30px;
+    line-height: 30px;
+}
+
+.copyMain em {
+    display: inline-block;
+    margin: 0 15px;
+    color: #d9d9d9;
+    font-size: 12px;
+}
+
+.copyLink {
+    width: 1000px;
+    margin: 0 auto;
+    color: #365071;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.copyLink li {
+    padding: 22px 0;
+    width: 1050px;
+    clear: both;
+    text-align: center;
+}
+
+.copyLogo a {
+    margin: 0 20px 0 0;
+}
+
+.copyLink dt {
+    float: left;
+    text-align: left;
+    color: #365071;
+    width: 390px;
+    display: inline;
+}
+
+.copyLink a {
+    font-size:12px;
+    color: #666;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.copyLink dd {
+    width: 415px;
+    text-align: left;
+    float: left;
+    margin: 0;
+}
+
+.copyLink .las {
+    width: 195px;
+    margin: 0;
+}
+
+.copyLogo a {
+    margin: 0 20px 0 0;
+}
+
+.copyLink a {
+    color: #666;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.logoCa, .logoCb, .logoCc, .logoCd, .logoCe, .logoCX, .logoKx {
+    width: 122px;
+    height: 52px;
+}
+
+.logoCa, .logoCb, .logoCc, .logoCd, .logoCe, .logoCX, .logoKx {
+    background: url(../img/linkLogo.png) no-repeat;
+}
+
+.logoCb {
+    background: url(../img/hlwjb.png) no-repeat;
+    width: 130px;
+}
+
+.logoCc {
+    background-position: -268px 0;
+}
+
+.logoCd {
+    background-position: -401px 0;
+    width: 117px;
+}
+
+.logoCe {
+    background-position: -522px 0;
+    width: 117px;
+}
+
+.logoCX {
+    background-position: -644px 0;
+    width: 117px;
+}
