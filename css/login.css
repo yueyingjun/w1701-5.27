@@ -1,0 +1,123 @@
+#modal-login {
+    line-height: 1em;
+    font-size: 16px;
+    font-weight: 500;
+}
+.fade.ml-in {
+    opacity: 1;
+}
+.fade {
+    transition: opacity 0.15s linear;
+}
+.ml-modal {
+    overflow: auto;
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+}
+.ml-modal.ml-in .modal-login-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+.ml-modal.fade .modal-login-dialog {
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+    -webkit-transition: -webkit-transform 0.15s ease-out;
+    -moz-transition: -moz-transform 0.15s ease-out;
+    -o-transition: -o-transform 0.15s ease-out;
+    transition: transform 0.15s ease-out;
+}
+.ml-content {
+    background-color: #6d7a0d;
+}
+.ml-content {
+    position: relative;
+    padding: 40px 50px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+    outline: none;
+}
+.ml-close {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000000;
+    text-shadow: 0 1px 0 #ffffff;
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+#modal-login form {
+    margin: 0;
+}
+.mluser {
+    padding-bottom: 15px;
+}
+.mlpsw {
+    padding-bottom: 26px;
+}
+#modal-login #forgetmenot {
+    margin: 0 0 23px;
+}
+#modal-login #forgetmenot {
+    float: left;
+    margin: 15px 0 0 0;
+}
+#modal-login p {
+    margin: 0;
+}
+#modal-login .submit {
+    float: none;
+}
+#modal-login h2 {
+    margin: 0 0 30px;
+    font-size: 30px;
+    line-height: 1.2em;
+}
+.mlemail {
+    padding-bottom: 15px;
+}
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    float: left;
+    margin-left: 10px;
+}
+
+#modal-login input[type="text"], #modal-login input[type="password"] {
+    padding: 10px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 2em;
+    border: solid 1px #6d7a0d;
+    float: left;
+
+}
+#modal-login .submit .button {
+    border: none;
+    padding: 13px 20px;
+    background: #222;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.mlforgt {
+    padding-bottom: 0px;
+}
+#modal-login .field-titles {
+    line-height: 2em;
+    margin: 0;
+}
