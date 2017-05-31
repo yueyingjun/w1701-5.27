@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  color: #fff;
+  font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
