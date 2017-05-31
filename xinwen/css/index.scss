@@ -1,0 +1,564 @@
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  background: #f0f0f0;
+}
+.top{
+  width: 1200px;
+  height: 120px;
+  margin: 0 auto;
+}
+.title{
+  min-width: 1220px;
+  height: 100px;
+  background: #fff;
+  border-bottom: 1px solid #cdcdcd;
+  margin: 4px auto 20px;
+  position: relative;
+  display: flex;
+  .t-right{
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    a{
+      width: 14px;
+      height: 30px;
+      float: right;
+      padding: 0 7px;
+      border-left: 2px solid #e5e5e5;
+      font-size: 14px;
+      color: #717171;
+      &:hover{
+        color: #0000cc;
+      }
+    }
+    .denglu{
+      border: 0;
+    }
+    .sousuo{
+      width: 30px;
+      height: 30px;
+      background: url("../img/sousuo.png")no-repeat center center;
+      background-color: #f0f0f0;
+    }
+  }
+  .t-left{
+    width: 1220px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    .t-img{
+      width: 287px;
+      height: 100px;
+      border-right: 2px solid #e5e5e5;
+      float: left;
+      line-height: 90px;
+      a{
+        width: 116px;
+        height: 60px;
+        display: inline-block;
+        margin-left: 121px;
+        vertical-align: middle;
+        text-align: right;
+        img{
+          width: 100%;height: 100%;
+        }
+      }
+    }
+    ul{
+      height: 70px;
+      margin-left: 22px;
+      vertical-align: middle;
+      display: inline-block;
+      padding-top: 10px;
+      li{
+        width: 60px;
+        height: 82px;
+        float: left;
+        a{
+          width: 18px;
+          height: 40px;
+          line-height: 18px;
+          float: left;
+          margin: 0 8px;
+          padding: 10px 13px;
+          font-size: 18px;
+          color: #717171;
+          &:hover{
+            background-color: #e83829;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+.con{
+  width: 1220px;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  .con-left{
+    float: left;
+    overflow: hidden;
+    position: relative;
+    width: 987px;
+    border-right: 1px solid #a0a0a0;
+    box-sizing: border-box;
+    .left-1{
+      width: 940px;
+      height: auto;
+      margin: 0 36px 0 10px;
+      float: left;
+      position: relative;
+      overflow: hidden;
+      background: #fff;
+      &:hover .hidde{
+        opacity: 1;
+      }
+      &:hover .tu img{
+        transform: scale(1.1);
+      }
+      .tu{
+        width: 624px;
+        height: 360px;
+        float: left;
+        position: relative;
+        overflow: hidden;
+        img{
+          width: 624px;
+          height: 360px;
+          transition: all 1s ease 0s;
+        }
+      }
+      .zi{
+        width: 268px;
+        height: 294px;
+        margin: 20px auto 0;
+        overflow: hidden;
+        color: #4b4b4b;
+        .zi-title{
+          line-height: 36px;
+          font-size: 24px;
+          font-weight: bold;
+          a{
+            color: #4b4b4b;
+          }
+          a:hover{
+            color: #027EB3;
+          }
+        }
+        p{
+          line-height: 20px;
+          font-size: 14px;
+          margin-top: 20px;
+        }
+      }
+      .conditions{
+        width: 295px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 12px;
+        position: absolute;
+        bottom: 24px;
+        right: -6px;
+        a{
+          min-width: 40px;
+          height: 24px;
+          display: inline-block;
+          padding-right: 8px;
+          color: #a0a0a0;
+          border-right: 1px solid #dfdfdf;
+        }
+        span{
+          margin-left: 4px;
+          height: 24px;
+          color: #a0a0a0;
+        }
+        .message{
+          padding-left: 16px;
+          min-width: 20px;
+          display: inline-block;
+          background: url(../img/ct_bg.png) no-repeat left center;
+        }
+        .heads{
+          width: 28px;
+          height: 16px;
+          line-height: 16px;
+          float: right;
+          color: #ffffff;
+          font-size: 12px;
+          padding: 2px 4px 6px 8px;
+          background: url(../img/sybg.png) no-repeat right center;
+          overflow: hidden;
+        }
+      }
+      .hidde{
+        width: 260px;
+        height: 21px;
+        line-height: 21px;
+        font-size: 12px;
+        position: absolute;
+        bottom: 3px;
+        right: 40px;
+        z-index: 2;
+        display: flex;
+        opacity: 0;
+        span{
+          width: 46px;
+          height: 21px;
+          display: block;
+          float: left;
+        }
+        a{
+          width: 99px;
+          height: 19px;
+          display: block;
+          background: url("../img/share.png")no-repeat center center;
+        }
+      }
+    }
+  }
+  .con-right{
+    width: 203px;
+    height: auto;
+    float: right;
+    padding: 0 10px 0 20px;
+    .tu{
+      width: 100%;
+      height:100%;
+      margin-bottom: 20px;
+      a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .tu1{
+      width: 196px;
+      height: 160px;
+      margin-bottom: 20px;
+      border: 1px solid #f0f0f0;
+      a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    h3{
+      height: 34px;
+      line-height: 34px;
+      font-size: 16px;
+      color: #666666;
+      font-weight: bold;
+      text-indent: 8px;
+      background-color: #ffffff;
+      border-bottom: 1px solid #d0d0d0;
+    }
+    .titl{
+      width: 198px;
+      height: 30px;
+      margin-top: 4px;
+      a{
+        width: 66px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: rgb(40, 40, 40);
+        font-size: 14px;
+        display: block;
+        float: left;
+        border-bottom: 2px solid rgb(134, 134, 134);
+      }
+    }
+    .uls{
+      width: 198px;
+      margin-top: 5px;
+      .lis{
+        font-size: 12px;
+        line-height: 21px;
+        max-height: 43px;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(185, 185, 185);
+        padding: 6px 0px 5px;
+        overflow: hidden;
+        a{
+          color: rgb(51, 51, 51);
+          &:hover{
+            color: rgb(2, 126, 179);
+          }
+        }
+        span:nth-child(1){
+          width: 18px;
+          height: 14px;
+          display: block;
+          float: left;
+          background: url(../img/numhot_bg14.png) no-repeat;
+          margin: 3px 0px 6px;
+        }
+      }
+      .lis:nth-child(2) span{
+        background-position: 0px -14px !important;
+      }
+      .lis:nth-child(3) span{
+        background-position: 0px -28px !important;
+      }
+      .lis:nth-child(4) span{
+        background-position: 0px -42px !important;
+      }
+      .lis:nth-child(5) span{
+        background-position: 0px -56px !important;
+      }
+      .lis:nth-child(6) span{
+        background-position: 0px -70px !important;
+      }
+      .lis:nth-child(7) span{
+        background-position: 0px -84px !important;
+      }
+      .lis:nth-child(8) span{
+        background-position: 0px -98px !important;
+      }
+      .lis:nth-child(9) span{
+        background-position: 0px -112px !important;
+      }
+      .lis:nth-child(10) span{
+        background-position: 0px -126px !important;
+      }
+    }
+    .erweima{
+      background-color: rgb(255, 255, 255);
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      p{
+        color: rgb(1, 165, 236);
+        font-size: 16px;
+        font-weight: bold;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+        border-bottom: 1px solid rgb(240, 240, 240);
+      }
+      img{
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+      }
+    }
+    .xiaci{
+      width: 196px;
+      height: 260px;
+      border: none;
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+      position: relative;
+      a{
+        width: 100%;
+        height: 100%;
+        img{
+          width: 196px;
+          height: 260px;
+          border: none;
+        }
+      }
+    }
+  }
+  .con-tu{
+    width: 940px;
+    float: left;
+    margin: 20px 10px;
+    .tu{
+      width:940px;
+      height: 83px;
+      &:hover img{
+        transform: scale(1.05);
+      }
+    }
+
+    img{
+      width: 100%;
+      height: 100%;
+      transition: all 1s ease 0s;
+    }
+  }
+  .con-title{
+    position: relative;
+    width: 100%;
+    height: 25px;
+    padding-bottom: 5px;
+    float: left;
+    margin-left: 10px;
+    .tit{
+      height: 100%;
+      padding-left: 10px;
+      .liage{
+        position: absolute;
+        left: 1px;
+        width: 100px;
+        height: 25px;
+        background: url(../img/news_slidebg50.jpg) no-repeat 0 0;
+        span{
+          float: left;
+          width: 50px;
+          height: 25px;
+          display: inline-block;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .contents{
+    width: 939px;
+    height: auto;
+    background-color: #ffffff;
+    position: relative;
+    border-right: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    float: left;
+    margin-left: 10px;
+    .lis{
+      width: 260px;
+      color: rgb(102, 102, 102);
+      padding: 26px 26px 56px 25px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(240, 240, 240);
+      border-image: initial;
+      position: relative;
+      float: left;
+      &:hover{
+        background-color: rgb(247, 248, 253);
+        z-index: 10;
+      }
+      &:hover .hidde{
+        opacity: 1;
+      }
+      &:hover .con-tu a img{
+        transform: scale(1.1);
+      }
+      &:hover h2 a{
+        color: rgb(2, 126, 179);
+      }
+      .con-tu{
+        width: 260px;
+        height: 160px;
+        position: relative;
+        overflow: hidden;
+        a{
+          width: 100%;
+          height: 100%;
+          img{
+            width: 100%;
+            height: 100%;
+            transition: all 1s;
+          }
+        }
+      }
+      h2{
+        line-height: 26px;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+        color: rgb(51, 51, 51);
+        a{
+          color: rgb(51, 51, 51);
+        }
+      }
+      p{
+        line-height: 20px;
+        font-size: 14px;
+        margin-top: 16px;
+      }
+      .conditions{
+        width: 295px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 12px;
+        position: absolute;
+        bottom: 24px;
+        right: -6px;
+        z-index: 1111 !important;
+        a{
+          min-width: 40px;
+          height: 24px;
+          display: inline-block;
+          padding-right: 8px;
+          color: #a0a0a0;
+          border-right: 1px solid #dfdfdf;
+        }
+        span{
+          margin-left: 4px;
+          height: 24px;
+          color: #a0a0a0;
+        }
+        .message{
+          padding-left: 16px;
+          min-width: 20px;
+          display: inline-block;
+          background: url(../img/ct_bg.png) no-repeat left center;
+        }
+        .heads{
+          width: 28px;
+          height: 16px;
+          line-height: 16px;
+          float: right;
+          color: #ffffff;
+          font-size: 12px;
+          padding: 2px 4px 6px 8px;
+          background: url(../img/sybg.png) no-repeat right center;
+          overflow: hidden;
+          z-index: 111 !important;
+        }
+      }
+      .hidde{
+        width: 260px;
+        height: 21px;
+        line-height: 21px;
+        font-size: 12px;
+        position: absolute;
+        bottom: 3px;
+        right: 40px;
+        z-index: 2;
+        display: flex;
+        opacity: 0;
+        span{
+          width: 46px;
+          height: 21px;
+          display: block;
+          float: left;
+        }
+        a{
+          width: 99px;
+          height: 19px;
+          display: block;
+          background: url("../img/share.png")no-repeat center center;
+        }
+      }
+    }
+
+  }
+}
+.kong{
+  width: 100%;
+  height: 500px;
+}
