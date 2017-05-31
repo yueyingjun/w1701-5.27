@@ -1,0 +1,219 @@
+header {
+    width: 100%;
+    height: 55px;
+}
+.header {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header .logo {
+    width: 198px;
+    height: 55px;
+    float: left;
+    background: url("../img/mdy_top_m.gif") no-repeat bottom;
+}
+.header .logo img {
+    width: 80%;
+    height: 80%;
+}
+.daohang{
+    float: left;
+    width: 800px;
+    margin-top: 0.5px;
+}
+.dh1{
+    width:100%;
+    height: 29px;
+    float: left;
+    line-height: 29px;
+}
+.dh2{
+    width:100%;
+    line-height: 26px;
+    height: 26px;
+    float: left;
+    background: #569DC9;
+}
+.dh2 a{
+    display: block;
+    float: left;
+    margin-left: 18px;
+    color: #fff;
+}
+.dh1 a{
+    color: #000;
+}
+.menu{
+    width:1000px;
+    height: 26px;
+    margin: 0 auto;
+    background: #E3F4FE;
+    line-height: 26px;
+}
+.menu a{
+    color: #000;
+    display: block;
+    float: left;
+    margin-left: 20px;
+}
+.main{
+    width:100%;
+    height:100%;
+}
+.jiege{
+    width:670px;
+    height: 90px;
+    float: left;
+}
+.jiege img{
+    width:100%;
+    height:100%;
+}
+.main-f{
+    width:1000px;
+    height:90px;
+    margin:  auto;
+    margin-top: 35px;
+}
+.jieger{
+    width:155px;
+    height: 85px;
+    float: left;
+    margin-left: 10px;
+}
+.jieger img{
+    width:100%;
+    height:100%;
+}
+.jieger1{
+    width:160px;
+    height:90px;
+    float: right;
+    border: 1px solid #333;
+}
+.jieger1 a{
+    width:100%;
+    color: #000;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 18px;
+}
+.main-s{
+    width:1000px;
+    height:24px;
+    line-height: 24px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid #333;
+}
+.main-s2{
+    display: block;
+    float: left;
+    /*border-left:0.8px solid #333 */
+}
+.main-s1{
+    float: left;
+    width:105px;
+}
+.sousuo{
+    float: right;
+}
+.con{
+    width:1000px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #333;
+}
+h1{
+    text-align: center;
+    color: #000;
+}
+.laiyuan{
+    padding: 8px  0;
+    text-align: center;
+}
+.xian{
+    width: 800px;
+    height: 1px;
+    background: #B9B9B9;
+    margin: 0 auto;
+}
+.fabiao{
+    padding: 5px  0;
+    text-align: center;
+    width:100%;
+}
+.fabiao a{
+    color: #333;
+    /*float: left;*/
+}
+.zw{
+    width:800px;
+    margin: auto;
+    margin-top: 50px;
+}
+.zw p{
+   font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+.friend {
+    width: 1226px;
+    height: 216px;
+    float: left;
+    margin-top: 60px;
+    left: 0;
+    bottom: 0;
+}
+.friend .friend-m {
+    width: 1000px;
+    height: 81px;
+    margin: 0 auto;
+    border-top: 1px solid #737373;
+    position: relative;
+}
+.friend .friend-m .fri {
+    width: 75px;
+    height: 81px;
+    float: left;
+    font-size: 16px;
+}
+.friend .friend-m .fri a {
+    width: 75px;
+    height: 81px;
+    padding: 5px 0;
+    display: block;
+    color: #004276;
+}
+.friend .friend-m .frim {
+    width: 920px;
+    height: 81px;
+    float: left;
+    font-size: 12px;
+}
+.friend .friend-m .frim a {
+    float: left;
+    padding: 10px 6px;
+    display: block;
+    color: #000000;
+}
+.wei {
+    width: 1000px;
+    margin: 0 auto;
+    border-top: 5px solid #000000;
+    color: #424242;
+    line-height: 23px;
+    padding-bottom: 14px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+.wei a {
+    color: #2F3444;
+}
+.kexin {
+    margin-top: 20px;
+}
