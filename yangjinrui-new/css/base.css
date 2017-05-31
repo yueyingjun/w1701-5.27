@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	/* 去除A标签下划线 */
+	list-style: none;
+	/* 去除标签样式 */
+	box-sizing: border-box;
+}
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+img{
+	border: none;
+    display: block;
+}

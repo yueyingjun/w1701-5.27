@@ -1,0 +1,238 @@
+.top{
+	width: 100%;
+	height: 110px;
+}
+.top-main{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.top-left{
+	width: 500px;
+	height: 100%;
+	padding-top: 22px;
+	float: left;
+}
+.top-left .a1{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.top-left .a1 img{
+	width: 100%;
+	height: 70px;
+}
+.top-right{
+	width: 240px;
+	height: 100%;
+	float: right;
+    color: #e3d3b1;
+    font-size: 14px;
+    line-height: 110px;
+}
+.top-right span a{
+	color: #00591f;
+    margin-left: 4px;
+    font-weight: bold;
+}
+.top-right span a:hover{
+	text-decoration: underline;
+}
+.fenge1{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+/* 表单开始 */
+.form-login{
+	width: 1200px;
+    height: 562px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+    position: relative;
+}
+.welcome{
+	width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.welcome .p1{
+    width: 382px;
+    height: 106px;
+    margin-left: 152px;
+    background-size: contain;
+    background: url('../images/logo/icon_l2.png') no-repeat left center;
+    margin-top: -19px;
+    background-size: 58%;
+}
+.form-txt{
+	width: 398px;
+	height: 58px;
+	line-height: 56px;
+	border: 1px solid #ccc;
+	margin-left: 152px;
+	margin-bottom: 26px;
+}
+.form-txt-span1{
+	float: left;
+    display: block;
+    width: 85px;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    margin-left: 16px;
+}
+.form-txt-input1{
+	display: inline-block;
+	float: left;
+	width: 295px;
+	height: 56px;
+	line-height: 56px;
+	background: #fff;
+	padding: 0 5px;
+	color: #666;
+	font-size: 14px;
+	overflow: hidden;
+	border-radius: 5px;
+	border: none;
+}
+.form-txt-input2{
+	display: inline-block;
+	float: left;
+	width: 190px;
+	height: 56px;
+	line-height: 56px;
+	background: #fff;
+	padding: 0 5px;
+	color: #666;
+	font-size: 14px;
+	overflow: hidden;
+	border-radius: 5px;
+	border: none;
+}
+.form-txt-p1{
+	float: left;
+    width: 100px;
+    height: 46px;
+    line-height: 46px;
+    margin-top: 5px;
+    color: #333;
+    text-align: center;
+    background: #e7e7e7;
+}
+.form-txt-p1 img{
+	width: 100%;
+	height: 100%;
+}
+
+.form-txt-a1{
+	color: #12896b;
+    display: inline-block;
+    line-height: 56px;
+    margin-left: 10px;
+    font-size: 12px;
+    float: left;
+}
+.form-txt2-1{
+	width: 398px;
+	height: 58px;
+	line-height: 56px;
+	border: 1px solid #ccc;
+	margin-bottom: 26px;
+	float: left;
+}
+.form-txt2{
+	width: 100%;
+	height: 58px;
+	margin-bottom: 26px;
+    padding-left: 152px;
+    padding-bottom: 16px;
+}
+.form-txt-input3{
+	float: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #8FB764;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    background: #DCE9CE;
+    margin-left: 7px;
+    width: 93px;
+    height: 46px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.form-login input{
+	outline: none;
+}
+.tiaokuan{
+	height: 16px;
+	margin-left: 152px;
+    padding-bottom: 16px;
+}
+.check{
+	margin: 0px 7px 0px 3px;
+    border: none;
+    float: left;
+    background: none;
+}
+.tiao-zi{
+	width: 375px;
+	float: left;
+    display: inline-block;
+    line-height: 10px;
+    font-size: 12px;
+}
+.tiao-zi span{
+	display: inline-block;
+	float: right;
+}
+.tiao-zi span a{
+	color: #367b2e;
+}
+.tiao-zi span a:hover{
+	text-decoration: underline;
+}
+.zhuce{
+	display: inline-block;
+	width: 400px;
+	height: 49px;
+	border: none;
+	background:url('../images/logo/icon_ld.png')no-repeat left center;
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 6px;
+	margin-left: 154px;
+	margin-top: 24px;
+}   
+.fenge1.fenge2{
+	width: 1200px;
+    height: auto;
+    margin: 40px auto 0px;
+}
+.footbox{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.foot-main{
+	width: 1200px;
+	margin: 0 auto;
+}
+.foot-main p{
+	font-size: 12px;
+    color: #666;
+    line-height: 30px;
+    text-align: center;
+}
+.foot-main .p1 a{
+	padding: 0 15px;
+}
+.foot-main p a{
+	color: #666;
+}
+
