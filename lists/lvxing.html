@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>天下_界面新闻</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+<header>
+    <div class="header-inner">
+        <div class="header-container">
+            <nav class="header-top clear">
+                <div class="site-logo">
+                    <h1 class="logo">
+                        <a href="">
+                            <img src="../img/logo.png" alt="" height="40">
+                        </a>
+                    </h1>
+                    <p>只服务于独立思考的人群</p>
+                </div>
+                <div class="site-top-search">
+                    <input type="text" placeholder="搜索">
+                    <button>
+                        <i class="header-search"></i>
+                    </button>
+                </div>
+            </nav>
+            <nav class="nav">
+                <ul class="nav1">
+                    <li class="navlist">
+                        <a href="../index.html" style="border-top-color: #f12b35;">首页</a>
+                    </li>
+                    <li class="navlist">
+                        <a href="zhongguo.html" style="border-top-color: #009bff;">中国</a>
+                    </li>
+                    <li class="navlist">
+                        <a href="yule.html" style="border-top-color: #741884;">娱乐</a>
+                    </li>
+                    <li class="navlist">
+                        <a href="tiyu.html" style="border-top-color: #3B900E;">体育</a>
+                    </li>
+                    <li class="navlist">
+                        <a href="" style="border-top-color: #fff;">时尚</a>
+                    </li>
+                    <li class="navlist">
+                        <a href="" style="border-top-color: #8A9FB3;">文化</a>
+                    </li>
+                    <li class="navlist">
+                        <a href="" style="background-color:#FFA300;border-top-color: #FFA300;">旅行</a>
+                    </li>
+                    <li class="navlist">
+                        <a href="" style="border-top-color: #4B7126;">军事</a>
+                    </li>
+                    <li style="float: right">
+                        <div class="xiala">
+                            <span>APP <i class="zhuandong"> <s><></s></i></span>
+                            <div class="yincang">
+                                <ul>
+                                    <li><a href=""><i class="tubiao1" style="background-position: -30px -60px;margin-right: 5px;"></i>iPhone</a></li>
+                                    <li><a href=""><i class="tubiao1" style="background-position: -30px -30px;margin-right: 5px;"></i>Android</a></li>
+                                    <li><p><img src="../img/7.png" alt="" width="120" height="120"></p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="xiala">
+                            <span>关注 <i class="zhuandong"> <s><></s></i></span>
+                            <div class="yincang">
+                                <ul>
+                                    <li>
+                                        <a href=""><i class="tubiao1" style="background-position: 0 -30px;"></i><span>RSS</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="tubiao1" style="background-position: 0 0;"></i><span>微博</span></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="tubiao1" style="background-position: 0 -60px;"></i><span>微信</span></a>
+                                        <p><img src="../img/7.png" alt="" width="120" height="120"></p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="xiala">
+                            <span>互动 <i class="zhuandong"> <s><></s></i></span>
+                            <div class="yincang">
+                                <ul>
+                                    <li><a href=""><span>吐槽</span></a></li>
+                                    <li><a href=""><span>爆料</span></a></li>
+                                    <li><a href=""><span>投稿</span></a></li>
+                                    <li><a href=""><span>召集令</span></a></li>
+                                    <li><a href=""><span>好问</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="nav-login">
+                            <a href="javascript:;">登录</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="jt">
+    <a href="javascript:;" class="jtl">
+        <i></i>
+        <span>视频</span>
+    </a>
+    <a href="javascript:;" class="jtr">
+        <span>天下</span>
+        <i></i>
+    </a>
+</div>
+<div class="loginbox">
+    <div class="loginbox1">
+        <div class="logintitle">
+            <em>账号登录</em>
+        </div>
+        <span class="guanbi"><a href="javascript:;"></a></span>
+        <iframe src="login.html" frameborder="0" style="overflow:hidden;position:absolute;width: 450px;height: 460px;top: 35px;"></iframe>
+    </div>
+</div>
+
+<script src="../js/jquery.js"></script>
+<script>
+    $(function () {
+        var guan=$(".guanbi a");
+        guan.click(function(){
+            $(".loginbox").css("display","none");
+        })
+        $(".nav-login a").click(function(){
+            $(".loginbox").css("display","block");
+        })
+    })
+</script>
+</body>
+</html>

@@ -8,6 +8,7 @@
 .neirong{
     max-width: 1200px;
     min-height: 116px;
+    margin-bottom: 60px;
 }
 .index-left{
     width: 470px;
@@ -354,4 +355,85 @@
 .footer-2 p a{
     color: #666;
     margin: 0 5px;
+}
+.mokuai2 .mokuai2-1{
+    border-top: 1px solid #ccc;
+}
+.mokuai2 .mokuai2-2{
+    margin: 0 20px 20px;
+}
+.mokuai2 .mokuai2-1 h3{
+    position: relative;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.mokuai2-1 h3 span{
+    color: #fff;
+    width: 140px;
+    background: #f12b15;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-size: 16px;
+    line-height: 40px;
+    position: relative;
+    z-index: 10;
+}
+.mokuai2-1 h3 span a{
+    display: block;
+    color: #fff;
+}
+.mokuai2-1 h3 i{
+    display: block;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    color: #ee2e24;
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    margin-left: -8px;
+    border-top: 8px solid #ee2e24;
+}
+.mokuai2-3 a img{
+    width: 100%;
+    height: auto;
+}
+.mokuai2-4{
+    padding: 5px 0;
+}
+.mokuai2-4 h3 a{
+    font-weight: 700;
+    padding-right: 5px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #414141;
+    display: inline-block;
+    padding-top: 8px;
+}
+.mokuai2-5{
+    padding-right: 10px;
+    margin: 0;
+}
+.mokuai2-5 li{
+    font-size: 16px;
+    line-height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    padding-left: 15px;
+    text-overflow: ellipsis;
+}
+.mokuai2-5 li:after{
+    content: "";
+    background: #F12B15;
+    width: 4px;
+    height: 4px;
+    display: block;
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    margin-top: -2px;
+}
+.mokuai2-5 li a{
+    color:#666;
 }
