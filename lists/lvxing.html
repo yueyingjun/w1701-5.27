@@ -45,16 +45,16 @@
                         <a href="tiyu.html" style="border-top-color: #3B900E;">体育</a>
                     </li>
                     <li class="navlist">
-                        <a href="" style="border-top-color: #fff;">时尚</a>
+                        <a href="shishang.html" style="border-top-color: #fff;">时尚</a>
                     </li>
                     <li class="navlist">
-                        <a href="" style="border-top-color: #8A9FB3;">文化</a>
+                        <a href="wenhua.html" style="border-top-color: #8A9FB3;">文化</a>
                     </li>
                     <li class="navlist">
                         <a href="" style="background-color:#FFA300;border-top-color: #FFA300;">旅行</a>
                     </li>
                     <li class="navlist">
-                        <a href="" style="border-top-color: #4B7126;">军事</a>
+                        <a href="junshi.html" style="border-top-color: #4B7126;">军事</a>
                     </li>
                     <li style="float: right">
                         <div class="xiala">
@@ -106,12 +106,12 @@
     </div>
 </header>
 <div class="jt">
-    <a href="javascript:;" class="jtl">
+    <a href="wenhua.html" class="jtl">
         <i></i>
-        <span>视频</span>
+        <span>文化</span>
     </a>
-    <a href="javascript:;" class="jtr">
-        <span>天下</span>
+    <a href="junshi.html" class="jtr">
+        <span>军事</span>
         <i></i>
     </a>
 </div>
@@ -124,18 +124,30 @@
         <iframe src="login.html" frameborder="0" style="overflow:hidden;position:absolute;width: 450px;height: 460px;top: 35px;"></iframe>
     </div>
 </div>
+<footer class="footer1">
+    <div class="footer-container">
+        <a href="" class="diimg"></a>
+        <p>界面（上海）网络科技有限公司 版权所有  © 2014-2017 JIEMIAN.COM</p>
+        <ul>
+            <li><a href="">关于我们</a></li>
+            <li><a href="">联系我们</a></li>
+            <li><a href="">加入我们</a></li>
+            <li><a href="">用户注册协议</a></li>
+            <li><a href="">投稿须知</a></li>
+            <li><a href="">版权声明</a></li>
+        </ul>
+    </div>
+</footer>
 
 <script src="../js/jquery.js"></script>
+<script src="../js/main.js"></script>
 <script>
-    $(function () {
-        var guan=$(".guanbi a");
-        guan.click(function(){
-            $(".loginbox").css("display","none");
-        })
-        $(".nav-login a").click(function(){
-            $(".loginbox").css("display","block");
-        })
-    })
+    $(".jtl").hover(function(){
+        $(this).css("background","#8A9FB3");
+    },function(){ $(this).css("background","");});
+    $(".jtr").hover(function(){
+        $(this).css("background","#4B7126");
+    },function(){ $(this).css("background","");})
 </script>
 </body>
 </html>

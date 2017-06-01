@@ -1,0 +1,134 @@
+.container{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.mokuai1{
+    width: 1200px;
+    margin: 0 auto;
+    background: #009bff;
+}
+.mokuai1-1{
+    width: 120px;
+    float: left;
+    border-top: 1px solid #dedede;
+}
+.mokuai1-1-1{
+    overflow: hidden;
+    padding: 0 0 7px;
+}
+.mokuai1-1-1 h2{
+    font-size: 70px;
+    text-shadow: 0 0 5px #333;
+    color: #fff;
+    padding: 15px 0;
+    font-family: Verdana light,SimHei;
+    font-weight: bolder;
+    background-color: rgba(0, 0, 0, .05);
+    text-align: center;
+    display: block;
+}
+.mokuai1-1-1 h2 a{
+    color: #fff;
+}
+.mokuai1-1-1 ul{
+    overflow: hidden;
+    border-top: 1px solid rgba(0, 0, 0, .15);
+    border-bottom: 1px solid rgba(255, 255, 225, .14);
+}
+.mokuai1-1-1 ul li a{
+    font-size: 15px;
+    color: #fff;
+    padding: 10px;
+    font-weight: 400;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    border-top: 1px solid rgba(255, 255, 225, .14);
+    text-align: center;
+    display: block;
+}
+.mokuai1-2{
+    margin-left: 120px;
+    border-bottom: 1px solid #dedede;
+    overflow: hidden;
+    border-top: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    background: #f9f9f9;
+}
+.mokuai1-2-1{
+    background: #141414;
+    border-bottom: 1px solid #dedede;
+    height: 350px;
+    overflow: hidden;
+}
+.mokuai1-2-2{
+    border-right: 1px solid #dedede;
+    background-color: #fff;
+    margin-top: 50px;
+}
+.news-view{
+    float: left;
+    padding: 0;
+    width: 330px;
+    margin: 10px 10px 20px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .2);
+}
+.news-img{
+    width: 100%;
+    height: 186px;
+    overflow: hidden;
+}
+.news-view a img{
+    width: 100%;
+    height: auto;
+}
+.news-con{
+    /*margin: 186px 0 0 0;*/
+    padding: 4px 10px 10px;
+    overflow: hidden;
+    height: 130px;
+    position: relative;
+}
+.mokuai1-2-3 a{
+    font-size: 12px;
+    color: #27757b;
+    margin-right: 5px;
+    line-height: 19px;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+}
+.mokuai1-2-4{
+    padding: 0 0 6px;
+}
+.mokuai1-2-4 h3 a{
+    padding-right: 5px;
+    color: #333;
+    display: block;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: normal;
+}
+.mokuai1-2-5{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}
+.mokuai1-2-5 p{
+    position: relative;
+    color: #999;
+    line-height: 25px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.mokuai1-2-5 p span{
+    float: left;
+}
+.mokuai1-2-5 p span a{
+    color: #777;
+}
+.mokuai1-2-5 p span i{
+    margin: 0 3px;
+}

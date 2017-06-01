@@ -200,13 +200,13 @@ a{
 }
 .jtl span{
     padding: 0 10px;
-    /*opacity: 0;*/
+    opacity: 0;
     transition: opacity .2s ease-out;
 }
 .jtr span{
     float: left;
     padding: 0 10px;
-    /*opacity: 0;*/
+    opacity: 0;
     transition: opacity .2s ease-out;
 }
 .jtl:hover{
@@ -220,6 +220,12 @@ a{
 }
 .jtr:hover{
     background: #666;
+}
+.jtl:hover span{
+    opacity: 1;
+}
+.jtr:hover span{
+    opacity: 1;
 }
 .nav1 .xiala{
     width: 60px;
@@ -377,4 +383,67 @@ a{
 }
 .guanbi a:hover{
     background-position: -91px -195px;
+}
+.navlist:nth-child(1) a:hover{
+    background-color: #f12b35;
+}
+.navlist:nth-child(2) a:hover{
+    background-color: #009bff;
+}
+.navlist:nth-child(3) a:hover{
+    background-color: #741884;
+}
+.navlist:nth-child(4) a:hover{
+    background-color: #3B900E;
+}
+.navlist:nth-child(5) a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.navlist:nth-child(6) a:hover{
+    background-color: #8A9FB3;
+}
+.navlist:nth-child(7) a:hover{
+    background-color: #FFA300;
+}
+.navlist:nth-child(8) a:hover{
+    background-color: #4B7126;
+}
+.footer1{
+    background-color: #141414;
+    height: 50px;
+    position: relative;
+}
+.footer-container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.footer-container .diimg{
+    display: block;
+    float: left;
+    height: 50px;
+    width: 66px;
+    background: url(../img/14.png) center center no-repeat;
+}
+.footer-container p{
+    float: left;
+    line-height: 50px;
+    padding-left: 15px;
+    color: #ddd;
+    font-size: 13px;
+}
+.footer-container ul{
+    float: right;
+    line-height: 50px;
+}
+.footer-container ul li{
+    float: left;
+    margin-left: 10px;
+}
+.footer-container ul li a{
+    display: inline-block;
+    color: #ddd;
+    font-size: 13px;
+    position: relative;
 }

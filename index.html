@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/login.css">
+    <script src="js/jquery.js"></script>
 </head>
 <body>
 <header>
@@ -64,19 +65,19 @@
                     <!--<a href="" style="border-top-color: #1E286E;">宏观</a>-->
                 <!--</li>-->
                 <li class="navlist">
-                    <a href="" style="border-top-color: #741884;">娱乐</a>
+                    <a href="lists/yule.html" style="border-top-color: #741884;">娱乐</a>
                 </li>
                 <li class="navlist">
-                    <a href="" style="border-top-color: #3B900E;">体育</a>
+                    <a href="lists/tiyu.html" style="border-top-color: #3B900E;">体育</a>
                 </li>
                 <li class="navlist">
-                    <a href="" style="border-top-color: #fff;">时尚</a>
+                    <a href="lists/shishang.html" style="border-top-color: #fff;">时尚</a>
                 </li>
                 <li class="navlist">
-                    <a href="" style="border-top-color: #8A9FB3;">文化</a>
+                    <a href="lists/wenhua.html" style="border-top-color: #8A9FB3;">文化</a>
                 </li>
                 <li class="navlist">
-                    <a href="" style="border-top-color: #FFA300;">旅行</a>
+                    <a href="lists/lvxing.html" style="border-top-color: #FFA300;">旅行</a>
                 </li>
                 <!--<li class="navlist">-->
                     <!--<a href="" style="border-top-color: #fff;">生活</a>-->
@@ -85,7 +86,7 @@
                     <!--<a href="" style="border-top-color: #5EBDC7;">游戏</a>-->
                 <!--</li>-->
                 <li class="navlist">
-                    <a href="" style="border-top-color: #4B7126;">军事</a>
+                    <a href="lists/junshi.html" style="border-top-color: #4B7126;">军事</a>
                 </li>
                 <!--<li class="navlist">-->
                     <!--<a href="" style="border-top-color: #fff;">视频</a>-->
@@ -198,11 +199,11 @@
 </div>
 </header>
 <div class="jt">
-    <a href="javascript:;" class="jtl">
+    <a href="lists/junshi.html" class="jtl">
         <i></i>
         <span>军事</span>
     </a>
-    <a href="javascript:;" class="jtr">
+    <a href="lists/zhongguo.html" class="jtr">
         <span>中国</span>
         <i></i>
     </a>
@@ -829,18 +830,29 @@
         </div>
     </div>
 </div>
-
+<footer class="footer1">
+    <div class="footer-container">
+        <a href="" class="diimg"></a>
+        <p>界面（上海）网络科技有限公司 版权所有  © 2014-2017 JIEMIAN.COM</p>
+        <ul>
+            <li><a href="">关于我们</a></li>
+            <li><a href="">联系我们</a></li>
+            <li><a href="">加入我们</a></li>
+            <li><a href="">用户注册协议</a></li>
+            <li><a href="">投稿须知</a></li>
+            <li><a href="">版权声明</a></li>
+        </ul>
+    </div>
+</footer>
 <script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
 <script>
-    $(function () {
-        var guan=$(".guanbi a");
-        guan.click(function(){
-            $(".loginbox").css("display","none");
-        })
-        $(".nav-login a").click(function(){
-            $(".loginbox").css("display","block");
-        })
-    })
+    $(".jtl").hover(function(){
+        $(this).css("background","#4B7126");
+    },function(){ $(this).css("background","");});
+    $(".jtr").hover(function(){
+        $(this).css("background","#009bff");
+    },function(){ $(this).css("background","");})
 </script>
 </body>
 </html>
