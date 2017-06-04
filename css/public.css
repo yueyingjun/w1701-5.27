@@ -293,8 +293,8 @@ footer a:hover{
     background-image: url("../images/zlbg.png");
     background-position: center center;
     background-repeat: no-repeat;
-    padding: 30px 0;
-    height: 370px;
+   padding: 88px 0;
+    height: 392px;
     overflow: hidden;
 }
 @media (max-width: 640px) {
@@ -502,11 +502,6 @@ footer a:hover{
     .newsshow img{
         width: 98%;
     }
-}
-.footer {
-    padding: 2em 0;
-    background: #444;
-    color: #a3a9b5;
 }
 .img-container {
     width: 95px;

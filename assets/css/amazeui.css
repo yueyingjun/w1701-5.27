@@ -1,26 +1,50 @@
-
+/*! Amaze UI v2.5.2 | by Amaze UI Team | (c) 2016 AllMobilize, Inc. | Licensed under MIT | 2016-01-26T11:06:52+0800 */
+/* ==========================================================================
+   Component: Base
+ ============================================================================ */
+/**
+ * Fix the flawed CSS box model - Yes, IE6's box model is better
+ * Browser support: IE8+
+ * via: http://paulirish.com/2012/box-sizing-border-box-ftw/
+ */
 *,
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+/* normalize.css v3.0.2 | git.io/normalize */
+/* Set <html> and <body> to inherit the height of the viewport */
 html,
 body {
   min-height: 100%;
 }
+/**
+ * 1. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ *    https://developer.mozilla.org/en-US/docs/Web/CSS/text-size-adjust
+ */
 html {
   -ms-text-size-adjust: 100%;
   /* 1 */
   -webkit-text-size-adjust: 100%;
-
+  /* 1 */
 }
-
+/**
+ * Remove default margin.
+ */
 body {
   margin: 0;
 }
-
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ * hgroup has been removed from the HTML5 (W3C) specification
+ *        https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup
+ */
 article,
 aside,
 details,
@@ -36,7 +60,10 @@ section,
 summary {
   display: block;
 }
-
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
 audio,
 canvas,
 progress,
@@ -46,56 +73,87 @@ video {
   vertical-align: baseline;
   /* 2 */
 }
-
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
-
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
 [hidden],
 template,
 script {
   display: none;
 }
-
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
 a {
   background-color: transparent;
 }
-
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
 a:focus {
   outline: thin dotted;
 }
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
 a:active,
 a:hover {
   outline: 0;
 }
-
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove text-decoration
+ */
 ins,
 a {
   text-decoration: none;
 }
-
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
 abbr[title] {
   border-bottom: 1px dotted;
 }
-
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
 b,
 strong {
   font-weight: bold;
 }
-
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
 pre {
   white-space: pre-wrap;
 }
-
+/**
+ * Set consistent quote types.
+ */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
-
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
 small {
   font-size: 80%;
 }
-
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
 sub,
 sup {
   font-size: 75%;
@@ -109,7 +167,15 @@ sup {
 sub {
   bottom: -0.25em;
 }
-
+/* Embedded content
+   ========================================================================== */
+/**
+  * 1. Corrects max-width behavior (2.) if padding and border are used
+  * 2. Responsiveness: Sets a maxium width relative to the parent and auto scales the height
+  * 3. Remove the gap between images and the bottom of their containers
+  * 4. Remove border when inside `a` element in IE 8/9.
+  * remove 2. for Issue #502
+  */
 img {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -119,11 +185,17 @@ img {
   border: 0;
   /* 4 */
 }
-
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
 svg:not(:root) {
   overflow: hidden;
 }
-
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
 figure {
   margin: 0;
 }
@@ -137,20 +209,32 @@ samp {
   font-family: Monaco, Menlo, Consolas, "Courier New", "FontAwesome", monospace;
   font-size: 1em;
 }
-
+/* Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
-
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
 legend {
   border: 0;
   /* 1 */
   padding: 0;
   /* 2 */
 }
-
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
 button,
 input,
 optgroup,
@@ -177,12 +261,23 @@ button,
 input {
   line-height: normal;
 }
-
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
 button,
 select {
   text-transform: none;
 }
-
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -192,7 +287,11 @@ input[type="submit"] {
   cursor: pointer;
   /* 3 */
 }
-
+/*
+ * 1. Improves consistency of cursor style for clickable elements
+ * 2. Removes excess padding in IE 8/9.
+ * 3. Address box sizing set to `content-box` in IE 8/9/10.
+ */
 input[type="radio"],
 input[type="checkbox"] {
   cursor: pointer;
@@ -203,23 +302,35 @@ input[type="checkbox"] {
           box-sizing: border-box;
   /* 3 */
 }
-
+/**
+ * Re-set default cursor for disabled elements.
+ */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
-
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
-
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
-
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -227,12 +338,18 @@ input[type="search"] {
           box-sizing: content-box;
   /* 2 */
 }
-
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
 textarea {
   overflow: auto;
   /* 1 */
@@ -240,11 +357,18 @@ textarea {
   /* 2 */
   resize: vertical;
 }
-
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
 optgroup {
   font-weight: bold;
 }
-
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -253,7 +377,13 @@ td,
 th {
   padding: 0;
 }
-
+/* AMUI Base
+   ========================================================================== */
+/**
+ * `font-size` is set in `html` element to support the `rem` unit for font-sizes
+ * NOTE: IE9 & IE10 do not recognize `rem` units when used with the
+   `font` shorthand property.
+ */
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -267,7 +397,13 @@ body {
   color: #333333;
   font-size: 1.6rem;
 }
-
+/**
+ * 1. http://usabilitypost.com/2012/11/15/w-optimizelegibility-on-mobile-devices/
+ * 2. http://maxvoltar.com/archive/-webkit-font-smoothing
+ * NOTE: http://usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/
+ * 3. http://maximilianhoffmann.com/posts/better-font-rendering-on-osx
+ *    http://jaydenseric.com/blog/css-font-smoothing-for-firefox-mac
+ */
 body,
 input,
 textarea,
@@ -314,12 +450,17 @@ ins {
   background: #ffa;
   color: #333333;
 }
-
+/**
+ * Mark
+ * Note: Addresses styling not present in IE 8/9.
+ */
 mark {
   background: #ffa;
   color: #333333;
 }
-
+/**
+ * Abbreviation and definition
+ */
 abbr[title],
 dfn[title] {
   cursor: help;
@@ -328,7 +469,8 @@ dfn[title] {
   border-bottom: 1px dotted;
   font-style: normal;
 }
-
+/* Spacing for block elements */
+p,
 hr,
 ul,
 ol,
@@ -456,7 +598,18 @@ input:not([type="radio"]):not([type="checkbox"]),
 select {
   vertical-align: middle;
 }
-
+/**
+ * Fix viewport for IE10 snap mode
+ * http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/
+ * http://msdn.microsoft.com/en-us/library/ie/hh869615%28v=vs.85%29.aspx
+ * http://msdn.microsoft.com/zh-cn/library/ie/hh708740(v=vs.85).aspx
+ * @2014.01.20: 设置一下属性以后，windows Phone 8 上显示的字体过小，暂时注释掉
+ * ========================================================================== */
+/*
+@-ms-viewport {
+  width: device-width;
+}
+*/
 .am-scrollbar-measure {
   width: 100px;
   height: 100px;
@@ -464,7 +617,9 @@ select {
   position: absolute;
   top: -9999px;
 }
-
+/* ==========================================================================
+   Component: Grid
+ ============================================================================ */
 .am-container {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -2844,7 +2999,6 @@ fieldset[disabled] .am-checkbox-inline {
 }
 .am-nav-pills > li {
   float: left;
-  cursor: pointer;
 }
 .am-nav-pills > li + li {
   margin-left: 5px;
@@ -2877,7 +3031,6 @@ fieldset[disabled] .am-checkbox-inline {
   border: 1px solid #ddd;
   border-bottom-color: transparent;
   cursor: default;
-  cursor: pointer;
 }
 .am-nav-tabs.am-nav-justify {
   border-bottom: 0;
@@ -9361,8 +9514,11 @@ ul.am-dropdown-content > .am-disabled > a:focus {
 .am-popover-danger .am-popover-caret {
   border-bottom-color: #e44d26;
 }
+/* ==========================================================================
+   Component: Progress Plugin
+ ============================================================================ */
 #nprogress {
- 
+  /* Make clicks pass-through */
   pointer-events: none;
   /* Fancy blur effect */
 }
@@ -11335,7 +11491,6 @@ tbody.am-collapse.am-in {
 .am-gallery {
   padding: 5px 5px 0 5px;
   list-style: none;
-  margin-bottom: 5rem;
 }
 .am-gallery h3 {
   margin: 0;
@@ -13668,6 +13823,10 @@ tbody.am-collapse.am-in {
 .am-slider-c3 .am-direction-nav a:before {
   display: inline-block;
   font: normal normal normal 1.6rem/1 "FontAwesome", sans-serif;
+  /*font-weight: normal; // 2
+  font-style: normal; // 2
+  vertical-align: baseline; // 3
+  line-height: 1; // 4*/
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;

@@ -9,6 +9,7 @@ html, body{
 }
 a{
     font-family: "苹方";
+    cursor: pointer;
 }
 body a{
 	transition:0.5s all;
@@ -253,7 +254,7 @@ h2.title {
 }
 /*-- content-- */
 .grid_1 {
-    padding: 4em 0 6em;
+    padding: 3em 0 4em;
 }
 .grid_1 h3{
 	color:#000;
@@ -454,7 +455,7 @@ a.seeking-vote-button:hover{
 /*-- footer --*/
 .footer{
 	padding:2em 0;
-	background:#444;
+	background:#424141;
     color: #a3a9b5;
 }
 .footer_bottom{
@@ -570,9 +571,10 @@ span.yellow a {
 .copy p a{
 	color:#fff;
 }
+ p{text-indent:2em} 
 /*-- single --*/
 .single{
-	padding:5em 0;
+	padding:2em 0;
 }
 .xiangq{
    text-align: center;
@@ -903,7 +905,7 @@ i.tw2{
 	text-align:center;
 }
 /* -- following --*/
-.single h2::after, .content_bottom h3:after,  .about_bottom h3:after{
+.content_bottom h3:after,  .about_bottom h3:after{
     background:#f15f43;
     content: "";
     display: block;
@@ -2157,9 +2159,6 @@ a.navbar-brand img {
 .banner {
     min-height: 470px;
 }
-.grid_1 {
-    padding: 4em 0 0em;
-}
 .grid_1 h3 {
     font-size: 1.5em;
 }
@@ -2363,9 +2362,6 @@ a.navbar-brand img {
 ul.list_1 li {
     margin-bottom: 0.5em;
 } 
-.grid_1 {
-    padding: 3em 0 0em;
-}
 .col_3 h3, .widget h3 {
     font-size: 1em;
     padding: 8px;
@@ -2533,9 +2529,6 @@ a.navbar-brand img {
 }
 .banner {
     min-height: 330px;
-}
-.grid_1 {
-    padding: 2em 0 0em;
 }
 .grid_1 h3 {
     font-size: 1.3em;
@@ -2971,7 +2964,7 @@ span a{
     padding: 0;
     font-size: 13px;
     line-height: 18px;
-    margin-top: 50px;
+    margin-top: 104px;
 }
  #sugarea {
     position: relative;
@@ -3281,4 +3274,16 @@ tr {
     color: #d0690c;
     line-height: 23px;  
     font-size: 18px;
+}
+.lq_foot{
+    text-align: center;
+    background: url(../images/foot.jpg) repeat-x;
+    padding: 15px;
+    height: 60px;
+}
+.zifoot a{
+    font-family: 宋体;
+    font-size: 12px;
+   color: #000;
+   text-decoration:  none;
 }

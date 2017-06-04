@@ -26,8 +26,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/public.css">
     <link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
-    <script src="js/jquery.min.js"></script>
-    <script src="js/amazeui.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/amazeui.min.js"></script>
     <script src="js/public.js"></script>
 </head>
 <body>
@@ -37,7 +37,6 @@
         <h1 class="am-topbar-brand">
             <a href="#"><img src="images/logo.bak.png" alt=""></a>
         </h1>
-
         <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-warning am-show-sm-only"
                 data-am-collapse="{target: '#collapse-head'}">
             <span class="am-sr-only">导航切换</span>
@@ -47,11 +46,6 @@
             <ul class="am-nav am-nav-pills am-topbar-nav">
                 <li class="am-active"><a href="#">首页</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li class="am-dropdown" data-am-dropdown>
-                    <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
-                        新闻标题 <span class="am-icon-caret-down"></span>
-                    </a>
-                </li>
                 <li><a href="gerenxhuanlan.html">专栏</a></li>
                 <li><a href="events.html">更多精彩</a></li>
             </ul>
@@ -75,7 +69,7 @@
                     <input class="word" id="ww" name="word" size="42" maxlength="100" tabindex="1" autocomplete="off">
                 </span>
                 <span class="s_btn_wr">
-                    <input class="btn" type="submit" value="搜索新闻" onmousedown="this.className='btn s_btn_h'" onmouseout="this.className='btn'">
+                    <input class="btn" type="submit" value="搜索" onmousedown="this.className='btn s_btn_h'" onmouseout="this.className='btn'">
                 </span>
             </div>
         </div>
@@ -128,22 +122,22 @@
             <div data-am-widget="slider" class="am-slider am-slider-c1" data-am-slider='{"directionNav":false}' >
                 <ul class="am-slides">
                     <li>
-                        <a href="events_show.html"><img src="images/duan.jpg"></a>
+                        <a href="xq1.html"><img src="images/duan.jpg"></a>
                         <div class="am-slider-desc">酷热不挡人潮汹涌 端午小长假各大景点爆满</div>
 
                     </li>
                     <li>
-                        <a href="events_show.html"><img src="images/2.jpg"></a>
+                        <a href="xq1.html"><img src="images/2.jpg"></a>
                         <div class="am-slider-desc">老人8年中376次彩票 总奖金960万</div>
 
                     </li>
                     <li>
-                        <a href="events_show.html"><img src="images/3.jpg"></a>
+                        <a href="xq1.html"><img src="images/3.jpg"></a>
                         <div class="am-slider-desc">八旬老人躺路边 网友身后举牌“他是假摔帝”</div>
 
                     </li>
                     <li>
-                        <a href="events_show.html"><img src="Temp-images/bb4.jpg"></a>
+                        <a href="xq1.html"><img src="Temp-images/bb4.jpg"></a>
                         <div class="am-slider-desc">OH PARA PARADISE 是否那么重要 你是否那么地遥远</div>
                     </li>
                 </ul>
@@ -156,7 +150,7 @@
                     <div class="am-gallery-item">
                         <a href="#">
                             <img src="Temp-images/lins.png"  alt="远方 有一个地方 那里种有我们的梦想"/>
-                            <h3 class="am-gallery-title">百度新闻</h3>
+                            <h3 class="am-gallery-title">集体荣誉</h3>
                             <div class="am-gallery-desc">2375-09-26</div>
                         </a>
                     </div>
@@ -165,7 +159,7 @@
                     <div class="am-gallery-item">
                         <a href="#">
                             <img src="Temp-images/lins.png"  alt="远方 有一个地方 那里种有我们的梦想"/>
-                            <h3 class="am-gallery-title">腾讯新闻</h3>
+                            <h3 class="am-gallery-title">个人荣誉</h3>
                             <div class="am-gallery-desc">2375-09-26</div>
                         </a>
                     </div>
@@ -174,7 +168,7 @@
                     <div class="am-gallery-item">
                         <a href="#">
                             <img src="Temp-images/lins.png"  alt="远方 有一个地方 那里种有我们的梦想"/>
-                            <h3 class="am-gallery-title">网易新闻</h3>
+                            <h3 class="am-gallery-title">获得奖项</h3>
                             <div class="am-gallery-desc">2375-09-26</div>
                         </a>
                     </div>
@@ -183,7 +177,7 @@
                     <div class="am-gallery-item">
                         <a href="#">
                             <img src="Temp-images/lins.png"  alt="远方 有一个地方 那里种有我们的梦想"/>
-                            <h3 class="am-gallery-title">搜狐新闻</h3>
+                            <h3 class="am-gallery-title">称号</h3>
                             <div class="am-gallery-desc">2375-09-26</div>
                         </a>
                     </div>
@@ -200,12 +194,11 @@
     <div class="am-u-sm-12 am-u-md-12 am-u-lg-8 oh">
         <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default" style="border-bottom: 0px; margin-bottom: -10px">
             <h2 class="am-titlebar-title ">
-                国内新闻
+               基本概况
             </h2>
            <nav class="am-titlebar-nav">
-                <a href="xq.html" >更多资讯</a>
-                <a href="xq.html" >资讯详情</a>
-                <a href="features.html" >资讯列表</a>
+                <a href="xq.html" >更多信息</a>
+            
             </nav>
         </div>
 
@@ -247,23 +240,6 @@
 
                         </div>
                     </li>
-
-                  
-                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left" data-am-scrollspy="{animation:'fade'}">
-                        <div class="am-u-sm-7 am-list-thumb">
-                            <a href="xq1.html">
-                                <img src="images/2.jpg" alt="十八大以来，习近平这样为传统文化“代言” "/>
-                            </a>
-                        </div>
-
-                        <div class=" am-u-sm-5 am-list-main">
-                            <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">老人8年中376次彩票 总奖金960万 </a></h3>
-
-                            <div class="am-list-item-text">你最喜欢的艺术作品，告诉大家它们的------名图画，色彩，交织，撞色，线条雕塑装置当代古代现代作品的照片美我最喜欢的画群296795413进群发画，少说多发图，</div>
-
-                        </div>
-                    </li>
-
                     <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left" data-am-scrollspy="{animation:'fade'}">
                         <div class="am-u-sm-5 am-list-thumb">
                             <a href="xq1.html">
@@ -286,12 +262,10 @@
             <div class="am-hide-sm">
                 <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
                     <h2 class="am-titlebar-title ">
-                        热门资讯
+                        信息公开
                     </h2>
                     <nav class="am-titlebar-nav">
-                        <a href="xq" >更多资讯</a>
-                        <a href="xq.html" >资讯详情</a>
-                        <a href="xq.html" >资讯列表</a>
+                        <a href="xq" >更多信息</a>
                     </nav>
                 </div>
 
@@ -388,12 +362,10 @@
             <div class="am-hide-sm">
                 <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
                     <h2 class="am-titlebar-title ">
-                       国际新闻
+                       热点
                     </h2>
                     <nav class="am-titlebar-nav">
-                        <a href="xq.html" >更多资讯</a>
-                        <a href="xq.html" >资讯详情</a>
-                        <a href="xq.html" >资讯列表</a>
+                        <a href="xq.html" >更多信息</a>
                     </nav>
                 </div>
 
@@ -457,12 +429,10 @@
               <div class="am-hide-sm">
                 <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
                     <h2 class="am-titlebar-title ">
-                       图片新闻
+                       图片
                     </h2>
                      <nav class="am-titlebar-nav">
-                        <a href="xq.html" >更多资讯</a>
-                        <a href="xq.html" >资讯详情</a>
-                        <a href="xq.html" >资讯列表</a>
+                        <a href="xq.html" >更多信息</a>
                     </nav>
                 </div>
 
@@ -637,13 +607,10 @@
     <div class="am-u-sm-12 am-u-md-12 am-u-lg-4">
         <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
             <h2 class="am-titlebar-title ">
-教育新闻
+教育
             </h2>
              <nav class="am-titlebar-nav">
-                <a href="xq.html" >考试焦点</a>
-                <a href="xq.html" >留学</a>
-                <a href="xq.html" >就业</a>
-                  <a href="#more">more &raquo;</a>
+                  <a href="xq.html">more &raquo;</a>
             </nav>
         </div>
         <div data-am-widget="list_news" class="am-list-news am-list-news-default right-bg" data-am-scrollspy="{animation:'fade'}">
@@ -699,11 +666,7 @@
              互联网
             </h2>
             <nav class="am-titlebar-nav">
-                <a href="xq.html" >金融</a>
-                <a href="xq.html" >医疗</a>
-                <a href="xq.html" >教育</a>
-                <a href="xq.html" >交通</a>
-                  <a href="#more">more &raquo;</a>
+                  <a href="xq.html">more &raquo;</a>
             </nav>
         </div>
 
@@ -757,14 +720,10 @@
 
            <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
             <h2 class="am-titlebar-title ">
-              健康新闻
+              健康
             </h2>
               <nav class="am-titlebar-nav">
-                <a href="xq.html" >健康养生</a>
-                <a href="xq.html" >最新健康</a>
-                <a href="xq.html" >美食健康</a>
-                <a href="xq.html" >保健养生</a>
-                  <a href="#more">more &raquo;</a>
+                  <a href="xq.html">more &raquo;</a>
             </nav>
         </div>
 
@@ -817,13 +776,10 @@
         </div>
         <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
             <h2 class="am-titlebar-title ">
-                游戏新闻
+                游戏
             </h2>
             <nav class="am-titlebar-nav">
-                <a href="xq.html" >网络游戏</a>
-                <a href="xq.html" >电视游戏</a>
-                <a href="xq.html" >电子竞技</a>
-                  <a href="#more">more &raquo;</a>
+                  <a href="xq.html">more &raquo;</a>
             </nav>
         </div>
 
@@ -876,7 +832,7 @@
         </div>
  <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
             <h2 class="am-titlebar-title ">
-                精彩视频
+               宣传视频
             </h2>
         </div>
 
@@ -894,7 +850,7 @@
                     </a>
                 </div>
             </li>
-            <li>
+           <!--  <li>
                 <div class="am-gallery-item">
                     <a href="http://s.amazeui.org/media/i/demos/bing-2.jpg" class="">
                         <img src="images/sp.jpg"  alt="某天 也许会相遇 相遇在这个好地方"/>
@@ -905,8 +861,8 @@
                         </div>
                     </a>
                 </div>
-            </li>
-             <li>
+            </li> -->
+          <!--    <li>
                 <div class="am-gallery-item">
                     <a href="http://s.amazeui.org/media/i/demos/bing-2.jpg" class="">
                         <img src="http://s.amazeui.org/media/i/demos/bing-2.jpg"  alt="某天 也许会相遇 相遇在这个好地方"/>
@@ -917,7 +873,7 @@
                         </div>
                     </a>
                 </div>
-            </li>
+            </li> -->
         </ul>
 
     </div>
@@ -976,11 +932,11 @@
         </div>
         <div class="col-md-4  grid_3 bot-right  title-container">
             <i class="icon">&nbsp;</i>
-            <h4>百度新闻独家出品</h4>
+            <h4>新闻独家出品</h4>
               <ol class="lq_xin">
                 <li> 新闻由机器选取每5分钟自动更新</li>
-                <li> 百度新闻搜索源于互联网新闻网站和频道，系统自动分类排序</li>
-                <li> 百度不刊登或转载任何完整的新闻内容</li>
+                <li> 新闻搜索源于互联网新闻网站和频道，系统自动分类排序</li>
+                <li> 不刊登或转载任何完整的新闻内容</li>
               </ol>
         </div>
     
