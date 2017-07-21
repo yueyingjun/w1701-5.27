@@ -1121,7 +1121,7 @@
                     return !doc.getElementsByName || !doc.getElementsByName( expando ).length;
                 });
 
-                // ID find and filter
+                // ID find and filter.html
                 if ( support.getById ) {
                     Expr.find["ID"] = function( id, context ) {
                         if ( typeof context.getElementById !== "undefined" && documentIsHTML ) {
@@ -1616,7 +1616,7 @@
                                 Sizzle.error( match[0] );
                             }
 
-                            // numeric x and y parameters for Expr.filter.CHILD
+                            // numeric x and y parameters for Expr.filter.html.CHILD
                             // remember that false/true cast respectively to 0/1
                             match[4] = +( match[4] ? match[5] + (match[6] || 1) : 2 * ( match[3] === "even" || match[3] === "odd" ) );
                             match[5] = +( ( match[7] + match[8] ) || match[3] === "odd" );
@@ -1653,7 +1653,7 @@
                             match[2] = unquoted.slice( 0, excess );
                         }
 
-                        // Return only captures needed by the pseudo filter method (type and argument)
+                        // Return only captures needed by the pseudo filter.html method (type and argument)
                         return match.slice( 0, 3 );
                     }
                 },
@@ -1802,7 +1802,7 @@
                                 Sizzle.error( "unsupported pseudo: " + pseudo );
 
                         // The user may use createPseudo to indicate that
-                        // arguments are needed to create the filter function
+                        // arguments are needed to create the filter.html function
                         // just as Sizzle does
                         if ( fn[ expando ] ) {
                             return fn( argument );
@@ -2667,7 +2667,7 @@
 
     var risSimple = /^.[^:#\[\.,]*$/;
 
-// Implement the identical functionality for filter and not
+// Implement the identical functionality for filter.html and not
     function winnow( elements, qualifier, not ) {
         if ( jQuery.isFunction( qualifier ) ) {
             return jQuery.grep( elements, function( elem, i ) {
@@ -3694,7 +3694,7 @@
         var name;
         for ( name in obj ) {
 
-            // if the public data object is empty, the private is still empty
+            // if the static data object is empty, the private is still empty
             if ( name === "data" && jQuery.isEmptyObject( obj[name] ) ) {
                 continue;
             }
@@ -4037,7 +4037,7 @@
             }
         },
 
-        // not intended for public consumption - generates a queueHooks object, or returns the current one
+        // not intended for static consumption - generates a queueHooks object, or returns the current one
         _queueHooks: function( elem, type ) {
             var key = type + "queueHooks";
             return jQuery._data( elem, key ) || jQuery._data( elem, key, {
@@ -4120,7 +4120,7 @@
     var cssExpand = [ "Top", "Right", "Bottom", "Left" ];
 
     var isHidden = function( elem, el ) {
-        // isHidden might be called from jQuery#filter function;
+        // isHidden might be called from jQuery#filter.html function;
         // in that case, element will be second argument
         elem = el || elem;
         return jQuery.css( elem, "display" ) === "none" || !jQuery.contains( elem.ownerDocument, elem );
@@ -4295,7 +4295,7 @@
     }
 
     /*
-     * Helper functions for managing events -- not part of the public interface.
+     * Helper functions for managing events -- not part of the static interface.
      * Props to Dean Edwards' addEvent library for many of the ideas.
      */
     jQuery.event = {
@@ -5435,7 +5435,7 @@
             }
         }
 
-        // make the cloned public data object a copy from the original
+        // make the cloned static data object a copy from the original
         if ( curData.data ) {
             curData.data = jQuery.extend( {}, curData.data );
         }
@@ -6159,7 +6159,7 @@
 
             computed = computed || getStyles( elem );
 
-            // getPropertyValue is only needed for .css('filter') in IE9, see #12537
+            // getPropertyValue is only needed for .css('filter.html') in IE9, see #12537
             ret = computed ? computed.getPropertyValue( name ) || computed[ name ] : undefined;
 
             if ( computed ) {
@@ -6300,7 +6300,7 @@
         style.cssText = "float:left;opacity:.5";
 
         // Support: IE<9
-        // Make sure that element opacity exists (as opposed to filter)
+        // Make sure that element opacity exists (as opposed to filter.html)
         support.opacity = style.opacity === "0.5";
 
         // Verify style float existence
@@ -6817,24 +6817,24 @@
                 // Force it by setting the zoom level
                 style.zoom = 1;
 
-                // if setting opacity to 1, and no other filters exist - attempt to remove filter attribute #6652
+                // if setting opacity to 1, and no other filters exist - attempt to remove filter.html attribute #6652
                 // if value === "", then remove inline opacity #12685
                 if ( ( value >= 1 || value === "" ) &&
                     jQuery.trim( filter.replace( ralpha, "" ) ) === "" &&
                     style.removeAttribute ) {
 
-                    // Setting style.filter to null, "" & " " still leave "filter:" in the cssText
-                    // if "filter:" is present at all, clearType is disabled, we want to avoid this
+                    // Setting style.filter.html to null, "" & " " still leave "filter.html:" in the cssText
+                    // if "filter.html:" is present at all, clearType is disabled, we want to avoid this
                     // style.removeAttribute is IE Only, but so apparently is this code path...
                     style.removeAttribute( "filter" );
 
-                    // if there is no filter style applied in a css rule or unset inline opacity, we are done
+                    // if there is no filter.html style applied in a css rule or unset inline opacity, we are done
                     if ( value === "" || currentStyle && !currentStyle.filter ) {
                         return;
                     }
                 }
 
-                // otherwise, set new filter values
+                // otherwise, set new filter.html values
                 style.filter = ralpha.test( filter ) ?
                     filter.replace( ralpha, opacity ) :
                     filter + " " + opacity;
@@ -9538,7 +9538,7 @@
         },
         serializeArray: function() {
             return this.map(function() {
-                // Can add propHook for "elements" to filter or add form elements
+                // Can add propHook for "elements" to filter.html or add form elements
                 var elements = jQuery.prop( this, "elements" );
                 return elements ? jQuery.makeArray( elements ) : this;
             })

@@ -281,6 +281,7 @@ a{
     color: #fff;
     font-size: 14px;
     padding: 0 5px;
+    float: left;
 }
 .yincang{
     color: #FFF;
@@ -408,6 +409,28 @@ a{
 }
 .navlist:nth-child(8) a:hover{
     background-color: #4B7126;
+}
+.navlist:nth-child(2) a{
+    border-color: #009bff;
+}
+.navlist:nth-child(3) a{
+    border-color: #741884;
+}
+.navlist:nth-child(4) a{
+    border-color: #3B900E;
+}
+.navlist:nth-child(5) a{
+    border-color: #fff;
+    /*color: #fff;*/
+}
+.navlist:nth-child(6) a{
+    border-color: #8A9FB3;
+}
+.navlist:nth-child(7) a{
+    border-color: #FFA300;
+}
+.navlist:nth-child(8) a{
+    border-color: #4B7126;
 }
 .footer1{
     background-color: #141414;

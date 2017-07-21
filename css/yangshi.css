@@ -1,0 +1,46 @@
+#mo2{
+    background: #741884;
+}
+#mo3{
+    background: #3B900E;
+}
+#mo5{
+    background: #8A9FB3
+}
+#mo6{
+    background: #FFA300
+}
+#mo7{
+    background: #4B7126
+}
+#mo1 .mokuai1-2 .mokuai1-2-2 .news-view .news-con .mokuai1-2-4 h3 a:hover{
+    color: #009bff;
+}
+#mo2 .mokuai1-2 .mokuai1-2-2 .news-view .news-con .mokuai1-2-4 h3 a:hover{
+    color: #741884;
+}
+#mo3 .mokuai1-2 .mokuai1-2-2 .news-view .news-con .mokuai1-2-4 h3 a:hover{
+    color: #3B900E;
+}
+#mo5 .mokuai1-2 .mokuai1-2-2 .news-view .news-con .mokuai1-2-4 h3 a:hover{
+    color: #8A9FB3;
+}
+#mo6 .mokuai1-2 .mokuai1-2-2 .news-view .news-con .mokuai1-2-4 h3 a:hover{
+    color: #FFA300;
+}
+#mo7 .mokuai1-2 .mokuai1-2-2 .news-view .news-con .mokuai1-2-4 h3 a:hover{
+    color: #4B7126;
+}
+.bannerbox{
+    padding: 0 190px 0 189px;
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+    max-width: 700px;
+    margin: 0px auto;
+}
+.bannerboxs{
+    width: 100%;
+    position: relative;
+    height: 350px;
+}
